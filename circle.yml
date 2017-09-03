@@ -5,8 +5,8 @@ deployment:
       - '[[ ! -e "$(git rev-parse --git-dir)/shallow" ]] || git fetch --unshallow'
       - sh ./deploy.sh
 dependencies:
-    override:
-        - echo 'dependencies'
+    cache_directories:
+      - 'node_modules'
 test:
     override:
         - echo 'test'  
