@@ -14,7 +14,7 @@ const fs = require('fs');
 const filepath = './initPokemonDatabase.txt';
 
 fs.unlink(filepath, cb => {
-
+ 
 	// create initial tables
 	fs.appendFileSync(filepath, createTables.tables);
 
@@ -91,7 +91,7 @@ fs.unlink(filepath, cb => {
 		let formattedString = '';
 
 		// Assume base, stage0, stage1, stage2, condition 
-		if (evolutionsDict[i]['stage0'][0].name === 'Wurmple') {
+		if (evolutionsDict[i]['stage0'][0].unique_id === 'n265') {
 			formattedString = 'INSERT into pokedex.evolutions (base, stage0, stage1, stage2, condition) VALUES (\'' + evolutionsDict[i]['stage0'][0].unique_id + '\', \'' + evolutionsDict[i]['stage0'][0].unique_id + '\', \'' + evolutionsDict[i]['stage1'][0].unique_id + '\', \'' + evolutionsDict[i]['stage2'][0].unique_id + '\', \'' + evolutionsDict[i]['stage0'][0].condition + '\');\n';
 			formattedString += 'INSERT into pokedex.evolutions (base, stage0, stage1, stage2, condition) VALUES (\'' + evolutionsDict[i]['stage0'][0].unique_id + '\', \'' + evolutionsDict[i]['stage0'][0].unique_id + '\', \'' + evolutionsDict[i]['stage1'][1].unique_id + '\', \'' + evolutionsDict[i]['stage2'][1].unique_id + '\', \'' + evolutionsDict[i]['stage0'][0].condition + '\');\n';
 			// Beautifly
@@ -100,7 +100,7 @@ fs.unlink(filepath, cb => {
 			// Dustox
 			formattedString += 'INSERT into pokedex.evolutions (base, stage0, condition) VALUES (\'' + evolutionsDict[i]['stage1'][0].unique_id + '\', \'' + evolutionsDict[i]['stage0'][0].unique_id + '\', \'' + evolutionsDict[i]['stage1'][0].condition + '\');\n';
 			formattedString += 'INSERT into pokedex.evolutions (base, stage0, condition) VALUES (\'' + evolutionsDict[i]['stage2'][1].unique_id + '\', \'' + evolutionsDict[i]['stage0'][0].unique_id + '\', \'' + evolutionsDict[i]['stage2'][1].condition + '\');\n';
-
+			fs.appendFileSync(filepath, formattedString);
 		} else {
 			for(let i1 = 0; i1 < evolutionsDict[i]['stage1'].length; i1++) {
 				if (evolutionsDict[i]['stage2']) {

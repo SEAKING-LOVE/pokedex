@@ -100,7 +100,6 @@ const qEvo = {
 				}
 			}
 		}
-		
 		// return evoData;
 		return evoObject;
 	}
