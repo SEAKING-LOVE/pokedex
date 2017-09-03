@@ -79,10 +79,13 @@ const qEvo = {
 									next: []
 								});
 							} 
-
 							//stage 2 processing 
 							if(evoList[i].stage2 != null) { 
 								for(let k = 0; k < evoList.length; k++) {
+									console.log(evoList[k].base , 'base')
+									console.log(evoList[i].stage2 , 'stage2')
+									console.log(evoList[k].base == evoList[i].stage2)
+									console.log('==========================================')
 									if(evoList[k].base == evoList[i].stage2) {
 										console.log(evoList[k].base)
 										const currentEvoIndex = evoObject.evolutions.next.length - 1;
