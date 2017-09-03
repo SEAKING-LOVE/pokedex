@@ -1,7 +1,6 @@
 /models/*.txt
 
 # compiled output
-/dist
 
 # dependencies
 /node_modules
