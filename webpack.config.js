@@ -15,9 +15,6 @@ module.exports = {
 		path: OUTPUT_PATH,
 		publicPath: 'dist/'
 	},
-	plugins: [
-		new HtmlWebpackPlugin({ filename: TEMPLATE_PATH, inject: 'body' })
-	],
 	module: {
 		rules: [{
 			test: /\.(js|jsx)$/, 
