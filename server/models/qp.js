@@ -1,4 +1,3 @@
-console.log(process.env.DATABASE_URL)
 const connectionString = process.env.DATABASE_URL || 'postgres://localhost:5432/pokedex';
 const { Client } = require('pg');
 
