@@ -28,7 +28,8 @@
   },
   "scripts": {
     "build": "webpack -p",
-    "start": "webpack-dev-server --inline",
+    "start": "node server/index.js",
+    "start-dev": "webpack-dev-server --inline",
     "start-server": "nodemon server/index.js"
   }
 }
