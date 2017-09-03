@@ -21,12 +21,14 @@ const qEvo = {
 		return family.base == family.stage0;
 	},
 	stages: (evoObject) => {
+		console.log('EVO OBJECT', evoObject)
 		const family = evoObject.evolutions[0]; 
 		const members = Object.keys(family).reduce((acc, key) => { 
 			if(key == 'base' || key == 'condition') return acc;
 			return acc.concat(family[key])
 		}, []);
-		const whereCondition = QP.multiWhere('OR', 'base=', members);
+		// const whereCondition = QP.multiWhere('OR', 'base=', members);
+		const whereCondition = QP.multiWhere('OR', 'stage0=', members);
 		const queryString = QP.eachTable(tables.pid, whereCondition);
 
 		return QP.query(tables.pid, queryString)
@@ -59,7 +61,6 @@ const qEvo = {
 		// stage0 processing
 		for(let i = 0; i < evoList.length; i++) {
 			if(evoList[i].base === evoList[i].stage0) {
-				console.log("Hello")
 				if(evoObject.evolutions['base'].unique_id == undefined) {
 					evoObject.evolutions['base'].unique_id = evoList[i].stage0;
 					evoObject.evolutions['base'].condition = evoList[i].condition;
@@ -99,11 +100,9 @@ const qEvo = {
 				}
 			}
 		}
-
-		console.log(evoObject.evolutions)
-		console.log(evoObject.evolutions.next)
-		console.log(evoObject.evolutions.next[0])
-		return evoData;
+		
+		// return evoData;
+		return evoObject;
 	}
 };
 
