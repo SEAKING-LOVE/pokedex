@@ -1,9 +1,11 @@
 const cheerio = require('cheerio');
+const {execFile} = require('child_process');
+const gifsicle = require('gifsicle');
+const fs = require('fs');
+const sizeOf = require('image-size');
 
 const requestUrl = require('./helpers/requestUrl');
 const writeFile = require('./helpers/writeFile.js');
-const sleepFor = require('./helpers/sleep.js');
-const randTimer = require('./helpers/randTimer.js');
 
 const spriteUrl = {
 	base: 'http://play.pokemonshowdown.com',
@@ -51,6 +53,24 @@ const Gifs = {
 	getPath: ($, cell) => {
 		const path = $(cell).find('a').attr('href');
 		return path;
+	},
+	increaseSize: (rawFolderPath, newFolderPath, multiplier) => {
+		const scriptFilepath = './resizeGifs.sh';
+		
+		fs.unlink(scriptFilepath, cb => {
+			fs.appendFileSync(scriptFilepath, '#!/bin/sh\n');
+			fs.readdirSync(rawFolderPath).forEach((file) => {
+				if(file.includes('.gif')) {
+					const dimensions = sizeOf(rawFolderPath + file);
+					const newDimensions = ` ${dimensions.width * multiplier}x${dimensions.height * multiplier}`;
+					const inputFile = rawFolderPath + file;
+					const outputFile = newFolderPath + file;
+					const increaseSize = ` gifsicle --resize ${newDimensions} --resize-method sample --colors 256 ${inputFile} > ${outputFile}\n`;
+					fs.appendFileSync(scriptFilepath, increaseSize);
+				}
+			})
+		})
+			
 	}
 };
 

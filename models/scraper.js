@@ -35,7 +35,7 @@ function main() {
 	// masterAbilityList.get(baseUrl + '/ability', abilities => {
 	// 	writeFile.json('./json/abilities.json', abilities);
 	// });
-	gifs.getRegular('./gifs/regular/');
-	// gifs.getShiny('./gifs/shiny');
+	// gifs.getRegular('./gifs/regular/');
+	gifs.increaseSize('./gifs/regular/', './gifs/regular2x/', 2);
 
 }
