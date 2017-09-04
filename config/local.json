@@ -1,9 +1,0 @@
-{
-	"pg": {
-		"host": "localhost",
-		"user": "",
-		"database": "pokedex",
-		"password": "",
-		"port": 5432
-	}
-}
