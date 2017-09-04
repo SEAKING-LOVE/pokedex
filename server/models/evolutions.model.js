@@ -17,7 +17,6 @@ const memberInfo = {
 			.catch((err) => { console.log('ERROR D: ', err) });
 	},
 	format: (res, members) => {
-		// I feel like 
 		let flattened = {};
 		members.map((member, index) => {
 			flattened[member] = {
