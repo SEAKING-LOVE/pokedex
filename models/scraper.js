@@ -36,6 +36,7 @@ function main() {
 	// 	writeFile.json('./json/abilities.json', abilities);
 	// });
 	// gifs.getRegular('./gifs/regular/');
-	gifs.increaseSize('./gifs/regular/', './gifs/regular2x/', 2);
+	// gifs.increaseSize('./gifs/regular/', './gifs/regular2x/', 2);
+	gifs.rename('./gifs/regular/');
 
 }
