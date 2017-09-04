@@ -4,7 +4,45 @@ const schema = require('./schema.js');
 const tables = {
 	all: ['evolutions'],
 	pid: ['evolutions'],
+	memberInfo: ['main', 'types']
 };
+
+const memberInfo = {
+	get: (members=[]) => {
+		const whereCondition = QP.multiWhere('OR', 'unique_id=', members);
+		const queryString = QP.eachTable(tables.memberInfo, whereCondition);
+		
+		return QP.query(tables.memberInfo, queryString)
+			.then((res) => { return memberInfo.format(res, members)})
+			.catch((err) => { console.log('ERROR D: ', err) });
+	},
+	format: (res, members) => {
+		return members.map((member, index) => {
+			return {
+				[member]: {
+					main: memberInfo.getMain(res.main, member),
+					types: memberInfo.getTypes(res.types, member)
+				}
+			}
+		});
+	},
+	getMain: (rows, id) => {
+		let main;
+		rows.forEach((row) => {
+			if(id == row.unique_id)  main = row;
+		})
+		return main;
+	},
+	getTypes: (rows, id) => {
+		let types = [];
+		rows.forEach((row) => {
+			if(id == row.unique_id) types.push(row.type);
+		})
+		return types;
+	}
+
+};
+
 const qEvo = {
 	query: (tables, queryString) => {
 		return qEvo.base(tables, queryString)
@@ -12,6 +50,7 @@ const qEvo = {
 			.then(qEvo.format)
 			.catch((err) => { return err})
 	},
+
 	base: (tables, queryString) => {
 		return QP.query(tables, queryString)
 			.then((res) => { return res; })
@@ -27,7 +66,6 @@ const qEvo = {
 			if(key == 'base' || key == 'condition') return acc;
 			return acc.concat(family[key])
 		}, []);
-		// const whereCondition = QP.multiWhere('OR', 'base=', members);
 		const whereCondition = QP.multiWhere('OR', 'stage0=', members);
 		const queryString = QP.eachTable(tables.pid, whereCondition);
 
@@ -103,7 +141,6 @@ const qEvo = {
 				}
 			}
 		}
-		// return evoData;
 		return evoObject;
 	}
 };
