@@ -21,8 +21,6 @@ const Gifs = {
 			const $ = cheerio.load(body);
 			const rows = $('table').first().find('tbody').children('tr');
 			Gifs.eachRow($, url, filepath, rows);
-			
-
 		})
 	},
 	getRegular: (filepath) => {
@@ -69,8 +67,10 @@ const Gifs = {
 					fs.appendFileSync(scriptFilepath, increaseSize);
 				}
 			})
-		})
-			
+		})	
+	},
+	rename: () => {
+		
 	}
 };
 
