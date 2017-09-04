@@ -84,6 +84,7 @@ const qEvo = {
 			}
 		}
 
+		// Build the list of all additional info to add to Evolution data
 		return memberInfo.get(memberList)
 			.then((pokemonInfo) => { 
 				// stage0 processing
