@@ -3,6 +3,7 @@ let evolutionChart = require('./scraperMethods/evolutionChart.js');
 let masterTypeChart = require('./scraperMethods/masterTypeChart.js');
 let masterMoveList = require('./scraperMethods/masterMoveList.js');
 let masterAbilityList = require('./scraperMethods/masterAbilityList.js');
+let gifs = require('./scraperMethods/gifs.js');
 let writeFile = require('./scraperMethods/helpers/writeFile.js');
 let writeProfiles = require('./scrapeProfiles.js');
 let EventEmitter = require('events');
@@ -18,9 +19,9 @@ function main() {
 	// 	writeFile.json('./json/pokemon.json', list);
 	// 	writeProfiles.profiles();
 	// });
-	evolutionChart.get(baseUrl + '/evolution', evolFamilies => {
-		writeFile.json('./json/evolutions.json', evolFamilies);
-	});	
+	// evolutionChart.get(baseUrl + '/evolution', evolFamilies => {
+	// 	writeFile.json('./json/evolutions.json', evolFamilies);
+	// });	
 
 	// masterTypeChart.get(baseUrl + '/type/dual', types => {
 	// 	writeFile.json('./json/types.json', types);
@@ -34,4 +35,7 @@ function main() {
 	// masterAbilityList.get(baseUrl + '/ability', abilities => {
 	// 	writeFile.json('./json/abilities.json', abilities);
 	// });
+	gifs.getRegular('./gifs/regular/');
+	// gifs.getShiny('./gifs/shiny');
+
 }
