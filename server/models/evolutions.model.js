@@ -47,7 +47,7 @@ const memberInfo = {
 const qEvo = {
 	query: (tables, queryString) => {
 		return qEvo.base(tables, queryString)
-			.then(qEvo.stages)
+			.then(qEvo.getMembers)
 			.then(qEvo.format)
 			.catch((err) => { return err})
 	},
@@ -57,11 +57,10 @@ const qEvo = {
 			.then((res) => { return res; })
 			.catch((err) => {return err; });
 	},
-	isStage0: (family) => {
+	isBaby: (family) => {
 		return family.base == family.stage0;
 	},
-	stages: (evoObject) => {
-		console.log('EVO OBJECT', evoObject)
+	getMembers: (evoObject) => {
 		const family = evoObject.evolutions[0]; 
 		const members = Object.keys(family).reduce((acc, key) => { 
 			if(key == 'base' || key == 'condition') return acc;
@@ -76,64 +75,66 @@ const qEvo = {
 	},
 	format: (evoData) => {
 		const evoList = evoData.evolutions;
+		const memberList = evoList.reduce((list, member) => {
+			if(list.indexOf(member.base) == -1) list.push(member.base);
+			return list;
+		}, []);
+		return memberInfo.get(memberList)
+			.then((memberInfo) => {return qEvo.processTree(memberInfo, evoList); })
+			.catch((err) => { return err; });		
+	},
+	processTree: (memberInfo, evoList) => {
 		let evoObject = { evolutions: { base: {}, next: [] } };
-		let memberList = [];
+
+		// stage0 processing
 		for(let i = 0; i < evoList.length; i++) {
-			if(memberList.indexOf(evoList[i].base) == -1) {
-				memberList.push(evoList[i].base);
+			if(qEvo.isBaby(evoList[i])) {
+				if(evoObject.evolutions['base'].unique_id == undefined) {
+					evoObject.evolutions['base'].unique_id = evoList[i].stage0;
+					evoObject.evolutions['base'].condition = evoList[i].condition;
+					Object.assign(evoObject.evolutions['base'], memberInfo[evoList[i].base]);
+				}
+				qEvo.processStage1(evoList[i].stage1, evoList[i].stage2, memberInfo, evoList, evoObject);
 			}
 		}
+		return evoObject;
+	},
+	processStage1: (stage1,stage2,  memberInfo, evoList, evoObject) => {
+		if(stage1 == null) return evoObject;
 
-		// Build the list of all additional info to add to Evolution data
-		return memberInfo.get(memberList)
-			.then((pokemonInfo) => { 
-				// stage0 processing
-				for(let i = 0; i < evoList.length; i++) {
-					if(evoList[i].base === evoList[i].stage0) {
-						if(evoObject.evolutions['base'].unique_id == undefined) {
-							evoObject.evolutions['base'].unique_id = evoList[i].stage0;
-							evoObject.evolutions['base'].condition = evoList[i].condition;
-							Object.assign(evoObject.evolutions['base'], pokemonInfo[evoList[i].base]);
-						}
-
-						// stage1 processing
-						if(evoList[i].stage1 != null) {
-							for(let j = 0; j < evoList.length; j++) {
-								if(evoList[j].base == evoList[i].stage1) {
-									// Checks if the next evolution exists already to prevent dupes
-									if(evoObject.evolutions.next.filter(nextEvo => nextEvo.unique_id == evoList[j].base).length == 0) {
-										let nextStageInfo = {
-											unique_id: evoList[j].base,
-											condition: evoList[j].condition
-										}
-										Object.assign(nextStageInfo, pokemonInfo[evoList[j].base], { next: [] })
-										evoObject.evolutions.next.push(nextStageInfo);
-									} 
-									//stage 2 processing 
-									if(evoList[i].stage2 != null) { 
-										for(let k = 0; k < evoList.length; k++) {
-											if(evoList[k].base == evoList[i].stage2) {
-												console.log(evoList[k].base)
-												const currentEvoIndex = evoObject.evolutions.next.length - 1;
-												if(evoObject.evolutions.next[currentEvoIndex].next.filter(nextEvo => nextEvo.unique_id == evoList[k].base).length == 0) {
-													let nextStageInfo = {
-														unique_id: evoList[k].base,
-														condition: evoList[k].condition
-													}
-													Object.assign(nextStageInfo, pokemonInfo[evoList[k].base], { next: [] })
-													evoObject.evolutions.next[currentEvoIndex].next.push(nextStageInfo);
-												} 
-											}
-										}
-									}
-								}
-							}	
-						}
+		for(let i = 0; i < evoList.length; i++) {
+			if(evoList[i].base == stage1) {
+				// Checks if the next evolution exists already to prevent dupes
+				if(evoObject.evolutions.next.filter(nextEvo => nextEvo.unique_id == evoList[i].base).length == 0) {
+					const stage = {
+						unique_id: evoList[i].base,
+						condition: evoList[i].condition
 					}
-				}
-				return evoObject;
-			})
-			.catch((err) => { return err; });		
+					Object.assign(stage, memberInfo[evoList[i].base], { next: [] })
+					evoObject.evolutions.next.push(stage);
+				} 
+				evoObject = qEvo.processStage2(stage2, memberInfo, evoList, evoObject);
+			}
+		}	
+		return evoObject;
+	},
+	processStage2: (stage2, memberInfo, evoList, evoObject) => {
+		if(stage2 == null) return evoObject;
+
+		for(let i = 0; i < evoList.length; i++) {
+			if(evoList[i].base == stage2) {
+				const currentEvoIndex = evoObject.evolutions.next.length - 1;
+				if(evoObject.evolutions.next[currentEvoIndex].next.filter(nextEvo => nextEvo.unique_id == evoList[i].base).length == 0) {
+					const stage = {
+						unique_id: evoList[i].base,
+						condition: evoList[i].condition
+					}
+					Object.assign(stage, memberInfo[evoList[i].base], { next: [] });
+					evoObject.evolutions.next[currentEvoIndex].next.push(stage);
+				} 
+			}
+		}
+		return evoObject;
 	}
 };
 
@@ -156,4 +157,3 @@ const Model = {
 };
 
 module.exports = Model;
-
