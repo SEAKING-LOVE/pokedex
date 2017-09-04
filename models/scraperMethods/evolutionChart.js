@@ -28,8 +28,11 @@ function scrapeEachEvolFamily($, family) {
 		if($(family).text().indexOf('Eevee') >= 0) {	//n133		
 			tree = eeveeEvolutionCase($, family);
 
-		} else if($(family).text().indexOf('Wurmple') >= 0 || $(family).text().indexOf('Nincada') >= 0) {	//n265, n290			
+		} else if($(family).text().indexOf('Wurmple') >= 0) {	//n265		
 			tree = doubleGroupedEvolCase($, family);
+
+		} else if ($(family).text().indexOf('Nincada') >= 0) { //n290
+			tree = nincadaEvolutionCase($, family);
 
 		} else if($(family).text().indexOf('Burmy') >= 0 ) {	//n412
 			tree = burmyEvolutionCase($, family);
@@ -142,6 +145,18 @@ function doubleGroupedEvolCase($, tree) {
 
 	memberInfo['stage2'] = [unGroupedEvolStage($, 2, $(tree).children('span').eq(1).children('span').eq(3))];
 	memberInfo['stage2'].push(unGroupedEvolStage($, 2, $(tree).children('span').eq(1).children('span').eq(7)));
+	return memberInfo;
+}
+
+function nincadaEvolutionCase($, tree) {
+
+	let memberInfo = {};
+	memberInfo['stage0'] = [unGroupedEvolStage($, 0, $(tree).children('span').eq(0))];
+	memberInfo['stage1'] = [unGroupedEvolStage($, 1, $(tree).children('span').eq(1).children('span').eq(1))];
+	memberInfo['stage1'].push(unGroupedEvolStage($, 1, $(tree).children('span').eq(1).children('span').eq(5)));
+	// Fix Shedinja's evo condition
+	memberInfo['stage1'][1]['condition'] = unGroupedEvolStage($, 2, $(tree).children('span').eq(1).children('span').eq(3)).condition;
+
 	return memberInfo;
 }
 
