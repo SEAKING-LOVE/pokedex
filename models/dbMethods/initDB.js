@@ -11,7 +11,7 @@ const evolutionsDict = require('../json/evolutions.json');
 const insert = require('./insertions');
 
 const fs = require('fs');
-const filepath = './initPokemonDatabase.txt';
+const filepath = './initDB.txt';
 
 fs.unlink(filepath, cb => {
  

@@ -3,7 +3,6 @@ let evolutionChart = require('./scraperMethods/evolutionChart.js');
 let masterTypeChart = require('./scraperMethods/masterTypeChart.js');
 let masterMoveList = require('./scraperMethods/masterMoveList.js');
 let masterAbilityList = require('./scraperMethods/masterAbilityList.js');
-let gifs = require('./scraperMethods/gifs.js');
 let writeFile = require('./scraperMethods/helpers/writeFile.js');
 let writeProfiles = require('./scrapeProfiles.js');
 let EventEmitter = require('events');
@@ -35,8 +34,4 @@ function main() {
 	// masterAbilityList.get(baseUrl + '/ability', abilities => {
 	// 	writeFile.json('./json/abilities.json', abilities);
 	// });
-	// gifs.getRegular('./gifs/regular/');
-	// gifs.increaseSize('./gifs/regular/', './gifs/regular2x/', 2);
-	gifs.rename('./gifs/regular/');
-
 }
