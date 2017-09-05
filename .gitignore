@@ -12,3 +12,4 @@ Thumbs.db
 #dev
 src/**/*.css
 models/*.sh
+models/gifs/regular/
