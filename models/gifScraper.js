@@ -7,7 +7,7 @@ main();
 
 function main() {
 	// scraper.getRegular('./gifs/regular/');
-	// resizeScript('./gifs/regular/', './gifs/regular2x/', 2);
-	rename.all('./gifs/regular/');
+	// rename.all('./gifs/regular/');
+	resizeScript('./gifs/regular/', './gifs/regular2x/', 2);
 };
 	

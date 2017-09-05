@@ -16,7 +16,8 @@ const resize = (rawFolderPath, newFolderPath, multiplier) => {
 				fs.appendFileSync(scriptFilepath, increaseSize);
 			}
 		})
-	})	
+	});
+	console.log('run the following command to resize gifs: sh resizeGifs.sh');
 }
 
 module.exports = resize;

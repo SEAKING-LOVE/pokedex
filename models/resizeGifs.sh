@@ -1,35 +1,8 @@
 #!/bin/sh
  gifsicle --resize  256x174 --resize-method sample --colors 256 ./gifs/regular/abomasnow-f.gif > ./gifs/regular2x/abomasnow-f.gif
- gifsicle --resize  250x220 --resize-method sample --colors 256 ./gifs/regular/abomasnow-mega.gif > ./gifs/regular2x/abomasnow-mega.gif
- gifsicle --resize  256x174 --resize-method sample --colors 256 ./gifs/regular/abomasnow.gif > ./gifs/regular2x/abomasnow.gif
- gifsicle --resize  138x106 --resize-method sample --colors 256 ./gifs/regular/abra.gif > ./gifs/regular2x/abra.gif
- gifsicle --resize  186x194 --resize-method sample --colors 256 ./gifs/regular/absol-mega.gif > ./gifs/regular2x/absol-mega.gif
- gifsicle --resize  118x184 --resize-method sample --colors 256 ./gifs/regular/absol.gif > ./gifs/regular2x/absol.gif
- gifsicle --resize  184x164 --resize-method sample --colors 256 ./gifs/regular/accelgor.gif > ./gifs/regular2x/accelgor.gif
- gifsicle --resize  164x208 --resize-method sample --colors 256 ./gifs/regular/aegislash-blade.gif > ./gifs/regular2x/aegislash-blade.gif
- gifsicle --resize  150x194 --resize-method sample --colors 256 ./gifs/regular/aegislash.gif > ./gifs/regular2x/aegislash.gif
- gifsicle --resize  346x280 --resize-method sample --colors 256 ./gifs/regular/aerodactyl-mega.gif > ./gifs/regular2x/aerodactyl-mega.gif
- gifsicle --resize  378x290 --resize-method sample --colors 256 ./gifs/regular/aerodactyl.gif > ./gifs/regular2x/aerodactyl.gif
- gifsicle --resize  276x202 --resize-method sample --colors 256 ./gifs/regular/aggron-mega.gif > ./gifs/regular2x/aggron-mega.gif
- gifsicle --resize  212x194 --resize-method sample --colors 256 ./gifs/regular/aggron.gif > ./gifs/regular2x/aggron.gif
  gifsicle --resize  126x132 --resize-method sample --colors 256 ./gifs/regular/aipom-f.gif > ./gifs/regular2x/aipom-f.gif
- gifsicle --resize  126x122 --resize-method sample --colors 256 ./gifs/regular/aipom.gif > ./gifs/regular2x/aipom.gif
  gifsicle --resize  154x158 --resize-method sample --colors 256 ./gifs/regular/alakazam-f.gif > ./gifs/regular2x/alakazam-f.gif
- gifsicle --resize  226x230 --resize-method sample --colors 256 ./gifs/regular/alakazam-mega.gif > ./gifs/regular2x/alakazam-mega.gif
- gifsicle --resize  154x158 --resize-method sample --colors 256 ./gifs/regular/alakazam.gif > ./gifs/regular2x/alakazam.gif
- gifsicle --resize  88x200 --resize-method sample --colors 256 ./gifs/regular/alomomola.gif > ./gifs/regular2x/alomomola.gif
- gifsicle --resize  248x284 --resize-method sample --colors 256 ./gifs/regular/altaria-mega.gif > ./gifs/regular2x/altaria-mega.gif
- gifsicle --resize  288x178 --resize-method sample --colors 256 ./gifs/regular/altaria.gif > ./gifs/regular2x/altaria.gif
- gifsicle --resize  104x180 --resize-method sample --colors 256 ./gifs/regular/amaura.gif > ./gifs/regular2x/amaura.gif
  gifsicle --resize  208x176 --resize-method sample --colors 256 ./gifs/regular/ambipom-f.gif > ./gifs/regular2x/ambipom-f.gif
- gifsicle --resize  208x176 --resize-method sample --colors 256 ./gifs/regular/ambipom.gif > ./gifs/regular2x/ambipom.gif
- gifsicle --resize  156x150 --resize-method sample --colors 256 ./gifs/regular/amoonguss.gif > ./gifs/regular2x/amoonguss.gif
- gifsicle --resize  198x224 --resize-method sample --colors 256 ./gifs/regular/ampharos-mega.gif > ./gifs/regular2x/ampharos-mega.gif
- gifsicle --resize  138x202 --resize-method sample --colors 256 ./gifs/regular/ampharos.gif > ./gifs/regular2x/ampharos.gif
- gifsicle --resize  128x74 --resize-method sample --colors 256 ./gifs/regular/anorith.gif > ./gifs/regular2x/anorith.gif
- gifsicle --resize  202x134 --resize-method sample --colors 256 ./gifs/regular/araquanid.gif > ./gifs/regular2x/araquanid.gif
- gifsicle --resize  174x166 --resize-method sample --colors 256 ./gifs/regular/arbok.gif > ./gifs/regular2x/arbok.gif
- gifsicle --resize  148x164 --resize-method sample --colors 256 ./gifs/regular/arcanine.gif > ./gifs/regular2x/arcanine.gif
  gifsicle --resize  164x228 --resize-method sample --colors 256 ./gifs/regular/arceus-bug.gif > ./gifs/regular2x/arceus-bug.gif
  gifsicle --resize  164x228 --resize-method sample --colors 256 ./gifs/regular/arceus-dark.gif > ./gifs/regular2x/arceus-dark.gif
  gifsicle --resize  164x228 --resize-method sample --colors 256 ./gifs/regular/arceus-dragon.gif > ./gifs/regular2x/arceus-dragon.gif
@@ -47,666 +20,1014 @@
  gifsicle --resize  164x228 --resize-method sample --colors 256 ./gifs/regular/arceus-rock.gif > ./gifs/regular2x/arceus-rock.gif
  gifsicle --resize  164x228 --resize-method sample --colors 256 ./gifs/regular/arceus-steel.gif > ./gifs/regular2x/arceus-steel.gif
  gifsicle --resize  164x228 --resize-method sample --colors 256 ./gifs/regular/arceus-water.gif > ./gifs/regular2x/arceus-water.gif
- gifsicle --resize  164x228 --resize-method sample --colors 256 ./gifs/regular/arceus.gif > ./gifs/regular2x/arceus.gif
- gifsicle --resize  208x104 --resize-method sample --colors 256 ./gifs/regular/archen.gif > ./gifs/regular2x/archen.gif
- gifsicle --resize  288x254 --resize-method sample --colors 256 ./gifs/regular/archeops.gif > ./gifs/regular2x/archeops.gif
- gifsicle --resize  164x122 --resize-method sample --colors 256 ./gifs/regular/ariados.gif > ./gifs/regular2x/ariados.gif
- gifsicle --resize  152x162 --resize-method sample --colors 256 ./gifs/regular/armaldo.gif > ./gifs/regular2x/armaldo.gif
- gifsicle --resize  134x160 --resize-method sample --colors 256 ./gifs/regular/aromatisse.gif > ./gifs/regular2x/aromatisse.gif
- gifsicle --resize  78x90 --resize-method sample --colors 256 ./gifs/regular/aron.gif > ./gifs/regular2x/aron.gif
- gifsicle --resize  344x342 --resize-method sample --colors 256 ./gifs/regular/articuno.gif > ./gifs/regular2x/articuno.gif
- gifsicle --resize  130x192 --resize-method sample --colors 256 ./gifs/regular/audino-mega.gif > ./gifs/regular2x/audino-mega.gif
- gifsicle --resize  126x150 --resize-method sample --colors 256 ./gifs/regular/audino.gif > ./gifs/regular2x/audino.gif
- gifsicle --resize  134x246 --resize-method sample --colors 256 ./gifs/regular/aurorus.gif > ./gifs/regular2x/aurorus.gif
  gifsicle --resize  224x204 --resize-method sample --colors 256 ./gifs/regular/aurumoth.gif > ./gifs/regular2x/aurumoth.gif
- gifsicle --resize  242x114 --resize-method sample --colors 256 ./gifs/regular/avalugg.gif > ./gifs/regular2x/avalugg.gif
- gifsicle --resize  94x132 --resize-method sample --colors 256 ./gifs/regular/axew.gif > ./gifs/regular2x/axew.gif
- gifsicle --resize  166x172 --resize-method sample --colors 256 ./gifs/regular/azelf.gif > ./gifs/regular2x/azelf.gif
- gifsicle --resize  178x180 --resize-method sample --colors 256 ./gifs/regular/azumarill.gif > ./gifs/regular2x/azumarill.gif
- gifsicle --resize  66x144 --resize-method sample --colors 256 ./gifs/regular/azurill.gif > ./gifs/regular2x/azurill.gif
- gifsicle --resize  70x118 --resize-method sample --colors 256 ./gifs/regular/bagon.gif > ./gifs/regular2x/bagon.gif
- gifsicle --resize  130x120 --resize-method sample --colors 256 ./gifs/regular/baltoy.gif > ./gifs/regular2x/baltoy.gif
- gifsicle --resize  196x198 --resize-method sample --colors 256 ./gifs/regular/banette-mega.gif > ./gifs/regular2x/banette-mega.gif
- gifsicle --resize  124x134 --resize-method sample --colors 256 ./gifs/regular/banette.gif > ./gifs/regular2x/banette.gif
- gifsicle --resize  236x218 --resize-method sample --colors 256 ./gifs/regular/barbaracle.gif > ./gifs/regular2x/barbaracle.gif
- gifsicle --resize  98x84 --resize-method sample --colors 256 ./gifs/regular/barboach.gif > ./gifs/regular2x/barboach.gif
  gifsicle --resize  98x84 --resize-method sample --colors 256 ./gifs/regular/barboarch.gif > ./gifs/regular2x/barboarch.gif
  gifsicle --resize  142x120 --resize-method sample --colors 256 ./gifs/regular/basculin-bluestriped.gif > ./gifs/regular2x/basculin-bluestriped.gif
- gifsicle --resize  142x112 --resize-method sample --colors 256 ./gifs/regular/basculin.gif > ./gifs/regular2x/basculin.gif
- gifsicle --resize  180x160 --resize-method sample --colors 256 ./gifs/regular/bastiodon.gif > ./gifs/regular2x/bastiodon.gif
- gifsicle --resize  98x168 --resize-method sample --colors 256 ./gifs/regular/bayleef.gif > ./gifs/regular2x/bayleef.gif
- gifsicle --resize  210x208 --resize-method sample --colors 256 ./gifs/regular/beartic.gif > ./gifs/regular2x/beartic.gif
  gifsicle --resize  162x166 --resize-method sample --colors 256 ./gifs/regular/beautifly-f.gif > ./gifs/regular2x/beautifly-f.gif
- gifsicle --resize  162x166 --resize-method sample --colors 256 ./gifs/regular/beautifly.gif > ./gifs/regular2x/beautifly.gif
- gifsicle --resize  172x162 --resize-method sample --colors 256 ./gifs/regular/beedrill-mega.gif > ./gifs/regular2x/beedrill-mega.gif
- gifsicle --resize  150x172 --resize-method sample --colors 256 ./gifs/regular/beedrill.gif > ./gifs/regular2x/beedrill.gif
- gifsicle --resize  98x168 --resize-method sample --colors 256 ./gifs/regular/beheeyem.gif > ./gifs/regular2x/beheeyem.gif
- gifsicle --resize  92x66 --resize-method sample --colors 256 ./gifs/regular/beldum.gif > ./gifs/regular2x/beldum.gif
- gifsicle --resize  114x110 --resize-method sample --colors 256 ./gifs/regular/bellossom.gif > ./gifs/regular2x/bellossom.gif
- gifsicle --resize  110x98 --resize-method sample --colors 256 ./gifs/regular/bellsprout.gif > ./gifs/regular2x/bellsprout.gif
- gifsicle --resize  100x120 --resize-method sample --colors 256 ./gifs/regular/bergmite.gif > ./gifs/regular2x/bergmite.gif
- gifsicle --resize  120x158 --resize-method sample --colors 256 ./gifs/regular/bewear.gif > ./gifs/regular2x/bewear.gif
  gifsicle --resize  162x112 --resize-method sample --colors 256 ./gifs/regular/bibarel-f.gif > ./gifs/regular2x/bibarel-f.gif
- gifsicle --resize  162x112 --resize-method sample --colors 256 ./gifs/regular/bibarel.gif > ./gifs/regular2x/bibarel.gif
  gifsicle --resize  104x92 --resize-method sample --colors 256 ./gifs/regular/bidoof-f.gif > ./gifs/regular2x/bidoof-f.gif
- gifsicle --resize  104x92 --resize-method sample --colors 256 ./gifs/regular/bidoof.gif > ./gifs/regular2x/bidoof.gif
- gifsicle --resize  152x142 --resize-method sample --colors 256 ./gifs/regular/binacle.gif > ./gifs/regular2x/binacle.gif
- gifsicle --resize  104x198 --resize-method sample --colors 256 ./gifs/regular/bisharp.gif > ./gifs/regular2x/bisharp.gif
- gifsicle --resize  220x228 --resize-method sample --colors 256 ./gifs/regular/blastoise-mega.gif > ./gifs/regular2x/blastoise-mega.gif
- gifsicle --resize  176x166 --resize-method sample --colors 256 ./gifs/regular/blastoise.gif > ./gifs/regular2x/blastoise.gif
  gifsicle --resize  166x188 --resize-method sample --colors 256 ./gifs/regular/blaziken-f.gif > ./gifs/regular2x/blaziken-f.gif
- gifsicle --resize  236x214 --resize-method sample --colors 256 ./gifs/regular/blaziken-mega.gif > ./gifs/regular2x/blaziken-mega.gif
- gifsicle --resize  166x192 --resize-method sample --colors 256 ./gifs/regular/blaziken.gif > ./gifs/regular2x/blaziken.gif
- gifsicle --resize  166x148 --resize-method sample --colors 256 ./gifs/regular/blissey.gif > ./gifs/regular2x/blissey.gif
- gifsicle --resize  84x168 --resize-method sample --colors 256 ./gifs/regular/blitzle.gif > ./gifs/regular2x/blitzle.gif
- gifsicle --resize  162x134 --resize-method sample --colors 256 ./gifs/regular/boldore.gif > ./gifs/regular2x/boldore.gif
- gifsicle --resize  74x114 --resize-method sample --colors 256 ./gifs/regular/bonsly.gif > ./gifs/regular2x/bonsly.gif
- gifsicle --resize  222x174 --resize-method sample --colors 256 ./gifs/regular/bouffalant.gif > ./gifs/regular2x/bouffalant.gif
- gifsicle --resize  106x102 --resize-method sample --colors 256 ./gifs/regular/bounsweet.gif > ./gifs/regular2x/bounsweet.gif
- gifsicle --resize  148x172 --resize-method sample --colors 256 ./gifs/regular/braixen.gif > ./gifs/regular2x/braixen.gif
- gifsicle --resize  414x368 --resize-method sample --colors 256 ./gifs/regular/braviary.gif > ./gifs/regular2x/braviary.gif
- gifsicle --resize  132x146 --resize-method sample --colors 256 ./gifs/regular/breloom.gif > ./gifs/regular2x/breloom.gif
- gifsicle --resize  134x142 --resize-method sample --colors 256 ./gifs/regular/brionne.gif > ./gifs/regular2x/brionne.gif
- gifsicle --resize  178x146 --resize-method sample --colors 256 ./gifs/regular/bronzong.gif > ./gifs/regular2x/bronzong.gif
- gifsicle --resize  80x110 --resize-method sample --colors 256 ./gifs/regular/bronzor.gif > ./gifs/regular2x/bronzor.gif
- gifsicle --resize  118x144 --resize-method sample --colors 256 ./gifs/regular/bruxish.gif > ./gifs/regular2x/bruxish.gif
- gifsicle --resize  84x98 --resize-method sample --colors 256 ./gifs/regular/budew.gif > ./gifs/regular2x/budew.gif
  gifsicle --resize  132x138 --resize-method sample --colors 256 ./gifs/regular/buizel-f.gif > ./gifs/regular2x/buizel-f.gif
- gifsicle --resize  132x138 --resize-method sample --colors 256 ./gifs/regular/buizel.gif > ./gifs/regular2x/buizel.gif
- gifsicle --resize  90x98 --resize-method sample --colors 256 ./gifs/regular/bulbasaur.gif > ./gifs/regular2x/bulbasaur.gif
- gifsicle --resize  108x146 --resize-method sample --colors 256 ./gifs/regular/buneary.gif > ./gifs/regular2x/buneary.gif
- gifsicle --resize  128x184 --resize-method sample --colors 256 ./gifs/regular/bunnelby.gif > ./gifs/regular2x/bunnelby.gif
  gifsicle --resize  88x122 --resize-method sample --colors 256 ./gifs/regular/burmy-sandy.gif > ./gifs/regular2x/burmy-sandy.gif
  gifsicle --resize  104x128 --resize-method sample --colors 256 ./gifs/regular/burmy-trash.gif > ./gifs/regular2x/burmy-trash.gif
- gifsicle --resize  94x128 --resize-method sample --colors 256 ./gifs/regular/burmy.gif > ./gifs/regular2x/burmy.gif
  gifsicle --resize  186x178 --resize-method sample --colors 256 ./gifs/regular/butterfree-f.gif > ./gifs/regular2x/butterfree-f.gif
- gifsicle --resize  186x178 --resize-method sample --colors 256 ./gifs/regular/butterfree.gif > ./gifs/regular2x/butterfree.gif
- gifsicle --resize  154x188 --resize-method sample --colors 256 ./gifs/regular/buzzwole.gif > ./gifs/regular2x/buzzwole.gif
- gifsicle --resize  162x100 --resize-method sample --colors 256 ./gifs/regular/cacnea.gif > ./gifs/regular2x/cacnea.gif
  gifsicle --resize  166x174 --resize-method sample --colors 256 ./gifs/regular/cacturne-f.gif > ./gifs/regular2x/cacturne-f.gif
- gifsicle --resize  166x174 --resize-method sample --colors 256 ./gifs/regular/cacturne.gif > ./gifs/regular2x/cacturne.gif
  gifsicle --resize  148x142 --resize-method sample --colors 256 ./gifs/regular/camerupt-f.gif > ./gifs/regular2x/camerupt-f.gif
- gifsicle --resize  204x176 --resize-method sample --colors 256 ./gifs/regular/camerupt-mega.gif > ./gifs/regular2x/camerupt-mega.gif
- gifsicle --resize  162x148 --resize-method sample --colors 256 ./gifs/regular/camerupt.gif > ./gifs/regular2x/camerupt.gif
  gifsicle --resize  240x240 --resize-method sample --colors 256 ./gifs/regular/camperupt-mega.gif > ./gifs/regular2x/camperupt-mega.gif
- gifsicle --resize  108x114 --resize-method sample --colors 256 ./gifs/regular/carbink.gif > ./gifs/regular2x/carbink.gif
- gifsicle --resize  238x182 --resize-method sample --colors 256 ./gifs/regular/carnivine.gif > ./gifs/regular2x/carnivine.gif
- gifsicle --resize  156x170 --resize-method sample --colors 256 ./gifs/regular/carracosta.gif > ./gifs/regular2x/carracosta.gif
- gifsicle --resize  104x144 --resize-method sample --colors 256 ./gifs/regular/carvanha.gif > ./gifs/regular2x/carvanha.gif
- gifsicle --resize  100x80 --resize-method sample --colors 256 ./gifs/regular/cascoon.gif > ./gifs/regular2x/cascoon.gif
  gifsicle --resize  76x140 --resize-method sample --colors 256 ./gifs/regular/castform-rainy.gif > ./gifs/regular2x/castform-rainy.gif
  gifsicle --resize  122x128 --resize-method sample --colors 256 ./gifs/regular/castform-snowy.gif > ./gifs/regular2x/castform-snowy.gif
  gifsicle --resize  118x138 --resize-method sample --colors 256 ./gifs/regular/castform-sunny.gif > ./gifs/regular2x/castform-sunny.gif
- gifsicle --resize  74x118 --resize-method sample --colors 256 ./gifs/regular/castform.gif > ./gifs/regular2x/castform.gif
- gifsicle --resize  92x90 --resize-method sample --colors 256 ./gifs/regular/caterpie.gif > ./gifs/regular2x/caterpie.gif
  gifsicle --resize  308x216 --resize-method sample --colors 256 ./gifs/regular/cawmodore.gif > ./gifs/regular2x/cawmodore.gif
- gifsicle --resize  134x130 --resize-method sample --colors 256 ./gifs/regular/celebi.gif > ./gifs/regular2x/celebi.gif
- gifsicle --resize  252x210 --resize-method sample --colors 256 ./gifs/regular/celesteela.gif > ./gifs/regular2x/celesteela.gif
- gifsicle --resize  246x216 --resize-method sample --colors 256 ./gifs/regular/chandelure.gif > ./gifs/regular2x/chandelure.gif
- gifsicle --resize  148x116 --resize-method sample --colors 256 ./gifs/regular/chansey.gif > ./gifs/regular2x/chansey.gif
- gifsicle --resize  322x214 --resize-method sample --colors 256 ./gifs/regular/charizard-megax.gif > ./gifs/regular2x/charizard-megax.gif
- gifsicle --resize  402x332 --resize-method sample --colors 256 ./gifs/regular/charizard-megay.gif > ./gifs/regular2x/charizard-megay.gif
- gifsicle --resize  266x280 --resize-method sample --colors 256 ./gifs/regular/charizard.gif > ./gifs/regular2x/charizard.gif
- gifsicle --resize  134x96 --resize-method sample --colors 256 ./gifs/regular/charjabug.gif > ./gifs/regular2x/charjabug.gif
- gifsicle --resize  96x114 --resize-method sample --colors 256 ./gifs/regular/charmander.gif > ./gifs/regular2x/charmander.gif
- gifsicle --resize  120x140 --resize-method sample --colors 256 ./gifs/regular/charmeleon.gif > ./gifs/regular2x/charmeleon.gif
- gifsicle --resize  96x120 --resize-method sample --colors 256 ./gifs/regular/chatot.gif > ./gifs/regular2x/chatot.gif
  gifsicle --resize  152x134 --resize-method sample --colors 256 ./gifs/regular/cherrim-sunshine.gif > ./gifs/regular2x/cherrim-sunshine.gif
- gifsicle --resize  100x114 --resize-method sample --colors 256 ./gifs/regular/cherrim.gif > ./gifs/regular2x/cherrim.gif
- gifsicle --resize  100x96 --resize-method sample --colors 256 ./gifs/regular/cherubi.gif > ./gifs/regular2x/cherubi.gif
- gifsicle --resize  256x212 --resize-method sample --colors 256 ./gifs/regular/chesnaught.gif > ./gifs/regular2x/chesnaught.gif
- gifsicle --resize  100x128 --resize-method sample --colors 256 ./gifs/regular/chespin.gif > ./gifs/regular2x/chespin.gif
- gifsicle --resize  64x126 --resize-method sample --colors 256 ./gifs/regular/chikorita.gif > ./gifs/regular2x/chikorita.gif
- gifsicle --resize  108x140 --resize-method sample --colors 256 ./gifs/regular/chimchar.gif > ./gifs/regular2x/chimchar.gif
- gifsicle --resize  82x146 --resize-method sample --colors 256 ./gifs/regular/chimecho.gif > ./gifs/regular2x/chimecho.gif
- gifsicle --resize  162x106 --resize-method sample --colors 256 ./gifs/regular/chinchou.gif > ./gifs/regular2x/chinchou.gif
- gifsicle --resize  100x132 --resize-method sample --colors 256 ./gifs/regular/chingling.gif > ./gifs/regular2x/chingling.gif
- gifsicle --resize  160x126 --resize-method sample --colors 256 ./gifs/regular/cinccino.gif > ./gifs/regular2x/cinccino.gif
- gifsicle --resize  112x108 --resize-method sample --colors 256 ./gifs/regular/clamperl.gif > ./gifs/regular2x/clamperl.gif
- gifsicle --resize  140x104 --resize-method sample --colors 256 ./gifs/regular/clauncher.gif > ./gifs/regular2x/clauncher.gif
- gifsicle --resize  276x190 --resize-method sample --colors 256 ./gifs/regular/clawitzer.gif > ./gifs/regular2x/clawitzer.gif
- gifsicle --resize  138x170 --resize-method sample --colors 256 ./gifs/regular/claydol.gif > ./gifs/regular2x/claydol.gif
- gifsicle --resize  160x130 --resize-method sample --colors 256 ./gifs/regular/clefable.gif > ./gifs/regular2x/clefable.gif
- gifsicle --resize  112x96 --resize-method sample --colors 256 ./gifs/regular/clefairy.gif > ./gifs/regular2x/clefairy.gif
- gifsicle --resize  92x88 --resize-method sample --colors 256 ./gifs/regular/cleffa.gif > ./gifs/regular2x/cleffa.gif
- gifsicle --resize  166x170 --resize-method sample --colors 256 ./gifs/regular/cloyster.gif > ./gifs/regular2x/cloyster.gif
- gifsicle --resize  112x218 --resize-method sample --colors 256 ./gifs/regular/cobalion.gif > ./gifs/regular2x/cobalion.gif
- gifsicle --resize  330x238 --resize-method sample --colors 256 ./gifs/regular/cofagrigus.gif > ./gifs/regular2x/cofagrigus.gif
  gifsicle --resize  184x92 --resize-method sample --colors 256 ./gifs/regular/combee-f.gif > ./gifs/regular2x/combee-f.gif
- gifsicle --resize  184x92 --resize-method sample --colors 256 ./gifs/regular/combee.gif > ./gifs/regular2x/combee.gif
  gifsicle --resize  122x154 --resize-method sample --colors 256 ./gifs/regular/combusken-f.gif > ./gifs/regular2x/combusken-f.gif
- gifsicle --resize  122x166 --resize-method sample --colors 256 ./gifs/regular/combusken.gif > ./gifs/regular2x/combusken.gif
- gifsicle --resize  144x188 --resize-method sample --colors 256 ./gifs/regular/comfey.gif > ./gifs/regular2x/comfey.gif
- gifsicle --resize  246x178 --resize-method sample --colors 256 ./gifs/regular/conkeldurr.gif > ./gifs/regular2x/conkeldurr.gif
- gifsicle --resize  128x110 --resize-method sample --colors 256 ./gifs/regular/corphish.gif > ./gifs/regular2x/corphish.gif
- gifsicle --resize  140x138 --resize-method sample --colors 256 ./gifs/regular/corsola.gif > ./gifs/regular2x/corsola.gif
- gifsicle --resize  130x138 --resize-method sample --colors 256 ./gifs/regular/cosmoem.gif > ./gifs/regular2x/cosmoem.gif
- gifsicle --resize  162x118 --resize-method sample --colors 256 ./gifs/regular/cosmog.gif > ./gifs/regular2x/cosmog.gif
- gifsicle --resize  122x80 --resize-method sample --colors 256 ./gifs/regular/cottonee.gif > ./gifs/regular2x/cottonee.gif
- gifsicle --resize  244x156 --resize-method sample --colors 256 ./gifs/regular/crabominable.gif > ./gifs/regular2x/crabominable.gif
- gifsicle --resize  146x124 --resize-method sample --colors 256 ./gifs/regular/crabrawler.gif > ./gifs/regular2x/crabrawler.gif
- gifsicle --resize  148x176 --resize-method sample --colors 256 ./gifs/regular/cradily.gif > ./gifs/regular2x/cradily.gif
- gifsicle --resize  96x136 --resize-method sample --colors 256 ./gifs/regular/cranidos.gif > ./gifs/regular2x/cranidos.gif
- gifsicle --resize  204x148 --resize-method sample --colors 256 ./gifs/regular/crawdaunt.gif > ./gifs/regular2x/crawdaunt.gif
- gifsicle --resize  226x192 --resize-method sample --colors 256 ./gifs/regular/cresselia.gif > ./gifs/regular2x/cresselia.gif
  gifsicle --resize  120x104 --resize-method sample --colors 256 ./gifs/regular/croagunk-f.gif > ./gifs/regular2x/croagunk-f.gif
- gifsicle --resize  120x104 --resize-method sample --colors 256 ./gifs/regular/croagunk.gif > ./gifs/regular2x/croagunk.gif
- gifsicle --resize  286x214 --resize-method sample --colors 256 ./gifs/regular/crobat.gif > ./gifs/regular2x/crobat.gif
- gifsicle --resize  104x156 --resize-method sample --colors 256 ./gifs/regular/croconaw.gif > ./gifs/regular2x/croconaw.gif
  gifsicle --resize  212x212 --resize-method sample --colors 256 ./gifs/regular/crucibelle-mega.gif > ./gifs/regular2x/crucibelle-mega.gif
  gifsicle --resize  78x184 --resize-method sample --colors 256 ./gifs/regular/crucibelle.gif > ./gifs/regular2x/crucibelle.gif
- gifsicle --resize  194x166 --resize-method sample --colors 256 ./gifs/regular/crustle.gif > ./gifs/regular2x/crustle.gif
- gifsicle --resize  156x198 --resize-method sample --colors 256 ./gifs/regular/cryogonal.gif > ./gifs/regular2x/cryogonal.gif
- gifsicle --resize  102x118 --resize-method sample --colors 256 ./gifs/regular/cubchoo.gif > ./gifs/regular2x/cubchoo.gif
- gifsicle --resize  80x98 --resize-method sample --colors 256 ./gifs/regular/cubone.gif > ./gifs/regular2x/cubone.gif
- gifsicle --resize  120x114 --resize-method sample --colors 256 ./gifs/regular/cutiefly.gif > ./gifs/regular2x/cutiefly.gif
- gifsicle --resize  76x90 --resize-method sample --colors 256 ./gifs/regular/cyndaquil.gif > ./gifs/regular2x/cyndaquil.gif
- gifsicle --resize  248x232 --resize-method sample --colors 256 ./gifs/regular/darkrai.gif > ./gifs/regular2x/darkrai.gif
- gifsicle --resize  124x116 --resize-method sample --colors 256 ./gifs/regular/darmanitan-zen.gif > ./gifs/regular2x/darmanitan-zen.gif
- gifsicle --resize  198x182 --resize-method sample --colors 256 ./gifs/regular/darmanitan.gif > ./gifs/regular2x/darmanitan.gif
- gifsicle --resize  90x136 --resize-method sample --colors 256 ./gifs/regular/dartrix.gif > ./gifs/regular2x/dartrix.gif
- gifsicle --resize  148x122 --resize-method sample --colors 256 ./gifs/regular/darumaka.gif > ./gifs/regular2x/darumaka.gif
- gifsicle --resize  122x200 --resize-method sample --colors 256 ./gifs/regular/decidueye.gif > ./gifs/regular2x/decidueye.gif
- gifsicle --resize  136x100 --resize-method sample --colors 256 ./gifs/regular/dedenne.gif > ./gifs/regular2x/dedenne.gif
  gifsicle --resize  92x142 --resize-method sample --colors 256 ./gifs/regular/deerling-autumn.gif > ./gifs/regular2x/deerling-autumn.gif
  gifsicle --resize  92x142 --resize-method sample --colors 256 ./gifs/regular/deerling-summer.gif > ./gifs/regular2x/deerling-summer.gif
  gifsicle --resize  92x142 --resize-method sample --colors 256 ./gifs/regular/deerling-winter.gif > ./gifs/regular2x/deerling-winter.gif
- gifsicle --resize  92x142 --resize-method sample --colors 256 ./gifs/regular/deerling.gif > ./gifs/regular2x/deerling.gif
- gifsicle --resize  86x152 --resize-method sample --colors 256 ./gifs/regular/deino.gif > ./gifs/regular2x/deino.gif
- gifsicle --resize  130x154 --resize-method sample --colors 256 ./gifs/regular/delcatty.gif > ./gifs/regular2x/delcatty.gif
- gifsicle --resize  118x142 --resize-method sample --colors 256 ./gifs/regular/delibird.gif > ./gifs/regular2x/delibird.gif
- gifsicle --resize  190x220 --resize-method sample --colors 256 ./gifs/regular/delphox.gif > ./gifs/regular2x/delphox.gif
- gifsicle --resize  180x192 --resize-method sample --colors 256 ./gifs/regular/deoxys-attack.gif > ./gifs/regular2x/deoxys-attack.gif
- gifsicle --resize  154x186 --resize-method sample --colors 256 ./gifs/regular/deoxys-defense.gif > ./gifs/regular2x/deoxys-defense.gif
- gifsicle --resize  174x188 --resize-method sample --colors 256 ./gifs/regular/deoxys-speed.gif > ./gifs/regular2x/deoxys-speed.gif
- gifsicle --resize  230x172 --resize-method sample --colors 256 ./gifs/regular/deoxys.gif > ./gifs/regular2x/deoxys.gif
- gifsicle --resize  198x138 --resize-method sample --colors 256 ./gifs/regular/dewgong.gif > ./gifs/regular2x/dewgong.gif
- gifsicle --resize  88x146 --resize-method sample --colors 256 ./gifs/regular/dewott.gif > ./gifs/regular2x/dewott.gif
- gifsicle --resize  90x122 --resize-method sample --colors 256 ./gifs/regular/dewpider.gif > ./gifs/regular2x/dewpider.gif
- gifsicle --resize  130x180 --resize-method sample --colors 256 ./gifs/regular/dhelmise.gif > ./gifs/regular2x/dhelmise.gif
- gifsicle --resize  200x244 --resize-method sample --colors 256 ./gifs/regular/dialga.gif > ./gifs/regular2x/dialga.gif
- gifsicle --resize  234x228 --resize-method sample --colors 256 ./gifs/regular/diancie-mega.gif > ./gifs/regular2x/diancie-mega.gif
- gifsicle --resize  100x180 --resize-method sample --colors 256 ./gifs/regular/diancie.gif > ./gifs/regular2x/diancie.gif
- gifsicle --resize  242x210 --resize-method sample --colors 256 ./gifs/regular/diggersby.gif > ./gifs/regular2x/diggersby.gif
- gifsicle --resize  86x86 --resize-method sample --colors 256 ./gifs/regular/diglett-alola.gif > ./gifs/regular2x/diglett-alola.gif
- gifsicle --resize  86x70 --resize-method sample --colors 256 ./gifs/regular/diglett.gif > ./gifs/regular2x/diglett.gif
- gifsicle --resize  86x70 --resize-method sample --colors 256 ./gifs/regular/ditto.gif > ./gifs/regular2x/ditto.gif
  gifsicle --resize  136x204 --resize-method sample --colors 256 ./gifs/regular/dodrio-f.gif > ./gifs/regular2x/dodrio-f.gif
- gifsicle --resize  136x204 --resize-method sample --colors 256 ./gifs/regular/dodrio.gif > ./gifs/regular2x/dodrio.gif
  gifsicle --resize  84x140 --resize-method sample --colors 256 ./gifs/regular/doduo-f.gif > ./gifs/regular2x/doduo-f.gif
- gifsicle --resize  84x140 --resize-method sample --colors 256 ./gifs/regular/doduo.gif > ./gifs/regular2x/doduo.gif
  gifsicle --resize  210x134 --resize-method sample --colors 256 ./gifs/regular/donphan-f.gif > ./gifs/regular2x/donphan-f.gif
- gifsicle --resize  218x134 --resize-method sample --colors 256 ./gifs/regular/donphan.gif > ./gifs/regular2x/donphan.gif
- gifsicle --resize  242x152 --resize-method sample --colors 256 ./gifs/regular/doublade.gif > ./gifs/regular2x/doublade.gif
- gifsicle --resize  278x274 --resize-method sample --colors 256 ./gifs/regular/dragalge.gif > ./gifs/regular2x/dragalge.gif
- gifsicle --resize  134x186 --resize-method sample --colors 256 ./gifs/regular/dragonair.gif > ./gifs/regular2x/dragonair.gif
- gifsicle --resize  170x196 --resize-method sample --colors 256 ./gifs/regular/dragonite.gif > ./gifs/regular2x/dragonite.gif
- gifsicle --resize  174x156 --resize-method sample --colors 256 ./gifs/regular/drampa.gif > ./gifs/regular2x/drampa.gif
- gifsicle --resize  282x170 --resize-method sample --colors 256 ./gifs/regular/drapion.gif > ./gifs/regular2x/drapion.gif
- gifsicle --resize  92x126 --resize-method sample --colors 256 ./gifs/regular/dratini.gif > ./gifs/regular2x/dratini.gif
- gifsicle --resize  94x178 --resize-method sample --colors 256 ./gifs/regular/drifblim.gif > ./gifs/regular2x/drifblim.gif
- gifsicle --resize  64x150 --resize-method sample --colors 256 ./gifs/regular/drifloon.gif > ./gifs/regular2x/drifloon.gif
- gifsicle --resize  166x98 --resize-method sample --colors 256 ./gifs/regular/drilbur.gif > ./gifs/regular2x/drilbur.gif
- gifsicle --resize  124x114 --resize-method sample --colors 256 ./gifs/regular/drowzee.gif > ./gifs/regular2x/drowzee.gif
- gifsicle --resize  246x208 --resize-method sample --colors 256 ./gifs/regular/druddigon.gif > ./gifs/regular2x/druddigon.gif
- gifsicle --resize  84x124 --resize-method sample --colors 256 ./gifs/regular/ducklett.gif > ./gifs/regular2x/ducklett.gif
- gifsicle --resize  150x98 --resize-method sample --colors 256 ./gifs/regular/dugtrio-alola.gif > ./gifs/regular2x/dugtrio-alola.gif
- gifsicle --resize  130x100 --resize-method sample --colors 256 ./gifs/regular/dugtrio.gif > ./gifs/regular2x/dugtrio.gif
- gifsicle --resize  124x82 --resize-method sample --colors 256 ./gifs/regular/dunsparce.gif > ./gifs/regular2x/dunsparce.gif
- gifsicle --resize  104x128 --resize-method sample --colors 256 ./gifs/regular/duosion.gif > ./gifs/regular2x/duosion.gif
- gifsicle --resize  128x76 --resize-method sample --colors 256 ./gifs/regular/durant.gif > ./gifs/regular2x/durant.gif
- gifsicle --resize  192x162 --resize-method sample --colors 256 ./gifs/regular/dusclops.gif > ./gifs/regular2x/dusclops.gif
- gifsicle --resize  256x202 --resize-method sample --colors 256 ./gifs/regular/dusknoir.gif > ./gifs/regular2x/dusknoir.gif
- gifsicle --resize  96x128 --resize-method sample --colors 256 ./gifs/regular/duskull.gif > ./gifs/regular2x/duskull.gif
  gifsicle --resize  200x142 --resize-method sample --colors 256 ./gifs/regular/dustox-f.gif > ./gifs/regular2x/dustox-f.gif
- gifsicle --resize  200x142 --resize-method sample --colors 256 ./gifs/regular/dustox.gif > ./gifs/regular2x/dustox.gif
- gifsicle --resize  106x84 --resize-method sample --colors 256 ./gifs/regular/dwebble.gif > ./gifs/regular2x/dwebble.gif
- gifsicle --resize  148x160 --resize-method sample --colors 256 ./gifs/regular/eelektrik.gif > ./gifs/regular2x/eelektrik.gif
- gifsicle --resize  222x140 --resize-method sample --colors 256 ./gifs/regular/eelektross.gif > ./gifs/regular2x/eelektross.gif
- gifsicle --resize  128x110 --resize-method sample --colors 256 ./gifs/regular/eevee.gif > ./gifs/regular2x/eevee.gif
- gifsicle --resize  92x84 --resize-method sample --colors 256 ./gifs/regular/ekans.gif > ./gifs/regular2x/ekans.gif
- gifsicle --resize  156x156 --resize-method sample --colors 256 ./gifs/regular/electabuzz.gif > ./gifs/regular2x/electabuzz.gif
- gifsicle --resize  198x170 --resize-method sample --colors 256 ./gifs/regular/electivire.gif > ./gifs/regular2x/electivire.gif
- gifsicle --resize  106x76 --resize-method sample --colors 256 ./gifs/regular/electrike.gif > ./gifs/regular2x/electrike.gif
- gifsicle --resize  144x118 --resize-method sample --colors 256 ./gifs/regular/electrode.gif > ./gifs/regular2x/electrode.gif
- gifsicle --resize  146x126 --resize-method sample --colors 256 ./gifs/regular/elekid.gif > ./gifs/regular2x/elekid.gif
- gifsicle --resize  66x134 --resize-method sample --colors 256 ./gifs/regular/elgyem.gif > ./gifs/regular2x/elgyem.gif
- gifsicle --resize  214x204 --resize-method sample --colors 256 ./gifs/regular/emboar.gif > ./gifs/regular2x/emboar.gif
- gifsicle --resize  132x118 --resize-method sample --colors 256 ./gifs/regular/emolga.gif > ./gifs/regular2x/emolga.gif
- gifsicle --resize  184x222 --resize-method sample --colors 256 ./gifs/regular/empoleon.gif > ./gifs/regular2x/empoleon.gif
- gifsicle --resize  158x174 --resize-method sample --colors 256 ./gifs/regular/entei.gif > ./gifs/regular2x/entei.gif
- gifsicle --resize  210x202 --resize-method sample --colors 256 ./gifs/regular/escavalier.gif > ./gifs/regular2x/escavalier.gif
- gifsicle --resize  120x154 --resize-method sample --colors 256 ./gifs/regular/espeon.gif > ./gifs/regular2x/espeon.gif
- gifsicle --resize  94x116 --resize-method sample --colors 256 ./gifs/regular/espurr.gif > ./gifs/regular2x/espurr.gif
- gifsicle --resize  178x158 --resize-method sample --colors 256 ./gifs/regular/excadrill.gif > ./gifs/regular2x/excadrill.gif
- gifsicle --resize  154x58 --resize-method sample --colors 256 ./gifs/regular/exeggcute.gif > ./gifs/regular2x/exeggcute.gif
- gifsicle --resize  222x360 --resize-method sample --colors 256 ./gifs/regular/exeggutor-alola.gif > ./gifs/regular2x/exeggutor-alola.gif
- gifsicle --resize  284x198 --resize-method sample --colors 256 ./gifs/regular/exeggutor.gif > ./gifs/regular2x/exeggutor.gif
- gifsicle --resize  164x168 --resize-method sample --colors 256 ./gifs/regular/exploud.gif > ./gifs/regular2x/exploud.gif
- gifsicle --resize  88x100 --resize-method sample --colors 256 ./gifs/regular/farfetchd.gif > ./gifs/regular2x/farfetchd.gif
- gifsicle --resize  296x270 --resize-method sample --colors 256 ./gifs/regular/fearow.gif > ./gifs/regular2x/fearow.gif
- gifsicle --resize  86x104 --resize-method sample --colors 256 ./gifs/regular/feebas.gif > ./gifs/regular2x/feebas.gif
- gifsicle --resize  102x118 --resize-method sample --colors 256 ./gifs/regular/fennekin.gif > ./gifs/regular2x/fennekin.gif
- gifsicle --resize  164x196 --resize-method sample --colors 256 ./gifs/regular/feraligatr.gif > ./gifs/regular2x/feraligatr.gif
- gifsicle --resize  102x128 --resize-method sample --colors 256 ./gifs/regular/ferroseed.gif > ./gifs/regular2x/ferroseed.gif
- gifsicle --resize  256x140 --resize-method sample --colors 256 ./gifs/regular/ferrothorn.gif > ./gifs/regular2x/ferrothorn.gif
  gifsicle --resize  100x88 --resize-method sample --colors 256 ./gifs/regular/finneon-f.gif > ./gifs/regular2x/finneon-f.gif
- gifsicle --resize  100x84 --resize-method sample --colors 256 ./gifs/regular/finneon.gif > ./gifs/regular2x/finneon.gif
- gifsicle --resize  104x134 --resize-method sample --colors 256 ./gifs/regular/flaaffy.gif > ./gifs/regular2x/flaaffy.gif
  gifsicle --resize  152x156 --resize-method sample --colors 256 ./gifs/regular/flabebe-blue.gif > ./gifs/regular2x/flabebe-blue.gif
  gifsicle --resize  152x156 --resize-method sample --colors 256 ./gifs/regular/flabebe-orange.gif > ./gifs/regular2x/flabebe-orange.gif
  gifsicle --resize  152x156 --resize-method sample --colors 256 ./gifs/regular/flabebe-white.gif > ./gifs/regular2x/flabebe-white.gif
  gifsicle --resize  152x156 --resize-method sample --colors 256 ./gifs/regular/flabebe-yellow.gif > ./gifs/regular2x/flabebe-yellow.gif
- gifsicle --resize  152x156 --resize-method sample --colors 256 ./gifs/regular/flabebe.gif > ./gifs/regular2x/flabebe.gif
- gifsicle --resize  118x186 --resize-method sample --colors 256 ./gifs/regular/flareon.gif > ./gifs/regular2x/flareon.gif
- gifsicle --resize  218x214 --resize-method sample --colors 256 ./gifs/regular/fletchinder.gif > ./gifs/regular2x/fletchinder.gif
- gifsicle --resize  94x86 --resize-method sample --colors 256 ./gifs/regular/fletchling.gif > ./gifs/regular2x/fletchling.gif
  gifsicle --resize  176x186 --resize-method sample --colors 256 ./gifs/regular/floatzel-f.gif > ./gifs/regular2x/floatzel-f.gif
- gifsicle --resize  176x186 --resize-method sample --colors 256 ./gifs/regular/floatzel.gif > ./gifs/regular2x/floatzel.gif
  gifsicle --resize  122x190 --resize-method sample --colors 256 ./gifs/regular/floette-blue.gif > ./gifs/regular2x/floette-blue.gif
  gifsicle --resize  162x180 --resize-method sample --colors 256 ./gifs/regular/floette-eternal.gif > ./gifs/regular2x/floette-eternal.gif
  gifsicle --resize  122x190 --resize-method sample --colors 256 ./gifs/regular/floette-orange.gif > ./gifs/regular2x/floette-orange.gif
  gifsicle --resize  122x190 --resize-method sample --colors 256 ./gifs/regular/floette-white.gif > ./gifs/regular2x/floette-white.gif
  gifsicle --resize  122x190 --resize-method sample --colors 256 ./gifs/regular/floette-yellow.gif > ./gifs/regular2x/floette-yellow.gif
- gifsicle --resize  122x190 --resize-method sample --colors 256 ./gifs/regular/floette.gif > ./gifs/regular2x/floette.gif
  gifsicle --resize  160x200 --resize-method sample --colors 256 ./gifs/regular/florges-blue.gif > ./gifs/regular2x/florges-blue.gif
  gifsicle --resize  160x200 --resize-method sample --colors 256 ./gifs/regular/florges-orange.gif > ./gifs/regular2x/florges-orange.gif
  gifsicle --resize  160x200 --resize-method sample --colors 256 ./gifs/regular/florges-white.gif > ./gifs/regular2x/florges-white.gif
  gifsicle --resize  160x200 --resize-method sample --colors 256 ./gifs/regular/florges-yellow.gif > ./gifs/regular2x/florges-yellow.gif
- gifsicle --resize  160x200 --resize-method sample --colors 256 ./gifs/regular/florges.gif > ./gifs/regular2x/florges.gif
- gifsicle --resize  266x212 --resize-method sample --colors 256 ./gifs/regular/flygon.gif > ./gifs/regular2x/flygon.gif
- gifsicle --resize  82x112 --resize-method sample --colors 256 ./gifs/regular/fomantis.gif > ./gifs/regular2x/fomantis.gif
- gifsicle --resize  94x96 --resize-method sample --colors 256 ./gifs/regular/foongus.gif > ./gifs/regular2x/foongus.gif
- gifsicle --resize  186x138 --resize-method sample --colors 256 ./gifs/regular/forretress.gif > ./gifs/regular2x/forretress.gif
- gifsicle --resize  222x156 --resize-method sample --colors 256 ./gifs/regular/fraxure.gif > ./gifs/regular2x/fraxure.gif
  gifsicle --resize  148x174 --resize-method sample --colors 256 ./gifs/regular/frillish-f.gif > ./gifs/regular2x/frillish-f.gif
- gifsicle --resize  136x172 --resize-method sample --colors 256 ./gifs/regular/frillish.gif > ./gifs/regular2x/frillish.gif
- gifsicle --resize  90x104 --resize-method sample --colors 256 ./gifs/regular/froakie.gif > ./gifs/regular2x/froakie.gif
- gifsicle --resize  146x116 --resize-method sample --colors 256 ./gifs/regular/frogadier.gif > ./gifs/regular2x/frogadier.gif
- gifsicle --resize  132x158 --resize-method sample --colors 256 ./gifs/regular/froslass.gif > ./gifs/regular2x/froslass.gif
- gifsicle --resize  94x168 --resize-method sample --colors 256 ./gifs/regular/furfrou.gif > ./gifs/regular2x/furfrou.gif
- gifsicle --resize  170x146 --resize-method sample --colors 256 ./gifs/regular/furret.gif > ./gifs/regular2x/furret.gif
  gifsicle --resize  126x152 --resize-method sample --colors 256 ./gifs/regular/gabite-f.gif > ./gifs/regular2x/gabite-f.gif
- gifsicle --resize  126x152 --resize-method sample --colors 256 ./gifs/regular/gabite.gif > ./gifs/regular2x/gabite.gif
- gifsicle --resize  128x198 --resize-method sample --colors 256 ./gifs/regular/gallade-mega.gif > ./gifs/regular2x/gallade-mega.gif
- gifsicle --resize  104x194 --resize-method sample --colors 256 ./gifs/regular/gallade.gif > ./gifs/regular2x/gallade.gif
- gifsicle --resize  186x98 --resize-method sample --colors 256 ./gifs/regular/galvantula.gif > ./gifs/regular2x/galvantula.gif
- gifsicle --resize  236x176 --resize-method sample --colors 256 ./gifs/regular/garbodor.gif > ./gifs/regular2x/garbodor.gif
  gifsicle --resize  230x216 --resize-method sample --colors 256 ./gifs/regular/garchomp-f.gif > ./gifs/regular2x/garchomp-f.gif
- gifsicle --resize  264x214 --resize-method sample --colors 256 ./gifs/regular/garchomp-mega.gif > ./gifs/regular2x/garchomp-mega.gif
- gifsicle --resize  230x216 --resize-method sample --colors 256 ./gifs/regular/garchomp.gif > ./gifs/regular2x/garchomp.gif
- gifsicle --resize  148x196 --resize-method sample --colors 256 ./gifs/regular/gardevoir-mega.gif > ./gifs/regular2x/gardevoir-mega.gif
- gifsicle --resize  158x184 --resize-method sample --colors 256 ./gifs/regular/gardevoir.gif > ./gifs/regular2x/gardevoir.gif
- gifsicle --resize  104x122 --resize-method sample --colors 256 ./gifs/regular/gastly.gif > ./gifs/regular2x/gastly.gif
  gifsicle --resize  124x154 --resize-method sample --colors 256 ./gifs/regular/gastrodon-east.gif > ./gifs/regular2x/gastrodon-east.gif
- gifsicle --resize  126x154 --resize-method sample --colors 256 ./gifs/regular/gastrodon.gif > ./gifs/regular2x/gastrodon.gif
  gifsicle --resize  140x184 --resize-method sample --colors 256 ./gifs/regular/genesect-burn.gif > ./gifs/regular2x/genesect-burn.gif
  gifsicle --resize  140x184 --resize-method sample --colors 256 ./gifs/regular/genesect-chill.gif > ./gifs/regular2x/genesect-chill.gif
  gifsicle --resize  140x184 --resize-method sample --colors 256 ./gifs/regular/genesect-douse.gif > ./gifs/regular2x/genesect-douse.gif
  gifsicle --resize  140x184 --resize-method sample --colors 256 ./gifs/regular/genesect-shock.gif > ./gifs/regular2x/genesect-shock.gif
- gifsicle --resize  140x184 --resize-method sample --colors 256 ./gifs/regular/genesect.gif > ./gifs/regular2x/genesect.gif
- gifsicle --resize  224x184 --resize-method sample --colors 256 ./gifs/regular/gengar-mega.gif > ./gifs/regular2x/gengar-mega.gif
- gifsicle --resize  168x156 --resize-method sample --colors 256 ./gifs/regular/gengar.gif > ./gifs/regular2x/gengar.gif
- gifsicle --resize  120x86 --resize-method sample --colors 256 ./gifs/regular/geodude-alola.gif > ./gifs/regular2x/geodude-alola.gif
- gifsicle --resize  150x70 --resize-method sample --colors 256 ./gifs/regular/geodude.gif > ./gifs/regular2x/geodude.gif
  gifsicle --resize  116x114 --resize-method sample --colors 256 ./gifs/regular/gible-f.gif > ./gifs/regular2x/gible-f.gif
- gifsicle --resize  116x114 --resize-method sample --colors 256 ./gifs/regular/gible.gif > ./gifs/regular2x/gible.gif
- gifsicle --resize  202x194 --resize-method sample --colors 256 ./gifs/regular/gigalith.gif > ./gifs/regular2x/gigalith.gif
  gifsicle --resize  96x176 --resize-method sample --colors 256 ./gifs/regular/girafarig-f.gif > ./gifs/regular2x/girafarig-f.gif
- gifsicle --resize  96x176 --resize-method sample --colors 256 ./gifs/regular/girafarig.gif > ./gifs/regular2x/girafarig.gif
- gifsicle --resize  312x308 --resize-method sample --colors 256 ./gifs/regular/giratina-origin.gif > ./gifs/regular2x/giratina-origin.gif
- gifsicle --resize  280x228 --resize-method sample --colors 256 ./gifs/regular/giratina.gif > ./gifs/regular2x/giratina.gif
- gifsicle --resize  138x160 --resize-method sample --colors 256 ./gifs/regular/glaceon.gif > ./gifs/regular2x/glaceon.gif
- gifsicle --resize  124x174 --resize-method sample --colors 256 ./gifs/regular/glalie-mega.gif > ./gifs/regular2x/glalie-mega.gif
- gifsicle --resize  144x150 --resize-method sample --colors 256 ./gifs/regular/glalie.gif > ./gifs/regular2x/glalie.gif
- gifsicle --resize  120x172 --resize-method sample --colors 256 ./gifs/regular/glameow.gif > ./gifs/regular2x/glameow.gif
  gifsicle --resize  152x168 --resize-method sample --colors 256 ./gifs/regular/gligar-f.gif > ./gifs/regular2x/gligar-f.gif
- gifsicle --resize  152x180 --resize-method sample --colors 256 ./gifs/regular/gligar.gif > ./gifs/regular2x/gligar.gif
- gifsicle --resize  222x202 --resize-method sample --colors 256 ./gifs/regular/gliscor.gif > ./gifs/regular2x/gliscor.gif
  gifsicle --resize  124x106 --resize-method sample --colors 256 ./gifs/regular/gloom-f.gif > ./gifs/regular2x/gloom-f.gif
- gifsicle --resize  124x106 --resize-method sample --colors 256 ./gifs/regular/gloom.gif > ./gifs/regular2x/gloom.gif
- gifsicle --resize  114x166 --resize-method sample --colors 256 ./gifs/regular/gogoat.gif > ./gifs/regular2x/gogoat.gif
  gifsicle --resize  320x272 --resize-method sample --colors 256 ./gifs/regular/golbat-f.gif > ./gifs/regular2x/golbat-f.gif
- gifsicle --resize  320x272 --resize-method sample --colors 256 ./gifs/regular/golbat.gif > ./gifs/regular2x/golbat.gif
  gifsicle --resize  158x108 --resize-method sample --colors 256 ./gifs/regular/goldeen-f.gif > ./gifs/regular2x/goldeen-f.gif
- gifsicle --resize  158x108 --resize-method sample --colors 256 ./gifs/regular/goldeen.gif > ./gifs/regular2x/goldeen.gif
- gifsicle --resize  136x148 --resize-method sample --colors 256 ./gifs/regular/golduck.gif > ./gifs/regular2x/golduck.gif
- gifsicle --resize  150x174 --resize-method sample --colors 256 ./gifs/regular/golem-alola.gif > ./gifs/regular2x/golem-alola.gif
- gifsicle --resize  188x156 --resize-method sample --colors 256 ./gifs/regular/golem.gif > ./gifs/regular2x/golem.gif
- gifsicle --resize  124x130 --resize-method sample --colors 256 ./gifs/regular/golett.gif > ./gifs/regular2x/golett.gif
- gifsicle --resize  166x160 --resize-method sample --colors 256 ./gifs/regular/golisopod.gif > ./gifs/regular2x/golisopod.gif
- gifsicle --resize  178x216 --resize-method sample --colors 256 ./gifs/regular/golurk.gif > ./gifs/regular2x/golurk.gif
- gifsicle --resize  120x204 --resize-method sample --colors 256 ./gifs/regular/goodra.gif > ./gifs/regular2x/goodra.gif
- gifsicle --resize  78x100 --resize-method sample --colors 256 ./gifs/regular/goomy.gif > ./gifs/regular2x/goomy.gif
- gifsicle --resize  164x148 --resize-method sample --colors 256 ./gifs/regular/gorebyss.gif > ./gifs/regular2x/gorebyss.gif
- gifsicle --resize  92x118 --resize-method sample --colors 256 ./gifs/regular/gothita.gif > ./gifs/regular2x/gothita.gif
- gifsicle --resize  124x202 --resize-method sample --colors 256 ./gifs/regular/gothitelle.gif > ./gifs/regular2x/gothitelle.gif
- gifsicle --resize  138x154 --resize-method sample --colors 256 ./gifs/regular/gothorita.gif > ./gifs/regular2x/gothorita.gif
- gifsicle --resize  106x166 --resize-method sample --colors 256 ./gifs/regular/gourgeist-large.gif > ./gifs/regular2x/gourgeist-large.gif
- gifsicle --resize  92x148 --resize-method sample --colors 256 ./gifs/regular/gourgeist-small.gif > ./gifs/regular2x/gourgeist-small.gif
- gifsicle --resize  106x166 --resize-method sample --colors 256 ./gifs/regular/gourgeist-super.gif > ./gifs/regular2x/gourgeist-super.gif
- gifsicle --resize  106x166 --resize-method sample --colors 256 ./gifs/regular/gourgeist.gif > ./gifs/regular2x/gourgeist.gif
- gifsicle --resize  154x168 --resize-method sample --colors 256 ./gifs/regular/granbull.gif > ./gifs/regular2x/granbull.gif
- gifsicle --resize  208x118 --resize-method sample --colors 256 ./gifs/regular/graveler-alola.gif > ./gifs/regular2x/graveler-alola.gif
- gifsicle --resize  214x118 --resize-method sample --colors 256 ./gifs/regular/graveler.gif > ./gifs/regular2x/graveler.gif
- gifsicle --resize  164x180 --resize-method sample --colors 256 ./gifs/regular/greninja-ash.gif > ./gifs/regular2x/greninja-ash.gif
- gifsicle --resize  262x152 --resize-method sample --colors 256 ./gifs/regular/greninja.gif > ./gifs/regular2x/greninja.gif
- gifsicle --resize  130x104 --resize-method sample --colors 256 ./gifs/regular/grimer-alola.gif > ./gifs/regular2x/grimer-alola.gif
- gifsicle --resize  136x102 --resize-method sample --colors 256 ./gifs/regular/grimer.gif > ./gifs/regular2x/grimer.gif
- gifsicle --resize  140x138 --resize-method sample --colors 256 ./gifs/regular/grotle.gif > ./gifs/regular2x/grotle.gif
- gifsicle --resize  234x198 --resize-method sample --colors 256 ./gifs/regular/groudon-primal.gif > ./gifs/regular2x/groudon-primal.gif
- gifsicle --resize  214x188 --resize-method sample --colors 256 ./gifs/regular/groudon.gif > ./gifs/regular2x/groudon.gif
- gifsicle --resize  156x158 --resize-method sample --colors 256 ./gifs/regular/grovyle.gif > ./gifs/regular2x/grovyle.gif
- gifsicle --resize  90x114 --resize-method sample --colors 256 ./gifs/regular/growlithe.gif > ./gifs/regular2x/growlithe.gif
- gifsicle --resize  114x74 --resize-method sample --colors 256 ./gifs/regular/grubbin.gif > ./gifs/regular2x/grubbin.gif
- gifsicle --resize  162x146 --resize-method sample --colors 256 ./gifs/regular/grumpig.gif > ./gifs/regular2x/grumpig.gif
  gifsicle --resize  112x102 --resize-method sample --colors 256 ./gifs/regular/gulpin-f.gif > ./gifs/regular2x/gulpin-f.gif
- gifsicle --resize  128x104 --resize-method sample --colors 256 ./gifs/regular/gulpin.gif > ./gifs/regular2x/gulpin.gif
- gifsicle --resize  118x158 --resize-method sample --colors 256 ./gifs/regular/gumshoos.gif > ./gifs/regular2x/gumshoos.gif
- gifsicle --resize  196x156 --resize-method sample --colors 256 ./gifs/regular/gurdurr.gif > ./gifs/regular2x/gurdurr.gif
- gifsicle --resize  274x176 --resize-method sample --colors 256 ./gifs/regular/guzzlord.gif > ./gifs/regular2x/guzzlord.gif
  gifsicle --resize  230x198 --resize-method sample --colors 256 ./gifs/regular/gyarados-f.gif > ./gifs/regular2x/gyarados-f.gif
- gifsicle --resize  386x244 --resize-method sample --colors 256 ./gifs/regular/gyarados-mega.gif > ./gifs/regular2x/gyarados-mega.gif
- gifsicle --resize  230x198 --resize-method sample --colors 256 ./gifs/regular/gyarados.gif > ./gifs/regular2x/gyarados.gif
- gifsicle --resize  178x166 --resize-method sample --colors 256 ./gifs/regular/hakamoo.gif > ./gifs/regular2x/hakamoo.gif
- gifsicle --resize  78x106 --resize-method sample --colors 256 ./gifs/regular/happiny.gif > ./gifs/regular2x/happiny.gif
- gifsicle --resize  204x174 --resize-method sample --colors 256 ./gifs/regular/hariyama.gif > ./gifs/regular2x/hariyama.gif
- gifsicle --resize  170x146 --resize-method sample --colors 256 ./gifs/regular/haunter.gif > ./gifs/regular2x/haunter.gif
- gifsicle --resize  196x144 --resize-method sample --colors 256 ./gifs/regular/hawlucha.gif > ./gifs/regular2x/hawlucha.gif
- gifsicle --resize  230x236 --resize-method sample --colors 256 ./gifs/regular/haxorus.gif > ./gifs/regular2x/haxorus.gif
- gifsicle --resize  154x166 --resize-method sample --colors 256 ./gifs/regular/heatmor.gif > ./gifs/regular2x/heatmor.gif
- gifsicle --resize  248x128 --resize-method sample --colors 256 ./gifs/regular/heatran.gif > ./gifs/regular2x/heatran.gif
- gifsicle --resize  142x156 --resize-method sample --colors 256 ./gifs/regular/heliolisk.gif > ./gifs/regular2x/heliolisk.gif
- gifsicle --resize  116x108 --resize-method sample --colors 256 ./gifs/regular/helioptile.gif > ./gifs/regular2x/helioptile.gif
  gifsicle --resize  180x150 --resize-method sample --colors 256 ./gifs/regular/heracross-f.gif > ./gifs/regular2x/heracross-f.gif
- gifsicle --resize  222x222 --resize-method sample --colors 256 ./gifs/regular/heracross-mega.gif > ./gifs/regular2x/heracross-mega.gif
- gifsicle --resize  180x174 --resize-method sample --colors 256 ./gifs/regular/heracross.gif > ./gifs/regular2x/heracross.gif
- gifsicle --resize  114x148 --resize-method sample --colors 256 ./gifs/regular/herdier.gif > ./gifs/regular2x/herdier.gif
  gifsicle --resize  126x106 --resize-method sample --colors 256 ./gifs/regular/hippopotas-f.gif > ./gifs/regular2x/hippopotas-f.gif
- gifsicle --resize  126x106 --resize-method sample --colors 256 ./gifs/regular/hippopotas.gif > ./gifs/regular2x/hippopotas.gif
  gifsicle --resize  194x116 --resize-method sample --colors 256 ./gifs/regular/hippowdon-f.gif > ./gifs/regular2x/hippowdon-f.gif
- gifsicle --resize  194x116 --resize-method sample --colors 256 ./gifs/regular/hippowdon.gif > ./gifs/regular2x/hippowdon.gif
- gifsicle --resize  102x154 --resize-method sample --colors 256 ./gifs/regular/hitmonchan.gif > ./gifs/regular2x/hitmonchan.gif
- gifsicle --resize  90x136 --resize-method sample --colors 256 ./gifs/regular/hitmonlee.gif > ./gifs/regular2x/hitmonlee.gif
- gifsicle --resize  172x142 --resize-method sample --colors 256 ./gifs/regular/hitmontop.gif > ./gifs/regular2x/hitmontop.gif
- gifsicle --resize  384x364 --resize-method sample --colors 256 ./gifs/regular/honchkrow.gif > ./gifs/regular2x/honchkrow.gif
- gifsicle --resize  152x158 --resize-method sample --colors 256 ./gifs/regular/honedge.gif > ./gifs/regular2x/honedge.gif
- gifsicle --resize  314x288 --resize-method sample --colors 256 ./gifs/regular/hooh.gif > ./gifs/regular2x/hooh.gif
  gifsicle --resize  240x240 --resize-method sample --colors 256 ./gifs/regular/hoopa-mega.gif > ./gifs/regular2x/hoopa-mega.gif
- gifsicle --resize  262x252 --resize-method sample --colors 256 ./gifs/regular/hoopa-unbound.gif > ./gifs/regular2x/hoopa-unbound.gif
- gifsicle --resize  146x136 --resize-method sample --colors 256 ./gifs/regular/hoopa.gif > ./gifs/regular2x/hoopa.gif
- gifsicle --resize  128x126 --resize-method sample --colors 256 ./gifs/regular/hoothoot.gif > ./gifs/regular2x/hoothoot.gif
- gifsicle --resize  176x122 --resize-method sample --colors 256 ./gifs/regular/hoppip.gif > ./gifs/regular2x/hoppip.gif
- gifsicle --resize  62x114 --resize-method sample --colors 256 ./gifs/regular/horsea.gif > ./gifs/regular2x/horsea.gif
  gifsicle --resize  118x172 --resize-method sample --colors 256 ./gifs/regular/houndoom-f.gif > ./gifs/regular2x/houndoom-f.gif
- gifsicle --resize  168x228 --resize-method sample --colors 256 ./gifs/regular/houndoom-mega.gif > ./gifs/regular2x/houndoom-mega.gif
- gifsicle --resize  118x172 --resize-method sample --colors 256 ./gifs/regular/houndoom.gif > ./gifs/regular2x/houndoom.gif
- gifsicle --resize  72x118 --resize-method sample --colors 256 ./gifs/regular/houndour.gif > ./gifs/regular2x/houndour.gif
- gifsicle --resize  186x130 --resize-method sample --colors 256 ./gifs/regular/huntail.gif > ./gifs/regular2x/huntail.gif
- gifsicle --resize  274x260 --resize-method sample --colors 256 ./gifs/regular/hydreigon.gif > ./gifs/regular2x/hydreigon.gif
  gifsicle --resize  172x156 --resize-method sample --colors 256 ./gifs/regular/hypno-f.gif > ./gifs/regular2x/hypno-f.gif
- gifsicle --resize  172x156 --resize-method sample --colors 256 ./gifs/regular/hypno.gif > ./gifs/regular2x/hypno.gif
- gifsicle --resize  80x112 --resize-method sample --colors 256 ./gifs/regular/igglybuff.gif > ./gifs/regular2x/igglybuff.gif
- gifsicle --resize  106x130 --resize-method sample --colors 256 ./gifs/regular/illumise.gif > ./gifs/regular2x/illumise.gif
- gifsicle --resize  262x192 --resize-method sample --colors 256 ./gifs/regular/incineroar.gif > ./gifs/regular2x/incineroar.gif
- gifsicle --resize  196x238 --resize-method sample --colors 256 ./gifs/regular/infernape.gif > ./gifs/regular2x/infernape.gif
- gifsicle --resize  136x122 --resize-method sample --colors 256 ./gifs/regular/inkay.gif > ./gifs/regular2x/inkay.gif
- gifsicle --resize  168x132 --resize-method sample --colors 256 ./gifs/regular/ivysaur.gif > ./gifs/regular2x/ivysaur.gif
- gifsicle --resize  100x120 --resize-method sample --colors 256 ./gifs/regular/jangmoo.gif > ./gifs/regular2x/jangmoo.gif
  gifsicle --resize  198x206 --resize-method sample --colors 256 ./gifs/regular/jellicent-f.gif > ./gifs/regular2x/jellicent-f.gif
- gifsicle --resize  172x210 --resize-method sample --colors 256 ./gifs/regular/jellicent.gif > ./gifs/regular2x/jellicent.gif
- gifsicle --resize  92x92 --resize-method sample --colors 256 ./gifs/regular/jigglypuff.gif > ./gifs/regular2x/jigglypuff.gif
- gifsicle --resize  184x136 --resize-method sample --colors 256 ./gifs/regular/jirachi.gif > ./gifs/regular2x/jirachi.gif
- gifsicle --resize  98x138 --resize-method sample --colors 256 ./gifs/regular/jolteon.gif > ./gifs/regular2x/jolteon.gif
- gifsicle --resize  94x62 --resize-method sample --colors 256 ./gifs/regular/joltik.gif > ./gifs/regular2x/joltik.gif
- gifsicle --resize  180x164 --resize-method sample --colors 256 ./gifs/regular/jumpluff.gif > ./gifs/regular2x/jumpluff.gif
- gifsicle --resize  154x132 --resize-method sample --colors 256 ./gifs/regular/jynx.gif > ./gifs/regular2x/jynx.gif
- gifsicle --resize  94x66 --resize-method sample --colors 256 ./gifs/regular/kabuto.gif > ./gifs/regular2x/kabuto.gif
- gifsicle --resize  116x146 --resize-method sample --colors 256 ./gifs/regular/kabutops.gif > ./gifs/regular2x/kabutops.gif
  gifsicle --resize  140x142 --resize-method sample --colors 256 ./gifs/regular/kadabra-f.gif > ./gifs/regular2x/kadabra-f.gif
- gifsicle --resize  140x142 --resize-method sample --colors 256 ./gifs/regular/kadabra.gif > ./gifs/regular2x/kadabra.gif
- gifsicle --resize  72x116 --resize-method sample --colors 256 ./gifs/regular/kakuna.gif > ./gifs/regular2x/kakuna.gif
- gifsicle --resize  214x178 --resize-method sample --colors 256 ./gifs/regular/kangaskhan-mega.gif > ./gifs/regular2x/kangaskhan-mega.gif
- gifsicle --resize  192x174 --resize-method sample --colors 256 ./gifs/regular/kangaskhan.gif > ./gifs/regular2x/kangaskhan.gif
- gifsicle --resize  88x134 --resize-method sample --colors 256 ./gifs/regular/karrablast.gif > ./gifs/regular2x/karrablast.gif
- gifsicle --resize  226x166 --resize-method sample --colors 256 ./gifs/regular/kartana.gif > ./gifs/regular2x/kartana.gif
- gifsicle --resize  102x134 --resize-method sample --colors 256 ./gifs/regular/kecleon.gif > ./gifs/regular2x/kecleon.gif
- gifsicle --resize  156x172 --resize-method sample --colors 256 ./gifs/regular/keldeo-resolute.gif > ./gifs/regular2x/keldeo-resolute.gif
  gifsicle --resize  120x176 --resize-method sample --colors 256 ./gifs/regular/keldeo.gif > ./gifs/regular2x/keldeo.gif
- gifsicle --resize  92x194 --resize-method sample --colors 256 ./gifs/regular/kingdra.gif > ./gifs/regular2x/kingdra.gif
- gifsicle --resize  174x166 --resize-method sample --colors 256 ./gifs/regular/kingler.gif > ./gifs/regular2x/kingler.gif
- gifsicle --resize  88x136 --resize-method sample --colors 256 ./gifs/regular/kirlia.gif > ./gifs/regular2x/kirlia.gif
- gifsicle --resize  168x158 --resize-method sample --colors 256 ./gifs/regular/klang.gif > ./gifs/regular2x/klang.gif
- gifsicle --resize  138x176 --resize-method sample --colors 256 ./gifs/regular/klefki.gif > ./gifs/regular2x/klefki.gif
- gifsicle --resize  156x146 --resize-method sample --colors 256 ./gifs/regular/klink.gif > ./gifs/regular2x/klink.gif
- gifsicle --resize  248x144 --resize-method sample --colors 256 ./gifs/regular/klinklang.gif > ./gifs/regular2x/klinklang.gif
- gifsicle --resize  154x154 --resize-method sample --colors 256 ./gifs/regular/koffing.gif > ./gifs/regular2x/koffing.gif
- gifsicle --resize  130x120 --resize-method sample --colors 256 ./gifs/regular/komala.gif > ./gifs/regular2x/komala.gif
- gifsicle --resize  178x190 --resize-method sample --colors 256 ./gifs/regular/kommoo.gif > ./gifs/regular2x/kommoo.gif
- gifsicle --resize  128x100 --resize-method sample --colors 256 ./gifs/regular/krabby.gif > ./gifs/regular2x/krabby.gif
  gifsicle --resize  120x122 --resize-method sample --colors 256 ./gifs/regular/kricketot-f.gif > ./gifs/regular2x/kricketot-f.gif
- gifsicle --resize  120x122 --resize-method sample --colors 256 ./gifs/regular/kricketot.gif > ./gifs/regular2x/kricketot.gif
  gifsicle --resize  134x146 --resize-method sample --colors 256 ./gifs/regular/kricketune-f.gif > ./gifs/regular2x/kricketune-f.gif
- gifsicle --resize  134x146 --resize-method sample --colors 256 ./gifs/regular/kricketune.gif > ./gifs/regular2x/kricketune.gif
  gifsicle --resize  94x180 --resize-method sample --colors 256 ./gifs/regular/krilowatt.gif > ./gifs/regular2x/krilowatt.gif
- gifsicle --resize  162x152 --resize-method sample --colors 256 ./gifs/regular/krokorok.gif > ./gifs/regular2x/krokorok.gif
- gifsicle --resize  194x188 --resize-method sample --colors 256 ./gifs/regular/krookodile.gif > ./gifs/regular2x/krookodile.gif
- gifsicle --resize  460x128 --resize-method sample --colors 256 ./gifs/regular/kyogre-primal.gif > ./gifs/regular2x/kyogre-primal.gif
- gifsicle --resize  468x110 --resize-method sample --colors 256 ./gifs/regular/kyogre.gif > ./gifs/regular2x/kyogre.gif
- gifsicle --resize  230x256 --resize-method sample --colors 256 ./gifs/regular/kyurem-black.gif > ./gifs/regular2x/kyurem-black.gif
- gifsicle --resize  272x262 --resize-method sample --colors 256 ./gifs/regular/kyurem-white.gif > ./gifs/regular2x/kyurem-white.gif
- gifsicle --resize  218x182 --resize-method sample --colors 256 ./gifs/regular/kyurem.gif > ./gifs/regular2x/kyurem.gif
- gifsicle --resize  148x116 --resize-method sample --colors 256 ./gifs/regular/lairon.gif > ./gifs/regular2x/lairon.gif
- gifsicle --resize  196x164 --resize-method sample --colors 256 ./gifs/regular/lampent.gif > ./gifs/regular2x/lampent.gif
- gifsicle --resize  146x188 --resize-method sample --colors 256 ./gifs/regular/landorus-therian.gif > ./gifs/regular2x/landorus-therian.gif
- gifsicle --resize  168x186 --resize-method sample --colors 256 ./gifs/regular/landorus.gif > ./gifs/regular2x/landorus.gif
- gifsicle --resize  170x168 --resize-method sample --colors 256 ./gifs/regular/lanturn.gif > ./gifs/regular2x/lanturn.gif
- gifsicle --resize  188x168 --resize-method sample --colors 256 ./gifs/regular/lapras.gif > ./gifs/regular2x/lapras.gif
- gifsicle --resize  124x136 --resize-method sample --colors 256 ./gifs/regular/larvesta.gif > ./gifs/regular2x/larvesta.gif
- gifsicle --resize  92x130 --resize-method sample --colors 256 ./gifs/regular/larvitar.gif > ./gifs/regular2x/larvitar.gif
- gifsicle --resize  366x154 --resize-method sample --colors 256 ./gifs/regular/latias-mega.gif > ./gifs/regular2x/latias-mega.gif
- gifsicle --resize  216x138 --resize-method sample --colors 256 ./gifs/regular/latias.gif > ./gifs/regular2x/latias.gif
- gifsicle --resize  374x160 --resize-method sample --colors 256 ./gifs/regular/latios-mega.gif > ./gifs/regular2x/latios-mega.gif
- gifsicle --resize  242x160 --resize-method sample --colors 256 ./gifs/regular/latios.gif > ./gifs/regular2x/latios.gif
- gifsicle --resize  100x146 --resize-method sample --colors 256 ./gifs/regular/leafeon.gif > ./gifs/regular2x/leafeon.gif
- gifsicle --resize  104x218 --resize-method sample --colors 256 ./gifs/regular/leavanny.gif > ./gifs/regular2x/leavanny.gif
  gifsicle --resize  92x156 --resize-method sample --colors 256 ./gifs/regular/ledian-f.gif > ./gifs/regular2x/ledian-f.gif
- gifsicle --resize  92x166 --resize-method sample --colors 256 ./gifs/regular/ledian.gif > ./gifs/regular2x/ledian.gif
  gifsicle --resize  122x94 --resize-method sample --colors 256 ./gifs/regular/ledyba-f.gif > ./gifs/regular2x/ledyba-f.gif
- gifsicle --resize  122x100 --resize-method sample --colors 256 ./gifs/regular/ledyba.gif > ./gifs/regular2x/ledyba.gif
- gifsicle --resize  138x158 --resize-method sample --colors 256 ./gifs/regular/lickilicky.gif > ./gifs/regular2x/lickilicky.gif
- gifsicle --resize  116x118 --resize-method sample --colors 256 ./gifs/regular/lickitung.gif > ./gifs/regular2x/lickitung.gif
- gifsicle --resize  120x218 --resize-method sample --colors 256 ./gifs/regular/liepard.gif > ./gifs/regular2x/liepard.gif
- gifsicle --resize  148x136 --resize-method sample --colors 256 ./gifs/regular/lileep.gif > ./gifs/regular2x/lileep.gif
- gifsicle --resize  134x178 --resize-method sample --colors 256 ./gifs/regular/lilligant.gif > ./gifs/regular2x/lilligant.gif
- gifsicle --resize  82x110 --resize-method sample --colors 256 ./gifs/regular/lillipup.gif > ./gifs/regular2x/lillipup.gif
- gifsicle --resize  192x78 --resize-method sample --colors 256 ./gifs/regular/linoone.gif > ./gifs/regular2x/linoone.gif
- gifsicle --resize  102x122 --resize-method sample --colors 256 ./gifs/regular/litleo.gif > ./gifs/regular2x/litleo.gif
- gifsicle --resize  110x116 --resize-method sample --colors 256 ./gifs/regular/litten.gif > ./gifs/regular2x/litten.gif
- gifsicle --resize  86x136 --resize-method sample --colors 256 ./gifs/regular/litwick.gif > ./gifs/regular2x/litwick.gif
- gifsicle --resize  124x124 --resize-method sample --colors 256 ./gifs/regular/lombre.gif > ./gifs/regular2x/lombre.gif
- gifsicle --resize  134x176 --resize-method sample --colors 256 ./gifs/regular/lopunny-mega.gif > ./gifs/regular2x/lopunny-mega.gif
- gifsicle --resize  114x174 --resize-method sample --colors 256 ./gifs/regular/lopunny.gif > ./gifs/regular2x/lopunny.gif
- gifsicle --resize  116x62 --resize-method sample --colors 256 ./gifs/regular/lotad.gif > ./gifs/regular2x/lotad.gif
- gifsicle --resize  186x156 --resize-method sample --colors 256 ./gifs/regular/loudred.gif > ./gifs/regular2x/loudred.gif
- gifsicle --resize  116x202 --resize-method sample --colors 256 ./gifs/regular/lucario-mega.gif > ./gifs/regular2x/lucario-mega.gif
- gifsicle --resize  104x192 --resize-method sample --colors 256 ./gifs/regular/lucario.gif > ./gifs/regular2x/lucario.gif
  gifsicle --resize  220x180 --resize-method sample --colors 256 ./gifs/regular/ludicolo-f.gif > ./gifs/regular2x/ludicolo-f.gif
- gifsicle --resize  220x180 --resize-method sample --colors 256 ./gifs/regular/ludicolo.gif > ./gifs/regular2x/ludicolo.gif
- gifsicle --resize  312x254 --resize-method sample --colors 256 ./gifs/regular/lugia.gif > ./gifs/regular2x/lugia.gif
  gifsicle --resize  170x168 --resize-method sample --colors 256 ./gifs/regular/lumineon-f.gif > ./gifs/regular2x/lumineon-f.gif
- gifsicle --resize  170x168 --resize-method sample --colors 256 ./gifs/regular/lumineon.gif > ./gifs/regular2x/lumineon.gif
- gifsicle --resize  256x202 --resize-method sample --colors 256 ./gifs/regular/lunala.gif > ./gifs/regular2x/lunala.gif
- gifsicle --resize  90x128 --resize-method sample --colors 256 ./gifs/regular/lunatone.gif > ./gifs/regular2x/lunatone.gif
- gifsicle --resize  122x170 --resize-method sample --colors 256 ./gifs/regular/lurantis.gif > ./gifs/regular2x/lurantis.gif
- gifsicle --resize  68x86 --resize-method sample --colors 256 ./gifs/regular/luvdisc.gif > ./gifs/regular2x/luvdisc.gif
  gifsicle --resize  132x144 --resize-method sample --colors 256 ./gifs/regular/luxio-f.gif > ./gifs/regular2x/luxio-f.gif
- gifsicle --resize  140x154 --resize-method sample --colors 256 ./gifs/regular/luxio.gif > ./gifs/regular2x/luxio.gif
  gifsicle --resize  174x182 --resize-method sample --colors 256 ./gifs/regular/luxray-f.gif > ./gifs/regular2x/luxray-f.gif
- gifsicle --resize  174x198 --resize-method sample --colors 256 ./gifs/regular/luxray.gif > ./gifs/regular2x/luxray.gif
- gifsicle --resize  138x166 --resize-method sample --colors 256 ./gifs/regular/lycanroc-midnight.gif > ./gifs/regular2x/lycanroc-midnight.gif
  gifsicle --resize  150x150 --resize-method sample --colors 256 ./gifs/regular/lycanroc.gif > ./gifs/regular2x/lycanroc.gif
- gifsicle --resize  168x200 --resize-method sample --colors 256 ./gifs/regular/machamp.gif > ./gifs/regular2x/machamp.gif
- gifsicle --resize  144x174 --resize-method sample --colors 256 ./gifs/regular/machoke.gif > ./gifs/regular2x/machoke.gif
- gifsicle --resize  78x126 --resize-method sample --colors 256 ./gifs/regular/machop.gif > ./gifs/regular2x/machop.gif
- gifsicle --resize  92x124 --resize-method sample --colors 256 ./gifs/regular/magby.gif > ./gifs/regular2x/magby.gif
- gifsicle --resize  134x140 --resize-method sample --colors 256 ./gifs/regular/magcargo.gif > ./gifs/regular2x/magcargo.gif
  gifsicle --resize  98x136 --resize-method sample --colors 256 ./gifs/regular/magearna-original.gif > ./gifs/regular2x/magearna-original.gif
- gifsicle --resize  98x136 --resize-method sample --colors 256 ./gifs/regular/magearna.gif > ./gifs/regular2x/magearna.gif
  gifsicle --resize  116x120 --resize-method sample --colors 256 ./gifs/regular/magikarp-f.gif > ./gifs/regular2x/magikarp-f.gif
- gifsicle --resize  116x120 --resize-method sample --colors 256 ./gifs/regular/magikarp.gif > ./gifs/regular2x/magikarp.gif
- gifsicle --resize  156x162 --resize-method sample --colors 256 ./gifs/regular/magmar.gif > ./gifs/regular2x/magmar.gif
- gifsicle --resize  204x178 --resize-method sample --colors 256 ./gifs/regular/magmortar.gif > ./gifs/regular2x/magmortar.gif
- gifsicle --resize  98x70 --resize-method sample --colors 256 ./gifs/regular/magnemite.gif > ./gifs/regular2x/magnemite.gif
- gifsicle --resize  178x138 --resize-method sample --colors 256 ./gifs/regular/magneton.gif > ./gifs/regular2x/magneton.gif
- gifsicle --resize  218x146 --resize-method sample --colors 256 ./gifs/regular/magnezone.gif > ./gifs/regular2x/magnezone.gif
- gifsicle --resize  140x132 --resize-method sample --colors 256 ./gifs/regular/makuhita.gif > ./gifs/regular2x/makuhita.gif
- gifsicle --resize  260x210 --resize-method sample --colors 256 ./gifs/regular/malamar.gif > ./gifs/regular2x/malamar.gif
  gifsicle --resize  196x168 --resize-method sample --colors 256 ./gifs/regular/mamoswine-f.gif > ./gifs/regular2x/mamoswine-f.gif
- gifsicle --resize  208x168 --resize-method sample --colors 256 ./gifs/regular/mamoswine.gif > ./gifs/regular2x/mamoswine.gif
- gifsicle --resize  130x110 --resize-method sample --colors 256 ./gifs/regular/manaphy.gif > ./gifs/regular2x/manaphy.gif
- gifsicle --resize  300x252 --resize-method sample --colors 256 ./gifs/regular/mandibuzz.gif > ./gifs/regular2x/mandibuzz.gif
- gifsicle --resize  174x220 --resize-method sample --colors 256 ./gifs/regular/manectric-mega.gif > ./gifs/regular2x/manectric-mega.gif
- gifsicle --resize  126x160 --resize-method sample --colors 256 ./gifs/regular/manectric.gif > ./gifs/regular2x/manectric.gif
- gifsicle --resize  104x112 --resize-method sample --colors 256 ./gifs/regular/mankey.gif > ./gifs/regular2x/mankey.gif
- gifsicle --resize  262x118 --resize-method sample --colors 256 ./gifs/regular/mantine.gif > ./gifs/regular2x/mantine.gif
- gifsicle --resize  138x88 --resize-method sample --colors 256 ./gifs/regular/mantyke.gif > ./gifs/regular2x/mantyke.gif
- gifsicle --resize  160x168 --resize-method sample --colors 256 ./gifs/regular/maractus.gif > ./gifs/regular2x/maractus.gif
- gifsicle --resize  142x120 --resize-method sample --colors 256 ./gifs/regular/mareanie.gif > ./gifs/regular2x/mareanie.gif
- gifsicle --resize  104x108 --resize-method sample --colors 256 ./gifs/regular/mareep.gif > ./gifs/regular2x/mareep.gif
- gifsicle --resize  102x96 --resize-method sample --colors 256 ./gifs/regular/marill.gif > ./gifs/regular2x/marill.gif
- gifsicle --resize  212x180 --resize-method sample --colors 256 ./gifs/regular/marowak-alola.gif > ./gifs/regular2x/marowak-alola.gif
- gifsicle --resize  94x134 --resize-method sample --colors 256 ./gifs/regular/marowak.gif > ./gifs/regular2x/marowak.gif
- gifsicle --resize  96x126 --resize-method sample --colors 256 ./gifs/regular/marshadow.gif > ./gifs/regular2x/marshadow.gif
- gifsicle --resize  120x154 --resize-method sample --colors 256 ./gifs/regular/marshtomp.gif > ./gifs/regular2x/marshtomp.gif
- gifsicle --resize  154x116 --resize-method sample --colors 256 ./gifs/regular/masquerain.gif > ./gifs/regular2x/masquerain.gif
- gifsicle --resize  186x158 --resize-method sample --colors 256 ./gifs/regular/mawile-mega.gif > ./gifs/regular2x/mawile-mega.gif
- gifsicle --resize  166x108 --resize-method sample --colors 256 ./gifs/regular/mawile.gif > ./gifs/regular2x/mawile.gif
  gifsicle --resize  126x174 --resize-method sample --colors 256 ./gifs/regular/medicham-f.gif > ./gifs/regular2x/medicham-f.gif
- gifsicle --resize  268x210 --resize-method sample --colors 256 ./gifs/regular/medicham-mega.gif > ./gifs/regular2x/medicham-mega.gif
- gifsicle --resize  126x180 --resize-method sample --colors 256 ./gifs/regular/medicham.gif > ./gifs/regular2x/medicham.gif
  gifsicle --resize  96x118 --resize-method sample --colors 256 ./gifs/regular/meditite-f.gif > ./gifs/regular2x/meditite-f.gif
- gifsicle --resize  104x118 --resize-method sample --colors 256 ./gifs/regular/meditite.gif > ./gifs/regular2x/meditite.gif
  gifsicle --resize  128x204 --resize-method sample --colors 256 ./gifs/regular/meganium-f.gif > ./gifs/regular2x/meganium-f.gif
- gifsicle --resize  128x186 --resize-method sample --colors 256 ./gifs/regular/meganium.gif > ./gifs/regular2x/meganium.gif
- gifsicle --resize  118x178 --resize-method sample --colors 256 ./gifs/regular/meloetta-pirouette.gif > ./gifs/regular2x/meloetta-pirouette.gif
  gifsicle --resize  74x142 --resize-method sample --colors 256 ./gifs/regular/meloetta.gif > ./gifs/regular2x/meloetta.gif
- gifsicle --resize  128x146 --resize-method sample --colors 256 ./gifs/regular/meowstic-f.gif > ./gifs/regular2x/meowstic-f.gif
- gifsicle --resize  110x144 --resize-method sample --colors 256 ./gifs/regular/meowstic.gif > ./gifs/regular2x/meowstic.gif
- gifsicle --resize  118x120 --resize-method sample --colors 256 ./gifs/regular/meowth-alola.gif > ./gifs/regular2x/meowth-alola.gif
- gifsicle --resize  98x122 --resize-method sample --colors 256 ./gifs/regular/meowth.gif > ./gifs/regular2x/meowth.gif
- gifsicle --resize  144x156 --resize-method sample --colors 256 ./gifs/regular/mesprit.gif > ./gifs/regular2x/mesprit.gif
- gifsicle --resize  292x236 --resize-method sample --colors 256 ./gifs/regular/metagross-mega.gif > ./gifs/regular2x/metagross-mega.gif
- gifsicle --resize  284x146 --resize-method sample --colors 256 ./gifs/regular/metagross.gif > ./gifs/regular2x/metagross.gif
- gifsicle --resize  210x138 --resize-method sample --colors 256 ./gifs/regular/metang.gif > ./gifs/regular2x/metang.gif
- gifsicle --resize  84x108 --resize-method sample --colors 256 ./gifs/regular/metapod.gif > ./gifs/regular2x/metapod.gif
- gifsicle --resize  80x102 --resize-method sample --colors 256 ./gifs/regular/mew.gif > ./gifs/regular2x/mew.gif
- gifsicle --resize  138x194 --resize-method sample --colors 256 ./gifs/regular/mewtwo-megax.gif > ./gifs/regular2x/mewtwo-megax.gif
- gifsicle --resize  124x184 --resize-method sample --colors 256 ./gifs/regular/mewtwo-megay.gif > ./gifs/regular2x/mewtwo-megay.gif
- gifsicle --resize  200x176 --resize-method sample --colors 256 ./gifs/regular/mewtwo.gif > ./gifs/regular2x/mewtwo.gif
- gifsicle --resize  116x134 --resize-method sample --colors 256 ./gifs/regular/mienfoo.gif > ./gifs/regular2x/mienfoo.gif
- gifsicle --resize  210x192 --resize-method sample --colors 256 ./gifs/regular/mienshao.gif > ./gifs/regular2x/mienshao.gif
- gifsicle --resize  146x158 --resize-method sample --colors 256 ./gifs/regular/mightyena.gif > ./gifs/regular2x/mightyena.gif
  gifsicle --resize  196x190 --resize-method sample --colors 256 ./gifs/regular/milotic-f.gif > ./gifs/regular2x/milotic-f.gif
- gifsicle --resize  196x188 --resize-method sample --colors 256 ./gifs/regular/milotic.gif > ./gifs/regular2x/milotic.gif
- gifsicle --resize  160x152 --resize-method sample --colors 256 ./gifs/regular/miltank.gif > ./gifs/regular2x/miltank.gif
- gifsicle --resize  98x126 --resize-method sample --colors 256 ./gifs/regular/mimejr.gif > ./gifs/regular2x/mimejr.gif
  gifsicle --resize  122x74 --resize-method sample --colors 256 ./gifs/regular/mimikyu-busted.gif > ./gifs/regular2x/mimikyu-busted.gif
- gifsicle --resize  114x134 --resize-method sample --colors 256 ./gifs/regular/mimikyu.gif > ./gifs/regular2x/mimikyu.gif
- gifsicle --resize  144x122 --resize-method sample --colors 256 ./gifs/regular/minccino.gif > ./gifs/regular2x/minccino.gif
  gifsicle --resize  154x154 --resize-method sample --colors 256 ./gifs/regular/minior-blue.gif > ./gifs/regular2x/minior-blue.gif
  gifsicle --resize  154x154 --resize-method sample --colors 256 ./gifs/regular/minior-green.gif > ./gifs/regular2x/minior-green.gif
  gifsicle --resize  154x154 --resize-method sample --colors 256 ./gifs/regular/minior-indigo.gif > ./gifs/regular2x/minior-indigo.gif
- gifsicle --resize  154x142 --resize-method sample --colors 256 ./gifs/regular/minior-meteor.gif > ./gifs/regular2x/minior-meteor.gif
  gifsicle --resize  154x154 --resize-method sample --colors 256 ./gifs/regular/minior-orange.gif > ./gifs/regular2x/minior-orange.gif
  gifsicle --resize  154x154 --resize-method sample --colors 256 ./gifs/regular/minior-violet.gif > ./gifs/regular2x/minior-violet.gif
  gifsicle --resize  154x154 --resize-method sample --colors 256 ./gifs/regular/minior-yellow.gif > ./gifs/regular2x/minior-yellow.gif
- gifsicle --resize  154x154 --resize-method sample --colors 256 ./gifs/regular/minior.gif > ./gifs/regular2x/minior.gif
- gifsicle --resize  134x118 --resize-method sample --colors 256 ./gifs/regular/minun.gif > ./gifs/regular2x/minun.gif
- gifsicle --resize  132x126 --resize-method sample --colors 256 ./gifs/regular/misdreavus.gif > ./gifs/regular2x/misdreavus.gif
- gifsicle --resize  142x232 --resize-method sample --colors 256 ./gifs/regular/mismagius.gif > ./gifs/regular2x/mismagius.gif
  gifsicle --resize  152x138 --resize-method sample --colors 256 ./gifs/regular/mollux.gif > ./gifs/regular2x/mollux.gif
- gifsicle --resize  434x362 --resize-method sample --colors 256 ./gifs/regular/moltres.gif > ./gifs/regular2x/moltres.gif
- gifsicle --resize  114x182 --resize-method sample --colors 256 ./gifs/regular/monferno.gif > ./gifs/regular2x/monferno.gif
- gifsicle --resize  58x130 --resize-method sample --colors 256 ./gifs/regular/morelull.gif > ./gifs/regular2x/morelull.gif
- gifsicle --resize  300x172 --resize-method sample --colors 256 ./gifs/regular/mothim.gif > ./gifs/regular2x/mothim.gif
- gifsicle --resize  150x152 --resize-method sample --colors 256 ./gifs/regular/mrmime.gif > ./gifs/regular2x/mrmime.gif
- gifsicle --resize  104x142 --resize-method sample --colors 256 ./gifs/regular/mudbray.gif > ./gifs/regular2x/mudbray.gif
- gifsicle --resize  94x132 --resize-method sample --colors 256 ./gifs/regular/mudkip.gif > ./gifs/regular2x/mudkip.gif
- gifsicle --resize  126x178 --resize-method sample --colors 256 ./gifs/regular/mudsdale.gif > ./gifs/regular2x/mudsdale.gif
- gifsicle --resize  296x172 --resize-method sample --colors 256 ./gifs/regular/muk-alola.gif > ./gifs/regular2x/muk-alola.gif
- gifsicle --resize  274x158 --resize-method sample --colors 256 ./gifs/regular/muk.gif > ./gifs/regular2x/muk.gif
- gifsicle --resize  94x118 --resize-method sample --colors 256 ./gifs/regular/munchlax.gif > ./gifs/regular2x/munchlax.gif
- gifsicle --resize  92x108 --resize-method sample --colors 256 ./gifs/regular/munna.gif > ./gifs/regular2x/munna.gif
  gifsicle --resize  116x120 --resize-method sample --colors 256 ./gifs/regular/murkrow-f.gif > ./gifs/regular2x/murkrow-f.gif
- gifsicle --resize  116x130 --resize-method sample --colors 256 ./gifs/regular/murkrow.gif > ./gifs/regular2x/murkrow.gif
- gifsicle --resize  190x224 --resize-method sample --colors 256 ./gifs/regular/musharna.gif > ./gifs/regular2x/musharna.gif
- gifsicle --resize  84x96 --resize-method sample --colors 256 ./gifs/regular/natu.gif > ./gifs/regular2x/natu.gif
+ gifsicle --resize  90x98 --resize-method sample --colors 256 ./gifs/regular/n1.gif > ./gifs/regular2x/n1.gif
+ gifsicle --resize  92x90 --resize-method sample --colors 256 ./gifs/regular/n10.gif > ./gifs/regular2x/n10.gif
+ gifsicle --resize  90x86 --resize-method sample --colors 256 ./gifs/regular/n100.gif > ./gifs/regular2x/n100.gif
+ gifsicle --resize  144x118 --resize-method sample --colors 256 ./gifs/regular/n101.gif > ./gifs/regular2x/n101.gif
+ gifsicle --resize  154x58 --resize-method sample --colors 256 ./gifs/regular/n102.gif > ./gifs/regular2x/n102.gif
+ gifsicle --resize  222x360 --resize-method sample --colors 256 ./gifs/regular/n103-alolan.gif > ./gifs/regular2x/n103-alolan.gif
+ gifsicle --resize  284x198 --resize-method sample --colors 256 ./gifs/regular/n103.gif > ./gifs/regular2x/n103.gif
+ gifsicle --resize  80x98 --resize-method sample --colors 256 ./gifs/regular/n104.gif > ./gifs/regular2x/n104.gif
+ gifsicle --resize  212x180 --resize-method sample --colors 256 ./gifs/regular/n105-alolan.gif > ./gifs/regular2x/n105-alolan.gif
+ gifsicle --resize  94x134 --resize-method sample --colors 256 ./gifs/regular/n105.gif > ./gifs/regular2x/n105.gif
+ gifsicle --resize  90x136 --resize-method sample --colors 256 ./gifs/regular/n106.gif > ./gifs/regular2x/n106.gif
+ gifsicle --resize  102x154 --resize-method sample --colors 256 ./gifs/regular/n107.gif > ./gifs/regular2x/n107.gif
+ gifsicle --resize  116x118 --resize-method sample --colors 256 ./gifs/regular/n108.gif > ./gifs/regular2x/n108.gif
+ gifsicle --resize  154x154 --resize-method sample --colors 256 ./gifs/regular/n109.gif > ./gifs/regular2x/n109.gif
+ gifsicle --resize  84x108 --resize-method sample --colors 256 ./gifs/regular/n11.gif > ./gifs/regular2x/n11.gif
+ gifsicle --resize  206x176 --resize-method sample --colors 256 ./gifs/regular/n110.gif > ./gifs/regular2x/n110.gif
+ gifsicle --resize  132x114 --resize-method sample --colors 256 ./gifs/regular/n111.gif > ./gifs/regular2x/n111.gif
+ gifsicle --resize  192x164 --resize-method sample --colors 256 ./gifs/regular/n112.gif > ./gifs/regular2x/n112.gif
+ gifsicle --resize  148x116 --resize-method sample --colors 256 ./gifs/regular/n113.gif > ./gifs/regular2x/n113.gif
+ gifsicle --resize  116x106 --resize-method sample --colors 256 ./gifs/regular/n114.gif > ./gifs/regular2x/n114.gif
+ gifsicle --resize  214x178 --resize-method sample --colors 256 ./gifs/regular/n115-mega.gif > ./gifs/regular2x/n115-mega.gif
+ gifsicle --resize  192x174 --resize-method sample --colors 256 ./gifs/regular/n115.gif > ./gifs/regular2x/n115.gif
+ gifsicle --resize  62x114 --resize-method sample --colors 256 ./gifs/regular/n116.gif > ./gifs/regular2x/n116.gif
+ gifsicle --resize  138x148 --resize-method sample --colors 256 ./gifs/regular/n117.gif > ./gifs/regular2x/n117.gif
+ gifsicle --resize  158x108 --resize-method sample --colors 256 ./gifs/regular/n118.gif > ./gifs/regular2x/n118.gif
+ gifsicle --resize  170x138 --resize-method sample --colors 256 ./gifs/regular/n119.gif > ./gifs/regular2x/n119.gif
+ gifsicle --resize  186x178 --resize-method sample --colors 256 ./gifs/regular/n12.gif > ./gifs/regular2x/n12.gif
+ gifsicle --resize  96x100 --resize-method sample --colors 256 ./gifs/regular/n120.gif > ./gifs/regular2x/n120.gif
+ gifsicle --resize  124x122 --resize-method sample --colors 256 ./gifs/regular/n121.gif > ./gifs/regular2x/n121.gif
+ gifsicle --resize  150x152 --resize-method sample --colors 256 ./gifs/regular/n122.gif > ./gifs/regular2x/n122.gif
+ gifsicle --resize  210x206 --resize-method sample --colors 256 ./gifs/regular/n123.gif > ./gifs/regular2x/n123.gif
+ gifsicle --resize  154x132 --resize-method sample --colors 256 ./gifs/regular/n124.gif > ./gifs/regular2x/n124.gif
+ gifsicle --resize  156x156 --resize-method sample --colors 256 ./gifs/regular/n125.gif > ./gifs/regular2x/n125.gif
+ gifsicle --resize  156x162 --resize-method sample --colors 256 ./gifs/regular/n126.gif > ./gifs/regular2x/n126.gif
+ gifsicle --resize  266x220 --resize-method sample --colors 256 ./gifs/regular/n127-mega.gif > ./gifs/regular2x/n127-mega.gif
+ gifsicle --resize  184x152 --resize-method sample --colors 256 ./gifs/regular/n127.gif > ./gifs/regular2x/n127.gif
+ gifsicle --resize  194x190 --resize-method sample --colors 256 ./gifs/regular/n128.gif > ./gifs/regular2x/n128.gif
+ gifsicle --resize  116x120 --resize-method sample --colors 256 ./gifs/regular/n129.gif > ./gifs/regular2x/n129.gif
+ gifsicle --resize  70x106 --resize-method sample --colors 256 ./gifs/regular/n13.gif > ./gifs/regular2x/n13.gif
+ gifsicle --resize  386x244 --resize-method sample --colors 256 ./gifs/regular/n130-mega.gif > ./gifs/regular2x/n130-mega.gif
+ gifsicle --resize  230x198 --resize-method sample --colors 256 ./gifs/regular/n130.gif > ./gifs/regular2x/n130.gif
+ gifsicle --resize  188x168 --resize-method sample --colors 256 ./gifs/regular/n131.gif > ./gifs/regular2x/n131.gif
+ gifsicle --resize  86x70 --resize-method sample --colors 256 ./gifs/regular/n132.gif > ./gifs/regular2x/n132.gif
+ gifsicle --resize  128x110 --resize-method sample --colors 256 ./gifs/regular/n133.gif > ./gifs/regular2x/n133.gif
+ gifsicle --resize  204x144 --resize-method sample --colors 256 ./gifs/regular/n134.gif > ./gifs/regular2x/n134.gif
+ gifsicle --resize  98x138 --resize-method sample --colors 256 ./gifs/regular/n135.gif > ./gifs/regular2x/n135.gif
+ gifsicle --resize  118x186 --resize-method sample --colors 256 ./gifs/regular/n136.gif > ./gifs/regular2x/n136.gif
+ gifsicle --resize  94x106 --resize-method sample --colors 256 ./gifs/regular/n137.gif > ./gifs/regular2x/n137.gif
+ gifsicle --resize  88x90 --resize-method sample --colors 256 ./gifs/regular/n138.gif > ./gifs/regular2x/n138.gif
+ gifsicle --resize  146x128 --resize-method sample --colors 256 ./gifs/regular/n139.gif > ./gifs/regular2x/n139.gif
+ gifsicle --resize  72x116 --resize-method sample --colors 256 ./gifs/regular/n14.gif > ./gifs/regular2x/n14.gif
+ gifsicle --resize  94x66 --resize-method sample --colors 256 ./gifs/regular/n140.gif > ./gifs/regular2x/n140.gif
+ gifsicle --resize  116x146 --resize-method sample --colors 256 ./gifs/regular/n141.gif > ./gifs/regular2x/n141.gif
+ gifsicle --resize  346x280 --resize-method sample --colors 256 ./gifs/regular/n142-mega.gif > ./gifs/regular2x/n142-mega.gif
+ gifsicle --resize  378x290 --resize-method sample --colors 256 ./gifs/regular/n142.gif > ./gifs/regular2x/n142.gif
+ gifsicle --resize  170x160 --resize-method sample --colors 256 ./gifs/regular/n143.gif > ./gifs/regular2x/n143.gif
+ gifsicle --resize  344x342 --resize-method sample --colors 256 ./gifs/regular/n144.gif > ./gifs/regular2x/n144.gif
+ gifsicle --resize  290x212 --resize-method sample --colors 256 ./gifs/regular/n145.gif > ./gifs/regular2x/n145.gif
+ gifsicle --resize  434x362 --resize-method sample --colors 256 ./gifs/regular/n146.gif > ./gifs/regular2x/n146.gif
+ gifsicle --resize  92x126 --resize-method sample --colors 256 ./gifs/regular/n147.gif > ./gifs/regular2x/n147.gif
+ gifsicle --resize  134x186 --resize-method sample --colors 256 ./gifs/regular/n148.gif > ./gifs/regular2x/n148.gif
+ gifsicle --resize  170x196 --resize-method sample --colors 256 ./gifs/regular/n149.gif > ./gifs/regular2x/n149.gif
+ gifsicle --resize  172x162 --resize-method sample --colors 256 ./gifs/regular/n15-mega.gif > ./gifs/regular2x/n15-mega.gif
+ gifsicle --resize  150x172 --resize-method sample --colors 256 ./gifs/regular/n15.gif > ./gifs/regular2x/n15.gif
+ gifsicle --resize  138x194 --resize-method sample --colors 256 ./gifs/regular/n150-mega-x.gif > ./gifs/regular2x/n150-mega-x.gif
+ gifsicle --resize  124x184 --resize-method sample --colors 256 ./gifs/regular/n150-mega-y.gif > ./gifs/regular2x/n150-mega-y.gif
+ gifsicle --resize  200x176 --resize-method sample --colors 256 ./gifs/regular/n150.gif > ./gifs/regular2x/n150.gif
+ gifsicle --resize  80x102 --resize-method sample --colors 256 ./gifs/regular/n151.gif > ./gifs/regular2x/n151.gif
+ gifsicle --resize  64x126 --resize-method sample --colors 256 ./gifs/regular/n152.gif > ./gifs/regular2x/n152.gif
+ gifsicle --resize  98x168 --resize-method sample --colors 256 ./gifs/regular/n153.gif > ./gifs/regular2x/n153.gif
+ gifsicle --resize  128x186 --resize-method sample --colors 256 ./gifs/regular/n154.gif > ./gifs/regular2x/n154.gif
+ gifsicle --resize  76x90 --resize-method sample --colors 256 ./gifs/regular/n155.gif > ./gifs/regular2x/n155.gif
+ gifsicle --resize  104x84 --resize-method sample --colors 256 ./gifs/regular/n156.gif > ./gifs/regular2x/n156.gif
+ gifsicle --resize  124x190 --resize-method sample --colors 256 ./gifs/regular/n157.gif > ./gifs/regular2x/n157.gif
+ gifsicle --resize  104x116 --resize-method sample --colors 256 ./gifs/regular/n158.gif > ./gifs/regular2x/n158.gif
+ gifsicle --resize  104x156 --resize-method sample --colors 256 ./gifs/regular/n159.gif > ./gifs/regular2x/n159.gif
+ gifsicle --resize  72x98 --resize-method sample --colors 256 ./gifs/regular/n16.gif > ./gifs/regular2x/n16.gif
+ gifsicle --resize  164x196 --resize-method sample --colors 256 ./gifs/regular/n160.gif > ./gifs/regular2x/n160.gif
+ gifsicle --resize  104x110 --resize-method sample --colors 256 ./gifs/regular/n161.gif > ./gifs/regular2x/n161.gif
+ gifsicle --resize  170x146 --resize-method sample --colors 256 ./gifs/regular/n162.gif > ./gifs/regular2x/n162.gif
+ gifsicle --resize  128x126 --resize-method sample --colors 256 ./gifs/regular/n163.gif > ./gifs/regular2x/n163.gif
+ gifsicle --resize  222x168 --resize-method sample --colors 256 ./gifs/regular/n164.gif > ./gifs/regular2x/n164.gif
+ gifsicle --resize  122x100 --resize-method sample --colors 256 ./gifs/regular/n165.gif > ./gifs/regular2x/n165.gif
+ gifsicle --resize  92x166 --resize-method sample --colors 256 ./gifs/regular/n166.gif > ./gifs/regular2x/n166.gif
+ gifsicle --resize  114x54 --resize-method sample --colors 256 ./gifs/regular/n167.gif > ./gifs/regular2x/n167.gif
+ gifsicle --resize  164x122 --resize-method sample --colors 256 ./gifs/regular/n168.gif > ./gifs/regular2x/n168.gif
+ gifsicle --resize  286x214 --resize-method sample --colors 256 ./gifs/regular/n169.gif > ./gifs/regular2x/n169.gif
+ gifsicle --resize  230x172 --resize-method sample --colors 256 ./gifs/regular/n17.gif > ./gifs/regular2x/n17.gif
+ gifsicle --resize  162x106 --resize-method sample --colors 256 ./gifs/regular/n170.gif > ./gifs/regular2x/n170.gif
+ gifsicle --resize  170x168 --resize-method sample --colors 256 ./gifs/regular/n171.gif > ./gifs/regular2x/n171.gif
+ gifsicle --resize  102x104 --resize-method sample --colors 256 ./gifs/regular/n172.gif > ./gifs/regular2x/n172.gif
+ gifsicle --resize  92x88 --resize-method sample --colors 256 ./gifs/regular/n173.gif > ./gifs/regular2x/n173.gif
+ gifsicle --resize  80x112 --resize-method sample --colors 256 ./gifs/regular/n174.gif > ./gifs/regular2x/n174.gif
+ gifsicle --resize  94x94 --resize-method sample --colors 256 ./gifs/regular/n175.gif > ./gifs/regular2x/n175.gif
+ gifsicle --resize  116x142 --resize-method sample --colors 256 ./gifs/regular/n176.gif > ./gifs/regular2x/n176.gif
+ gifsicle --resize  84x96 --resize-method sample --colors 256 ./gifs/regular/n177.gif > ./gifs/regular2x/n177.gif
+ gifsicle --resize  206x116 --resize-method sample --colors 256 ./gifs/regular/n178.gif > ./gifs/regular2x/n178.gif
+ gifsicle --resize  104x108 --resize-method sample --colors 256 ./gifs/regular/n179.gif > ./gifs/regular2x/n179.gif
+ gifsicle --resize  350x120 --resize-method sample --colors 256 ./gifs/regular/n18-mega.gif > ./gifs/regular2x/n18-mega.gif
+ gifsicle --resize  248x248 --resize-method sample --colors 256 ./gifs/regular/n18.gif > ./gifs/regular2x/n18.gif
+ gifsicle --resize  104x134 --resize-method sample --colors 256 ./gifs/regular/n180.gif > ./gifs/regular2x/n180.gif
+ gifsicle --resize  198x224 --resize-method sample --colors 256 ./gifs/regular/n181-mega.gif > ./gifs/regular2x/n181-mega.gif
+ gifsicle --resize  138x202 --resize-method sample --colors 256 ./gifs/regular/n181.gif > ./gifs/regular2x/n181.gif
+ gifsicle --resize  114x110 --resize-method sample --colors 256 ./gifs/regular/n182.gif > ./gifs/regular2x/n182.gif
+ gifsicle --resize  102x96 --resize-method sample --colors 256 ./gifs/regular/n183.gif > ./gifs/regular2x/n183.gif
+ gifsicle --resize  178x180 --resize-method sample --colors 256 ./gifs/regular/n184.gif > ./gifs/regular2x/n184.gif
+ gifsicle --resize  116x132 --resize-method sample --colors 256 ./gifs/regular/n185.gif > ./gifs/regular2x/n185.gif
+ gifsicle --resize  126x154 --resize-method sample --colors 256 ./gifs/regular/n186.gif > ./gifs/regular2x/n186.gif
+ gifsicle --resize  176x122 --resize-method sample --colors 256 ./gifs/regular/n187.gif > ./gifs/regular2x/n187.gif
+ gifsicle --resize  128x82 --resize-method sample --colors 256 ./gifs/regular/n188.gif > ./gifs/regular2x/n188.gif
+ gifsicle --resize  180x164 --resize-method sample --colors 256 ./gifs/regular/n189.gif > ./gifs/regular2x/n189.gif
+ gifsicle --resize  98x104 --resize-method sample --colors 256 ./gifs/regular/n19-alolan.gif > ./gifs/regular2x/n19-alolan.gif
+ gifsicle --resize  86x122 --resize-method sample --colors 256 ./gifs/regular/n19.gif > ./gifs/regular2x/n19.gif
+ gifsicle --resize  126x122 --resize-method sample --colors 256 ./gifs/regular/n190.gif > ./gifs/regular2x/n190.gif
+ gifsicle --resize  88x88 --resize-method sample --colors 256 ./gifs/regular/n191.gif > ./gifs/regular2x/n191.gif
+ gifsicle --resize  146x148 --resize-method sample --colors 256 ./gifs/regular/n192.gif > ./gifs/regular2x/n192.gif
+ gifsicle --resize  240x154 --resize-method sample --colors 256 ./gifs/regular/n193.gif > ./gifs/regular2x/n193.gif
+ gifsicle --resize  118x94 --resize-method sample --colors 256 ./gifs/regular/n194.gif > ./gifs/regular2x/n194.gif
+ gifsicle --resize  96x154 --resize-method sample --colors 256 ./gifs/regular/n195.gif > ./gifs/regular2x/n195.gif
+ gifsicle --resize  120x154 --resize-method sample --colors 256 ./gifs/regular/n196.gif > ./gifs/regular2x/n196.gif
+ gifsicle --resize  96x154 --resize-method sample --colors 256 ./gifs/regular/n197.gif > ./gifs/regular2x/n197.gif
+ gifsicle --resize  116x130 --resize-method sample --colors 256 ./gifs/regular/n198.gif > ./gifs/regular2x/n198.gif
+ gifsicle --resize  124x170 --resize-method sample --colors 256 ./gifs/regular/n199.gif > ./gifs/regular2x/n199.gif
+ gifsicle --resize  168x132 --resize-method sample --colors 256 ./gifs/regular/n2.gif > ./gifs/regular2x/n2.gif
+ gifsicle --resize  140x118 --resize-method sample --colors 256 ./gifs/regular/n20-alolan.gif > ./gifs/regular2x/n20-alolan.gif
+ gifsicle --resize  136x128 --resize-method sample --colors 256 ./gifs/regular/n20.gif > ./gifs/regular2x/n20.gif
+ gifsicle --resize  132x126 --resize-method sample --colors 256 ./gifs/regular/n200.gif > ./gifs/regular2x/n200.gif
+ gifsicle --resize  116x146 --resize-method sample --colors 256 ./gifs/regular/n201.gif > ./gifs/regular2x/n201.gif
+ gifsicle --resize  82x136 --resize-method sample --colors 256 ./gifs/regular/n202.gif > ./gifs/regular2x/n202.gif
+ gifsicle --resize  96x176 --resize-method sample --colors 256 ./gifs/regular/n203.gif > ./gifs/regular2x/n203.gif
+ gifsicle --resize  112x118 --resize-method sample --colors 256 ./gifs/regular/n204.gif > ./gifs/regular2x/n204.gif
+ gifsicle --resize  186x138 --resize-method sample --colors 256 ./gifs/regular/n205.gif > ./gifs/regular2x/n205.gif
+ gifsicle --resize  124x82 --resize-method sample --colors 256 ./gifs/regular/n206.gif > ./gifs/regular2x/n206.gif
+ gifsicle --resize  152x180 --resize-method sample --colors 256 ./gifs/regular/n207.gif > ./gifs/regular2x/n207.gif
+ gifsicle --resize  242x244 --resize-method sample --colors 256 ./gifs/regular/n208-mega.gif > ./gifs/regular2x/n208-mega.gif
+ gifsicle --resize  184x210 --resize-method sample --colors 256 ./gifs/regular/n208.gif > ./gifs/regular2x/n208.gif
+ gifsicle --resize  134x116 --resize-method sample --colors 256 ./gifs/regular/n209.gif > ./gifs/regular2x/n209.gif
+ gifsicle --resize  66x104 --resize-method sample --colors 256 ./gifs/regular/n21.gif > ./gifs/regular2x/n21.gif
+ gifsicle --resize  154x168 --resize-method sample --colors 256 ./gifs/regular/n210.gif > ./gifs/regular2x/n210.gif
+ gifsicle --resize  122x100 --resize-method sample --colors 256 ./gifs/regular/n211.gif > ./gifs/regular2x/n211.gif
+ gifsicle --resize  158x206 --resize-method sample --colors 256 ./gifs/regular/n212-mega.gif > ./gifs/regular2x/n212-mega.gif
+ gifsicle --resize  134x186 --resize-method sample --colors 256 ./gifs/regular/n212.gif > ./gifs/regular2x/n212.gif
+ gifsicle --resize  142x114 --resize-method sample --colors 256 ./gifs/regular/n213.gif > ./gifs/regular2x/n213.gif
+ gifsicle --resize  222x222 --resize-method sample --colors 256 ./gifs/regular/n214-mega.gif > ./gifs/regular2x/n214-mega.gif
+ gifsicle --resize  180x174 --resize-method sample --colors 256 ./gifs/regular/n214.gif > ./gifs/regular2x/n214.gif
+ gifsicle --resize  94x144 --resize-method sample --colors 256 ./gifs/regular/n215.gif > ./gifs/regular2x/n215.gif
+ gifsicle --resize  94x114 --resize-method sample --colors 256 ./gifs/regular/n216.gif > ./gifs/regular2x/n216.gif
+ gifsicle --resize  136x190 --resize-method sample --colors 256 ./gifs/regular/n217.gif > ./gifs/regular2x/n217.gif
+ gifsicle --resize  124x126 --resize-method sample --colors 256 ./gifs/regular/n218.gif > ./gifs/regular2x/n218.gif
+ gifsicle --resize  134x140 --resize-method sample --colors 256 ./gifs/regular/n219.gif > ./gifs/regular2x/n219.gif
+ gifsicle --resize  296x270 --resize-method sample --colors 256 ./gifs/regular/n22.gif > ./gifs/regular2x/n22.gif
+ gifsicle --resize  98x66 --resize-method sample --colors 256 ./gifs/regular/n220.gif > ./gifs/regular2x/n220.gif
+ gifsicle --resize  140x144 --resize-method sample --colors 256 ./gifs/regular/n221.gif > ./gifs/regular2x/n221.gif
+ gifsicle --resize  140x138 --resize-method sample --colors 256 ./gifs/regular/n222.gif > ./gifs/regular2x/n222.gif
+ gifsicle --resize  114x124 --resize-method sample --colors 256 ./gifs/regular/n223.gif > ./gifs/regular2x/n223.gif
+ gifsicle --resize  180x120 --resize-method sample --colors 256 ./gifs/regular/n224.gif > ./gifs/regular2x/n224.gif
+ gifsicle --resize  118x142 --resize-method sample --colors 256 ./gifs/regular/n225.gif > ./gifs/regular2x/n225.gif
+ gifsicle --resize  262x118 --resize-method sample --colors 256 ./gifs/regular/n226.gif > ./gifs/regular2x/n226.gif
+ gifsicle --resize  232x128 --resize-method sample --colors 256 ./gifs/regular/n227.gif > ./gifs/regular2x/n227.gif
+ gifsicle --resize  72x118 --resize-method sample --colors 256 ./gifs/regular/n228.gif > ./gifs/regular2x/n228.gif
+ gifsicle --resize  168x228 --resize-method sample --colors 256 ./gifs/regular/n229-mega.gif > ./gifs/regular2x/n229-mega.gif
+ gifsicle --resize  118x172 --resize-method sample --colors 256 ./gifs/regular/n229.gif > ./gifs/regular2x/n229.gif
+ gifsicle --resize  92x84 --resize-method sample --colors 256 ./gifs/regular/n23.gif > ./gifs/regular2x/n23.gif
+ gifsicle --resize  92x194 --resize-method sample --colors 256 ./gifs/regular/n230.gif > ./gifs/regular2x/n230.gif
+ gifsicle --resize  134x100 --resize-method sample --colors 256 ./gifs/regular/n231.gif > ./gifs/regular2x/n231.gif
+ gifsicle --resize  218x134 --resize-method sample --colors 256 ./gifs/regular/n232.gif > ./gifs/regular2x/n232.gif
+ gifsicle --resize  108x126 --resize-method sample --colors 256 ./gifs/regular/n233.gif > ./gifs/regular2x/n233.gif
+ gifsicle --resize  98x184 --resize-method sample --colors 256 ./gifs/regular/n234.gif > ./gifs/regular2x/n234.gif
+ gifsicle --resize  116x148 --resize-method sample --colors 256 ./gifs/regular/n235.gif > ./gifs/regular2x/n235.gif
+ gifsicle --resize  76x138 --resize-method sample --colors 256 ./gifs/regular/n236.gif > ./gifs/regular2x/n236.gif
+ gifsicle --resize  172x142 --resize-method sample --colors 256 ./gifs/regular/n237.gif > ./gifs/regular2x/n237.gif
+ gifsicle --resize  92x122 --resize-method sample --colors 256 ./gifs/regular/n238.gif > ./gifs/regular2x/n238.gif
+ gifsicle --resize  146x126 --resize-method sample --colors 256 ./gifs/regular/n239.gif > ./gifs/regular2x/n239.gif
+ gifsicle --resize  174x166 --resize-method sample --colors 256 ./gifs/regular/n24.gif > ./gifs/regular2x/n24.gif
+ gifsicle --resize  92x124 --resize-method sample --colors 256 ./gifs/regular/n240.gif > ./gifs/regular2x/n240.gif
+ gifsicle --resize  160x152 --resize-method sample --colors 256 ./gifs/regular/n241.gif > ./gifs/regular2x/n241.gif
+ gifsicle --resize  166x148 --resize-method sample --colors 256 ./gifs/regular/n242.gif > ./gifs/regular2x/n242.gif
+ gifsicle --resize  136x164 --resize-method sample --colors 256 ./gifs/regular/n243.gif > ./gifs/regular2x/n243.gif
+ gifsicle --resize  158x174 --resize-method sample --colors 256 ./gifs/regular/n244.gif > ./gifs/regular2x/n244.gif
+ gifsicle --resize  214x172 --resize-method sample --colors 256 ./gifs/regular/n245.gif > ./gifs/regular2x/n245.gif
+ gifsicle --resize  92x130 --resize-method sample --colors 256 ./gifs/regular/n246.gif > ./gifs/regular2x/n246.gif
+ gifsicle --resize  110x136 --resize-method sample --colors 256 ./gifs/regular/n247.gif > ./gifs/regular2x/n247.gif
+ gifsicle --resize  208x238 --resize-method sample --colors 256 ./gifs/regular/n248-mega.gif > ./gifs/regular2x/n248-mega.gif
+ gifsicle --resize  150x202 --resize-method sample --colors 256 ./gifs/regular/n248.gif > ./gifs/regular2x/n248.gif
+ gifsicle --resize  312x254 --resize-method sample --colors 256 ./gifs/regular/n249.gif > ./gifs/regular2x/n249.gif
+ gifsicle --resize  120x120 --resize-method sample --colors 256 ./gifs/regular/n25.gif > ./gifs/regular2x/n25.gif
+ gifsicle --resize  314x288 --resize-method sample --colors 256 ./gifs/regular/n250.gif > ./gifs/regular2x/n250.gif
+ gifsicle --resize  134x130 --resize-method sample --colors 256 ./gifs/regular/n251.gif > ./gifs/regular2x/n251.gif
+ gifsicle --resize  94x118 --resize-method sample --colors 256 ./gifs/regular/n252.gif > ./gifs/regular2x/n252.gif
+ gifsicle --resize  156x158 --resize-method sample --colors 256 ./gifs/regular/n253.gif > ./gifs/regular2x/n253.gif
+ gifsicle --resize  148x194 --resize-method sample --colors 256 ./gifs/regular/n254-mega.gif > ./gifs/regular2x/n254-mega.gif
+ gifsicle --resize  200x186 --resize-method sample --colors 256 ./gifs/regular/n254.gif > ./gifs/regular2x/n254.gif
+ gifsicle --resize  66x122 --resize-method sample --colors 256 ./gifs/regular/n255.gif > ./gifs/regular2x/n255.gif
+ gifsicle --resize  122x166 --resize-method sample --colors 256 ./gifs/regular/n256.gif > ./gifs/regular2x/n256.gif
+ gifsicle --resize  236x214 --resize-method sample --colors 256 ./gifs/regular/n257-mega.gif > ./gifs/regular2x/n257-mega.gif
+ gifsicle --resize  166x192 --resize-method sample --colors 256 ./gifs/regular/n257.gif > ./gifs/regular2x/n257.gif
+ gifsicle --resize  94x132 --resize-method sample --colors 256 ./gifs/regular/n258.gif > ./gifs/regular2x/n258.gif
+ gifsicle --resize  120x154 --resize-method sample --colors 256 ./gifs/regular/n259.gif > ./gifs/regular2x/n259.gif
+ gifsicle --resize  184x186 --resize-method sample --colors 256 ./gifs/regular/n26-alolan.gif > ./gifs/regular2x/n26-alolan.gif
+ gifsicle --resize  138x206 --resize-method sample --colors 256 ./gifs/regular/n26.gif > ./gifs/regular2x/n26.gif
+ gifsicle --resize  244x160 --resize-method sample --colors 256 ./gifs/regular/n260-mega.gif > ./gifs/regular2x/n260-mega.gif
+ gifsicle --resize  188x180 --resize-method sample --colors 256 ./gifs/regular/n260.gif > ./gifs/regular2x/n260.gif
+ gifsicle --resize  104x108 --resize-method sample --colors 256 ./gifs/regular/n261.gif > ./gifs/regular2x/n261.gif
+ gifsicle --resize  146x158 --resize-method sample --colors 256 ./gifs/regular/n262.gif > ./gifs/regular2x/n262.gif
+ gifsicle --resize  130x94 --resize-method sample --colors 256 ./gifs/regular/n263.gif > ./gifs/regular2x/n263.gif
+ gifsicle --resize  192x78 --resize-method sample --colors 256 ./gifs/regular/n264.gif > ./gifs/regular2x/n264.gif
+ gifsicle --resize  80x106 --resize-method sample --colors 256 ./gifs/regular/n265.gif > ./gifs/regular2x/n265.gif
+ gifsicle --resize  100x78 --resize-method sample --colors 256 ./gifs/regular/n266.gif > ./gifs/regular2x/n266.gif
+ gifsicle --resize  162x166 --resize-method sample --colors 256 ./gifs/regular/n267.gif > ./gifs/regular2x/n267.gif
+ gifsicle --resize  100x80 --resize-method sample --colors 256 ./gifs/regular/n268.gif > ./gifs/regular2x/n268.gif
+ gifsicle --resize  200x142 --resize-method sample --colors 256 ./gifs/regular/n269.gif > ./gifs/regular2x/n269.gif
+ gifsicle --resize  78x92 --resize-method sample --colors 256 ./gifs/regular/n27-alolan.gif > ./gifs/regular2x/n27-alolan.gif
+ gifsicle --resize  90x94 --resize-method sample --colors 256 ./gifs/regular/n27.gif > ./gifs/regular2x/n27.gif
+ gifsicle --resize  116x62 --resize-method sample --colors 256 ./gifs/regular/n270.gif > ./gifs/regular2x/n270.gif
+ gifsicle --resize  124x124 --resize-method sample --colors 256 ./gifs/regular/n271.gif > ./gifs/regular2x/n271.gif
+ gifsicle --resize  220x180 --resize-method sample --colors 256 ./gifs/regular/n272.gif > ./gifs/regular2x/n272.gif
+ gifsicle --resize  74x92 --resize-method sample --colors 256 ./gifs/regular/n273.gif > ./gifs/regular2x/n273.gif
+ gifsicle --resize  126x138 --resize-method sample --colors 256 ./gifs/regular/n274.gif > ./gifs/regular2x/n274.gif
+ gifsicle --resize  312x156 --resize-method sample --colors 256 ./gifs/regular/n275.gif > ./gifs/regular2x/n275.gif
+ gifsicle --resize  98x92 --resize-method sample --colors 256 ./gifs/regular/n276.gif > ./gifs/regular2x/n276.gif
+ gifsicle --resize  332x88 --resize-method sample --colors 256 ./gifs/regular/n277.gif > ./gifs/regular2x/n277.gif
+ gifsicle --resize  286x48 --resize-method sample --colors 256 ./gifs/regular/n278.gif > ./gifs/regular2x/n278.gif
+ gifsicle --resize  202x184 --resize-method sample --colors 256 ./gifs/regular/n279.gif > ./gifs/regular2x/n279.gif
+ gifsicle --resize  148x168 --resize-method sample --colors 256 ./gifs/regular/n28-alolan.gif > ./gifs/regular2x/n28-alolan.gif
+ gifsicle --resize  122x136 --resize-method sample --colors 256 ./gifs/regular/n28.gif > ./gifs/regular2x/n28.gif
+ gifsicle --resize  64x104 --resize-method sample --colors 256 ./gifs/regular/n280.gif > ./gifs/regular2x/n280.gif
+ gifsicle --resize  88x136 --resize-method sample --colors 256 ./gifs/regular/n281.gif > ./gifs/regular2x/n281.gif
+ gifsicle --resize  148x196 --resize-method sample --colors 256 ./gifs/regular/n282-mega.gif > ./gifs/regular2x/n282-mega.gif
+ gifsicle --resize  158x184 --resize-method sample --colors 256 ./gifs/regular/n282.gif > ./gifs/regular2x/n282.gif
+ gifsicle --resize  150x104 --resize-method sample --colors 256 ./gifs/regular/n283.gif > ./gifs/regular2x/n283.gif
+ gifsicle --resize  154x116 --resize-method sample --colors 256 ./gifs/regular/n284.gif > ./gifs/regular2x/n284.gif
+ gifsicle --resize  102x72 --resize-method sample --colors 256 ./gifs/regular/n285.gif > ./gifs/regular2x/n285.gif
+ gifsicle --resize  132x146 --resize-method sample --colors 256 ./gifs/regular/n286.gif > ./gifs/regular2x/n286.gif
+ gifsicle --resize  182x62 --resize-method sample --colors 256 ./gifs/regular/n287.gif > ./gifs/regular2x/n287.gif
+ gifsicle --resize  164x160 --resize-method sample --colors 256 ./gifs/regular/n288.gif > ./gifs/regular2x/n288.gif
+ gifsicle --resize  204x144 --resize-method sample --colors 256 ./gifs/regular/n289.gif > ./gifs/regular2x/n289.gif
+ gifsicle --resize  104x104 --resize-method sample --colors 256 ./gifs/regular/n29.gif > ./gifs/regular2x/n29.gif
+ gifsicle --resize  114x60 --resize-method sample --colors 256 ./gifs/regular/n290.gif > ./gifs/regular2x/n290.gif
+ gifsicle --resize  182x138 --resize-method sample --colors 256 ./gifs/regular/n291.gif > ./gifs/regular2x/n291.gif
+ gifsicle --resize  114x116 --resize-method sample --colors 256 ./gifs/regular/n292.gif > ./gifs/regular2x/n292.gif
+ gifsicle --resize  102x96 --resize-method sample --colors 256 ./gifs/regular/n293.gif > ./gifs/regular2x/n293.gif
+ gifsicle --resize  186x156 --resize-method sample --colors 256 ./gifs/regular/n294.gif > ./gifs/regular2x/n294.gif
+ gifsicle --resize  164x168 --resize-method sample --colors 256 ./gifs/regular/n295.gif > ./gifs/regular2x/n295.gif
+ gifsicle --resize  140x132 --resize-method sample --colors 256 ./gifs/regular/n296.gif > ./gifs/regular2x/n296.gif
+ gifsicle --resize  204x174 --resize-method sample --colors 256 ./gifs/regular/n297.gif > ./gifs/regular2x/n297.gif
+ gifsicle --resize  66x144 --resize-method sample --colors 256 ./gifs/regular/n298.gif > ./gifs/regular2x/n298.gif
+ gifsicle --resize  124x116 --resize-method sample --colors 256 ./gifs/regular/n299.gif > ./gifs/regular2x/n299.gif
+ gifsicle --resize  272x182 --resize-method sample --colors 256 ./gifs/regular/n3-mega.gif > ./gifs/regular2x/n3-mega.gif
+ gifsicle --resize  212x154 --resize-method sample --colors 256 ./gifs/regular/n3.gif > ./gifs/regular2x/n3.gif
+ gifsicle --resize  82x112 --resize-method sample --colors 256 ./gifs/regular/n30.gif > ./gifs/regular2x/n30.gif
+ gifsicle --resize  118x110 --resize-method sample --colors 256 ./gifs/regular/n300.gif > ./gifs/regular2x/n300.gif
+ gifsicle --resize  130x154 --resize-method sample --colors 256 ./gifs/regular/n301.gif > ./gifs/regular2x/n301.gif
+ gifsicle --resize  152x150 --resize-method sample --colors 256 ./gifs/regular/n302-mega.gif > ./gifs/regular2x/n302-mega.gif
+ gifsicle --resize  98x128 --resize-method sample --colors 256 ./gifs/regular/n302.gif > ./gifs/regular2x/n302.gif
+ gifsicle --resize  186x158 --resize-method sample --colors 256 ./gifs/regular/n303-mega.gif > ./gifs/regular2x/n303-mega.gif
+ gifsicle --resize  166x108 --resize-method sample --colors 256 ./gifs/regular/n303.gif > ./gifs/regular2x/n303.gif
+ gifsicle --resize  78x90 --resize-method sample --colors 256 ./gifs/regular/n304.gif > ./gifs/regular2x/n304.gif
+ gifsicle --resize  148x116 --resize-method sample --colors 256 ./gifs/regular/n305.gif > ./gifs/regular2x/n305.gif
+ gifsicle --resize  276x202 --resize-method sample --colors 256 ./gifs/regular/n306-mega.gif > ./gifs/regular2x/n306-mega.gif
+ gifsicle --resize  212x194 --resize-method sample --colors 256 ./gifs/regular/n306.gif > ./gifs/regular2x/n306.gif
+ gifsicle --resize  104x118 --resize-method sample --colors 256 ./gifs/regular/n307.gif > ./gifs/regular2x/n307.gif
+ gifsicle --resize  268x210 --resize-method sample --colors 256 ./gifs/regular/n308-mega.gif > ./gifs/regular2x/n308-mega.gif
+ gifsicle --resize  126x180 --resize-method sample --colors 256 ./gifs/regular/n308.gif > ./gifs/regular2x/n308.gif
+ gifsicle --resize  106x76 --resize-method sample --colors 256 ./gifs/regular/n309.gif > ./gifs/regular2x/n309.gif
+ gifsicle --resize  128x164 --resize-method sample --colors 256 ./gifs/regular/n31.gif > ./gifs/regular2x/n31.gif
+ gifsicle --resize  174x220 --resize-method sample --colors 256 ./gifs/regular/n310-mega.gif > ./gifs/regular2x/n310-mega.gif
+ gifsicle --resize  126x160 --resize-method sample --colors 256 ./gifs/regular/n310.gif > ./gifs/regular2x/n310.gif
+ gifsicle --resize  134x118 --resize-method sample --colors 256 ./gifs/regular/n311.gif > ./gifs/regular2x/n311.gif
+ gifsicle --resize  134x118 --resize-method sample --colors 256 ./gifs/regular/n312.gif > ./gifs/regular2x/n312.gif
+ gifsicle --resize  136x148 --resize-method sample --colors 256 ./gifs/regular/n313.gif > ./gifs/regular2x/n313.gif
+ gifsicle --resize  106x130 --resize-method sample --colors 256 ./gifs/regular/n314.gif > ./gifs/regular2x/n314.gif
+ gifsicle --resize  142x116 --resize-method sample --colors 256 ./gifs/regular/n315.gif > ./gifs/regular2x/n315.gif
+ gifsicle --resize  128x104 --resize-method sample --colors 256 ./gifs/regular/n316.gif > ./gifs/regular2x/n316.gif
+ gifsicle --resize  158x140 --resize-method sample --colors 256 ./gifs/regular/n317.gif > ./gifs/regular2x/n317.gif
+ gifsicle --resize  104x144 --resize-method sample --colors 256 ./gifs/regular/n318.gif > ./gifs/regular2x/n318.gif
+ gifsicle --resize  172x192 --resize-method sample --colors 256 ./gifs/regular/n319-mega.gif > ./gifs/regular2x/n319-mega.gif
+ gifsicle --resize  156x204 --resize-method sample --colors 256 ./gifs/regular/n319.gif > ./gifs/regular2x/n319.gif
+ gifsicle --resize  212x136 --resize-method sample --colors 256 ./gifs/regular/n320.gif > ./gifs/regular2x/n320.gif
+ gifsicle --resize  292x162 --resize-method sample --colors 256 ./gifs/regular/n321.gif > ./gifs/regular2x/n321.gif
+ gifsicle --resize  104x112 --resize-method sample --colors 256 ./gifs/regular/n322.gif > ./gifs/regular2x/n322.gif
+ gifsicle --resize  204x176 --resize-method sample --colors 256 ./gifs/regular/n323-mega.gif > ./gifs/regular2x/n323-mega.gif
+ gifsicle --resize  162x148 --resize-method sample --colors 256 ./gifs/regular/n323.gif > ./gifs/regular2x/n323.gif
+ gifsicle --resize  126x154 --resize-method sample --colors 256 ./gifs/regular/n324.gif > ./gifs/regular2x/n324.gif
+ gifsicle --resize  70x192 --resize-method sample --colors 256 ./gifs/regular/n325.gif > ./gifs/regular2x/n325.gif
+ gifsicle --resize  162x146 --resize-method sample --colors 256 ./gifs/regular/n326.gif > ./gifs/regular2x/n326.gif
+ gifsicle --resize  122x138 --resize-method sample --colors 256 ./gifs/regular/n327.gif > ./gifs/regular2x/n327.gif
+ gifsicle --resize  124x90 --resize-method sample --colors 256 ./gifs/regular/n328.gif > ./gifs/regular2x/n328.gif
+ gifsicle --resize  234x100 --resize-method sample --colors 256 ./gifs/regular/n329.gif > ./gifs/regular2x/n329.gif
+ gifsicle --resize  120x112 --resize-method sample --colors 256 ./gifs/regular/n33.gif > ./gifs/regular2x/n33.gif
+ gifsicle --resize  266x212 --resize-method sample --colors 256 ./gifs/regular/n330.gif > ./gifs/regular2x/n330.gif
+ gifsicle --resize  162x100 --resize-method sample --colors 256 ./gifs/regular/n331.gif > ./gifs/regular2x/n331.gif
+ gifsicle --resize  166x174 --resize-method sample --colors 256 ./gifs/regular/n332.gif > ./gifs/regular2x/n332.gif
+ gifsicle --resize  186x106 --resize-method sample --colors 256 ./gifs/regular/n333.gif > ./gifs/regular2x/n333.gif
+ gifsicle --resize  248x284 --resize-method sample --colors 256 ./gifs/regular/n334-mega.gif > ./gifs/regular2x/n334-mega.gif
+ gifsicle --resize  288x178 --resize-method sample --colors 256 ./gifs/regular/n334.gif > ./gifs/regular2x/n334.gif
+ gifsicle --resize  134x156 --resize-method sample --colors 256 ./gifs/regular/n335.gif > ./gifs/regular2x/n335.gif
+ gifsicle --resize  146x176 --resize-method sample --colors 256 ./gifs/regular/n336.gif > ./gifs/regular2x/n336.gif
+ gifsicle --resize  90x128 --resize-method sample --colors 256 ./gifs/regular/n337.gif > ./gifs/regular2x/n337.gif
+ gifsicle --resize  180x158 --resize-method sample --colors 256 ./gifs/regular/n338.gif > ./gifs/regular2x/n338.gif
+ gifsicle --resize  98x84 --resize-method sample --colors 256 ./gifs/regular/n339.gif > ./gifs/regular2x/n339.gif
+ gifsicle --resize  210x166 --resize-method sample --colors 256 ./gifs/regular/n34.gif > ./gifs/regular2x/n34.gif
+ gifsicle --resize  150x124 --resize-method sample --colors 256 ./gifs/regular/n340.gif > ./gifs/regular2x/n340.gif
+ gifsicle --resize  128x110 --resize-method sample --colors 256 ./gifs/regular/n341.gif > ./gifs/regular2x/n341.gif
+ gifsicle --resize  204x148 --resize-method sample --colors 256 ./gifs/regular/n342.gif > ./gifs/regular2x/n342.gif
+ gifsicle --resize  130x120 --resize-method sample --colors 256 ./gifs/regular/n343.gif > ./gifs/regular2x/n343.gif
+ gifsicle --resize  138x170 --resize-method sample --colors 256 ./gifs/regular/n344.gif > ./gifs/regular2x/n344.gif
+ gifsicle --resize  148x136 --resize-method sample --colors 256 ./gifs/regular/n345.gif > ./gifs/regular2x/n345.gif
+ gifsicle --resize  148x176 --resize-method sample --colors 256 ./gifs/regular/n346.gif > ./gifs/regular2x/n346.gif
+ gifsicle --resize  128x74 --resize-method sample --colors 256 ./gifs/regular/n347.gif > ./gifs/regular2x/n347.gif
+ gifsicle --resize  152x162 --resize-method sample --colors 256 ./gifs/regular/n348.gif > ./gifs/regular2x/n348.gif
+ gifsicle --resize  86x104 --resize-method sample --colors 256 ./gifs/regular/n349.gif > ./gifs/regular2x/n349.gif
+ gifsicle --resize  112x96 --resize-method sample --colors 256 ./gifs/regular/n35.gif > ./gifs/regular2x/n35.gif
+ gifsicle --resize  196x188 --resize-method sample --colors 256 ./gifs/regular/n350.gif > ./gifs/regular2x/n350.gif
+ gifsicle --resize  74x118 --resize-method sample --colors 256 ./gifs/regular/n351.gif > ./gifs/regular2x/n351.gif
+ gifsicle --resize  102x134 --resize-method sample --colors 256 ./gifs/regular/n352.gif > ./gifs/regular2x/n352.gif
+ gifsicle --resize  74x126 --resize-method sample --colors 256 ./gifs/regular/n353.gif > ./gifs/regular2x/n353.gif
+ gifsicle --resize  196x198 --resize-method sample --colors 256 ./gifs/regular/n354-mega.gif > ./gifs/regular2x/n354-mega.gif
+ gifsicle --resize  124x134 --resize-method sample --colors 256 ./gifs/regular/n354.gif > ./gifs/regular2x/n354.gif
+ gifsicle --resize  96x128 --resize-method sample --colors 256 ./gifs/regular/n355.gif > ./gifs/regular2x/n355.gif
+ gifsicle --resize  192x162 --resize-method sample --colors 256 ./gifs/regular/n356.gif > ./gifs/regular2x/n356.gif
+ gifsicle --resize  406x158 --resize-method sample --colors 256 ./gifs/regular/n357.gif > ./gifs/regular2x/n357.gif
+ gifsicle --resize  82x146 --resize-method sample --colors 256 ./gifs/regular/n358.gif > ./gifs/regular2x/n358.gif
+ gifsicle --resize  186x194 --resize-method sample --colors 256 ./gifs/regular/n359-mega.gif > ./gifs/regular2x/n359-mega.gif
+ gifsicle --resize  118x184 --resize-method sample --colors 256 ./gifs/regular/n359.gif > ./gifs/regular2x/n359.gif
+ gifsicle --resize  160x130 --resize-method sample --colors 256 ./gifs/regular/n36.gif > ./gifs/regular2x/n36.gif
+ gifsicle --resize  152x106 --resize-method sample --colors 256 ./gifs/regular/n360.gif > ./gifs/regular2x/n360.gif
+ gifsicle --resize  88x94 --resize-method sample --colors 256 ./gifs/regular/n361.gif > ./gifs/regular2x/n361.gif
+ gifsicle --resize  124x174 --resize-method sample --colors 256 ./gifs/regular/n362-mega.gif > ./gifs/regular2x/n362-mega.gif
+ gifsicle --resize  144x150 --resize-method sample --colors 256 ./gifs/regular/n362.gif > ./gifs/regular2x/n362.gif
+ gifsicle --resize  90x84 --resize-method sample --colors 256 ./gifs/regular/n363.gif > ./gifs/regular2x/n363.gif
+ gifsicle --resize  158x100 --resize-method sample --colors 256 ./gifs/regular/n364.gif > ./gifs/regular2x/n364.gif
+ gifsicle --resize  196x142 --resize-method sample --colors 256 ./gifs/regular/n365.gif > ./gifs/regular2x/n365.gif
+ gifsicle --resize  112x108 --resize-method sample --colors 256 ./gifs/regular/n366.gif > ./gifs/regular2x/n366.gif
+ gifsicle --resize  186x130 --resize-method sample --colors 256 ./gifs/regular/n367.gif > ./gifs/regular2x/n367.gif
+ gifsicle --resize  164x148 --resize-method sample --colors 256 ./gifs/regular/n368.gif > ./gifs/regular2x/n368.gif
+ gifsicle --resize  138x136 --resize-method sample --colors 256 ./gifs/regular/n369.gif > ./gifs/regular2x/n369.gif
+ gifsicle --resize  88x94 --resize-method sample --colors 256 ./gifs/regular/n37-alolan.gif > ./gifs/regular2x/n37-alolan.gif
+ gifsicle --resize  104x94 --resize-method sample --colors 256 ./gifs/regular/n37.gif > ./gifs/regular2x/n37.gif
+ gifsicle --resize  68x86 --resize-method sample --colors 256 ./gifs/regular/n370.gif > ./gifs/regular2x/n370.gif
+ gifsicle --resize  70x118 --resize-method sample --colors 256 ./gifs/regular/n371.gif > ./gifs/regular2x/n371.gif
+ gifsicle --resize  114x118 --resize-method sample --colors 256 ./gifs/regular/n372.gif > ./gifs/regular2x/n372.gif
+ gifsicle --resize  434x142 --resize-method sample --colors 256 ./gifs/regular/n373-mega.gif > ./gifs/regular2x/n373-mega.gif
+ gifsicle --resize  274x184 --resize-method sample --colors 256 ./gifs/regular/n373.gif > ./gifs/regular2x/n373.gif
+ gifsicle --resize  92x66 --resize-method sample --colors 256 ./gifs/regular/n374.gif > ./gifs/regular2x/n374.gif
+ gifsicle --resize  210x138 --resize-method sample --colors 256 ./gifs/regular/n375.gif > ./gifs/regular2x/n375.gif
+ gifsicle --resize  292x236 --resize-method sample --colors 256 ./gifs/regular/n376-mega.gif > ./gifs/regular2x/n376-mega.gif
+ gifsicle --resize  284x146 --resize-method sample --colors 256 ./gifs/regular/n376.gif > ./gifs/regular2x/n376.gif
+ gifsicle --resize  184x166 --resize-method sample --colors 256 ./gifs/regular/n377.gif > ./gifs/regular2x/n377.gif
+ gifsicle --resize  214x164 --resize-method sample --colors 256 ./gifs/regular/n378.gif > ./gifs/regular2x/n378.gif
+ gifsicle --resize  246x154 --resize-method sample --colors 256 ./gifs/regular/n379.gif > ./gifs/regular2x/n379.gif
+ gifsicle --resize  178x140 --resize-method sample --colors 256 ./gifs/regular/n38-alolan.gif > ./gifs/regular2x/n38-alolan.gif
+ gifsicle --resize  158x154 --resize-method sample --colors 256 ./gifs/regular/n38.gif > ./gifs/regular2x/n38.gif
+ gifsicle --resize  366x154 --resize-method sample --colors 256 ./gifs/regular/n380-mega.gif > ./gifs/regular2x/n380-mega.gif
+ gifsicle --resize  216x138 --resize-method sample --colors 256 ./gifs/regular/n380.gif > ./gifs/regular2x/n380.gif
+ gifsicle --resize  374x160 --resize-method sample --colors 256 ./gifs/regular/n381-mega.gif > ./gifs/regular2x/n381-mega.gif
+ gifsicle --resize  242x160 --resize-method sample --colors 256 ./gifs/regular/n381.gif > ./gifs/regular2x/n381.gif
+ gifsicle --resize  460x128 --resize-method sample --colors 256 ./gifs/regular/n382-primal.gif > ./gifs/regular2x/n382-primal.gif
+ gifsicle --resize  468x110 --resize-method sample --colors 256 ./gifs/regular/n382.gif > ./gifs/regular2x/n382.gif
+ gifsicle --resize  234x198 --resize-method sample --colors 256 ./gifs/regular/n383-primal.gif > ./gifs/regular2x/n383-primal.gif
+ gifsicle --resize  214x188 --resize-method sample --colors 256 ./gifs/regular/n383.gif > ./gifs/regular2x/n383.gif
+ gifsicle --resize  274x292 --resize-method sample --colors 256 ./gifs/regular/n384-mega.gif > ./gifs/regular2x/n384-mega.gif
+ gifsicle --resize  284x306 --resize-method sample --colors 256 ./gifs/regular/n384.gif > ./gifs/regular2x/n384.gif
+ gifsicle --resize  184x136 --resize-method sample --colors 256 ./gifs/regular/n385.gif > ./gifs/regular2x/n385.gif
+ gifsicle --resize  180x192 --resize-method sample --colors 256 ./gifs/regular/n386-attack.gif > ./gifs/regular2x/n386-attack.gif
+ gifsicle --resize  154x186 --resize-method sample --colors 256 ./gifs/regular/n386-defense.gif > ./gifs/regular2x/n386-defense.gif
+ gifsicle --resize  230x172 --resize-method sample --colors 256 ./gifs/regular/n386-normal.gif > ./gifs/regular2x/n386-normal.gif
+ gifsicle --resize  174x188 --resize-method sample --colors 256 ./gifs/regular/n386-speed.gif > ./gifs/regular2x/n386-speed.gif
+ gifsicle --resize  90x118 --resize-method sample --colors 256 ./gifs/regular/n387.gif > ./gifs/regular2x/n387.gif
+ gifsicle --resize  140x138 --resize-method sample --colors 256 ./gifs/regular/n388.gif > ./gifs/regular2x/n388.gif
+ gifsicle --resize  196x212 --resize-method sample --colors 256 ./gifs/regular/n389.gif > ./gifs/regular2x/n389.gif
+ gifsicle --resize  92x92 --resize-method sample --colors 256 ./gifs/regular/n39.gif > ./gifs/regular2x/n39.gif
+ gifsicle --resize  108x140 --resize-method sample --colors 256 ./gifs/regular/n390.gif > ./gifs/regular2x/n390.gif
+ gifsicle --resize  114x182 --resize-method sample --colors 256 ./gifs/regular/n391.gif > ./gifs/regular2x/n391.gif
+ gifsicle --resize  196x238 --resize-method sample --colors 256 ./gifs/regular/n392.gif > ./gifs/regular2x/n392.gif
+ gifsicle --resize  108x118 --resize-method sample --colors 256 ./gifs/regular/n393.gif > ./gifs/regular2x/n393.gif
+ gifsicle --resize  154x150 --resize-method sample --colors 256 ./gifs/regular/n394.gif > ./gifs/regular2x/n394.gif
+ gifsicle --resize  184x222 --resize-method sample --colors 256 ./gifs/regular/n395.gif > ./gifs/regular2x/n395.gif
+ gifsicle --resize  70x92 --resize-method sample --colors 256 ./gifs/regular/n396.gif > ./gifs/regular2x/n396.gif
+ gifsicle --resize  270x244 --resize-method sample --colors 256 ./gifs/regular/n397.gif > ./gifs/regular2x/n397.gif
+ gifsicle --resize  386x390 --resize-method sample --colors 256 ./gifs/regular/n398.gif > ./gifs/regular2x/n398.gif
+ gifsicle --resize  104x92 --resize-method sample --colors 256 ./gifs/regular/n399.gif > ./gifs/regular2x/n399.gif
+ gifsicle --resize  96x114 --resize-method sample --colors 256 ./gifs/regular/n4.gif > ./gifs/regular2x/n4.gif
+ gifsicle --resize  144x136 --resize-method sample --colors 256 ./gifs/regular/n40.gif > ./gifs/regular2x/n40.gif
+ gifsicle --resize  162x112 --resize-method sample --colors 256 ./gifs/regular/n400.gif > ./gifs/regular2x/n400.gif
+ gifsicle --resize  120x122 --resize-method sample --colors 256 ./gifs/regular/n401.gif > ./gifs/regular2x/n401.gif
+ gifsicle --resize  134x146 --resize-method sample --colors 256 ./gifs/regular/n402.gif > ./gifs/regular2x/n402.gif
+ gifsicle --resize  124x118 --resize-method sample --colors 256 ./gifs/regular/n403.gif > ./gifs/regular2x/n403.gif
+ gifsicle --resize  140x154 --resize-method sample --colors 256 ./gifs/regular/n404.gif > ./gifs/regular2x/n404.gif
+ gifsicle --resize  174x198 --resize-method sample --colors 256 ./gifs/regular/n405.gif > ./gifs/regular2x/n405.gif
+ gifsicle --resize  84x98 --resize-method sample --colors 256 ./gifs/regular/n406.gif > ./gifs/regular2x/n406.gif
+ gifsicle --resize  114x156 --resize-method sample --colors 256 ./gifs/regular/n407.gif > ./gifs/regular2x/n407.gif
+ gifsicle --resize  96x136 --resize-method sample --colors 256 ./gifs/regular/n408.gif > ./gifs/regular2x/n408.gif
+ gifsicle --resize  150x178 --resize-method sample --colors 256 ./gifs/regular/n409.gif > ./gifs/regular2x/n409.gif
+ gifsicle --resize  208x168 --resize-method sample --colors 256 ./gifs/regular/n41.gif > ./gifs/regular2x/n41.gif
+ gifsicle --resize  92x110 --resize-method sample --colors 256 ./gifs/regular/n410.gif > ./gifs/regular2x/n410.gif
+ gifsicle --resize  180x160 --resize-method sample --colors 256 ./gifs/regular/n411.gif > ./gifs/regular2x/n411.gif
+ gifsicle --resize  94x128 --resize-method sample --colors 256 ./gifs/regular/n412.gif > ./gifs/regular2x/n412.gif
+ gifsicle --resize  162x164 --resize-method sample --colors 256 ./gifs/regular/n413-plant.gif > ./gifs/regular2x/n413-plant.gif
+ gifsicle --resize  164x154 --resize-method sample --colors 256 ./gifs/regular/n413-sandy.gif > ./gifs/regular2x/n413-sandy.gif
+ gifsicle --resize  168x164 --resize-method sample --colors 256 ./gifs/regular/n413-trash.gif > ./gifs/regular2x/n413-trash.gif
+ gifsicle --resize  300x172 --resize-method sample --colors 256 ./gifs/regular/n414.gif > ./gifs/regular2x/n414.gif
+ gifsicle --resize  184x92 --resize-method sample --colors 256 ./gifs/regular/n415.gif > ./gifs/regular2x/n415.gif
+ gifsicle --resize  150x176 --resize-method sample --colors 256 ./gifs/regular/n416.gif > ./gifs/regular2x/n416.gif
+ gifsicle --resize  114x150 --resize-method sample --colors 256 ./gifs/regular/n417.gif > ./gifs/regular2x/n417.gif
+ gifsicle --resize  132x138 --resize-method sample --colors 256 ./gifs/regular/n418.gif > ./gifs/regular2x/n418.gif
+ gifsicle --resize  176x186 --resize-method sample --colors 256 ./gifs/regular/n419.gif > ./gifs/regular2x/n419.gif
+ gifsicle --resize  320x272 --resize-method sample --colors 256 ./gifs/regular/n42.gif > ./gifs/regular2x/n42.gif
+ gifsicle --resize  100x96 --resize-method sample --colors 256 ./gifs/regular/n420.gif > ./gifs/regular2x/n420.gif
+ gifsicle --resize  100x114 --resize-method sample --colors 256 ./gifs/regular/n421.gif > ./gifs/regular2x/n421.gif
+ gifsicle --resize  88x124 --resize-method sample --colors 256 ./gifs/regular/n422.gif > ./gifs/regular2x/n422.gif
+ gifsicle --resize  126x154 --resize-method sample --colors 256 ./gifs/regular/n423.gif > ./gifs/regular2x/n423.gif
+ gifsicle --resize  208x176 --resize-method sample --colors 256 ./gifs/regular/n424.gif > ./gifs/regular2x/n424.gif
+ gifsicle --resize  64x150 --resize-method sample --colors 256 ./gifs/regular/n425.gif > ./gifs/regular2x/n425.gif
+ gifsicle --resize  94x178 --resize-method sample --colors 256 ./gifs/regular/n426.gif > ./gifs/regular2x/n426.gif
+ gifsicle --resize  108x146 --resize-method sample --colors 256 ./gifs/regular/n427.gif > ./gifs/regular2x/n427.gif
+ gifsicle --resize  134x176 --resize-method sample --colors 256 ./gifs/regular/n428-mega.gif > ./gifs/regular2x/n428-mega.gif
+ gifsicle --resize  114x174 --resize-method sample --colors 256 ./gifs/regular/n428.gif > ./gifs/regular2x/n428.gif
+ gifsicle --resize  142x232 --resize-method sample --colors 256 ./gifs/regular/n429.gif > ./gifs/regular2x/n429.gif
+ gifsicle --resize  104x96 --resize-method sample --colors 256 ./gifs/regular/n43.gif > ./gifs/regular2x/n43.gif
+ gifsicle --resize  384x364 --resize-method sample --colors 256 ./gifs/regular/n430.gif > ./gifs/regular2x/n430.gif
+ gifsicle --resize  120x172 --resize-method sample --colors 256 ./gifs/regular/n431.gif > ./gifs/regular2x/n431.gif
+ gifsicle --resize  140x162 --resize-method sample --colors 256 ./gifs/regular/n432.gif > ./gifs/regular2x/n432.gif
+ gifsicle --resize  100x132 --resize-method sample --colors 256 ./gifs/regular/n433.gif > ./gifs/regular2x/n433.gif
+ gifsicle --resize  170x132 --resize-method sample --colors 256 ./gifs/regular/n434.gif > ./gifs/regular2x/n434.gif
+ gifsicle --resize  174x158 --resize-method sample --colors 256 ./gifs/regular/n435.gif > ./gifs/regular2x/n435.gif
+ gifsicle --resize  80x110 --resize-method sample --colors 256 ./gifs/regular/n436.gif > ./gifs/regular2x/n436.gif
+ gifsicle --resize  178x146 --resize-method sample --colors 256 ./gifs/regular/n437.gif > ./gifs/regular2x/n437.gif
+ gifsicle --resize  74x114 --resize-method sample --colors 256 ./gifs/regular/n438.gif > ./gifs/regular2x/n438.gif
+ gifsicle --resize  98x126 --resize-method sample --colors 256 ./gifs/regular/n439.gif > ./gifs/regular2x/n439.gif
+ gifsicle --resize  124x106 --resize-method sample --colors 256 ./gifs/regular/n44.gif > ./gifs/regular2x/n44.gif
+ gifsicle --resize  78x106 --resize-method sample --colors 256 ./gifs/regular/n440.gif > ./gifs/regular2x/n440.gif
+ gifsicle --resize  96x120 --resize-method sample --colors 256 ./gifs/regular/n441.gif > ./gifs/regular2x/n441.gif
+ gifsicle --resize  156x146 --resize-method sample --colors 256 ./gifs/regular/n442.gif > ./gifs/regular2x/n442.gif
+ gifsicle --resize  116x114 --resize-method sample --colors 256 ./gifs/regular/n443.gif > ./gifs/regular2x/n443.gif
+ gifsicle --resize  126x152 --resize-method sample --colors 256 ./gifs/regular/n444.gif > ./gifs/regular2x/n444.gif
+ gifsicle --resize  264x214 --resize-method sample --colors 256 ./gifs/regular/n445-mega.gif > ./gifs/regular2x/n445-mega.gif
+ gifsicle --resize  230x216 --resize-method sample --colors 256 ./gifs/regular/n445.gif > ./gifs/regular2x/n445.gif
+ gifsicle --resize  94x118 --resize-method sample --colors 256 ./gifs/regular/n446.gif > ./gifs/regular2x/n446.gif
+ gifsicle --resize  84x122 --resize-method sample --colors 256 ./gifs/regular/n447.gif > ./gifs/regular2x/n447.gif
+ gifsicle --resize  116x202 --resize-method sample --colors 256 ./gifs/regular/n448-mega.gif > ./gifs/regular2x/n448-mega.gif
+ gifsicle --resize  104x192 --resize-method sample --colors 256 ./gifs/regular/n448.gif > ./gifs/regular2x/n448.gif
+ gifsicle --resize  126x106 --resize-method sample --colors 256 ./gifs/regular/n449.gif > ./gifs/regular2x/n449.gif
+ gifsicle --resize  162x112 --resize-method sample --colors 256 ./gifs/regular/n45.gif > ./gifs/regular2x/n45.gif
+ gifsicle --resize  194x116 --resize-method sample --colors 256 ./gifs/regular/n450.gif > ./gifs/regular2x/n450.gif
+ gifsicle --resize  150x128 --resize-method sample --colors 256 ./gifs/regular/n451.gif > ./gifs/regular2x/n451.gif
+ gifsicle --resize  282x170 --resize-method sample --colors 256 ./gifs/regular/n452.gif > ./gifs/regular2x/n452.gif
+ gifsicle --resize  120x104 --resize-method sample --colors 256 ./gifs/regular/n453.gif > ./gifs/regular2x/n453.gif
+ gifsicle --resize  184x162 --resize-method sample --colors 256 ./gifs/regular/n454.gif > ./gifs/regular2x/n454.gif
+ gifsicle --resize  238x182 --resize-method sample --colors 256 ./gifs/regular/n455.gif > ./gifs/regular2x/n455.gif
+ gifsicle --resize  100x84 --resize-method sample --colors 256 ./gifs/regular/n456.gif > ./gifs/regular2x/n456.gif
+ gifsicle --resize  170x168 --resize-method sample --colors 256 ./gifs/regular/n457.gif > ./gifs/regular2x/n457.gif
+ gifsicle --resize  138x88 --resize-method sample --colors 256 ./gifs/regular/n458.gif > ./gifs/regular2x/n458.gif
+ gifsicle --resize  176x122 --resize-method sample --colors 256 ./gifs/regular/n459.gif > ./gifs/regular2x/n459.gif
+ gifsicle --resize  104x68 --resize-method sample --colors 256 ./gifs/regular/n46.gif > ./gifs/regular2x/n46.gif
+ gifsicle --resize  250x220 --resize-method sample --colors 256 ./gifs/regular/n460-mega.gif > ./gifs/regular2x/n460-mega.gif
+ gifsicle --resize  256x174 --resize-method sample --colors 256 ./gifs/regular/n460.gif > ./gifs/regular2x/n460.gif
+ gifsicle --resize  124x156 --resize-method sample --colors 256 ./gifs/regular/n461.gif > ./gifs/regular2x/n461.gif
+ gifsicle --resize  218x146 --resize-method sample --colors 256 ./gifs/regular/n462.gif > ./gifs/regular2x/n462.gif
+ gifsicle --resize  138x158 --resize-method sample --colors 256 ./gifs/regular/n463.gif > ./gifs/regular2x/n463.gif
+ gifsicle --resize  210x188 --resize-method sample --colors 256 ./gifs/regular/n464.gif > ./gifs/regular2x/n464.gif
+ gifsicle --resize  290x164 --resize-method sample --colors 256 ./gifs/regular/n465.gif > ./gifs/regular2x/n465.gif
+ gifsicle --resize  198x170 --resize-method sample --colors 256 ./gifs/regular/n466.gif > ./gifs/regular2x/n466.gif
+ gifsicle --resize  204x178 --resize-method sample --colors 256 ./gifs/regular/n467.gif > ./gifs/regular2x/n467.gif
+ gifsicle --resize  186x120 --resize-method sample --colors 256 ./gifs/regular/n468.gif > ./gifs/regular2x/n468.gif
+ gifsicle --resize  286x134 --resize-method sample --colors 256 ./gifs/regular/n469.gif > ./gifs/regular2x/n469.gif
+ gifsicle --resize  154x124 --resize-method sample --colors 256 ./gifs/regular/n47.gif > ./gifs/regular2x/n47.gif
+ gifsicle --resize  100x146 --resize-method sample --colors 256 ./gifs/regular/n470.gif > ./gifs/regular2x/n470.gif
+ gifsicle --resize  138x160 --resize-method sample --colors 256 ./gifs/regular/n471.gif > ./gifs/regular2x/n471.gif
+ gifsicle --resize  222x202 --resize-method sample --colors 256 ./gifs/regular/n472.gif > ./gifs/regular2x/n472.gif
+ gifsicle --resize  208x168 --resize-method sample --colors 256 ./gifs/regular/n473.gif > ./gifs/regular2x/n473.gif
+ gifsicle --resize  140x136 --resize-method sample --colors 256 ./gifs/regular/n474.gif > ./gifs/regular2x/n474.gif
+ gifsicle --resize  128x198 --resize-method sample --colors 256 ./gifs/regular/n475-mega.gif > ./gifs/regular2x/n475-mega.gif
+ gifsicle --resize  104x194 --resize-method sample --colors 256 ./gifs/regular/n475.gif > ./gifs/regular2x/n475.gif
+ gifsicle --resize  188x162 --resize-method sample --colors 256 ./gifs/regular/n476.gif > ./gifs/regular2x/n476.gif
+ gifsicle --resize  256x202 --resize-method sample --colors 256 ./gifs/regular/n477.gif > ./gifs/regular2x/n477.gif
+ gifsicle --resize  132x158 --resize-method sample --colors 256 ./gifs/regular/n478.gif > ./gifs/regular2x/n478.gif
+ gifsicle --resize  224x148 --resize-method sample --colors 256 ./gifs/regular/n479-fan.gif > ./gifs/regular2x/n479-fan.gif
+ gifsicle --resize  234x130 --resize-method sample --colors 256 ./gifs/regular/n479-frost.gif > ./gifs/regular2x/n479-frost.gif
+ gifsicle --resize  214x124 --resize-method sample --colors 256 ./gifs/regular/n479-heat.gif > ./gifs/regular2x/n479-heat.gif
+ gifsicle --resize  186x118 --resize-method sample --colors 256 ./gifs/regular/n479-mow.gif > ./gifs/regular2x/n479-mow.gif
+ gifsicle --resize  210x140 --resize-method sample --colors 256 ./gifs/regular/n479-normal.gif > ./gifs/regular2x/n479-normal.gif
+ gifsicle --resize  220x128 --resize-method sample --colors 256 ./gifs/regular/n479-wash.gif > ./gifs/regular2x/n479-wash.gif
+ gifsicle --resize  116x126 --resize-method sample --colors 256 ./gifs/regular/n48.gif > ./gifs/regular2x/n48.gif
+ gifsicle --resize  126x156 --resize-method sample --colors 256 ./gifs/regular/n480.gif > ./gifs/regular2x/n480.gif
+ gifsicle --resize  144x156 --resize-method sample --colors 256 ./gifs/regular/n481.gif > ./gifs/regular2x/n481.gif
+ gifsicle --resize  166x172 --resize-method sample --colors 256 ./gifs/regular/n482.gif > ./gifs/regular2x/n482.gif
+ gifsicle --resize  200x244 --resize-method sample --colors 256 ./gifs/regular/n483.gif > ./gifs/regular2x/n483.gif
+ gifsicle --resize  214x214 --resize-method sample --colors 256 ./gifs/regular/n484.gif > ./gifs/regular2x/n484.gif
+ gifsicle --resize  248x128 --resize-method sample --colors 256 ./gifs/regular/n485.gif > ./gifs/regular2x/n485.gif
+ gifsicle --resize  332x192 --resize-method sample --colors 256 ./gifs/regular/n486.gif > ./gifs/regular2x/n486.gif
+ gifsicle --resize  280x228 --resize-method sample --colors 256 ./gifs/regular/n487-altered.gif > ./gifs/regular2x/n487-altered.gif
+ gifsicle --resize  312x308 --resize-method sample --colors 256 ./gifs/regular/n487-origin.gif > ./gifs/regular2x/n487-origin.gif
+ gifsicle --resize  226x192 --resize-method sample --colors 256 ./gifs/regular/n488.gif > ./gifs/regular2x/n488.gif
+ gifsicle --resize  130x112 --resize-method sample --colors 256 ./gifs/regular/n489.gif > ./gifs/regular2x/n489.gif
+ gifsicle --resize  246x170 --resize-method sample --colors 256 ./gifs/regular/n49.gif > ./gifs/regular2x/n49.gif
+ gifsicle --resize  130x110 --resize-method sample --colors 256 ./gifs/regular/n490.gif > ./gifs/regular2x/n490.gif
+ gifsicle --resize  248x232 --resize-method sample --colors 256 ./gifs/regular/n491.gif > ./gifs/regular2x/n491.gif
+ gifsicle --resize  156x146 --resize-method sample --colors 256 ./gifs/regular/n492-sky.gif > ./gifs/regular2x/n492-sky.gif
+ gifsicle --resize  164x228 --resize-method sample --colors 256 ./gifs/regular/n493.gif > ./gifs/regular2x/n493.gif
+ gifsicle --resize  106x146 --resize-method sample --colors 256 ./gifs/regular/n494.gif > ./gifs/regular2x/n494.gif
+ gifsicle --resize  112x110 --resize-method sample --colors 256 ./gifs/regular/n495.gif > ./gifs/regular2x/n495.gif
+ gifsicle --resize  116x164 --resize-method sample --colors 256 ./gifs/regular/n496.gif > ./gifs/regular2x/n496.gif
+ gifsicle --resize  180x216 --resize-method sample --colors 256 ./gifs/regular/n497.gif > ./gifs/regular2x/n497.gif
+ gifsicle --resize  92x124 --resize-method sample --colors 256 ./gifs/regular/n498.gif > ./gifs/regular2x/n498.gif
+ gifsicle --resize  146x156 --resize-method sample --colors 256 ./gifs/regular/n499.gif > ./gifs/regular2x/n499.gif
+ gifsicle --resize  120x140 --resize-method sample --colors 256 ./gifs/regular/n5.gif > ./gifs/regular2x/n5.gif
+ gifsicle --resize  86x86 --resize-method sample --colors 256 ./gifs/regular/n50-alolan.gif > ./gifs/regular2x/n50-alolan.gif
+ gifsicle --resize  86x70 --resize-method sample --colors 256 ./gifs/regular/n50.gif > ./gifs/regular2x/n50.gif
+ gifsicle --resize  214x204 --resize-method sample --colors 256 ./gifs/regular/n500.gif > ./gifs/regular2x/n500.gif
+ gifsicle --resize  82x98 --resize-method sample --colors 256 ./gifs/regular/n501.gif > ./gifs/regular2x/n501.gif
+ gifsicle --resize  88x146 --resize-method sample --colors 256 ./gifs/regular/n502.gif > ./gifs/regular2x/n502.gif
+ gifsicle --resize  206x216 --resize-method sample --colors 256 ./gifs/regular/n503.gif > ./gifs/regular2x/n503.gif
+ gifsicle --resize  92x110 --resize-method sample --colors 256 ./gifs/regular/n504.gif > ./gifs/regular2x/n504.gif
+ gifsicle --resize  96x158 --resize-method sample --colors 256 ./gifs/regular/n505.gif > ./gifs/regular2x/n505.gif
+ gifsicle --resize  82x110 --resize-method sample --colors 256 ./gifs/regular/n506.gif > ./gifs/regular2x/n506.gif
+ gifsicle --resize  114x148 --resize-method sample --colors 256 ./gifs/regular/n507.gif > ./gifs/regular2x/n507.gif
+ gifsicle --resize  182x176 --resize-method sample --colors 256 ./gifs/regular/n508.gif > ./gifs/regular2x/n508.gif
+ gifsicle --resize  118x140 --resize-method sample --colors 256 ./gifs/regular/n509.gif > ./gifs/regular2x/n509.gif
+ gifsicle --resize  150x98 --resize-method sample --colors 256 ./gifs/regular/n51-alolan.gif > ./gifs/regular2x/n51-alolan.gif
+ gifsicle --resize  130x100 --resize-method sample --colors 256 ./gifs/regular/n51.gif > ./gifs/regular2x/n51.gif
+ gifsicle --resize  120x218 --resize-method sample --colors 256 ./gifs/regular/n510.gif > ./gifs/regular2x/n510.gif
+ gifsicle --resize  130x132 --resize-method sample --colors 256 ./gifs/regular/n511.gif > ./gifs/regular2x/n511.gif
+ gifsicle --resize  142x190 --resize-method sample --colors 256 ./gifs/regular/n512.gif > ./gifs/regular2x/n512.gif
+ gifsicle --resize  130x126 --resize-method sample --colors 256 ./gifs/regular/n513.gif > ./gifs/regular2x/n513.gif
+ gifsicle --resize  152x162 --resize-method sample --colors 256 ./gifs/regular/n514.gif > ./gifs/regular2x/n514.gif
+ gifsicle --resize  118x128 --resize-method sample --colors 256 ./gifs/regular/n515.gif > ./gifs/regular2x/n515.gif
+ gifsicle --resize  152x166 --resize-method sample --colors 256 ./gifs/regular/n516.gif > ./gifs/regular2x/n516.gif
+ gifsicle --resize  92x108 --resize-method sample --colors 256 ./gifs/regular/n517.gif > ./gifs/regular2x/n517.gif
+ gifsicle --resize  190x224 --resize-method sample --colors 256 ./gifs/regular/n518.gif > ./gifs/regular2x/n518.gif
+ gifsicle --resize  82x98 --resize-method sample --colors 256 ./gifs/regular/n519.gif > ./gifs/regular2x/n519.gif
+ gifsicle --resize  118x120 --resize-method sample --colors 256 ./gifs/regular/n52-alolan.gif > ./gifs/regular2x/n52-alolan.gif
+ gifsicle --resize  98x122 --resize-method sample --colors 256 ./gifs/regular/n52.gif > ./gifs/regular2x/n52.gif
+ gifsicle --resize  288x248 --resize-method sample --colors 256 ./gifs/regular/n520.gif > ./gifs/regular2x/n520.gif
+ gifsicle --resize  312x284 --resize-method sample --colors 256 ./gifs/regular/n521.gif > ./gifs/regular2x/n521.gif
+ gifsicle --resize  84x168 --resize-method sample --colors 256 ./gifs/regular/n522.gif > ./gifs/regular2x/n522.gif
+ gifsicle --resize  132x192 --resize-method sample --colors 256 ./gifs/regular/n523.gif > ./gifs/regular2x/n523.gif
+ gifsicle --resize  92x120 --resize-method sample --colors 256 ./gifs/regular/n524.gif > ./gifs/regular2x/n524.gif
+ gifsicle --resize  162x134 --resize-method sample --colors 256 ./gifs/regular/n525.gif > ./gifs/regular2x/n525.gif
+ gifsicle --resize  202x194 --resize-method sample --colors 256 ./gifs/regular/n526.gif > ./gifs/regular2x/n526.gif
+ gifsicle --resize  190x112 --resize-method sample --colors 256 ./gifs/regular/n527.gif > ./gifs/regular2x/n527.gif
+ gifsicle --resize  288x214 --resize-method sample --colors 256 ./gifs/regular/n528.gif > ./gifs/regular2x/n528.gif
+ gifsicle --resize  166x98 --resize-method sample --colors 256 ./gifs/regular/n529.gif > ./gifs/regular2x/n529.gif
+ gifsicle --resize  140x144 --resize-method sample --colors 256 ./gifs/regular/n53-alolan.gif > ./gifs/regular2x/n53-alolan.gif
+ gifsicle --resize  122x140 --resize-method sample --colors 256 ./gifs/regular/n53.gif > ./gifs/regular2x/n53.gif
+ gifsicle --resize  178x158 --resize-method sample --colors 256 ./gifs/regular/n530.gif > ./gifs/regular2x/n530.gif
+ gifsicle --resize  130x192 --resize-method sample --colors 256 ./gifs/regular/n531-mega.gif > ./gifs/regular2x/n531-mega.gif
+ gifsicle --resize  126x150 --resize-method sample --colors 256 ./gifs/regular/n531.gif > ./gifs/regular2x/n531.gif
+ gifsicle --resize  120x122 --resize-method sample --colors 256 ./gifs/regular/n532.gif > ./gifs/regular2x/n532.gif
+ gifsicle --resize  196x156 --resize-method sample --colors 256 ./gifs/regular/n533.gif > ./gifs/regular2x/n533.gif
+ gifsicle --resize  246x178 --resize-method sample --colors 256 ./gifs/regular/n534.gif > ./gifs/regular2x/n534.gif
+ gifsicle --resize  94x76 --resize-method sample --colors 256 ./gifs/regular/n535.gif > ./gifs/regular2x/n535.gif
+ gifsicle --resize  98x132 --resize-method sample --colors 256 ./gifs/regular/n536.gif > ./gifs/regular2x/n536.gif
+ gifsicle --resize  190x180 --resize-method sample --colors 256 ./gifs/regular/n537.gif > ./gifs/regular2x/n537.gif
+ gifsicle --resize  218x176 --resize-method sample --colors 256 ./gifs/regular/n538.gif > ./gifs/regular2x/n538.gif
+ gifsicle --resize  162x166 --resize-method sample --colors 256 ./gifs/regular/n539.gif > ./gifs/regular2x/n539.gif
+ gifsicle --resize  102x106 --resize-method sample --colors 256 ./gifs/regular/n54.gif > ./gifs/regular2x/n54.gif
+ gifsicle --resize  88x94 --resize-method sample --colors 256 ./gifs/regular/n540.gif > ./gifs/regular2x/n540.gif
+ gifsicle --resize  140x114 --resize-method sample --colors 256 ./gifs/regular/n541.gif > ./gifs/regular2x/n541.gif
+ gifsicle --resize  104x218 --resize-method sample --colors 256 ./gifs/regular/n542.gif > ./gifs/regular2x/n542.gif
+ gifsicle --resize  126x88 --resize-method sample --colors 256 ./gifs/regular/n543.gif > ./gifs/regular2x/n543.gif
+ gifsicle --resize  192x130 --resize-method sample --colors 256 ./gifs/regular/n544.gif > ./gifs/regular2x/n544.gif
+ gifsicle --resize  224x248 --resize-method sample --colors 256 ./gifs/regular/n545.gif > ./gifs/regular2x/n545.gif
+ gifsicle --resize  122x80 --resize-method sample --colors 256 ./gifs/regular/n546.gif > ./gifs/regular2x/n546.gif
+ gifsicle --resize  150x134 --resize-method sample --colors 256 ./gifs/regular/n547.gif > ./gifs/regular2x/n547.gif
+ gifsicle --resize  84x138 --resize-method sample --colors 256 ./gifs/regular/n548.gif > ./gifs/regular2x/n548.gif
+ gifsicle --resize  134x178 --resize-method sample --colors 256 ./gifs/regular/n549.gif > ./gifs/regular2x/n549.gif
+ gifsicle --resize  136x148 --resize-method sample --colors 256 ./gifs/regular/n55.gif > ./gifs/regular2x/n55.gif
+ gifsicle --resize  142x112 --resize-method sample --colors 256 ./gifs/regular/n550.gif > ./gifs/regular2x/n550.gif
+ gifsicle --resize  126x94 --resize-method sample --colors 256 ./gifs/regular/n551.gif > ./gifs/regular2x/n551.gif
+ gifsicle --resize  162x152 --resize-method sample --colors 256 ./gifs/regular/n552.gif > ./gifs/regular2x/n552.gif
+ gifsicle --resize  194x188 --resize-method sample --colors 256 ./gifs/regular/n553.gif > ./gifs/regular2x/n553.gif
+ gifsicle --resize  148x122 --resize-method sample --colors 256 ./gifs/regular/n554.gif > ./gifs/regular2x/n554.gif
+ gifsicle --resize  198x182 --resize-method sample --colors 256 ./gifs/regular/n555-standard.gif > ./gifs/regular2x/n555-standard.gif
+ gifsicle --resize  124x116 --resize-method sample --colors 256 ./gifs/regular/n555-zen.gif > ./gifs/regular2x/n555-zen.gif
+ gifsicle --resize  160x168 --resize-method sample --colors 256 ./gifs/regular/n556.gif > ./gifs/regular2x/n556.gif
+ gifsicle --resize  106x84 --resize-method sample --colors 256 ./gifs/regular/n557.gif > ./gifs/regular2x/n557.gif
+ gifsicle --resize  194x166 --resize-method sample --colors 256 ./gifs/regular/n558.gif > ./gifs/regular2x/n558.gif
+ gifsicle --resize  104x126 --resize-method sample --colors 256 ./gifs/regular/n559.gif > ./gifs/regular2x/n559.gif
+ gifsicle --resize  104x112 --resize-method sample --colors 256 ./gifs/regular/n56.gif > ./gifs/regular2x/n56.gif
+ gifsicle --resize  112x154 --resize-method sample --colors 256 ./gifs/regular/n560.gif > ./gifs/regular2x/n560.gif
+ gifsicle --resize  286x234 --resize-method sample --colors 256 ./gifs/regular/n561.gif > ./gifs/regular2x/n561.gif
+ gifsicle --resize  128x134 --resize-method sample --colors 256 ./gifs/regular/n562.gif > ./gifs/regular2x/n562.gif
+ gifsicle --resize  330x238 --resize-method sample --colors 256 ./gifs/regular/n563.gif > ./gifs/regular2x/n563.gif
+ gifsicle --resize  210x64 --resize-method sample --colors 256 ./gifs/regular/n564.gif > ./gifs/regular2x/n564.gif
+ gifsicle --resize  156x170 --resize-method sample --colors 256 ./gifs/regular/n565.gif > ./gifs/regular2x/n565.gif
+ gifsicle --resize  208x104 --resize-method sample --colors 256 ./gifs/regular/n566.gif > ./gifs/regular2x/n566.gif
+ gifsicle --resize  288x254 --resize-method sample --colors 256 ./gifs/regular/n567.gif > ./gifs/regular2x/n567.gif
+ gifsicle --resize  146x114 --resize-method sample --colors 256 ./gifs/regular/n568.gif > ./gifs/regular2x/n568.gif
+ gifsicle --resize  236x176 --resize-method sample --colors 256 ./gifs/regular/n569.gif > ./gifs/regular2x/n569.gif
+ gifsicle --resize  142x130 --resize-method sample --colors 256 ./gifs/regular/n57.gif > ./gifs/regular2x/n57.gif
+ gifsicle --resize  94x126 --resize-method sample --colors 256 ./gifs/regular/n570.gif > ./gifs/regular2x/n570.gif
+ gifsicle --resize  172x188 --resize-method sample --colors 256 ./gifs/regular/n571.gif > ./gifs/regular2x/n571.gif
+ gifsicle --resize  144x122 --resize-method sample --colors 256 ./gifs/regular/n572.gif > ./gifs/regular2x/n572.gif
+ gifsicle --resize  160x126 --resize-method sample --colors 256 ./gifs/regular/n573.gif > ./gifs/regular2x/n573.gif
+ gifsicle --resize  92x118 --resize-method sample --colors 256 ./gifs/regular/n574.gif > ./gifs/regular2x/n574.gif
+ gifsicle --resize  138x154 --resize-method sample --colors 256 ./gifs/regular/n575.gif > ./gifs/regular2x/n575.gif
+ gifsicle --resize  124x202 --resize-method sample --colors 256 ./gifs/regular/n576.gif > ./gifs/regular2x/n576.gif
+ gifsicle --resize  90x90 --resize-method sample --colors 256 ./gifs/regular/n577.gif > ./gifs/regular2x/n577.gif
+ gifsicle --resize  104x128 --resize-method sample --colors 256 ./gifs/regular/n578.gif > ./gifs/regular2x/n578.gif
+ gifsicle --resize  320x150 --resize-method sample --colors 256 ./gifs/regular/n579.gif > ./gifs/regular2x/n579.gif
+ gifsicle --resize  90x114 --resize-method sample --colors 256 ./gifs/regular/n58.gif > ./gifs/regular2x/n58.gif
+ gifsicle --resize  84x124 --resize-method sample --colors 256 ./gifs/regular/n580.gif > ./gifs/regular2x/n580.gif
+ gifsicle --resize  368x366 --resize-method sample --colors 256 ./gifs/regular/n581.gif > ./gifs/regular2x/n581.gif
+ gifsicle --resize  98x126 --resize-method sample --colors 256 ./gifs/regular/n582.gif > ./gifs/regular2x/n582.gif
+ gifsicle --resize  116x170 --resize-method sample --colors 256 ./gifs/regular/n583.gif > ./gifs/regular2x/n583.gif
+ gifsicle --resize  166x178 --resize-method sample --colors 256 ./gifs/regular/n584.gif > ./gifs/regular2x/n584.gif
+ gifsicle --resize  92x142 --resize-method sample --colors 256 ./gifs/regular/n585.gif > ./gifs/regular2x/n585.gif
+ gifsicle --resize  106x200 --resize-method sample --colors 256 ./gifs/regular/n586.gif > ./gifs/regular2x/n586.gif
+ gifsicle --resize  132x118 --resize-method sample --colors 256 ./gifs/regular/n587.gif > ./gifs/regular2x/n587.gif
+ gifsicle --resize  88x134 --resize-method sample --colors 256 ./gifs/regular/n588.gif > ./gifs/regular2x/n588.gif
+ gifsicle --resize  210x202 --resize-method sample --colors 256 ./gifs/regular/n589.gif > ./gifs/regular2x/n589.gif
+ gifsicle --resize  148x164 --resize-method sample --colors 256 ./gifs/regular/n59.gif > ./gifs/regular2x/n59.gif
+ gifsicle --resize  94x96 --resize-method sample --colors 256 ./gifs/regular/n590.gif > ./gifs/regular2x/n590.gif
+ gifsicle --resize  156x150 --resize-method sample --colors 256 ./gifs/regular/n591.gif > ./gifs/regular2x/n591.gif
+ gifsicle --resize  136x172 --resize-method sample --colors 256 ./gifs/regular/n592.gif > ./gifs/regular2x/n592.gif
+ gifsicle --resize  172x210 --resize-method sample --colors 256 ./gifs/regular/n593.gif > ./gifs/regular2x/n593.gif
+ gifsicle --resize  88x200 --resize-method sample --colors 256 ./gifs/regular/n594.gif > ./gifs/regular2x/n594.gif
+ gifsicle --resize  94x62 --resize-method sample --colors 256 ./gifs/regular/n595.gif > ./gifs/regular2x/n595.gif
+ gifsicle --resize  186x98 --resize-method sample --colors 256 ./gifs/regular/n596.gif > ./gifs/regular2x/n596.gif
+ gifsicle --resize  102x128 --resize-method sample --colors 256 ./gifs/regular/n597.gif > ./gifs/regular2x/n597.gif
+ gifsicle --resize  256x140 --resize-method sample --colors 256 ./gifs/regular/n598.gif > ./gifs/regular2x/n598.gif
+ gifsicle --resize  156x146 --resize-method sample --colors 256 ./gifs/regular/n599.gif > ./gifs/regular2x/n599.gif
+ gifsicle --resize  322x214 --resize-method sample --colors 256 ./gifs/regular/n6-mega-x.gif > ./gifs/regular2x/n6-mega-x.gif
+ gifsicle --resize  402x332 --resize-method sample --colors 256 ./gifs/regular/n6-mega-y.gif > ./gifs/regular2x/n6-mega-y.gif
+ gifsicle --resize  266x280 --resize-method sample --colors 256 ./gifs/regular/n6.gif > ./gifs/regular2x/n6.gif
+ gifsicle --resize  110x80 --resize-method sample --colors 256 ./gifs/regular/n60.gif > ./gifs/regular2x/n60.gif
+ gifsicle --resize  168x158 --resize-method sample --colors 256 ./gifs/regular/n600.gif > ./gifs/regular2x/n600.gif
+ gifsicle --resize  248x144 --resize-method sample --colors 256 ./gifs/regular/n601.gif > ./gifs/regular2x/n601.gif
+ gifsicle --resize  98x52 --resize-method sample --colors 256 ./gifs/regular/n602.gif > ./gifs/regular2x/n602.gif
+ gifsicle --resize  148x160 --resize-method sample --colors 256 ./gifs/regular/n603.gif > ./gifs/regular2x/n603.gif
+ gifsicle --resize  222x140 --resize-method sample --colors 256 ./gifs/regular/n604.gif > ./gifs/regular2x/n604.gif
+ gifsicle --resize  66x134 --resize-method sample --colors 256 ./gifs/regular/n605.gif > ./gifs/regular2x/n605.gif
+ gifsicle --resize  98x168 --resize-method sample --colors 256 ./gifs/regular/n606.gif > ./gifs/regular2x/n606.gif
+ gifsicle --resize  86x136 --resize-method sample --colors 256 ./gifs/regular/n607.gif > ./gifs/regular2x/n607.gif
+ gifsicle --resize  196x164 --resize-method sample --colors 256 ./gifs/regular/n608.gif > ./gifs/regular2x/n608.gif
+ gifsicle --resize  246x216 --resize-method sample --colors 256 ./gifs/regular/n609.gif > ./gifs/regular2x/n609.gif
+ gifsicle --resize  146x100 --resize-method sample --colors 256 ./gifs/regular/n61.gif > ./gifs/regular2x/n61.gif
+ gifsicle --resize  94x132 --resize-method sample --colors 256 ./gifs/regular/n610.gif > ./gifs/regular2x/n610.gif
+ gifsicle --resize  222x156 --resize-method sample --colors 256 ./gifs/regular/n611.gif > ./gifs/regular2x/n611.gif
+ gifsicle --resize  230x236 --resize-method sample --colors 256 ./gifs/regular/n612.gif > ./gifs/regular2x/n612.gif
+ gifsicle --resize  102x118 --resize-method sample --colors 256 ./gifs/regular/n613.gif > ./gifs/regular2x/n613.gif
+ gifsicle --resize  210x208 --resize-method sample --colors 256 ./gifs/regular/n614.gif > ./gifs/regular2x/n614.gif
+ gifsicle --resize  156x198 --resize-method sample --colors 256 ./gifs/regular/n615.gif > ./gifs/regular2x/n615.gif
+ gifsicle --resize  118x98 --resize-method sample --colors 256 ./gifs/regular/n616.gif > ./gifs/regular2x/n616.gif
+ gifsicle --resize  184x164 --resize-method sample --colors 256 ./gifs/regular/n617.gif > ./gifs/regular2x/n617.gif
+ gifsicle --resize  196x30 --resize-method sample --colors 256 ./gifs/regular/n618.gif > ./gifs/regular2x/n618.gif
+ gifsicle --resize  116x134 --resize-method sample --colors 256 ./gifs/regular/n619.gif > ./gifs/regular2x/n619.gif
+ gifsicle --resize  146x126 --resize-method sample --colors 256 ./gifs/regular/n62.gif > ./gifs/regular2x/n62.gif
+ gifsicle --resize  210x192 --resize-method sample --colors 256 ./gifs/regular/n620.gif > ./gifs/regular2x/n620.gif
+ gifsicle --resize  246x208 --resize-method sample --colors 256 ./gifs/regular/n621.gif > ./gifs/regular2x/n621.gif
+ gifsicle --resize  124x130 --resize-method sample --colors 256 ./gifs/regular/n622.gif > ./gifs/regular2x/n622.gif
+ gifsicle --resize  178x216 --resize-method sample --colors 256 ./gifs/regular/n623.gif > ./gifs/regular2x/n623.gif
+ gifsicle --resize  92x136 --resize-method sample --colors 256 ./gifs/regular/n624.gif > ./gifs/regular2x/n624.gif
+ gifsicle --resize  104x198 --resize-method sample --colors 256 ./gifs/regular/n625.gif > ./gifs/regular2x/n625.gif
+ gifsicle --resize  222x174 --resize-method sample --colors 256 ./gifs/regular/n626.gif > ./gifs/regular2x/n626.gif
+ gifsicle --resize  90x130 --resize-method sample --colors 256 ./gifs/regular/n627.gif > ./gifs/regular2x/n627.gif
+ gifsicle --resize  414x368 --resize-method sample --colors 256 ./gifs/regular/n628.gif > ./gifs/regular2x/n628.gif
+ gifsicle --resize  128x138 --resize-method sample --colors 256 ./gifs/regular/n629.gif > ./gifs/regular2x/n629.gif
+ gifsicle --resize  138x106 --resize-method sample --colors 256 ./gifs/regular/n63.gif > ./gifs/regular2x/n63.gif
+ gifsicle --resize  300x252 --resize-method sample --colors 256 ./gifs/regular/n630.gif > ./gifs/regular2x/n630.gif
+ gifsicle --resize  154x166 --resize-method sample --colors 256 ./gifs/regular/n631.gif > ./gifs/regular2x/n631.gif
+ gifsicle --resize  128x76 --resize-method sample --colors 256 ./gifs/regular/n632.gif > ./gifs/regular2x/n632.gif
+ gifsicle --resize  86x152 --resize-method sample --colors 256 ./gifs/regular/n633.gif > ./gifs/regular2x/n633.gif
+ gifsicle --resize  196x172 --resize-method sample --colors 256 ./gifs/regular/n634.gif > ./gifs/regular2x/n634.gif
+ gifsicle --resize  274x260 --resize-method sample --colors 256 ./gifs/regular/n635.gif > ./gifs/regular2x/n635.gif
+ gifsicle --resize  124x136 --resize-method sample --colors 256 ./gifs/regular/n636.gif > ./gifs/regular2x/n636.gif
+ gifsicle --resize  258x186 --resize-method sample --colors 256 ./gifs/regular/n637.gif > ./gifs/regular2x/n637.gif
+ gifsicle --resize  112x218 --resize-method sample --colors 256 ./gifs/regular/n638.gif > ./gifs/regular2x/n638.gif
+ gifsicle --resize  198x168 --resize-method sample --colors 256 ./gifs/regular/n639.gif > ./gifs/regular2x/n639.gif
+ gifsicle --resize  140x142 --resize-method sample --colors 256 ./gifs/regular/n64.gif > ./gifs/regular2x/n64.gif
+ gifsicle --resize  152x194 --resize-method sample --colors 256 ./gifs/regular/n640.gif > ./gifs/regular2x/n640.gif
+ gifsicle --resize  164x200 --resize-method sample --colors 256 ./gifs/regular/n641-incarnate.gif > ./gifs/regular2x/n641-incarnate.gif
+ gifsicle --resize  304x270 --resize-method sample --colors 256 ./gifs/regular/n641-therian.gif > ./gifs/regular2x/n641-therian.gif
+ gifsicle --resize  192x206 --resize-method sample --colors 256 ./gifs/regular/n642-incarnate.gif > ./gifs/regular2x/n642-incarnate.gif
+ gifsicle --resize  258x216 --resize-method sample --colors 256 ./gifs/regular/n642-therian.gif > ./gifs/regular2x/n642-therian.gif
+ gifsicle --resize  326x230 --resize-method sample --colors 256 ./gifs/regular/n643.gif > ./gifs/regular2x/n643.gif
+ gifsicle --resize  232x272 --resize-method sample --colors 256 ./gifs/regular/n644.gif > ./gifs/regular2x/n644.gif
+ gifsicle --resize  168x186 --resize-method sample --colors 256 ./gifs/regular/n645-incarnate.gif > ./gifs/regular2x/n645-incarnate.gif
+ gifsicle --resize  146x188 --resize-method sample --colors 256 ./gifs/regular/n645-therian.gif > ./gifs/regular2x/n645-therian.gif
+ gifsicle --resize  230x256 --resize-method sample --colors 256 ./gifs/regular/n646-black.gif > ./gifs/regular2x/n646-black.gif
+ gifsicle --resize  218x182 --resize-method sample --colors 256 ./gifs/regular/n646-normal.gif > ./gifs/regular2x/n646-normal.gif
+ gifsicle --resize  272x262 --resize-method sample --colors 256 ./gifs/regular/n646-white.gif > ./gifs/regular2x/n646-white.gif
+ gifsicle --resize  156x172 --resize-method sample --colors 256 ./gifs/regular/n647-resolute.gif > ./gifs/regular2x/n647-resolute.gif
+ gifsicle --resize  118x178 --resize-method sample --colors 256 ./gifs/regular/n648-pirouette.gif > ./gifs/regular2x/n648-pirouette.gif
+ gifsicle --resize  140x184 --resize-method sample --colors 256 ./gifs/regular/n649.gif > ./gifs/regular2x/n649.gif
+ gifsicle --resize  226x230 --resize-method sample --colors 256 ./gifs/regular/n65-mega.gif > ./gifs/regular2x/n65-mega.gif
+ gifsicle --resize  154x158 --resize-method sample --colors 256 ./gifs/regular/n65.gif > ./gifs/regular2x/n65.gif
+ gifsicle --resize  100x128 --resize-method sample --colors 256 ./gifs/regular/n650.gif > ./gifs/regular2x/n650.gif
+ gifsicle --resize  146x136 --resize-method sample --colors 256 ./gifs/regular/n651.gif > ./gifs/regular2x/n651.gif
+ gifsicle --resize  256x212 --resize-method sample --colors 256 ./gifs/regular/n652.gif > ./gifs/regular2x/n652.gif
+ gifsicle --resize  102x118 --resize-method sample --colors 256 ./gifs/regular/n653.gif > ./gifs/regular2x/n653.gif
+ gifsicle --resize  148x172 --resize-method sample --colors 256 ./gifs/regular/n654.gif > ./gifs/regular2x/n654.gif
+ gifsicle --resize  190x220 --resize-method sample --colors 256 ./gifs/regular/n655.gif > ./gifs/regular2x/n655.gif
+ gifsicle --resize  90x104 --resize-method sample --colors 256 ./gifs/regular/n656.gif > ./gifs/regular2x/n656.gif
+ gifsicle --resize  146x116 --resize-method sample --colors 256 ./gifs/regular/n657.gif > ./gifs/regular2x/n657.gif
+ gifsicle --resize  164x180 --resize-method sample --colors 256 ./gifs/regular/n658-ash.gif > ./gifs/regular2x/n658-ash.gif
+ gifsicle --resize  262x152 --resize-method sample --colors 256 ./gifs/regular/n658.gif > ./gifs/regular2x/n658.gif
+ gifsicle --resize  128x184 --resize-method sample --colors 256 ./gifs/regular/n659.gif > ./gifs/regular2x/n659.gif
+ gifsicle --resize  78x126 --resize-method sample --colors 256 ./gifs/regular/n66.gif > ./gifs/regular2x/n66.gif
+ gifsicle --resize  242x210 --resize-method sample --colors 256 ./gifs/regular/n660.gif > ./gifs/regular2x/n660.gif
+ gifsicle --resize  94x86 --resize-method sample --colors 256 ./gifs/regular/n661.gif > ./gifs/regular2x/n661.gif
+ gifsicle --resize  218x214 --resize-method sample --colors 256 ./gifs/regular/n662.gif > ./gifs/regular2x/n662.gif
+ gifsicle --resize  304x370 --resize-method sample --colors 256 ./gifs/regular/n663.gif > ./gifs/regular2x/n663.gif
+ gifsicle --resize  76x112 --resize-method sample --colors 256 ./gifs/regular/n664.gif > ./gifs/regular2x/n664.gif
+ gifsicle --resize  88x86 --resize-method sample --colors 256 ./gifs/regular/n665.gif > ./gifs/regular2x/n665.gif
+ gifsicle --resize  208x208 --resize-method sample --colors 256 ./gifs/regular/n666.gif > ./gifs/regular2x/n666.gif
+ gifsicle --resize  102x122 --resize-method sample --colors 256 ./gifs/regular/n667.gif > ./gifs/regular2x/n667.gif
+ gifsicle --resize  158x198 --resize-method sample --colors 256 ./gifs/regular/n668.gif > ./gifs/regular2x/n668.gif
+ gifsicle --resize  152x156 --resize-method sample --colors 256 ./gifs/regular/n669.gif > ./gifs/regular2x/n669.gif
+ gifsicle --resize  144x174 --resize-method sample --colors 256 ./gifs/regular/n67.gif > ./gifs/regular2x/n67.gif
+ gifsicle --resize  122x190 --resize-method sample --colors 256 ./gifs/regular/n670.gif > ./gifs/regular2x/n670.gif
+ gifsicle --resize  160x200 --resize-method sample --colors 256 ./gifs/regular/n671.gif > ./gifs/regular2x/n671.gif
+ gifsicle --resize  96x126 --resize-method sample --colors 256 ./gifs/regular/n672.gif > ./gifs/regular2x/n672.gif
+ gifsicle --resize  114x166 --resize-method sample --colors 256 ./gifs/regular/n673.gif > ./gifs/regular2x/n673.gif
+ gifsicle --resize  94x128 --resize-method sample --colors 256 ./gifs/regular/n674.gif > ./gifs/regular2x/n674.gif
+ gifsicle --resize  194x204 --resize-method sample --colors 256 ./gifs/regular/n675.gif > ./gifs/regular2x/n675.gif
+ gifsicle --resize  94x168 --resize-method sample --colors 256 ./gifs/regular/n676.gif > ./gifs/regular2x/n676.gif
+ gifsicle --resize  94x116 --resize-method sample --colors 256 ./gifs/regular/n677.gif > ./gifs/regular2x/n677.gif
+ gifsicle --resize  128x146 --resize-method sample --colors 256 ./gifs/regular/n678-female.gif > ./gifs/regular2x/n678-female.gif
+ gifsicle --resize  110x144 --resize-method sample --colors 256 ./gifs/regular/n678-male.gif > ./gifs/regular2x/n678-male.gif
+ gifsicle --resize  152x158 --resize-method sample --colors 256 ./gifs/regular/n679.gif > ./gifs/regular2x/n679.gif
+ gifsicle --resize  168x200 --resize-method sample --colors 256 ./gifs/regular/n68.gif > ./gifs/regular2x/n68.gif
+ gifsicle --resize  242x152 --resize-method sample --colors 256 ./gifs/regular/n680.gif > ./gifs/regular2x/n680.gif
+ gifsicle --resize  164x208 --resize-method sample --colors 256 ./gifs/regular/n681-blade.gif > ./gifs/regular2x/n681-blade.gif
+ gifsicle --resize  150x194 --resize-method sample --colors 256 ./gifs/regular/n681-shield.gif > ./gifs/regular2x/n681-shield.gif
+ gifsicle --resize  138x122 --resize-method sample --colors 256 ./gifs/regular/n682.gif > ./gifs/regular2x/n682.gif
+ gifsicle --resize  134x160 --resize-method sample --colors 256 ./gifs/regular/n683.gif > ./gifs/regular2x/n683.gif
+ gifsicle --resize  94x98 --resize-method sample --colors 256 ./gifs/regular/n684.gif > ./gifs/regular2x/n684.gif
+ gifsicle --resize  136x140 --resize-method sample --colors 256 ./gifs/regular/n685.gif > ./gifs/regular2x/n685.gif
+ gifsicle --resize  136x122 --resize-method sample --colors 256 ./gifs/regular/n686.gif > ./gifs/regular2x/n686.gif
+ gifsicle --resize  260x210 --resize-method sample --colors 256 ./gifs/regular/n687.gif > ./gifs/regular2x/n687.gif
+ gifsicle --resize  152x142 --resize-method sample --colors 256 ./gifs/regular/n688.gif > ./gifs/regular2x/n688.gif
+ gifsicle --resize  236x218 --resize-method sample --colors 256 ./gifs/regular/n689.gif > ./gifs/regular2x/n689.gif
+ gifsicle --resize  110x98 --resize-method sample --colors 256 ./gifs/regular/n69.gif > ./gifs/regular2x/n69.gif
+ gifsicle --resize  86x154 --resize-method sample --colors 256 ./gifs/regular/n690.gif > ./gifs/regular2x/n690.gif
+ gifsicle --resize  278x274 --resize-method sample --colors 256 ./gifs/regular/n691.gif > ./gifs/regular2x/n691.gif
+ gifsicle --resize  140x104 --resize-method sample --colors 256 ./gifs/regular/n692.gif > ./gifs/regular2x/n692.gif
+ gifsicle --resize  276x190 --resize-method sample --colors 256 ./gifs/regular/n693.gif > ./gifs/regular2x/n693.gif
+ gifsicle --resize  116x108 --resize-method sample --colors 256 ./gifs/regular/n694.gif > ./gifs/regular2x/n694.gif
+ gifsicle --resize  142x156 --resize-method sample --colors 256 ./gifs/regular/n695.gif > ./gifs/regular2x/n695.gif
+ gifsicle --resize  130x136 --resize-method sample --colors 256 ./gifs/regular/n696.gif > ./gifs/regular2x/n696.gif
+ gifsicle --resize  200x216 --resize-method sample --colors 256 ./gifs/regular/n697.gif > ./gifs/regular2x/n697.gif
+ gifsicle --resize  104x180 --resize-method sample --colors 256 ./gifs/regular/n698.gif > ./gifs/regular2x/n698.gif
+ gifsicle --resize  134x246 --resize-method sample --colors 256 ./gifs/regular/n699.gif > ./gifs/regular2x/n699.gif
+ gifsicle --resize  106x108 --resize-method sample --colors 256 ./gifs/regular/n7.gif > ./gifs/regular2x/n7.gif
+ gifsicle --resize  130x102 --resize-method sample --colors 256 ./gifs/regular/n70.gif > ./gifs/regular2x/n70.gif
+ gifsicle --resize  118x172 --resize-method sample --colors 256 ./gifs/regular/n700.gif > ./gifs/regular2x/n700.gif
+ gifsicle --resize  196x144 --resize-method sample --colors 256 ./gifs/regular/n701.gif > ./gifs/regular2x/n701.gif
+ gifsicle --resize  136x100 --resize-method sample --colors 256 ./gifs/regular/n702.gif > ./gifs/regular2x/n702.gif
+ gifsicle --resize  108x114 --resize-method sample --colors 256 ./gifs/regular/n703.gif > ./gifs/regular2x/n703.gif
+ gifsicle --resize  78x100 --resize-method sample --colors 256 ./gifs/regular/n704.gif > ./gifs/regular2x/n704.gif
+ gifsicle --resize  84x164 --resize-method sample --colors 256 ./gifs/regular/n705.gif > ./gifs/regular2x/n705.gif
+ gifsicle --resize  120x204 --resize-method sample --colors 256 ./gifs/regular/n706.gif > ./gifs/regular2x/n706.gif
+ gifsicle --resize  138x176 --resize-method sample --colors 256 ./gifs/regular/n707.gif > ./gifs/regular2x/n707.gif
+ gifsicle --resize  134x120 --resize-method sample --colors 256 ./gifs/regular/n708.gif > ./gifs/regular2x/n708.gif
+ gifsicle --resize  262x218 --resize-method sample --colors 256 ./gifs/regular/n709.gif > ./gifs/regular2x/n709.gif
+ gifsicle --resize  196x164 --resize-method sample --colors 256 ./gifs/regular/n71.gif > ./gifs/regular2x/n71.gif
+ gifsicle --resize  112x118 --resize-method sample --colors 256 ./gifs/regular/n710-average.gif > ./gifs/regular2x/n710-average.gif
+ gifsicle --resize  124x130 --resize-method sample --colors 256 ./gifs/regular/n710-large.gif > ./gifs/regular2x/n710-large.gif
+ gifsicle --resize  96x100 --resize-method sample --colors 256 ./gifs/regular/n710-small.gif > ./gifs/regular2x/n710-small.gif
+ gifsicle --resize  124x130 --resize-method sample --colors 256 ./gifs/regular/n710-super.gif > ./gifs/regular2x/n710-super.gif
+ gifsicle --resize  106x166 --resize-method sample --colors 256 ./gifs/regular/n711-average.gif > ./gifs/regular2x/n711-average.gif
+ gifsicle --resize  106x166 --resize-method sample --colors 256 ./gifs/regular/n711-large.gif > ./gifs/regular2x/n711-large.gif
+ gifsicle --resize  92x148 --resize-method sample --colors 256 ./gifs/regular/n711-small.gif > ./gifs/regular2x/n711-small.gif
+ gifsicle --resize  106x166 --resize-method sample --colors 256 ./gifs/regular/n711-super.gif > ./gifs/regular2x/n711-super.gif
+ gifsicle --resize  100x120 --resize-method sample --colors 256 ./gifs/regular/n712.gif > ./gifs/regular2x/n712.gif
+ gifsicle --resize  242x114 --resize-method sample --colors 256 ./gifs/regular/n713.gif > ./gifs/regular2x/n713.gif
+ gifsicle --resize  170x192 --resize-method sample --colors 256 ./gifs/regular/n714.gif > ./gifs/regular2x/n714.gif
+ gifsicle --resize  368x312 --resize-method sample --colors 256 ./gifs/regular/n715.gif > ./gifs/regular2x/n715.gif
+ gifsicle --resize  212x254 --resize-method sample --colors 256 ./gifs/regular/n716.gif > ./gifs/regular2x/n716.gif
+ gifsicle --resize  402x376 --resize-method sample --colors 256 ./gifs/regular/n717.gif > ./gifs/regular2x/n717.gif
+ gifsicle --resize  118x146 --resize-method sample --colors 256 ./gifs/regular/n718-10.gif > ./gifs/regular2x/n718-10.gif
+ gifsicle --resize  192x214 --resize-method sample --colors 256 ./gifs/regular/n718-50.gif > ./gifs/regular2x/n718-50.gif
+ gifsicle --resize  316x220 --resize-method sample --colors 256 ./gifs/regular/n718-complete.gif > ./gifs/regular2x/n718-complete.gif
+ gifsicle --resize  234x228 --resize-method sample --colors 256 ./gifs/regular/n719-mega.gif > ./gifs/regular2x/n719-mega.gif
+ gifsicle --resize  100x180 --resize-method sample --colors 256 ./gifs/regular/n719.gif > ./gifs/regular2x/n719.gif
+ gifsicle --resize  90x146 --resize-method sample --colors 256 ./gifs/regular/n72.gif > ./gifs/regular2x/n72.gif
+ gifsicle --resize  146x136 --resize-method sample --colors 256 ./gifs/regular/n720-confined.gif > ./gifs/regular2x/n720-confined.gif
+ gifsicle --resize  262x252 --resize-method sample --colors 256 ./gifs/regular/n720-unbound.gif > ./gifs/regular2x/n720-unbound.gif
+ gifsicle --resize  192x182 --resize-method sample --colors 256 ./gifs/regular/n721.gif > ./gifs/regular2x/n721.gif
+ gifsicle --resize  86x100 --resize-method sample --colors 256 ./gifs/regular/n722.gif > ./gifs/regular2x/n722.gif
+ gifsicle --resize  90x136 --resize-method sample --colors 256 ./gifs/regular/n723.gif > ./gifs/regular2x/n723.gif
+ gifsicle --resize  122x200 --resize-method sample --colors 256 ./gifs/regular/n724.gif > ./gifs/regular2x/n724.gif
+ gifsicle --resize  110x116 --resize-method sample --colors 256 ./gifs/regular/n725.gif > ./gifs/regular2x/n725.gif
+ gifsicle --resize  172x148 --resize-method sample --colors 256 ./gifs/regular/n726.gif > ./gifs/regular2x/n726.gif
+ gifsicle --resize  262x192 --resize-method sample --colors 256 ./gifs/regular/n727.gif > ./gifs/regular2x/n727.gif
+ gifsicle --resize  116x98 --resize-method sample --colors 256 ./gifs/regular/n728.gif > ./gifs/regular2x/n728.gif
+ gifsicle --resize  134x142 --resize-method sample --colors 256 ./gifs/regular/n729.gif > ./gifs/regular2x/n729.gif
+ gifsicle --resize  136x170 --resize-method sample --colors 256 ./gifs/regular/n73.gif > ./gifs/regular2x/n73.gif
+ gifsicle --resize  164x216 --resize-method sample --colors 256 ./gifs/regular/n730.gif > ./gifs/regular2x/n730.gif
+ gifsicle --resize  76x112 --resize-method sample --colors 256 ./gifs/regular/n731.gif > ./gifs/regular2x/n731.gif
+ gifsicle --resize  178x192 --resize-method sample --colors 256 ./gifs/regular/n732.gif > ./gifs/regular2x/n732.gif
+ gifsicle --resize  176x152 --resize-method sample --colors 256 ./gifs/regular/n733.gif > ./gifs/regular2x/n733.gif
+ gifsicle --resize  142x72 --resize-method sample --colors 256 ./gifs/regular/n734.gif > ./gifs/regular2x/n734.gif
+ gifsicle --resize  118x158 --resize-method sample --colors 256 ./gifs/regular/n735.gif > ./gifs/regular2x/n735.gif
+ gifsicle --resize  114x74 --resize-method sample --colors 256 ./gifs/regular/n736.gif > ./gifs/regular2x/n736.gif
+ gifsicle --resize  134x96 --resize-method sample --colors 256 ./gifs/regular/n737.gif > ./gifs/regular2x/n737.gif
+ gifsicle --resize  246x156 --resize-method sample --colors 256 ./gifs/regular/n738.gif > ./gifs/regular2x/n738.gif
+ gifsicle --resize  146x124 --resize-method sample --colors 256 ./gifs/regular/n739.gif > ./gifs/regular2x/n739.gif
+ gifsicle --resize  120x86 --resize-method sample --colors 256 ./gifs/regular/n74-alolan.gif > ./gifs/regular2x/n74-alolan.gif
+ gifsicle --resize  150x70 --resize-method sample --colors 256 ./gifs/regular/n74.gif > ./gifs/regular2x/n74.gif
+ gifsicle --resize  244x156 --resize-method sample --colors 256 ./gifs/regular/n740.gif > ./gifs/regular2x/n740.gif
+ gifsicle --resize  130x120 --resize-method sample --colors 256 ./gifs/regular/n741-pau.gif > ./gifs/regular2x/n741-pau.gif
+ gifsicle --resize  136x116 --resize-method sample --colors 256 ./gifs/regular/n741-pom-pom.gif > ./gifs/regular2x/n741-pom-pom.gif
+ gifsicle --resize  134x118 --resize-method sample --colors 256 ./gifs/regular/n741-sensu.gif > ./gifs/regular2x/n741-sensu.gif
+ gifsicle --resize  120x114 --resize-method sample --colors 256 ./gifs/regular/n742.gif > ./gifs/regular2x/n742.gif
+ gifsicle --resize  180x128 --resize-method sample --colors 256 ./gifs/regular/n743.gif > ./gifs/regular2x/n743.gif
+ gifsicle --resize  90x114 --resize-method sample --colors 256 ./gifs/regular/n744.gif > ./gifs/regular2x/n744.gif
+ gifsicle --resize  138x166 --resize-method sample --colors 256 ./gifs/regular/n745-midnight.gif > ./gifs/regular2x/n745-midnight.gif
+ gifsicle --resize  284x206 --resize-method sample --colors 256 ./gifs/regular/n746-school.gif > ./gifs/regular2x/n746-school.gif
+ gifsicle --resize  142x120 --resize-method sample --colors 256 ./gifs/regular/n747.gif > ./gifs/regular2x/n747.gif
+ gifsicle --resize  226x164 --resize-method sample --colors 256 ./gifs/regular/n748.gif > ./gifs/regular2x/n748.gif
+ gifsicle --resize  104x142 --resize-method sample --colors 256 ./gifs/regular/n749.gif > ./gifs/regular2x/n749.gif
+ gifsicle --resize  208x118 --resize-method sample --colors 256 ./gifs/regular/n75-alolan.gif > ./gifs/regular2x/n75-alolan.gif
+ gifsicle --resize  214x118 --resize-method sample --colors 256 ./gifs/regular/n75.gif > ./gifs/regular2x/n75.gif
+ gifsicle --resize  126x178 --resize-method sample --colors 256 ./gifs/regular/n750.gif > ./gifs/regular2x/n750.gif
+ gifsicle --resize  90x122 --resize-method sample --colors 256 ./gifs/regular/n751.gif > ./gifs/regular2x/n751.gif
+ gifsicle --resize  202x134 --resize-method sample --colors 256 ./gifs/regular/n752.gif > ./gifs/regular2x/n752.gif
+ gifsicle --resize  82x112 --resize-method sample --colors 256 ./gifs/regular/n753.gif > ./gifs/regular2x/n753.gif
+ gifsicle --resize  122x170 --resize-method sample --colors 256 ./gifs/regular/n754.gif > ./gifs/regular2x/n754.gif
+ gifsicle --resize  58x130 --resize-method sample --colors 256 ./gifs/regular/n755.gif > ./gifs/regular2x/n755.gif
+ gifsicle --resize  170x140 --resize-method sample --colors 256 ./gifs/regular/n756.gif > ./gifs/regular2x/n756.gif
+ gifsicle --resize  160x94 --resize-method sample --colors 256 ./gifs/regular/n757.gif > ./gifs/regular2x/n757.gif
+ gifsicle --resize  192x176 --resize-method sample --colors 256 ./gifs/regular/n758.gif > ./gifs/regular2x/n758.gif
+ gifsicle --resize  110x108 --resize-method sample --colors 256 ./gifs/regular/n759.gif > ./gifs/regular2x/n759.gif
+ gifsicle --resize  150x174 --resize-method sample --colors 256 ./gifs/regular/n76-alolan.gif > ./gifs/regular2x/n76-alolan.gif
+ gifsicle --resize  188x156 --resize-method sample --colors 256 ./gifs/regular/n76.gif > ./gifs/regular2x/n76.gif
+ gifsicle --resize  120x158 --resize-method sample --colors 256 ./gifs/regular/n760.gif > ./gifs/regular2x/n760.gif
+ gifsicle --resize  106x102 --resize-method sample --colors 256 ./gifs/regular/n761.gif > ./gifs/regular2x/n761.gif
+ gifsicle --resize  118x154 --resize-method sample --colors 256 ./gifs/regular/n762.gif > ./gifs/regular2x/n762.gif
+ gifsicle --resize  132x178 --resize-method sample --colors 256 ./gifs/regular/n763.gif > ./gifs/regular2x/n763.gif
+ gifsicle --resize  144x188 --resize-method sample --colors 256 ./gifs/regular/n764.gif > ./gifs/regular2x/n764.gif
+ gifsicle --resize  148x150 --resize-method sample --colors 256 ./gifs/regular/n765.gif > ./gifs/regular2x/n765.gif
+ gifsicle --resize  158x148 --resize-method sample --colors 256 ./gifs/regular/n766.gif > ./gifs/regular2x/n766.gif
+ gifsicle --resize  194x74 --resize-method sample --colors 256 ./gifs/regular/n767.gif > ./gifs/regular2x/n767.gif
+ gifsicle --resize  166x160 --resize-method sample --colors 256 ./gifs/regular/n768.gif > ./gifs/regular2x/n768.gif
+ gifsicle --resize  168x128 --resize-method sample --colors 256 ./gifs/regular/n769.gif > ./gifs/regular2x/n769.gif
+ gifsicle --resize  102x136 --resize-method sample --colors 256 ./gifs/regular/n77.gif > ./gifs/regular2x/n77.gif
+ gifsicle --resize  204x150 --resize-method sample --colors 256 ./gifs/regular/n770.gif > ./gifs/regular2x/n770.gif
+ gifsicle --resize  104x78 --resize-method sample --colors 256 ./gifs/regular/n771.gif > ./gifs/regular2x/n771.gif
+ gifsicle --resize  138x188 --resize-method sample --colors 256 ./gifs/regular/n772.gif > ./gifs/regular2x/n772.gif
+ gifsicle --resize  114x234 --resize-method sample --colors 256 ./gifs/regular/n773.gif > ./gifs/regular2x/n773.gif
+ gifsicle --resize  154x154 --resize-method sample --colors 256 ./gifs/regular/n774-core.gif > ./gifs/regular2x/n774-core.gif
+ gifsicle --resize  154x142 --resize-method sample --colors 256 ./gifs/regular/n774-meteor.gif > ./gifs/regular2x/n774-meteor.gif
+ gifsicle --resize  130x120 --resize-method sample --colors 256 ./gifs/regular/n775.gif > ./gifs/regular2x/n775.gif
+ gifsicle --resize  136x148 --resize-method sample --colors 256 ./gifs/regular/n776.gif > ./gifs/regular2x/n776.gif
+ gifsicle --resize  126x124 --resize-method sample --colors 256 ./gifs/regular/n777.gif > ./gifs/regular2x/n777.gif
+ gifsicle --resize  114x134 --resize-method sample --colors 256 ./gifs/regular/n778.gif > ./gifs/regular2x/n778.gif
+ gifsicle --resize  118x144 --resize-method sample --colors 256 ./gifs/regular/n779.gif > ./gifs/regular2x/n779.gif
+ gifsicle --resize  182x190 --resize-method sample --colors 256 ./gifs/regular/n78.gif > ./gifs/regular2x/n78.gif
+ gifsicle --resize  174x156 --resize-method sample --colors 256 ./gifs/regular/n780.gif > ./gifs/regular2x/n780.gif
+ gifsicle --resize  130x180 --resize-method sample --colors 256 ./gifs/regular/n781.gif > ./gifs/regular2x/n781.gif
+ gifsicle --resize  100x120 --resize-method sample --colors 256 ./gifs/regular/n782.gif > ./gifs/regular2x/n782.gif
+ gifsicle --resize  178x166 --resize-method sample --colors 256 ./gifs/regular/n783.gif > ./gifs/regular2x/n783.gif
+ gifsicle --resize  178x190 --resize-method sample --colors 256 ./gifs/regular/n784.gif > ./gifs/regular2x/n784.gif
+ gifsicle --resize  142x190 --resize-method sample --colors 256 ./gifs/regular/n785.gif > ./gifs/regular2x/n785.gif
+ gifsicle --resize  108x168 --resize-method sample --colors 256 ./gifs/regular/n786.gif > ./gifs/regular2x/n786.gif
+ gifsicle --resize  170x208 --resize-method sample --colors 256 ./gifs/regular/n787.gif > ./gifs/regular2x/n787.gif
+ gifsicle --resize  136x184 --resize-method sample --colors 256 ./gifs/regular/n788.gif > ./gifs/regular2x/n788.gif
+ gifsicle --resize  162x118 --resize-method sample --colors 256 ./gifs/regular/n789.gif > ./gifs/regular2x/n789.gif
+ gifsicle --resize  94x116 --resize-method sample --colors 256 ./gifs/regular/n79.gif > ./gifs/regular2x/n79.gif
+ gifsicle --resize  130x138 --resize-method sample --colors 256 ./gifs/regular/n790.gif > ./gifs/regular2x/n790.gif
+ gifsicle --resize  174x190 --resize-method sample --colors 256 ./gifs/regular/n791.gif > ./gifs/regular2x/n791.gif
+ gifsicle --resize  256x202 --resize-method sample --colors 256 ./gifs/regular/n792.gif > ./gifs/regular2x/n792.gif
+ gifsicle --resize  122x170 --resize-method sample --colors 256 ./gifs/regular/n793.gif > ./gifs/regular2x/n793.gif
+ gifsicle --resize  154x188 --resize-method sample --colors 256 ./gifs/regular/n794.gif > ./gifs/regular2x/n794.gif
+ gifsicle --resize  126x200 --resize-method sample --colors 256 ./gifs/regular/n795.gif > ./gifs/regular2x/n795.gif
+ gifsicle --resize  184x168 --resize-method sample --colors 256 ./gifs/regular/n796.gif > ./gifs/regular2x/n796.gif
+ gifsicle --resize  252x210 --resize-method sample --colors 256 ./gifs/regular/n797.gif > ./gifs/regular2x/n797.gif
+ gifsicle --resize  226x166 --resize-method sample --colors 256 ./gifs/regular/n798.gif > ./gifs/regular2x/n798.gif
+ gifsicle --resize  274x176 --resize-method sample --colors 256 ./gifs/regular/n799.gif > ./gifs/regular2x/n799.gif
+ gifsicle --resize  112x146 --resize-method sample --colors 256 ./gifs/regular/n8.gif > ./gifs/regular2x/n8.gif
+ gifsicle --resize  150x174 --resize-method sample --colors 256 ./gifs/regular/n80-mega.gif > ./gifs/regular2x/n80-mega.gif
+ gifsicle --resize  184x142 --resize-method sample --colors 256 ./gifs/regular/n80.gif > ./gifs/regular2x/n80.gif
+ gifsicle --resize  198x200 --resize-method sample --colors 256 ./gifs/regular/n800.gif > ./gifs/regular2x/n800.gif
+ gifsicle --resize  98x136 --resize-method sample --colors 256 ./gifs/regular/n801.gif > ./gifs/regular2x/n801.gif
+ gifsicle --resize  96x126 --resize-method sample --colors 256 ./gifs/regular/n802.gif > ./gifs/regular2x/n802.gif
+ gifsicle --resize  98x70 --resize-method sample --colors 256 ./gifs/regular/n81.gif > ./gifs/regular2x/n81.gif
+ gifsicle --resize  178x138 --resize-method sample --colors 256 ./gifs/regular/n82.gif > ./gifs/regular2x/n82.gif
+ gifsicle --resize  88x100 --resize-method sample --colors 256 ./gifs/regular/n83.gif > ./gifs/regular2x/n83.gif
+ gifsicle --resize  84x140 --resize-method sample --colors 256 ./gifs/regular/n84.gif > ./gifs/regular2x/n84.gif
+ gifsicle --resize  136x204 --resize-method sample --colors 256 ./gifs/regular/n85.gif > ./gifs/regular2x/n85.gif
+ gifsicle --resize  132x90 --resize-method sample --colors 256 ./gifs/regular/n86.gif > ./gifs/regular2x/n86.gif
+ gifsicle --resize  198x138 --resize-method sample --colors 256 ./gifs/regular/n87.gif > ./gifs/regular2x/n87.gif
+ gifsicle --resize  130x104 --resize-method sample --colors 256 ./gifs/regular/n88-alolan.gif > ./gifs/regular2x/n88-alolan.gif
+ gifsicle --resize  136x102 --resize-method sample --colors 256 ./gifs/regular/n88.gif > ./gifs/regular2x/n88.gif
+ gifsicle --resize  296x172 --resize-method sample --colors 256 ./gifs/regular/n89-alolan.gif > ./gifs/regular2x/n89-alolan.gif
+ gifsicle --resize  274x158 --resize-method sample --colors 256 ./gifs/regular/n89.gif > ./gifs/regular2x/n89.gif
+ gifsicle --resize  220x228 --resize-method sample --colors 256 ./gifs/regular/n9-mega.gif > ./gifs/regular2x/n9-mega.gif
+ gifsicle --resize  176x166 --resize-method sample --colors 256 ./gifs/regular/n9.gif > ./gifs/regular2x/n9.gif
+ gifsicle --resize  104x74 --resize-method sample --colors 256 ./gifs/regular/n90.gif > ./gifs/regular2x/n90.gif
+ gifsicle --resize  166x170 --resize-method sample --colors 256 ./gifs/regular/n91.gif > ./gifs/regular2x/n91.gif
+ gifsicle --resize  104x122 --resize-method sample --colors 256 ./gifs/regular/n92.gif > ./gifs/regular2x/n92.gif
+ gifsicle --resize  170x146 --resize-method sample --colors 256 ./gifs/regular/n93.gif > ./gifs/regular2x/n93.gif
+ gifsicle --resize  224x184 --resize-method sample --colors 256 ./gifs/regular/n94-mega.gif > ./gifs/regular2x/n94-mega.gif
+ gifsicle --resize  168x156 --resize-method sample --colors 256 ./gifs/regular/n94.gif > ./gifs/regular2x/n94.gif
+ gifsicle --resize  180x230 --resize-method sample --colors 256 ./gifs/regular/n95.gif > ./gifs/regular2x/n95.gif
+ gifsicle --resize  124x114 --resize-method sample --colors 256 ./gifs/regular/n96.gif > ./gifs/regular2x/n96.gif
+ gifsicle --resize  172x156 --resize-method sample --colors 256 ./gifs/regular/n97.gif > ./gifs/regular2x/n97.gif
+ gifsicle --resize  128x100 --resize-method sample --colors 256 ./gifs/regular/n98.gif > ./gifs/regular2x/n98.gif
+ gifsicle --resize  174x166 --resize-method sample --colors 256 ./gifs/regular/n99.gif > ./gifs/regular2x/n99.gif
  gifsicle --resize  284x238 --resize-method sample --colors 256 ./gifs/regular/naviathan.gif > ./gifs/regular2x/naviathan.gif
- gifsicle --resize  198x200 --resize-method sample --colors 256 ./gifs/regular/necrozma.gif > ./gifs/regular2x/necrozma.gif
- gifsicle --resize  210x166 --resize-method sample --colors 256 ./gifs/regular/nidoking.gif > ./gifs/regular2x/nidoking.gif
- gifsicle --resize  128x164 --resize-method sample --colors 256 ./gifs/regular/nidoqueen.gif > ./gifs/regular2x/nidoqueen.gif
  gifsicle --resize  86x82 --resize-method sample --colors 256 ./gifs/regular/nidoran-f.gif > ./gifs/regular2x/nidoran-f.gif
- gifsicle --resize  104x104 --resize-method sample --colors 256 ./gifs/regular/nidoran.gif > ./gifs/regular2x/nidoran.gif
  gifsicle --resize  86x82 --resize-method sample --colors 256 ./gifs/regular/nidoranf.gif > ./gifs/regular2x/nidoranf.gif
  gifsicle --resize  104x104 --resize-method sample --colors 256 ./gifs/regular/nidoranm.gif > ./gifs/regular2x/nidoranm.gif
- gifsicle --resize  82x112 --resize-method sample --colors 256 ./gifs/regular/nidorina.gif > ./gifs/regular2x/nidorina.gif
- gifsicle --resize  120x112 --resize-method sample --colors 256 ./gifs/regular/nidorino.gif > ./gifs/regular2x/nidorino.gif
- gifsicle --resize  122x170 --resize-method sample --colors 256 ./gifs/regular/nihilego.gif > ./gifs/regular2x/nihilego.gif
- gifsicle --resize  114x60 --resize-method sample --colors 256 ./gifs/regular/nincada.gif > ./gifs/regular2x/nincada.gif
- gifsicle --resize  178x140 --resize-method sample --colors 256 ./gifs/regular/ninetales-alola.gif > ./gifs/regular2x/ninetales-alola.gif
- gifsicle --resize  158x154 --resize-method sample --colors 256 ./gifs/regular/ninetales.gif > ./gifs/regular2x/ninetales.gif
- gifsicle --resize  182x138 --resize-method sample --colors 256 ./gifs/regular/ninjask.gif > ./gifs/regular2x/ninjask.gif
- gifsicle --resize  222x168 --resize-method sample --colors 256 ./gifs/regular/noctowl.gif > ./gifs/regular2x/noctowl.gif
- gifsicle --resize  170x192 --resize-method sample --colors 256 ./gifs/regular/noibat.gif > ./gifs/regular2x/noibat.gif
- gifsicle --resize  368x312 --resize-method sample --colors 256 ./gifs/regular/noivern.gif > ./gifs/regular2x/noivern.gif
- gifsicle --resize  124x116 --resize-method sample --colors 256 ./gifs/regular/nosepass.gif > ./gifs/regular2x/nosepass.gif
  gifsicle --resize  104x112 --resize-method sample --colors 256 ./gifs/regular/numel-f.gif > ./gifs/regular2x/numel-f.gif
- gifsicle --resize  104x112 --resize-method sample --colors 256 ./gifs/regular/numel.gif > ./gifs/regular2x/numel.gif
  gifsicle --resize  114x138 --resize-method sample --colors 256 ./gifs/regular/nuzleaf-f.gif > ./gifs/regular2x/nuzleaf-f.gif
- gifsicle --resize  126x138 --resize-method sample --colors 256 ./gifs/regular/nuzleaf.gif > ./gifs/regular2x/nuzleaf.gif
  gifsicle --resize  180x118 --resize-method sample --colors 256 ./gifs/regular/octillery-f.gif > ./gifs/regular2x/octillery-f.gif
- gifsicle --resize  180x120 --resize-method sample --colors 256 ./gifs/regular/octillery.gif > ./gifs/regular2x/octillery.gif
- gifsicle --resize  104x96 --resize-method sample --colors 256 ./gifs/regular/oddish.gif > ./gifs/regular2x/oddish.gif
- gifsicle --resize  88x90 --resize-method sample --colors 256 ./gifs/regular/omanyte.gif > ./gifs/regular2x/omanyte.gif
- gifsicle --resize  146x128 --resize-method sample --colors 256 ./gifs/regular/omastar.gif > ./gifs/regular2x/omastar.gif
- gifsicle --resize  180x230 --resize-method sample --colors 256 ./gifs/regular/onix.gif > ./gifs/regular2x/onix.gif
- gifsicle --resize  148x150 --resize-method sample --colors 256 ./gifs/regular/oranguru.gif > ./gifs/regular2x/oranguru.gif
- gifsicle --resize  130x120 --resize-method sample --colors 256 ./gifs/regular/oricorio-pau.gif > ./gifs/regular2x/oricorio-pau.gif
- gifsicle --resize  136x116 --resize-method sample --colors 256 ./gifs/regular/oricorio-pompom.gif > ./gifs/regular2x/oricorio-pompom.gif
- gifsicle --resize  134x118 --resize-method sample --colors 256 ./gifs/regular/oricorio-sensu.gif > ./gifs/regular2x/oricorio-sensu.gif
  gifsicle --resize  128x136 --resize-method sample --colors 256 ./gifs/regular/oricorio.gif > ./gifs/regular2x/oricorio.gif
- gifsicle --resize  82x98 --resize-method sample --colors 256 ./gifs/regular/oshawott.gif > ./gifs/regular2x/oshawott.gif
  gifsicle --resize  114x150 --resize-method sample --colors 256 ./gifs/regular/pachirisu-f.gif > ./gifs/regular2x/pachirisu-f.gif
- gifsicle --resize  114x150 --resize-method sample --colors 256 ./gifs/regular/pachirisu.gif > ./gifs/regular2x/pachirisu.gif
- gifsicle --resize  214x214 --resize-method sample --colors 256 ./gifs/regular/palkia.gif > ./gifs/regular2x/palkia.gif
- gifsicle --resize  204x150 --resize-method sample --colors 256 ./gifs/regular/palossand.gif > ./gifs/regular2x/palossand.gif
- gifsicle --resize  98x132 --resize-method sample --colors 256 ./gifs/regular/palpitoad.gif > ./gifs/regular2x/palpitoad.gif
- gifsicle --resize  94x128 --resize-method sample --colors 256 ./gifs/regular/pancham.gif > ./gifs/regular2x/pancham.gif
- gifsicle --resize  194x204 --resize-method sample --colors 256 ./gifs/regular/pangoro.gif > ./gifs/regular2x/pangoro.gif
- gifsicle --resize  118x128 --resize-method sample --colors 256 ./gifs/regular/panpour.gif > ./gifs/regular2x/panpour.gif
- gifsicle --resize  130x132 --resize-method sample --colors 256 ./gifs/regular/pansage.gif > ./gifs/regular2x/pansage.gif
- gifsicle --resize  130x126 --resize-method sample --colors 256 ./gifs/regular/pansear.gif > ./gifs/regular2x/pansear.gif
- gifsicle --resize  104x68 --resize-method sample --colors 256 ./gifs/regular/paras.gif > ./gifs/regular2x/paras.gif
- gifsicle --resize  154x124 --resize-method sample --colors 256 ./gifs/regular/parasect.gif > ./gifs/regular2x/parasect.gif
- gifsicle --resize  158x148 --resize-method sample --colors 256 ./gifs/regular/passimian.gif > ./gifs/regular2x/passimian.gif
- gifsicle --resize  92x110 --resize-method sample --colors 256 ./gifs/regular/patrat.gif > ./gifs/regular2x/patrat.gif
- gifsicle --resize  92x136 --resize-method sample --colors 256 ./gifs/regular/pawniard.gif > ./gifs/regular2x/pawniard.gif
- gifsicle --resize  202x184 --resize-method sample --colors 256 ./gifs/regular/pelipper.gif > ./gifs/regular2x/pelipper.gif
- gifsicle --resize  140x144 --resize-method sample --colors 256 ./gifs/regular/persian-alola.gif > ./gifs/regular2x/persian-alola.gif
- gifsicle --resize  122x140 --resize-method sample --colors 256 ./gifs/regular/persian.gif > ./gifs/regular2x/persian.gif
- gifsicle --resize  84x138 --resize-method sample --colors 256 ./gifs/regular/petilil.gif > ./gifs/regular2x/petilil.gif
- gifsicle --resize  134x100 --resize-method sample --colors 256 ./gifs/regular/phanpy.gif > ./gifs/regular2x/phanpy.gif
- gifsicle --resize  134x120 --resize-method sample --colors 256 ./gifs/regular/phantump.gif > ./gifs/regular2x/phantump.gif
- gifsicle --resize  126x200 --resize-method sample --colors 256 ./gifs/regular/pheromosa.gif > ./gifs/regular2x/pheromosa.gif
- gifsicle --resize  130x112 --resize-method sample --colors 256 ./gifs/regular/phione.gif > ./gifs/regular2x/phione.gif
- gifsicle --resize  102x104 --resize-method sample --colors 256 ./gifs/regular/pichu.gif > ./gifs/regular2x/pichu.gif
- gifsicle --resize  350x120 --resize-method sample --colors 256 ./gifs/regular/pidgeot-mega.gif > ./gifs/regular2x/pidgeot-mega.gif
- gifsicle --resize  248x248 --resize-method sample --colors 256 ./gifs/regular/pidgeot.gif > ./gifs/regular2x/pidgeot.gif
- gifsicle --resize  230x172 --resize-method sample --colors 256 ./gifs/regular/pidgeotto.gif > ./gifs/regular2x/pidgeotto.gif
- gifsicle --resize  72x98 --resize-method sample --colors 256 ./gifs/regular/pidgey.gif > ./gifs/regular2x/pidgey.gif
- gifsicle --resize  82x98 --resize-method sample --colors 256 ./gifs/regular/pidove.gif > ./gifs/regular2x/pidove.gif
- gifsicle --resize  146x156 --resize-method sample --colors 256 ./gifs/regular/pignite.gif > ./gifs/regular2x/pignite.gif
  gifsicle --resize  120x120 --resize-method sample --colors 256 ./gifs/regular/pikachu-alola.gif > ./gifs/regular2x/pikachu-alola.gif
  gifsicle --resize  110x138 --resize-method sample --colors 256 ./gifs/regular/pikachu-belle.gif > ./gifs/regular2x/pikachu-belle.gif
  gifsicle --resize  120x122 --resize-method sample --colors 256 ./gifs/regular/pikachu-cosplay.gif > ./gifs/regular2x/pikachu-cosplay.gif
@@ -716,163 +1037,38 @@
  gifsicle --resize  120x120 --resize-method sample --colors 256 ./gifs/regular/pikachu-original.gif > ./gifs/regular2x/pikachu-original.gif
  gifsicle --resize  120x120 --resize-method sample --colors 256 ./gifs/regular/pikachu-sinnoh.gif > ./gifs/regular2x/pikachu-sinnoh.gif
  gifsicle --resize  120x120 --resize-method sample --colors 256 ./gifs/regular/pikachu-unova.gif > ./gifs/regular2x/pikachu-unova.gif
- gifsicle --resize  120x120 --resize-method sample --colors 256 ./gifs/regular/pikachu.gif > ./gifs/regular2x/pikachu.gif
- gifsicle --resize  76x112 --resize-method sample --colors 256 ./gifs/regular/pikipek.gif > ./gifs/regular2x/pikipek.gif
  gifsicle --resize  140x144 --resize-method sample --colors 256 ./gifs/regular/piloswine-f.gif > ./gifs/regular2x/piloswine-f.gif
- gifsicle --resize  140x144 --resize-method sample --colors 256 ./gifs/regular/piloswine.gif > ./gifs/regular2x/piloswine.gif
- gifsicle --resize  112x118 --resize-method sample --colors 256 ./gifs/regular/pineco.gif > ./gifs/regular2x/pineco.gif
- gifsicle --resize  266x220 --resize-method sample --colors 256 ./gifs/regular/pinsir-mega.gif > ./gifs/regular2x/pinsir-mega.gif
- gifsicle --resize  184x152 --resize-method sample --colors 256 ./gifs/regular/pinsir.gif > ./gifs/regular2x/pinsir.gif
- gifsicle --resize  108x118 --resize-method sample --colors 256 ./gifs/regular/piplup.gif > ./gifs/regular2x/piplup.gif
  gifsicle --resize  286x210 --resize-method sample --colors 256 ./gifs/regular/plasmanta.gif > ./gifs/regular2x/plasmanta.gif
  gifsicle --resize  118x74 --resize-method sample --colors 256 ./gifs/regular/pluffle.gif > ./gifs/regular2x/pluffle.gif
- gifsicle --resize  134x118 --resize-method sample --colors 256 ./gifs/regular/plusle.gif > ./gifs/regular2x/plusle.gif
  gifsicle --resize  126x154 --resize-method sample --colors 256 ./gifs/regular/politoed-f.gif > ./gifs/regular2x/politoed-f.gif
- gifsicle --resize  126x154 --resize-method sample --colors 256 ./gifs/regular/politoed.gif > ./gifs/regular2x/politoed.gif
- gifsicle --resize  110x80 --resize-method sample --colors 256 ./gifs/regular/poliwag.gif > ./gifs/regular2x/poliwag.gif
- gifsicle --resize  146x100 --resize-method sample --colors 256 ./gifs/regular/poliwhirl.gif > ./gifs/regular2x/poliwhirl.gif
- gifsicle --resize  146x126 --resize-method sample --colors 256 ./gifs/regular/poliwrath.gif > ./gifs/regular2x/poliwrath.gif
- gifsicle --resize  102x136 --resize-method sample --colors 256 ./gifs/regular/ponyta.gif > ./gifs/regular2x/ponyta.gif
- gifsicle --resize  104x108 --resize-method sample --colors 256 ./gifs/regular/poochyena.gif > ./gifs/regular2x/poochyena.gif
- gifsicle --resize  116x98 --resize-method sample --colors 256 ./gifs/regular/popplio.gif > ./gifs/regular2x/popplio.gif
  gifsicle --resize  140x136 --resize-method sample --colors 256 ./gifs/regular/porygon-z.gif > ./gifs/regular2x/porygon-z.gif
- gifsicle --resize  94x106 --resize-method sample --colors 256 ./gifs/regular/porygon.gif > ./gifs/regular2x/porygon.gif
- gifsicle --resize  108x126 --resize-method sample --colors 256 ./gifs/regular/porygon2.gif > ./gifs/regular2x/porygon2.gif
- gifsicle --resize  140x136 --resize-method sample --colors 256 ./gifs/regular/porygonz.gif > ./gifs/regular2x/porygonz.gif
- gifsicle --resize  164x216 --resize-method sample --colors 256 ./gifs/regular/primarina.gif > ./gifs/regular2x/primarina.gif
- gifsicle --resize  142x130 --resize-method sample --colors 256 ./gifs/regular/primeape.gif > ./gifs/regular2x/primeape.gif
- gifsicle --resize  154x150 --resize-method sample --colors 256 ./gifs/regular/prinplup.gif > ./gifs/regular2x/prinplup.gif
- gifsicle --resize  188x162 --resize-method sample --colors 256 ./gifs/regular/probopass.gif > ./gifs/regular2x/probopass.gif
- gifsicle --resize  102x106 --resize-method sample --colors 256 ./gifs/regular/psyduck.gif > ./gifs/regular2x/psyduck.gif
- gifsicle --resize  124x130 --resize-method sample --colors 256 ./gifs/regular/pumpkaboo-large.gif > ./gifs/regular2x/pumpkaboo-large.gif
- gifsicle --resize  96x100 --resize-method sample --colors 256 ./gifs/regular/pumpkaboo-small.gif > ./gifs/regular2x/pumpkaboo-small.gif
- gifsicle --resize  124x130 --resize-method sample --colors 256 ./gifs/regular/pumpkaboo-super.gif > ./gifs/regular2x/pumpkaboo-super.gif
- gifsicle --resize  112x118 --resize-method sample --colors 256 ./gifs/regular/pumpkaboo.gif > ./gifs/regular2x/pumpkaboo.gif
- gifsicle --resize  110x136 --resize-method sample --colors 256 ./gifs/regular/pupitar.gif > ./gifs/regular2x/pupitar.gif
- gifsicle --resize  118x140 --resize-method sample --colors 256 ./gifs/regular/purrloin.gif > ./gifs/regular2x/purrloin.gif
- gifsicle --resize  140x162 --resize-method sample --colors 256 ./gifs/regular/purugly.gif > ./gifs/regular2x/purugly.gif
  gifsicle --resize  136x190 --resize-method sample --colors 256 ./gifs/regular/pyroar-f.gif > ./gifs/regular2x/pyroar-f.gif
- gifsicle --resize  158x198 --resize-method sample --colors 256 ./gifs/regular/pyroar.gif > ./gifs/regular2x/pyroar.gif
- gifsicle --resize  104x78 --resize-method sample --colors 256 ./gifs/regular/pyukumuku.gif > ./gifs/regular2x/pyukumuku.gif
  gifsicle --resize  96x154 --resize-method sample --colors 256 ./gifs/regular/quagsire-f.gif > ./gifs/regular2x/quagsire-f.gif
- gifsicle --resize  96x154 --resize-method sample --colors 256 ./gifs/regular/quagsire.gif > ./gifs/regular2x/quagsire.gif
- gifsicle --resize  104x84 --resize-method sample --colors 256 ./gifs/regular/quilava.gif > ./gifs/regular2x/quilava.gif
- gifsicle --resize  146x136 --resize-method sample --colors 256 ./gifs/regular/quilladin.gif > ./gifs/regular2x/quilladin.gif
- gifsicle --resize  122x100 --resize-method sample --colors 256 ./gifs/regular/qwilfish.gif > ./gifs/regular2x/qwilfish.gif
- gifsicle --resize  184x186 --resize-method sample --colors 256 ./gifs/regular/raichu-alola.gif > ./gifs/regular2x/raichu-alola.gif
  gifsicle --resize  130x194 --resize-method sample --colors 256 ./gifs/regular/raichu-f.gif > ./gifs/regular2x/raichu-f.gif
- gifsicle --resize  138x206 --resize-method sample --colors 256 ./gifs/regular/raichu.gif > ./gifs/regular2x/raichu.gif
- gifsicle --resize  136x164 --resize-method sample --colors 256 ./gifs/regular/raikou.gif > ./gifs/regular2x/raikou.gif
- gifsicle --resize  64x104 --resize-method sample --colors 256 ./gifs/regular/ralts.gif > ./gifs/regular2x/ralts.gif
- gifsicle --resize  150x178 --resize-method sample --colors 256 ./gifs/regular/rampardos.gif > ./gifs/regular2x/rampardos.gif
- gifsicle --resize  182x190 --resize-method sample --colors 256 ./gifs/regular/rapidash.gif > ./gifs/regular2x/rapidash.gif
- gifsicle --resize  140x118 --resize-method sample --colors 256 ./gifs/regular/raticate-alola.gif > ./gifs/regular2x/raticate-alola.gif
  gifsicle --resize  136x128 --resize-method sample --colors 256 ./gifs/regular/raticate-f.gif > ./gifs/regular2x/raticate-f.gif
- gifsicle --resize  136x128 --resize-method sample --colors 256 ./gifs/regular/raticate.gif > ./gifs/regular2x/raticate.gif
- gifsicle --resize  98x104 --resize-method sample --colors 256 ./gifs/regular/rattata-alola.gif > ./gifs/regular2x/rattata-alola.gif
  gifsicle --resize  84x122 --resize-method sample --colors 256 ./gifs/regular/rattata-f.gif > ./gifs/regular2x/rattata-f.gif
- gifsicle --resize  86x122 --resize-method sample --colors 256 ./gifs/regular/rattata.gif > ./gifs/regular2x/rattata.gif
- gifsicle --resize  274x292 --resize-method sample --colors 256 ./gifs/regular/rayquaza-mega.gif > ./gifs/regular2x/rayquaza-mega.gif
- gifsicle --resize  284x306 --resize-method sample --colors 256 ./gifs/regular/rayquaza.gif > ./gifs/regular2x/rayquaza.gif
- gifsicle --resize  214x164 --resize-method sample --colors 256 ./gifs/regular/regice.gif > ./gifs/regular2x/regice.gif
- gifsicle --resize  332x192 --resize-method sample --colors 256 ./gifs/regular/regigigas.gif > ./gifs/regular2x/regigigas.gif
- gifsicle --resize  184x166 --resize-method sample --colors 256 ./gifs/regular/regirock.gif > ./gifs/regular2x/regirock.gif
- gifsicle --resize  246x154 --resize-method sample --colors 256 ./gifs/regular/registeel.gif > ./gifs/regular2x/registeel.gif
  gifsicle --resize  138x136 --resize-method sample --colors 256 ./gifs/regular/relicanth-f.gif > ./gifs/regular2x/relicanth-f.gif
- gifsicle --resize  138x136 --resize-method sample --colors 256 ./gifs/regular/relicanth.gif > ./gifs/regular2x/relicanth.gif
- gifsicle --resize  114x124 --resize-method sample --colors 256 ./gifs/regular/remoraid.gif > ./gifs/regular2x/remoraid.gif
- gifsicle --resize  326x230 --resize-method sample --colors 256 ./gifs/regular/reshiram.gif > ./gifs/regular2x/reshiram.gif
- gifsicle --resize  320x150 --resize-method sample --colors 256 ./gifs/regular/reuniclus.gif > ./gifs/regular2x/reuniclus.gif
  gifsicle --resize  192x164 --resize-method sample --colors 256 ./gifs/regular/rhydon-f.gif > ./gifs/regular2x/rhydon-f.gif
- gifsicle --resize  192x164 --resize-method sample --colors 256 ./gifs/regular/rhydon.gif > ./gifs/regular2x/rhydon.gif
  gifsicle --resize  132x114 --resize-method sample --colors 256 ./gifs/regular/rhyhorn-f.gif > ./gifs/regular2x/rhyhorn-f.gif
- gifsicle --resize  132x114 --resize-method sample --colors 256 ./gifs/regular/rhyhorn.gif > ./gifs/regular2x/rhyhorn.gif
  gifsicle --resize  210x182 --resize-method sample --colors 256 ./gifs/regular/rhyperior-f.gif > ./gifs/regular2x/rhyperior-f.gif
- gifsicle --resize  210x188 --resize-method sample --colors 256 ./gifs/regular/rhyperior.gif > ./gifs/regular2x/rhyperior.gif
- gifsicle --resize  180x128 --resize-method sample --colors 256 ./gifs/regular/ribombee.gif > ./gifs/regular2x/ribombee.gif
- gifsicle --resize  84x122 --resize-method sample --colors 256 ./gifs/regular/riolu.gif > ./gifs/regular2x/riolu.gif
- gifsicle --resize  90x114 --resize-method sample --colors 256 ./gifs/regular/rockruff.gif > ./gifs/regular2x/rockruff.gif
- gifsicle --resize  92x120 --resize-method sample --colors 256 ./gifs/regular/roggenrola.gif > ./gifs/regular2x/roggenrola.gif
  gifsicle --resize  142x118 --resize-method sample --colors 256 ./gifs/regular/roselia-f.gif > ./gifs/regular2x/roselia-f.gif
- gifsicle --resize  142x116 --resize-method sample --colors 256 ./gifs/regular/roselia.gif > ./gifs/regular2x/roselia.gif
  gifsicle --resize  114x156 --resize-method sample --colors 256 ./gifs/regular/roserade-f.gif > ./gifs/regular2x/roserade-f.gif
- gifsicle --resize  114x156 --resize-method sample --colors 256 ./gifs/regular/roserade.gif > ./gifs/regular2x/roserade.gif
  gifsicle --resize  234x130 --resize-method sample --colors 256 ./gifs/regular/rotom-f.gif > ./gifs/regular2x/rotom-f.gif
- gifsicle --resize  224x148 --resize-method sample --colors 256 ./gifs/regular/rotom-fan.gif > ./gifs/regular2x/rotom-fan.gif
- gifsicle --resize  234x130 --resize-method sample --colors 256 ./gifs/regular/rotom-frost.gif > ./gifs/regular2x/rotom-frost.gif
  gifsicle --resize  214x124 --resize-method sample --colors 256 ./gifs/regular/rotom-h.gif > ./gifs/regular2x/rotom-h.gif
- gifsicle --resize  214x124 --resize-method sample --colors 256 ./gifs/regular/rotom-heat.gif > ./gifs/regular2x/rotom-heat.gif
  gifsicle --resize  186x118 --resize-method sample --colors 256 ./gifs/regular/rotom-m.gif > ./gifs/regular2x/rotom-m.gif
- gifsicle --resize  186x118 --resize-method sample --colors 256 ./gifs/regular/rotom-mow.gif > ./gifs/regular2x/rotom-mow.gif
  gifsicle --resize  224x148 --resize-method sample --colors 256 ./gifs/regular/rotom-s.gif > ./gifs/regular2x/rotom-s.gif
  gifsicle --resize  220x128 --resize-method sample --colors 256 ./gifs/regular/rotom-w.gif > ./gifs/regular2x/rotom-w.gif
- gifsicle --resize  220x128 --resize-method sample --colors 256 ./gifs/regular/rotom-wash.gif > ./gifs/regular2x/rotom-wash.gif
- gifsicle --resize  210x140 --resize-method sample --colors 256 ./gifs/regular/rotom.gif > ./gifs/regular2x/rotom.gif
- gifsicle --resize  86x100 --resize-method sample --colors 256 ./gifs/regular/rowlet.gif > ./gifs/regular2x/rowlet.gif
- gifsicle --resize  90x130 --resize-method sample --colors 256 ./gifs/regular/rufflet.gif > ./gifs/regular2x/rufflet.gif
- gifsicle --resize  152x150 --resize-method sample --colors 256 ./gifs/regular/sableye-mega.gif > ./gifs/regular2x/sableye-mega.gif
- gifsicle --resize  98x128 --resize-method sample --colors 256 ./gifs/regular/sableye.gif > ./gifs/regular2x/sableye.gif
- gifsicle --resize  434x142 --resize-method sample --colors 256 ./gifs/regular/salamence-mega.gif > ./gifs/regular2x/salamence-mega.gif
- gifsicle --resize  274x184 --resize-method sample --colors 256 ./gifs/regular/salamence.gif > ./gifs/regular2x/salamence.gif
- gifsicle --resize  160x94 --resize-method sample --colors 256 ./gifs/regular/salandit.gif > ./gifs/regular2x/salandit.gif
- gifsicle --resize  192x176 --resize-method sample --colors 256 ./gifs/regular/salazzle.gif > ./gifs/regular2x/salazzle.gif
- gifsicle --resize  206x216 --resize-method sample --colors 256 ./gifs/regular/samurott.gif > ./gifs/regular2x/samurott.gif
- gifsicle --resize  126x94 --resize-method sample --colors 256 ./gifs/regular/sandile.gif > ./gifs/regular2x/sandile.gif
- gifsicle --resize  78x92 --resize-method sample --colors 256 ./gifs/regular/sandshrew-alola.gif > ./gifs/regular2x/sandshrew-alola.gif
- gifsicle --resize  90x94 --resize-method sample --colors 256 ./gifs/regular/sandshrew.gif > ./gifs/regular2x/sandshrew.gif
- gifsicle --resize  148x168 --resize-method sample --colors 256 ./gifs/regular/sandslash-alola.gif > ./gifs/regular2x/sandslash-alola.gif
- gifsicle --resize  122x136 --resize-method sample --colors 256 ./gifs/regular/sandslash.gif > ./gifs/regular2x/sandslash.gif
- gifsicle --resize  168x128 --resize-method sample --colors 256 ./gifs/regular/sandygast.gif > ./gifs/regular2x/sandygast.gif
- gifsicle --resize  162x166 --resize-method sample --colors 256 ./gifs/regular/sawk.gif > ./gifs/regular2x/sawk.gif
  gifsicle --resize  156x218 --resize-method sample --colors 256 ./gifs/regular/sawsbuck-autumn.gif > ./gifs/regular2x/sawsbuck-autumn.gif
  gifsicle --resize  150x220 --resize-method sample --colors 256 ./gifs/regular/sawsbuck-summer.gif > ./gifs/regular2x/sawsbuck-summer.gif
  gifsicle --resize  114x202 --resize-method sample --colors 256 ./gifs/regular/sawsbuck-winter.gif > ./gifs/regular2x/sawsbuck-winter.gif
- gifsicle --resize  106x200 --resize-method sample --colors 256 ./gifs/regular/sawsbuck.gif > ./gifs/regular2x/sawsbuck.gif
- gifsicle --resize  76x112 --resize-method sample --colors 256 ./gifs/regular/scatterbug.gif > ./gifs/regular2x/scatterbug.gif
- gifsicle --resize  148x194 --resize-method sample --colors 256 ./gifs/regular/sceptile-mega.gif > ./gifs/regular2x/sceptile-mega.gif
- gifsicle --resize  200x186 --resize-method sample --colors 256 ./gifs/regular/sceptile.gif > ./gifs/regular2x/sceptile.gif
  gifsicle --resize  134x186 --resize-method sample --colors 256 ./gifs/regular/scizor-f.gif > ./gifs/regular2x/scizor-f.gif
- gifsicle --resize  158x206 --resize-method sample --colors 256 ./gifs/regular/scizor-mega.gif > ./gifs/regular2x/scizor-mega.gif
- gifsicle --resize  134x186 --resize-method sample --colors 256 ./gifs/regular/scizor.gif > ./gifs/regular2x/scizor.gif
- gifsicle --resize  224x248 --resize-method sample --colors 256 ./gifs/regular/scolipede.gif > ./gifs/regular2x/scolipede.gif
- gifsicle --resize  112x154 --resize-method sample --colors 256 ./gifs/regular/scrafty.gif > ./gifs/regular2x/scrafty.gif
- gifsicle --resize  104x126 --resize-method sample --colors 256 ./gifs/regular/scraggy.gif > ./gifs/regular2x/scraggy.gif
  gifsicle --resize  210x206 --resize-method sample --colors 256 ./gifs/regular/scyther-f.gif > ./gifs/regular2x/scyther-f.gif
- gifsicle --resize  210x206 --resize-method sample --colors 256 ./gifs/regular/scyther.gif > ./gifs/regular2x/scyther.gif
- gifsicle --resize  138x148 --resize-method sample --colors 256 ./gifs/regular/seadra.gif > ./gifs/regular2x/seadra.gif
  gifsicle --resize  170x138 --resize-method sample --colors 256 ./gifs/regular/seaking-f.gif > ./gifs/regular2x/seaking-f.gif
- gifsicle --resize  170x138 --resize-method sample --colors 256 ./gifs/regular/seaking.gif > ./gifs/regular2x/seaking.gif
- gifsicle --resize  158x100 --resize-method sample --colors 256 ./gifs/regular/sealeo.gif > ./gifs/regular2x/sealeo.gif
- gifsicle --resize  74x92 --resize-method sample --colors 256 ./gifs/regular/seedot.gif > ./gifs/regular2x/seedot.gif
- gifsicle --resize  132x90 --resize-method sample --colors 256 ./gifs/regular/seel.gif > ./gifs/regular2x/seel.gif
- gifsicle --resize  190x180 --resize-method sample --colors 256 ./gifs/regular/seismitoad.gif > ./gifs/regular2x/seismitoad.gif
- gifsicle --resize  104x110 --resize-method sample --colors 256 ./gifs/regular/sentret.gif > ./gifs/regular2x/sentret.gif
- gifsicle --resize  180x216 --resize-method sample --colors 256 ./gifs/regular/serperior.gif > ./gifs/regular2x/serperior.gif
- gifsicle --resize  116x164 --resize-method sample --colors 256 ./gifs/regular/servine.gif > ./gifs/regular2x/servine.gif
- gifsicle --resize  146x176 --resize-method sample --colors 256 ./gifs/regular/seviper.gif > ./gifs/regular2x/seviper.gif
- gifsicle --resize  88x94 --resize-method sample --colors 256 ./gifs/regular/sewaddle.gif > ./gifs/regular2x/sewaddle.gif
  gifsicle --resize  240x240 --resize-method sample --colors 256 ./gifs/regular/shapedo-mega.gif > ./gifs/regular2x/shapedo-mega.gif
- gifsicle --resize  172x192 --resize-method sample --colors 256 ./gifs/regular/sharpedo-mega.gif > ./gifs/regular2x/sharpedo-mega.gif
- gifsicle --resize  156x204 --resize-method sample --colors 256 ./gifs/regular/sharpedo.gif > ./gifs/regular2x/sharpedo.gif
- gifsicle --resize  156x146 --resize-method sample --colors 256 ./gifs/regular/shaymin-sky.gif > ./gifs/regular2x/shaymin-sky.gif
  gifsicle --resize  96x86 --resize-method sample --colors 256 ./gifs/regular/shaymin.gif > ./gifs/regular2x/shaymin.gif
- gifsicle --resize  114x116 --resize-method sample --colors 256 ./gifs/regular/shedinja.gif > ./gifs/regular2x/shedinja.gif
- gifsicle --resize  114x118 --resize-method sample --colors 256 ./gifs/regular/shelgon.gif > ./gifs/regular2x/shelgon.gif
- gifsicle --resize  104x74 --resize-method sample --colors 256 ./gifs/regular/shellder.gif > ./gifs/regular2x/shellder.gif
  gifsicle --resize  102x120 --resize-method sample --colors 256 ./gifs/regular/shellos-east.gif > ./gifs/regular2x/shellos-east.gif
- gifsicle --resize  88x124 --resize-method sample --colors 256 ./gifs/regular/shellos.gif > ./gifs/regular2x/shellos.gif
- gifsicle --resize  118x98 --resize-method sample --colors 256 ./gifs/regular/shelmet.gif > ./gifs/regular2x/shelmet.gif
- gifsicle --resize  92x110 --resize-method sample --colors 256 ./gifs/regular/shieldon.gif > ./gifs/regular2x/shieldon.gif
  gifsicle --resize  274x156 --resize-method sample --colors 256 ./gifs/regular/shiftry-f.gif > ./gifs/regular2x/shiftry-f.gif
- gifsicle --resize  312x156 --resize-method sample --colors 256 ./gifs/regular/shiftry.gif > ./gifs/regular2x/shiftry.gif
- gifsicle --resize  170x140 --resize-method sample --colors 256 ./gifs/regular/shiinotic.gif > ./gifs/regular2x/shiinotic.gif
  gifsicle --resize  124x108 --resize-method sample --colors 256 ./gifs/regular/shinx-f.gif > ./gifs/regular2x/shinx-f.gif
- gifsicle --resize  124x118 --resize-method sample --colors 256 ./gifs/regular/shinx.gif > ./gifs/regular2x/shinx.gif
- gifsicle --resize  102x72 --resize-method sample --colors 256 ./gifs/regular/shroomish.gif > ./gifs/regular2x/shroomish.gif
- gifsicle --resize  142x114 --resize-method sample --colors 256 ./gifs/regular/shuckle.gif > ./gifs/regular2x/shuckle.gif
- gifsicle --resize  74x126 --resize-method sample --colors 256 ./gifs/regular/shuppet.gif > ./gifs/regular2x/shuppet.gif
- gifsicle --resize  286x234 --resize-method sample --colors 256 ./gifs/regular/sigilyph.gif > ./gifs/regular2x/sigilyph.gif
- gifsicle --resize  100x78 --resize-method sample --colors 256 ./gifs/regular/silcoon.gif > ./gifs/regular2x/silcoon.gif
  gifsicle --resize  114x234 --resize-method sample --colors 256 ./gifs/regular/silvally-bug.gif > ./gifs/regular2x/silvally-bug.gif
  gifsicle --resize  114x234 --resize-method sample --colors 256 ./gifs/regular/silvally-dark.gif > ./gifs/regular2x/silvally-dark.gif
  gifsicle --resize  114x234 --resize-method sample --colors 256 ./gifs/regular/silvally-dragon.gif > ./gifs/regular2x/silvally-dragon.gif
@@ -890,146 +1086,23 @@
  gifsicle --resize  114x234 --resize-method sample --colors 256 ./gifs/regular/silvally-rock.gif > ./gifs/regular2x/silvally-rock.gif
  gifsicle --resize  114x234 --resize-method sample --colors 256 ./gifs/regular/silvally-steel.gif > ./gifs/regular2x/silvally-steel.gif
  gifsicle --resize  114x234 --resize-method sample --colors 256 ./gifs/regular/silvally-water.gif > ./gifs/regular2x/silvally-water.gif
- gifsicle --resize  114x234 --resize-method sample --colors 256 ./gifs/regular/silvally.gif > ./gifs/regular2x/silvally.gif
- gifsicle --resize  152x166 --resize-method sample --colors 256 ./gifs/regular/simipour.gif > ./gifs/regular2x/simipour.gif
- gifsicle --resize  142x190 --resize-method sample --colors 256 ./gifs/regular/simisage.gif > ./gifs/regular2x/simisage.gif
- gifsicle --resize  152x162 --resize-method sample --colors 256 ./gifs/regular/simisear.gif > ./gifs/regular2x/simisear.gif
- gifsicle --resize  232x128 --resize-method sample --colors 256 ./gifs/regular/skarmory.gif > ./gifs/regular2x/skarmory.gif
- gifsicle --resize  96x126 --resize-method sample --colors 256 ./gifs/regular/skiddo.gif > ./gifs/regular2x/skiddo.gif
- gifsicle --resize  128x82 --resize-method sample --colors 256 ./gifs/regular/skiploom.gif > ./gifs/regular2x/skiploom.gif
- gifsicle --resize  118x110 --resize-method sample --colors 256 ./gifs/regular/skitty.gif > ./gifs/regular2x/skitty.gif
- gifsicle --resize  150x128 --resize-method sample --colors 256 ./gifs/regular/skorupi.gif > ./gifs/regular2x/skorupi.gif
- gifsicle --resize  86x154 --resize-method sample --colors 256 ./gifs/regular/skrelp.gif > ./gifs/regular2x/skrelp.gif
- gifsicle --resize  174x158 --resize-method sample --colors 256 ./gifs/regular/skuntank.gif > ./gifs/regular2x/skuntank.gif
- gifsicle --resize  204x144 --resize-method sample --colors 256 ./gifs/regular/slaking.gif > ./gifs/regular2x/slaking.gif
- gifsicle --resize  182x62 --resize-method sample --colors 256 ./gifs/regular/slakoth.gif > ./gifs/regular2x/slakoth.gif
- gifsicle --resize  84x164 --resize-method sample --colors 256 ./gifs/regular/sliggoo.gif > ./gifs/regular2x/sliggoo.gif
- gifsicle --resize  150x174 --resize-method sample --colors 256 ./gifs/regular/slowbro-mega.gif > ./gifs/regular2x/slowbro-mega.gif
- gifsicle --resize  184x142 --resize-method sample --colors 256 ./gifs/regular/slowbro.gif > ./gifs/regular2x/slowbro.gif
- gifsicle --resize  124x170 --resize-method sample --colors 256 ./gifs/regular/slowking.gif > ./gifs/regular2x/slowking.gif
- gifsicle --resize  94x116 --resize-method sample --colors 256 ./gifs/regular/slowpoke.gif > ./gifs/regular2x/slowpoke.gif
- gifsicle --resize  124x126 --resize-method sample --colors 256 ./gifs/regular/slugma.gif > ./gifs/regular2x/slugma.gif
- gifsicle --resize  136x140 --resize-method sample --colors 256 ./gifs/regular/slurpuff.gif > ./gifs/regular2x/slurpuff.gif
- gifsicle --resize  116x148 --resize-method sample --colors 256 ./gifs/regular/smeargle.gif > ./gifs/regular2x/smeargle.gif
- gifsicle --resize  92x122 --resize-method sample --colors 256 ./gifs/regular/smoochum.gif > ./gifs/regular2x/smoochum.gif
  gifsicle --resize  86x126 --resize-method sample --colors 256 ./gifs/regular/sneasel-f.gif > ./gifs/regular2x/sneasel-f.gif
- gifsicle --resize  94x144 --resize-method sample --colors 256 ./gifs/regular/sneasel.gif > ./gifs/regular2x/sneasel.gif
- gifsicle --resize  112x110 --resize-method sample --colors 256 ./gifs/regular/snivy.gif > ./gifs/regular2x/snivy.gif
- gifsicle --resize  170x160 --resize-method sample --colors 256 ./gifs/regular/snorlax.gif > ./gifs/regular2x/snorlax.gif
  gifsicle --resize  88x94 --resize-method sample --colors 256 ./gifs/regular/snornut.gif > ./gifs/regular2x/snornut.gif
- gifsicle --resize  88x94 --resize-method sample --colors 256 ./gifs/regular/snorunt.gif > ./gifs/regular2x/snorunt.gif
  gifsicle --resize  176x122 --resize-method sample --colors 256 ./gifs/regular/snover-f.gif > ./gifs/regular2x/snover-f.gif
- gifsicle --resize  176x122 --resize-method sample --colors 256 ./gifs/regular/snover.gif > ./gifs/regular2x/snover.gif
- gifsicle --resize  134x116 --resize-method sample --colors 256 ./gifs/regular/snubbull.gif > ./gifs/regular2x/snubbull.gif
- gifsicle --resize  174x190 --resize-method sample --colors 256 ./gifs/regular/solgaleo.gif > ./gifs/regular2x/solgaleo.gif
- gifsicle --resize  90x90 --resize-method sample --colors 256 ./gifs/regular/solosis.gif > ./gifs/regular2x/solosis.gif
- gifsicle --resize  180x158 --resize-method sample --colors 256 ./gifs/regular/solrock.gif > ./gifs/regular2x/solrock.gif
- gifsicle --resize  66x104 --resize-method sample --colors 256 ./gifs/regular/spearow.gif > ./gifs/regular2x/spearow.gif
- gifsicle --resize  88x86 --resize-method sample --colors 256 ./gifs/regular/spewpa.gif > ./gifs/regular2x/spewpa.gif
- gifsicle --resize  90x84 --resize-method sample --colors 256 ./gifs/regular/spheal.gif > ./gifs/regular2x/spheal.gif
- gifsicle --resize  114x54 --resize-method sample --colors 256 ./gifs/regular/spinarak.gif > ./gifs/regular2x/spinarak.gif
- gifsicle --resize  122x138 --resize-method sample --colors 256 ./gifs/regular/spinda.gif > ./gifs/regular2x/spinda.gif
- gifsicle --resize  156x146 --resize-method sample --colors 256 ./gifs/regular/spiritomb.gif > ./gifs/regular2x/spiritomb.gif
- gifsicle --resize  70x192 --resize-method sample --colors 256 ./gifs/regular/spoink.gif > ./gifs/regular2x/spoink.gif
- gifsicle --resize  138x122 --resize-method sample --colors 256 ./gifs/regular/spritzee.gif > ./gifs/regular2x/spritzee.gif
- gifsicle --resize  106x108 --resize-method sample --colors 256 ./gifs/regular/squirtle.gif > ./gifs/regular2x/squirtle.gif
- gifsicle --resize  98x184 --resize-method sample --colors 256 ./gifs/regular/stantler.gif > ./gifs/regular2x/stantler.gif
  gifsicle --resize  386x352 --resize-method sample --colors 256 ./gifs/regular/staraptor-f.gif > ./gifs/regular2x/staraptor-f.gif
- gifsicle --resize  386x390 --resize-method sample --colors 256 ./gifs/regular/staraptor.gif > ./gifs/regular2x/staraptor.gif
  gifsicle --resize  270x244 --resize-method sample --colors 256 ./gifs/regular/staravia-f.gif > ./gifs/regular2x/staravia-f.gif
- gifsicle --resize  270x244 --resize-method sample --colors 256 ./gifs/regular/staravia.gif > ./gifs/regular2x/staravia.gif
  gifsicle --resize  70x92 --resize-method sample --colors 256 ./gifs/regular/starly-f.gif > ./gifs/regular2x/starly-f.gif
- gifsicle --resize  70x92 --resize-method sample --colors 256 ./gifs/regular/starly.gif > ./gifs/regular2x/starly.gif
- gifsicle --resize  124x122 --resize-method sample --colors 256 ./gifs/regular/starmie.gif > ./gifs/regular2x/starmie.gif
- gifsicle --resize  96x100 --resize-method sample --colors 256 ./gifs/regular/staryu.gif > ./gifs/regular2x/staryu.gif
  gifsicle --resize  184x210 --resize-method sample --colors 256 ./gifs/regular/steelix-f.gif > ./gifs/regular2x/steelix-f.gif
- gifsicle --resize  242x244 --resize-method sample --colors 256 ./gifs/regular/steelix-mega.gif > ./gifs/regular2x/steelix-mega.gif
- gifsicle --resize  184x210 --resize-method sample --colors 256 ./gifs/regular/steelix.gif > ./gifs/regular2x/steelix.gif
- gifsicle --resize  118x154 --resize-method sample --colors 256 ./gifs/regular/steenee.gif > ./gifs/regular2x/steenee.gif
- gifsicle --resize  182x176 --resize-method sample --colors 256 ./gifs/regular/stoutland.gif > ./gifs/regular2x/stoutland.gif
  gifsicle --resize  172x184 --resize-method sample --colors 256 ./gifs/regular/stratagem.gif > ./gifs/regular2x/stratagem.gif
- gifsicle --resize  110x108 --resize-method sample --colors 256 ./gifs/regular/stufful.gif > ./gifs/regular2x/stufful.gif
- gifsicle --resize  196x30 --resize-method sample --colors 256 ./gifs/regular/stunfisk.gif > ./gifs/regular2x/stunfisk.gif
- gifsicle --resize  170x132 --resize-method sample --colors 256 ./gifs/regular/stunky.gif > ./gifs/regular2x/stunky.gif
  gifsicle --resize  68x78 --resize-method sample --colors 256 ./gifs/regular/substitute.gif > ./gifs/regular2x/substitute.gif
  gifsicle --resize  116x128 --resize-method sample --colors 256 ./gifs/regular/sudowoodo-f.gif > ./gifs/regular2x/sudowoodo-f.gif
- gifsicle --resize  116x132 --resize-method sample --colors 256 ./gifs/regular/sudowoodo.gif > ./gifs/regular2x/sudowoodo.gif
- gifsicle --resize  214x172 --resize-method sample --colors 256 ./gifs/regular/suicune.gif > ./gifs/regular2x/suicune.gif
- gifsicle --resize  146x148 --resize-method sample --colors 256 ./gifs/regular/sunflora.gif > ./gifs/regular2x/sunflora.gif
- gifsicle --resize  88x88 --resize-method sample --colors 256 ./gifs/regular/sunkern.gif > ./gifs/regular2x/sunkern.gif
- gifsicle --resize  150x104 --resize-method sample --colors 256 ./gifs/regular/surskit.gif > ./gifs/regular2x/surskit.gif
- gifsicle --resize  186x106 --resize-method sample --colors 256 ./gifs/regular/swablu.gif > ./gifs/regular2x/swablu.gif
- gifsicle --resize  140x114 --resize-method sample --colors 256 ./gifs/regular/swadloon.gif > ./gifs/regular2x/swadloon.gif
  gifsicle --resize  158x140 --resize-method sample --colors 256 ./gifs/regular/swalot-f.gif > ./gifs/regular2x/swalot-f.gif
- gifsicle --resize  158x140 --resize-method sample --colors 256 ./gifs/regular/swalot.gif > ./gifs/regular2x/swalot.gif
- gifsicle --resize  244x160 --resize-method sample --colors 256 ./gifs/regular/swampert-mega.gif > ./gifs/regular2x/swampert-mega.gif
- gifsicle --resize  188x180 --resize-method sample --colors 256 ./gifs/regular/swampert.gif > ./gifs/regular2x/swampert.gif
- gifsicle --resize  368x366 --resize-method sample --colors 256 ./gifs/regular/swanna.gif > ./gifs/regular2x/swanna.gif
- gifsicle --resize  332x88 --resize-method sample --colors 256 ./gifs/regular/swellow.gif > ./gifs/regular2x/swellow.gif
- gifsicle --resize  98x66 --resize-method sample --colors 256 ./gifs/regular/swinub.gif > ./gifs/regular2x/swinub.gif
- gifsicle --resize  94x98 --resize-method sample --colors 256 ./gifs/regular/swirlix.gif > ./gifs/regular2x/swirlix.gif
- gifsicle --resize  288x214 --resize-method sample --colors 256 ./gifs/regular/swoobat.gif > ./gifs/regular2x/swoobat.gif
- gifsicle --resize  118x172 --resize-method sample --colors 256 ./gifs/regular/sylveon.gif > ./gifs/regular2x/sylveon.gif
- gifsicle --resize  98x92 --resize-method sample --colors 256 ./gifs/regular/taillow.gif > ./gifs/regular2x/taillow.gif
- gifsicle --resize  304x370 --resize-method sample --colors 256 ./gifs/regular/talonflame.gif > ./gifs/regular2x/talonflame.gif
- gifsicle --resize  116x106 --resize-method sample --colors 256 ./gifs/regular/tangela.gif > ./gifs/regular2x/tangela.gif
  gifsicle --resize  290x164 --resize-method sample --colors 256 ./gifs/regular/tangrowth-f.gif > ./gifs/regular2x/tangrowth-f.gif
- gifsicle --resize  290x164 --resize-method sample --colors 256 ./gifs/regular/tangrowth.gif > ./gifs/regular2x/tangrowth.gif
- gifsicle --resize  170x208 --resize-method sample --colors 256 ./gifs/regular/tapubulu.gif > ./gifs/regular2x/tapubulu.gif
- gifsicle --resize  136x184 --resize-method sample --colors 256 ./gifs/regular/tapufini.gif > ./gifs/regular2x/tapufini.gif
- gifsicle --resize  142x190 --resize-method sample --colors 256 ./gifs/regular/tapukoko.gif > ./gifs/regular2x/tapukoko.gif
- gifsicle --resize  108x168 --resize-method sample --colors 256 ./gifs/regular/tapulele.gif > ./gifs/regular2x/tapulele.gif
- gifsicle --resize  194x190 --resize-method sample --colors 256 ./gifs/regular/tauros.gif > ./gifs/regular2x/tauros.gif
- gifsicle --resize  94x114 --resize-method sample --colors 256 ./gifs/regular/teddiursa.gif > ./gifs/regular2x/teddiursa.gif
- gifsicle --resize  90x146 --resize-method sample --colors 256 ./gifs/regular/tentacool.gif > ./gifs/regular2x/tentacool.gif
- gifsicle --resize  136x170 --resize-method sample --colors 256 ./gifs/regular/tentacruel.gif > ./gifs/regular2x/tentacruel.gif
- gifsicle --resize  92x124 --resize-method sample --colors 256 ./gifs/regular/tepig.gif > ./gifs/regular2x/tepig.gif
- gifsicle --resize  198x168 --resize-method sample --colors 256 ./gifs/regular/terrakion.gif > ./gifs/regular2x/terrakion.gif
- gifsicle --resize  218x176 --resize-method sample --colors 256 ./gifs/regular/throh.gif > ./gifs/regular2x/throh.gif
- gifsicle --resize  258x216 --resize-method sample --colors 256 ./gifs/regular/thundurus-therian.gif > ./gifs/regular2x/thundurus-therian.gif
- gifsicle --resize  192x206 --resize-method sample --colors 256 ./gifs/regular/thundurus.gif > ./gifs/regular2x/thundurus.gif
- gifsicle --resize  120x122 --resize-method sample --colors 256 ./gifs/regular/timburr.gif > ./gifs/regular2x/timburr.gif
- gifsicle --resize  210x64 --resize-method sample --colors 256 ./gifs/regular/tirtouga.gif > ./gifs/regular2x/tirtouga.gif
- gifsicle --resize  126x124 --resize-method sample --colors 256 ./gifs/regular/togedemaru.gif > ./gifs/regular2x/togedemaru.gif
- gifsicle --resize  186x120 --resize-method sample --colors 256 ./gifs/regular/togekiss.gif > ./gifs/regular2x/togekiss.gif
- gifsicle --resize  94x94 --resize-method sample --colors 256 ./gifs/regular/togepi.gif > ./gifs/regular2x/togepi.gif
- gifsicle --resize  116x142 --resize-method sample --colors 256 ./gifs/regular/togetic.gif > ./gifs/regular2x/togetic.gif
  gifsicle --resize  256x204 --resize-method sample --colors 256 ./gifs/regular/tomohawk.gif > ./gifs/regular2x/tomohawk.gif
  gifsicle --resize  66x122 --resize-method sample --colors 256 ./gifs/regular/torchic-f.gif > ./gifs/regular2x/torchic-f.gif
- gifsicle --resize  66x122 --resize-method sample --colors 256 ./gifs/regular/torchic.gif > ./gifs/regular2x/torchic.gif
- gifsicle --resize  126x154 --resize-method sample --colors 256 ./gifs/regular/torkoal.gif > ./gifs/regular2x/torkoal.gif
- gifsicle --resize  304x270 --resize-method sample --colors 256 ./gifs/regular/tornadus-therian.gif > ./gifs/regular2x/tornadus-therian.gif
- gifsicle --resize  164x200 --resize-method sample --colors 256 ./gifs/regular/tornadus.gif > ./gifs/regular2x/tornadus.gif
- gifsicle --resize  172x148 --resize-method sample --colors 256 ./gifs/regular/torracat.gif > ./gifs/regular2x/torracat.gif
- gifsicle --resize  196x212 --resize-method sample --colors 256 ./gifs/regular/torterra.gif > ./gifs/regular2x/torterra.gif
- gifsicle --resize  104x116 --resize-method sample --colors 256 ./gifs/regular/totodile.gif > ./gifs/regular2x/totodile.gif
- gifsicle --resize  176x152 --resize-method sample --colors 256 ./gifs/regular/toucannon.gif > ./gifs/regular2x/toucannon.gif
- gifsicle --resize  226x164 --resize-method sample --colors 256 ./gifs/regular/toxapex.gif > ./gifs/regular2x/toxapex.gif
  gifsicle --resize  184x162 --resize-method sample --colors 256 ./gifs/regular/toxicroak-f.gif > ./gifs/regular2x/toxicroak-f.gif
- gifsicle --resize  184x162 --resize-method sample --colors 256 ./gifs/regular/toxicroak.gif > ./gifs/regular2x/toxicroak.gif
- gifsicle --resize  288x248 --resize-method sample --colors 256 ./gifs/regular/tranquill.gif > ./gifs/regular2x/tranquill.gif
- gifsicle --resize  124x90 --resize-method sample --colors 256 ./gifs/regular/trapinch.gif > ./gifs/regular2x/trapinch.gif
- gifsicle --resize  94x118 --resize-method sample --colors 256 ./gifs/regular/treecko.gif > ./gifs/regular2x/treecko.gif
- gifsicle --resize  262x218 --resize-method sample --colors 256 ./gifs/regular/trevenant.gif > ./gifs/regular2x/trevenant.gif
- gifsicle --resize  406x158 --resize-method sample --colors 256 ./gifs/regular/tropius.gif > ./gifs/regular2x/tropius.gif
- gifsicle --resize  146x114 --resize-method sample --colors 256 ./gifs/regular/trubbish.gif > ./gifs/regular2x/trubbish.gif
- gifsicle --resize  178x192 --resize-method sample --colors 256 ./gifs/regular/trumbeak.gif > ./gifs/regular2x/trumbeak.gif
- gifsicle --resize  132x178 --resize-method sample --colors 256 ./gifs/regular/tsareena.gif > ./gifs/regular2x/tsareena.gif
- gifsicle --resize  136x148 --resize-method sample --colors 256 ./gifs/regular/turtonator.gif > ./gifs/regular2x/turtonator.gif
- gifsicle --resize  90x118 --resize-method sample --colors 256 ./gifs/regular/turtwig.gif > ./gifs/regular2x/turtwig.gif
- gifsicle --resize  94x76 --resize-method sample --colors 256 ./gifs/regular/tympole.gif > ./gifs/regular2x/tympole.gif
- gifsicle --resize  98x52 --resize-method sample --colors 256 ./gifs/regular/tynamo.gif > ./gifs/regular2x/tynamo.gif
- gifsicle --resize  138x188 --resize-method sample --colors 256 ./gifs/regular/typenull.gif > ./gifs/regular2x/typenull.gif
- gifsicle --resize  124x190 --resize-method sample --colors 256 ./gifs/regular/typhlosion.gif > ./gifs/regular2x/typhlosion.gif
- gifsicle --resize  208x238 --resize-method sample --colors 256 ./gifs/regular/tyranitar-mega.gif > ./gifs/regular2x/tyranitar-mega.gif
- gifsicle --resize  150x202 --resize-method sample --colors 256 ./gifs/regular/tyranitar.gif > ./gifs/regular2x/tyranitar.gif
- gifsicle --resize  200x216 --resize-method sample --colors 256 ./gifs/regular/tyrantrum.gif > ./gifs/regular2x/tyrantrum.gif
  gifsicle --resize  200x216 --resize-method sample --colors 256 ./gifs/regular/tyrantum.gif > ./gifs/regular2x/tyrantum.gif
- gifsicle --resize  76x138 --resize-method sample --colors 256 ./gifs/regular/tyrogue.gif > ./gifs/regular2x/tyrogue.gif
- gifsicle --resize  130x136 --resize-method sample --colors 256 ./gifs/regular/tyrunt.gif > ./gifs/regular2x/tyrunt.gif
- gifsicle --resize  96x154 --resize-method sample --colors 256 ./gifs/regular/umbreon.gif > ./gifs/regular2x/umbreon.gif
  gifsicle --resize  312x284 --resize-method sample --colors 256 ./gifs/regular/unfezant-f.gif > ./gifs/regular2x/unfezant-f.gif
- gifsicle --resize  312x284 --resize-method sample --colors 256 ./gifs/regular/unfezant.gif > ./gifs/regular2x/unfezant.gif
  gifsicle --resize  126x126 --resize-method sample --colors 256 ./gifs/regular/unown-b.gif > ./gifs/regular2x/unown-b.gif
  gifsicle --resize  112x114 --resize-method sample --colors 256 ./gifs/regular/unown-c.gif > ./gifs/regular2x/unown-c.gif
  gifsicle --resize  92x154 --resize-method sample --colors 256 ./gifs/regular/unown-d.gif > ./gifs/regular2x/unown-d.gif
@@ -1057,29 +1130,9 @@
  gifsicle --resize  102x110 --resize-method sample --colors 256 ./gifs/regular/unown-x.gif > ./gifs/regular2x/unown-x.gif
  gifsicle --resize  64x100 --resize-method sample --colors 256 ./gifs/regular/unown-y.gif > ./gifs/regular2x/unown-y.gif
  gifsicle --resize  70x126 --resize-method sample --colors 256 ./gifs/regular/unown-z.gif > ./gifs/regular2x/unown-z.gif
- gifsicle --resize  116x146 --resize-method sample --colors 256 ./gifs/regular/unown.gif > ./gifs/regular2x/unown.gif
  gifsicle --resize  140x190 --resize-method sample --colors 256 ./gifs/regular/ursaring-f.gif > ./gifs/regular2x/ursaring-f.gif
- gifsicle --resize  136x190 --resize-method sample --colors 256 ./gifs/regular/ursaring.gif > ./gifs/regular2x/ursaring.gif
- gifsicle --resize  126x156 --resize-method sample --colors 256 ./gifs/regular/uxie.gif > ./gifs/regular2x/uxie.gif
- gifsicle --resize  116x170 --resize-method sample --colors 256 ./gifs/regular/vanillish.gif > ./gifs/regular2x/vanillish.gif
- gifsicle --resize  98x126 --resize-method sample --colors 256 ./gifs/regular/vanillite.gif > ./gifs/regular2x/vanillite.gif
- gifsicle --resize  166x178 --resize-method sample --colors 256 ./gifs/regular/vanilluxe.gif > ./gifs/regular2x/vanilluxe.gif
- gifsicle --resize  204x144 --resize-method sample --colors 256 ./gifs/regular/vaporeon.gif > ./gifs/regular2x/vaporeon.gif
- gifsicle --resize  126x88 --resize-method sample --colors 256 ./gifs/regular/venipede.gif > ./gifs/regular2x/venipede.gif
- gifsicle --resize  246x170 --resize-method sample --colors 256 ./gifs/regular/venomoth.gif > ./gifs/regular2x/venomoth.gif
- gifsicle --resize  116x126 --resize-method sample --colors 256 ./gifs/regular/venonat.gif > ./gifs/regular2x/venonat.gif
  gifsicle --resize  212x164 --resize-method sample --colors 256 ./gifs/regular/venusaur-f.gif > ./gifs/regular2x/venusaur-f.gif
- gifsicle --resize  272x182 --resize-method sample --colors 256 ./gifs/regular/venusaur-mega.gif > ./gifs/regular2x/venusaur-mega.gif
- gifsicle --resize  212x154 --resize-method sample --colors 256 ./gifs/regular/venusaur.gif > ./gifs/regular2x/venusaur.gif
- gifsicle --resize  150x176 --resize-method sample --colors 256 ./gifs/regular/vespiquen.gif > ./gifs/regular2x/vespiquen.gif
- gifsicle --resize  234x100 --resize-method sample --colors 256 ./gifs/regular/vibrava.gif > ./gifs/regular2x/vibrava.gif
- gifsicle --resize  106x146 --resize-method sample --colors 256 ./gifs/regular/victini.gif > ./gifs/regular2x/victini.gif
- gifsicle --resize  196x164 --resize-method sample --colors 256 ./gifs/regular/victreebel.gif > ./gifs/regular2x/victreebel.gif
- gifsicle --resize  164x160 --resize-method sample --colors 256 ./gifs/regular/vigoroth.gif > ./gifs/regular2x/vigoroth.gif
- gifsicle --resize  246x156 --resize-method sample --colors 256 ./gifs/regular/vikavolt.gif > ./gifs/regular2x/vikavolt.gif
  gifsicle --resize  162x112 --resize-method sample --colors 256 ./gifs/regular/vileplume-f.gif > ./gifs/regular2x/vileplume-f.gif
- gifsicle --resize  162x112 --resize-method sample --colors 256 ./gifs/regular/vileplume.gif > ./gifs/regular2x/vileplume.gif
- gifsicle --resize  152x194 --resize-method sample --colors 256 ./gifs/regular/virizion.gif > ./gifs/regular2x/virizion.gif
  gifsicle --resize  208x208 --resize-method sample --colors 256 ./gifs/regular/vivillon-archipelago.gif > ./gifs/regular2x/vivillon-archipelago.gif
  gifsicle --resize  208x208 --resize-method sample --colors 256 ./gifs/regular/vivillon-continental.gif > ./gifs/regular2x/vivillon-continental.gif
  gifsicle --resize  208x208 --resize-method sample --colors 256 ./gifs/regular/vivillon-elegant.gif > ./gifs/regular2x/vivillon-elegant.gif
@@ -1099,62 +1152,9 @@
  gifsicle --resize  208x208 --resize-method sample --colors 256 ./gifs/regular/vivillon-savanna.gif > ./gifs/regular2x/vivillon-savanna.gif
  gifsicle --resize  208x208 --resize-method sample --colors 256 ./gifs/regular/vivillon-sun.gif > ./gifs/regular2x/vivillon-sun.gif
  gifsicle --resize  208x208 --resize-method sample --colors 256 ./gifs/regular/vivillon-tundra.gif > ./gifs/regular2x/vivillon-tundra.gif
- gifsicle --resize  208x208 --resize-method sample --colors 256 ./gifs/regular/vivillon.gif > ./gifs/regular2x/vivillon.gif
- gifsicle --resize  136x148 --resize-method sample --colors 256 ./gifs/regular/volbeat.gif > ./gifs/regular2x/volbeat.gif
- gifsicle --resize  192x182 --resize-method sample --colors 256 ./gifs/regular/volcanion.gif > ./gifs/regular2x/volcanion.gif
- gifsicle --resize  258x186 --resize-method sample --colors 256 ./gifs/regular/volcarona.gif > ./gifs/regular2x/volcarona.gif
- gifsicle --resize  90x86 --resize-method sample --colors 256 ./gifs/regular/voltorb.gif > ./gifs/regular2x/voltorb.gif
- gifsicle --resize  128x138 --resize-method sample --colors 256 ./gifs/regular/vullaby.gif > ./gifs/regular2x/vullaby.gif
- gifsicle --resize  88x94 --resize-method sample --colors 256 ./gifs/regular/vulpix-alola.gif > ./gifs/regular2x/vulpix-alola.gif
- gifsicle --resize  104x94 --resize-method sample --colors 256 ./gifs/regular/vulpix.gif > ./gifs/regular2x/vulpix.gif
- gifsicle --resize  212x136 --resize-method sample --colors 256 ./gifs/regular/wailmer.gif > ./gifs/regular2x/wailmer.gif
- gifsicle --resize  292x162 --resize-method sample --colors 256 ./gifs/regular/wailord.gif > ./gifs/regular2x/wailord.gif
- gifsicle --resize  196x142 --resize-method sample --colors 256 ./gifs/regular/walrein.gif > ./gifs/regular2x/walrein.gif
- gifsicle --resize  112x146 --resize-method sample --colors 256 ./gifs/regular/wartortle.gif > ./gifs/regular2x/wartortle.gif
- gifsicle --resize  96x158 --resize-method sample --colors 256 ./gifs/regular/watchog.gif > ./gifs/regular2x/watchog.gif
  gifsicle --resize  124x156 --resize-method sample --colors 256 ./gifs/regular/weavile-f.gif > ./gifs/regular2x/weavile-f.gif
- gifsicle --resize  124x156 --resize-method sample --colors 256 ./gifs/regular/weavile.gif > ./gifs/regular2x/weavile.gif
- gifsicle --resize  70x106 --resize-method sample --colors 256 ./gifs/regular/weedle.gif > ./gifs/regular2x/weedle.gif
- gifsicle --resize  130x102 --resize-method sample --colors 256 ./gifs/regular/weepinbell.gif > ./gifs/regular2x/weepinbell.gif
- gifsicle --resize  206x176 --resize-method sample --colors 256 ./gifs/regular/weezing.gif > ./gifs/regular2x/weezing.gif
- gifsicle --resize  150x134 --resize-method sample --colors 256 ./gifs/regular/whimsicott.gif > ./gifs/regular2x/whimsicott.gif
- gifsicle --resize  192x130 --resize-method sample --colors 256 ./gifs/regular/whirlipede.gif > ./gifs/regular2x/whirlipede.gif
- gifsicle --resize  150x124 --resize-method sample --colors 256 ./gifs/regular/whiscash.gif > ./gifs/regular2x/whiscash.gif
- gifsicle --resize  102x96 --resize-method sample --colors 256 ./gifs/regular/whismur.gif > ./gifs/regular2x/whismur.gif
- gifsicle --resize  144x136 --resize-method sample --colors 256 ./gifs/regular/wigglytuff.gif > ./gifs/regular2x/wigglytuff.gif
- gifsicle --resize  194x74 --resize-method sample --colors 256 ./gifs/regular/wimpod.gif > ./gifs/regular2x/wimpod.gif
- gifsicle --resize  286x48 --resize-method sample --colors 256 ./gifs/regular/wingull.gif > ./gifs/regular2x/wingull.gif
- gifsicle --resize  284x206 --resize-method sample --colors 256 ./gifs/regular/wishiwashi-school.gif > ./gifs/regular2x/wishiwashi-school.gif
  gifsicle --resize  110x74 --resize-method sample --colors 256 ./gifs/regular/wishiwashi.gif > ./gifs/regular2x/wishiwashi.gif
  gifsicle --resize  82x136 --resize-method sample --colors 256 ./gifs/regular/wobbuffet-f.gif > ./gifs/regular2x/wobbuffet-f.gif
- gifsicle --resize  82x136 --resize-method sample --colors 256 ./gifs/regular/wobbuffet.gif > ./gifs/regular2x/wobbuffet.gif
- gifsicle --resize  190x112 --resize-method sample --colors 256 ./gifs/regular/woobat.gif > ./gifs/regular2x/woobat.gif
  gifsicle --resize  108x94 --resize-method sample --colors 256 ./gifs/regular/wooper-f.gif > ./gifs/regular2x/wooper-f.gif
- gifsicle --resize  118x94 --resize-method sample --colors 256 ./gifs/regular/wooper.gif > ./gifs/regular2x/wooper.gif
- gifsicle --resize  164x154 --resize-method sample --colors 256 ./gifs/regular/wormadam-sandy.gif > ./gifs/regular2x/wormadam-sandy.gif
- gifsicle --resize  168x164 --resize-method sample --colors 256 ./gifs/regular/wormadam-trash.gif > ./gifs/regular2x/wormadam-trash.gif
- gifsicle --resize  162x164 --resize-method sample --colors 256 ./gifs/regular/wormadam.gif > ./gifs/regular2x/wormadam.gif
- gifsicle --resize  80x106 --resize-method sample --colors 256 ./gifs/regular/wurmple.gif > ./gifs/regular2x/wurmple.gif
- gifsicle --resize  152x106 --resize-method sample --colors 256 ./gifs/regular/wynaut.gif > ./gifs/regular2x/wynaut.gif
  gifsicle --resize  222x126 --resize-method sample --colors 256 ./gifs/regular/xatu-f.gif > ./gifs/regular2x/xatu-f.gif
- gifsicle --resize  206x116 --resize-method sample --colors 256 ./gifs/regular/xatu.gif > ./gifs/regular2x/xatu.gif
- gifsicle --resize  212x254 --resize-method sample --colors 256 ./gifs/regular/xerneas.gif > ./gifs/regular2x/xerneas.gif
- gifsicle --resize  184x168 --resize-method sample --colors 256 ./gifs/regular/xurkitree.gif > ./gifs/regular2x/xurkitree.gif
- gifsicle --resize  128x134 --resize-method sample --colors 256 ./gifs/regular/yamask.gif > ./gifs/regular2x/yamask.gif
- gifsicle --resize  240x154 --resize-method sample --colors 256 ./gifs/regular/yanma.gif > ./gifs/regular2x/yanma.gif
- gifsicle --resize  286x134 --resize-method sample --colors 256 ./gifs/regular/yanmega.gif > ./gifs/regular2x/yanmega.gif
- gifsicle --resize  142x72 --resize-method sample --colors 256 ./gifs/regular/yungoos.gif > ./gifs/regular2x/yungoos.gif
- gifsicle --resize  402x376 --resize-method sample --colors 256 ./gifs/regular/yveltal.gif > ./gifs/regular2x/yveltal.gif
- gifsicle --resize  134x156 --resize-method sample --colors 256 ./gifs/regular/zangoose.gif > ./gifs/regular2x/zangoose.gif
- gifsicle --resize  290x212 --resize-method sample --colors 256 ./gifs/regular/zapdos.gif > ./gifs/regular2x/zapdos.gif
- gifsicle --resize  132x192 --resize-method sample --colors 256 ./gifs/regular/zebstrika.gif > ./gifs/regular2x/zebstrika.gif
- gifsicle --resize  232x272 --resize-method sample --colors 256 ./gifs/regular/zekrom.gif > ./gifs/regular2x/zekrom.gif
- gifsicle --resize  130x94 --resize-method sample --colors 256 ./gifs/regular/zigzagoon.gif > ./gifs/regular2x/zigzagoon.gif
- gifsicle --resize  172x188 --resize-method sample --colors 256 ./gifs/regular/zoroark.gif > ./gifs/regular2x/zoroark.gif
- gifsicle --resize  94x126 --resize-method sample --colors 256 ./gifs/regular/zorua.gif > ./gifs/regular2x/zorua.gif
  gifsicle --resize  208x168 --resize-method sample --colors 256 ./gifs/regular/zubat-f.gif > ./gifs/regular2x/zubat-f.gif
- gifsicle --resize  208x168 --resize-method sample --colors 256 ./gifs/regular/zubat.gif > ./gifs/regular2x/zubat.gif
- gifsicle --resize  196x172 --resize-method sample --colors 256 ./gifs/regular/zweilous.gif > ./gifs/regular2x/zweilous.gif
- gifsicle --resize  118x146 --resize-method sample --colors 256 ./gifs/regular/zygarde-10.gif > ./gifs/regular2x/zygarde-10.gif
- gifsicle --resize  316x220 --resize-method sample --colors 256 ./gifs/regular/zygarde-complete.gif > ./gifs/regular2x/zygarde-complete.gif
- gifsicle --resize  192x214 --resize-method sample --colors 256 ./gifs/regular/zygarde.gif > ./gifs/regular2x/zygarde.gif
