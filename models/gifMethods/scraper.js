@@ -2,8 +2,6 @@ const cheerio = require('cheerio');
 const requestUrl = require('../scraperMethods/helpers/requestUrl');
 const writeFile = require('../scraperMethods/helpers/writeFile.js');
 
-const pokemonJSON = require('../json/pokemon.json')
-
 const spriteUrl = {
 	base: 'http://play.pokemonshowdown.com',
 	regularPath: '/sprites/xyani/' ,
