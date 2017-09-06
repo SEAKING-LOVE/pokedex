@@ -13,3 +13,4 @@ Thumbs.db
 src/**/*.css
 models/*.sh
 models/gifs/regular/
+models/json/forms/
