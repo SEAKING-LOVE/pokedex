@@ -1,11 +1,12 @@
-let pokemonList = require('./scraperMethods/pokemonList.js');
-let evolutionChart = require('./scraperMethods/evolutionChart.js');
-let masterTypeChart = require('./scraperMethods/masterTypeChart.js');
-let masterMoveList = require('./scraperMethods/masterMoveList.js');
-let masterAbilityList = require('./scraperMethods/masterAbilityList.js');
-let writeFile = require('./scraperMethods/helpers/writeFile.js');
-let writeProfiles = require('./scrapeProfiles.js');
-let EventEmitter = require('events');
+const pokemonList = require('./scraperMethods/pokemonList.js');
+const evolutionChart = require('./scraperMethods/evolutionChart.js');
+const masterTypeChart = require('./scraperMethods/masterTypeChart.js');
+const masterMoveList = require('./scraperMethods/masterMoveList.js');
+const masterAbilityList = require('./scraperMethods/masterAbilityList.js');
+const formsList = require('./scraperMethods/forms.js');
+const writeFile = require('./scraperMethods/helpers/writeFile.js');
+const writeProfiles = require('./scrapeProfiles.js');
+const EventEmitter = require('events');
 require('events').EventEmitter.defaultMaxListeners = Infinity;
 
 main();
@@ -34,4 +35,8 @@ function main() {
 	// masterAbilityList.get(baseUrl + '/ability', abilities => {
 	// 	writeFile.json('./json/abilities.json', abilities);
 	// });
+
+
+	// formsList.get(baseUrl + '/sprites');
+	formsList.merge('./json/forms/', './json/forms.json');
 }
