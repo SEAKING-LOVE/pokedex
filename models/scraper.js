@@ -19,9 +19,9 @@ function main() {
 	// 	writeFile.json('./json/pokemon.json', list);
 	// 	writeProfiles.profiles();
 	// });
-	// evolutionChart.get(baseUrl + '/evolution', evolFamilies => {
-	// 	writeFile.json('./json/evolutions.json', evolFamilies);
-	// });	
+	evolutionChart.get(baseUrl + '/evolution', evolFamilies => {
+		writeFile.json('./json/evolutions.json', evolFamilies);
+	});	
 
 	// masterTypeChart.get(baseUrl + '/type/dual', types => {
 	// 	writeFile.json('./json/types.json', types);
@@ -38,5 +38,5 @@ function main() {
 
 
 	// formsList.get(baseUrl + '/sprites');
-	formsList.merge('./json/forms/', './json/forms.json');
+	//formsList.merge('./json/forms/', './json/forms.json');
 }

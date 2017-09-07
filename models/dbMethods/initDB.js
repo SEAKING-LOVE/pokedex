@@ -14,7 +14,7 @@ const fs = require('fs');
 const filepath = './initDB.txt';
 
 fs.unlink(filepath, cb => {
- 
+
 	// create initial tables
 	fs.appendFileSync(filepath, createTables.tables);
 
@@ -57,7 +57,7 @@ fs.unlink(filepath, cb => {
 		fs.appendFileSync(filepath, formattedString);
 	}
 
-	
+
 	// Moves description 
 	for (let i = 0; i < movesDict.length; i++) {
 		let tm = movesDict[i].TM == "" ? "-" : movesDict[i].TM;

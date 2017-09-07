@@ -1,5 +1,6 @@
 let cheerio = require('cheerio');
 let requestUrl = require('./helpers/requestUrl');
+let evoMap = require('./helpers/evoMap').correction;
 
 function getEvolutionChart(url, callback) {
 
@@ -52,20 +53,32 @@ function scrapeEachEvolFamily($, family) {
 	return allFamilies;
 }
 
+function sanitizeConditions(condition) {
+	for (let i = 0; i < condition.length; i++) {
+		for (var toReplace in evoMap) {
+    		condition[i] = condition[i].replace(new RegExp(toReplace, "g"), evoMap[toReplace]).trim();
+		}
+	}
+	return condition;
+}
+
 
 function unGroupedEvolStage($, stage, member, specialCase = false)  {
 	let memberInfo = {};
+	let conditionContainer = '';
 	memberInfo['unique_id'] = getUniqueId($, member);
 	memberInfo['condition'] = [];
 
 	if(stage > 0) {
 		if(specialCase == 'eevee') {
-			let conditionContainer = $(member).next();
-			memberInfo['condition'] = $(conditionContainer).text().replace(/[^0-9a-zA-Z, ]/g, '').split(',');
+			conditionContainer = $(member).next();
 		} else {
-			let conditionContainer = $(member).prev();
-			memberInfo['condition'] = $(conditionContainer).text().replace(/[^0-9a-zA-Z, ]/g, '').split(',');
+			conditionContainer = $(member).prev();
 		}	
+		memberInfo['condition'] = $(conditionContainer).text().replace(/[^0-9a-zA-Z, ]/g, '').split(',');
+		console.log('hello')
+
+		memberInfo['condition'] = sanitizeConditions(memberInfo['condition']);
 	}
 	return memberInfo;
 }
