@@ -8,9 +8,6 @@ client.connect();
 
 const QP = {
 	query: (tables, queryString) => {
-		const client = new Client({connectionString});
-		client.connect();
-
 		return new Promise( (resolve, reject) => {
 			client.query(queryString)
 			.then((res) => {
