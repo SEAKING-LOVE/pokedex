@@ -147,7 +147,10 @@ const createTables =
 		steel 	 	integer,
 		fairy 	 	integer
 	);		
-	
+	create table pokedex.forms(
+		unique_id	text.
+		form		text
+	);
 `
 
 exports.tables = createTables;

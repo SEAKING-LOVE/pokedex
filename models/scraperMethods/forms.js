@@ -4,6 +4,7 @@ const randTimer = require('./helpers/randTimer.js');
 const sleepFor = require('./helpers/sleep.js');
 const writeFile = require('./helpers/writeFile');
 const fs = require('fs');
+const pokemonList = require('../json/pokemon.json');
 
 const mergeHelper = {
 	readFolderContents: (folderPath) => {
@@ -17,7 +18,9 @@ const mergeHelper = {
 		let mergedObj = {};
 		fileNames.forEach((fileName) => {
 			const file = require(`.${fileName}`);
-			const cleanForms = mergeHelper.removeEmptyStrings(file.forms);
+			let cleanForms = mergeHelper.removeName(file.unique_id, file.forms);
+			cleanForms = mergeHelper.removeEmptyStrings(cleanForms);
+
 			const newEntry = {
 				[file.unique_id]: cleanForms
 			};
@@ -25,12 +28,22 @@ const mergeHelper = {
 		});
 		return mergedObj;
 	},
-	removeEmptyStrings: (arr) => {
-		const newArr = [];
-		arr.forEach((element) => {
-			if(element !== '') newArr.push(element);
+	removeEmptyStrings: (forms) => {
+		const newforms = [];
+		forms.forEach((element) => {
+			if(element !== '') newforms.push(element);
 		});
-		return newArr;
+		return newforms;
+	},
+	removeName: (id, forms) => {
+		const pokemon = pokemonList.find(object => object.unique_id === id);
+		const name = pokemon.name.toLowerCase();
+
+		return forms.map((form, index) => {
+			if(form.includes(name)) return  form.replace(name, "").replace(/\s/g,'');		
+			return form;
+		});
+
 	}
 };
 
@@ -121,7 +134,7 @@ const scraper = {
 			}
 		});
 		return targetTable;
-	}
+	},
 };
 
 module.exports = scraper;
