@@ -55,9 +55,6 @@ function eachPokemonInList(td, baseUrl) {
 		// if(pokemon.name.toLowerCase() == 'wormadam') {
 		// if(pokemon.name.toLowerCase() == 'charizard') {
 		// if(pokemon.name.toLowerCase() == 'bulbasaur' || pokemon.name.toLowerCase() == 'charizard' || pokemon.name.toLowerCase() == 'deoxys' || pokemon.name.toLowerCase() == 'caterpie') {
-			setTimeout(enterPokemonProfile(baseUrl + pokemon.profileUrl, pokemon.form, pokemon.name + pokemon.form).then( profile => {
-				writeFile.json('./json/' + pokemon.unique_id + '.json', profile);
-			}), randTimer());
 			// enterPokemonProfile(baseUrl + pokemon.profileUrl, pokemon.form, pokemon.name + pokemon.form).then( profile => {
 			// 	writeFile.json('./json/' + pokemon.unique_id + '.json', profile);
 			// });

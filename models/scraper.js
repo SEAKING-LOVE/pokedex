@@ -16,9 +16,8 @@ function main() {
 	const baseUrl = "http://pokemondb.net";
 
 	pokemonList.get(baseUrl, list => {
-		// cosole.log('::::::::::::::::::::::::::::::::::::::::::::::::::::::::::')
-		// writeFile.json('./json/pokemon.json', list);
-		writeProfiles.profiles();
+		writeFile.json('./json/pokemon.json', list);
+		// writeProfiles.profiles();
 	});
 	// evolutionChart.get(baseUrl + '/evolution', evolFamilies => {
 	// 	writeFile.json('./json/evolutions.json', evolFamilies);
