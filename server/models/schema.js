@@ -12,7 +12,8 @@ const schema = {
 	abilities_description: 'pokedex.abilities_description',
 	moves_description: 'pokedex.moves_description',
 	types_chart: 'pokedex.types_chart',
-	evolutions: 'pokedex.evolutions'
+	evolutions: 'pokedex.evolutions',
+	forms: 'pokedex.forms',
 };
 
 module.exports = schema;
