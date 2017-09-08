@@ -26,7 +26,7 @@ function writeProfiles(baseUrl, jsonFilepath, imageFilepath) {
 			
 			pokemonList.enterProfile(baseUrl + pkmList[i].profileUrl, pkmList[i].form, pkmList[i].name + pkmList[i].form).then( profile => {
 				// writeFile.json(jsonFilepath + pkmList[i].unique_id + '.json', profile);
-				writeFile.image(profile.imageUrl, imageFilepath + pkmList[i].unique_id + ".png", 1);
+				// writeFile.image(profile.imageUrl, imageFilepath + pkmList[i].unique_id + ".png", 1);
 			})
 			sleepFor(randTimer());
 		}
