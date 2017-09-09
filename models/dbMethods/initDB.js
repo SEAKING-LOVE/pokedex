@@ -24,7 +24,6 @@ fs.unlink(filepath, cb => {
 		let mainString = 'INSERT into pokedex.main VALUES (\'' + mainDict[i].unique_id + '\', \'' + mainDict[i].id + '\', \'' + insert.normalizeString(mainDict[i].name) + '\',\'' + insert.normalizeString(mainDict[i].form) + '\');\n';
 		
 		let profileDict = require('../json/' + mainDict[i].unique_id + '.json');
-		console.log(mainDict[i].unique_id)
 		let profile = 'INSERT into pokedex.general VALUES (\'' + mainDict[i].unique_id + '\', \'' + profileDict.summary.species + '\', \'' + profileDict.summary.weight + '\', \'' + profileDict.summary.height + '\');\n';
 		let baseStats = 'INSERT into pokedex.base_stats VALUES (\'' + mainDict[i].unique_id + '\', ' + profileDict.stats["HP"].base + ', ' + profileDict.stats["Attack"].base + ', '  + profileDict.stats["Defense"].base + ', ' + profileDict.stats["Sp. Atk"].base + ',' + profileDict.stats["Sp. Def"].base + ', ' + profileDict.stats["Speed"].base + ');\n';
 		let minStats = 'INSERT into pokedex.min_stats VALUES (\'' + mainDict[i].unique_id + '\', ' + profileDict.stats["HP"].min + ', ' + profileDict.stats["Attack"].min + ', ' + profileDict.stats["Defense"].min + ', ' + profileDict.stats["Sp. Atk"].min + ', ' + profileDict.stats["Sp. Def"].min + ', ' + profileDict.stats["Speed"].min + ');\n';
@@ -49,14 +48,13 @@ fs.unlink(filepath, cb => {
 		fs.appendFileSync(filepath, abilities);
 	}
 
-	// Abilities description *******
+	// Abilities description
 	for (let i = 0; i < abilitiesDict.length; i++) {
 
 		let formattedString = 'INSERT into pokedex.abilities_description VALUES (\'' + abilitiesDict[i].Name + '\', ' + abilitiesDict[i].Pokemon + ', \'' + insert.normalizeString(abilitiesDict[i].Description) + '\', ' + abilitiesDict[i].Generation + ');\n';
 
 		fs.appendFileSync(filepath, formattedString);
 	}
-
 
 	// Moves description 
 	for (let i = 0; i < movesDict.length; i++) {
@@ -124,31 +122,9 @@ fs.unlink(filepath, cb => {
 	for(let id in formsDict) {
 		const forms = formsDict[id];
 		for(let i = 0; i < forms.length; i ++) {
-			let formattedString = `INSERT into pokedex.forms VALUES(${id}, ${forms[i]});\n`;
+			let formattedString = `INSERT into pokedex.forms (unique_id, form) VALUES ('${id}', '${forms[i]}');\n`;
 			fs.appendFileSync(filepath, formattedString);
 		}
 	}
 	console.log('initDB.txt is now ready in your current directory');
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
