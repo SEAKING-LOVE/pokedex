@@ -4,6 +4,8 @@ const randTimer = require('./helpers/randTimer.js');
 const sleepFor = require('./helpers/sleep.js');
 const writeFile = require('./helpers/writeFile');
 const fs = require('fs');
+const pokemonList = require('../json/pokemon.json');
+const formsMap = require('./formsMap.js');
 
 const mergeHelper = {
 	readFolderContents: (folderPath) => {
@@ -17,7 +19,9 @@ const mergeHelper = {
 		let mergedObj = {};
 		fileNames.forEach((fileName) => {
 			const file = require(`.${fileName}`);
-			const cleanForms = mergeHelper.removeEmptyStrings(file.forms);
+			let cleanForms = mergeHelper.cleanForms(file.unique_id, file.forms);
+			cleanForms = mergeHelper.removeEmptyStrings(cleanForms);
+
 			const newEntry = {
 				[file.unique_id]: cleanForms
 			};
@@ -25,12 +29,51 @@ const mergeHelper = {
 		});
 		return mergedObj;
 	},
-	removeEmptyStrings: (arr) => {
-		const newArr = [];
-		arr.forEach((element) => {
-			if(element !== '') newArr.push(element);
+	removeEmptyStrings: (forms) => {
+		const newforms = [];
+		forms.forEach((element) => {
+			if(element !== '') newforms.push(element);
 		});
-		return newArr;
+		return newforms;
+	},
+	cleanForms: (id, forms) => {
+		const sanitizers = formsMap.sanitizers;
+		const spellings = formsMap.spelling;
+
+		const pokemon = pokemonList.find(object => object.unique_id === id);
+		const name = pokemon.name.toLowerCase();
+
+		return forms.map((form, index) => {
+			let newForm = form;
+			newForm = mergeHelper.sanitize(sanitizers, newForm);
+			newForm = mergeHelper.respell(spellings, newForm);
+
+			if(form.includes(name)) newForm = newForm.replace(name, "");	// remove name
+			newForm = newForm.replace(/\s/g,'');  	// remove all spaces
+
+			return newForm;
+		});
+	},
+	sanitize: (sanitizers, str) => {
+		let newStr = str;
+		Object.keys(sanitizers).forEach((key) => {
+			const keepSanitizerKey = sanitizers[key];
+			if(str.includes(key)) {
+				if(keepSanitizerKey) newStr = key;
+				if(!keepSanitizerKey) newStr = newStr.replace(key, '');
+			}
+		});
+		return newStr;
+	},
+	respell: (spellings, str) => {
+		let newStr = str;
+		Object.keys(spellings).forEach((key) => {
+			if(str == key) {
+				const correctSpelling = spellings[key];
+				newStr = correctSpelling;
+			}
+		});
+		return newStr;
 	}
 };
 
@@ -121,7 +164,7 @@ const scraper = {
 			}
 		});
 		return targetTable;
-	}
+	},
 };
 
 module.exports = scraper;
