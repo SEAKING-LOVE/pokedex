@@ -54,9 +54,10 @@ function eachPokemonInList(td, baseUrl) {
 		// if(pokemon.name.toLowerCase() == 'deoxys') {
 		// if(pokemon.name.toLowerCase() == 'wormadam') {
 		// if(pokemon.name.toLowerCase() == 'charizard') {
-			enterPokemonProfile(baseUrl + pokemon.profileUrl, pokemon.form, pokemon.name + pokemon.form).then( profile => {
-				writeFile.json(`./json/${pokemon.unique_id}.json`, profile);
-			});
+		// if(pokemon.name.toLowerCase() == 'bulbasaur' || pokemon.name.toLowerCase() == 'charizard' || pokemon.name.toLowerCase() == 'deoxys' || pokemon.name.toLowerCase() == 'caterpie') {
+			// enterPokemonProfile(baseUrl + pokemon.profileUrl, pokemon.form, pokemon.name + pokemon.form).then( profile => {
+			// 	writeFile.json('./json/' + pokemon.unique_id + '.json', profile);
+			// });
 		// }  // if end
 	});
 }
@@ -64,7 +65,7 @@ function eachPokemonInList(td, baseUrl) {
 function enterPokemonProfile(url, form, pokemonName) {
 	sleepFor(randTimer);
 	return requestUrl(url).then( body => {
-		console.log("now scraping ", pokemonName);
+		console.log("now scraping " + pokemonName);
 
 		let $ = cheerio.load(body);
 		let pokemonProfile;
@@ -74,6 +75,7 @@ function enterPokemonProfile(url, form, pokemonName) {
 		if(form === "") {
 			let tabContainer = summaryTabs.children('a').eq(0).attr('href');
 			pokemonProfile = scrapeProfileSections($, tabContainer, main, pokemonName);
+
 		} else {
 			pokemonProfile = multipleForms($, form, summaryTabs, main, pokemonName);
 		}		
@@ -93,21 +95,22 @@ function multipleForms($, form, summaryTabs, main, pokemonName) {
 		if(form == $(element).text().toLowerCase()) {
 
 			let summaryTab = $(element).children('a').attr('href');
-			pokemonProfile = scrapeProfileSections($, summaryTab, main, pokemonName, formTabIndex);
+			pokemonProfile = scrapeProfileSections($, summaryTab, formTabIndex, main, pokemonName);
 		}
 	})
 	return pokemonProfile;
 }
 
-function scrapeProfileSections($, summaryTab,  main, pokemonName, formTabIndex) {
-	const summaryTable = $(summaryTab).find('h2:contains("Pokédex data")').next();
-	const trainingTable = $(summaryTab).find('h2:contains("Training")').next();
-	const breedingTable = $(summaryTab).find('h2:contains("Breeding")').next();
-	const statTable = $(summaryTab).find(`h2:contains("Base stats")`).next();
-	const entryTable = $(main).find(`h2:contains("Pokédex entries")`).next(); 
-	const movesSection = $(main).find(`h2:contains("Moves learned by")`).next().next().remove('.hidden');	
-	const locationTable = $(main).find(`h2:contains("Where to find")`).next(); 
-	const imageUrl = $(summaryTab).find('.figure').find('img').attr('src');
+function scrapeProfileSections($, summaryTab, formTabIndex, main, pokemonName) {
+
+	let summaryTable = $(summaryTab).find('h2:contains("Pokédex data")').next(),
+		trainingTable = $(summaryTab).find('h2:contains("Training")').next(),
+		breedingTable = $(summaryTab).find('h2:contains("Breeding")').next(),
+		statTable = $(summaryTab).find('h2:contains("Base stats")').next(),
+		entryTable = $(main).find('h2:contains("Pokédex entries")').next(),
+		movesSection = $(main).find('h2:contains("Moves learned by")').next().next().remove('.hidden'),
+		locationTable = $(main).find('h2:contains("Where to find")').next(),
+		imageUrl = $(summaryTab).find('.figure').find('img').attr('src');
 
 	let pokemonProfile = {
 		summary: scrapeSummaryTable($, summaryTable),
@@ -119,6 +122,8 @@ function scrapeProfileSections($, summaryTab,  main, pokemonName, formTabIndex) 
 		location: scrapeLocationTable($, locationTable),
 		imageUrl: imageUrl
 	}
+		
+	// writeFile.image(imgUrl, pokemonName);
 	return pokemonProfile;
 }
 

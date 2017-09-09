@@ -15,10 +15,10 @@ function main() {
 	
 	const baseUrl = "http://pokemondb.net";
 
-	// pokemonList.get(baseUrl, list => {
-	// 	// writeFile.json('./json/pokemon.json', list);
-	// 	// writeProfiles.profiles();
-	// });
+	pokemonList.get(baseUrl, list => {
+		writeFile.json('./json/pokemon.json', list);
+		// writeProfiles.profiles();
+	});
 	// evolutionChart.get(baseUrl + '/evolution', evolFamilies => {
 	// 	writeFile.json('./json/evolutions.json', evolFamilies);
 	// });	
@@ -38,5 +38,5 @@ function main() {
 
 
 	// formsList.get(baseUrl + '/sprites');
-	formsList.merge('./json/forms/', './json/forms.json');
+	//formsList.merge('./json/forms/', './json/forms.json');
 }
