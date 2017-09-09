@@ -104,6 +104,12 @@ const createTables =
 		version  	text,
 		location  	text
 	);
+	
+	create table pokedex.forms(
+		
+		unique_id  	text,
+		form 		text
+	);
 
 	create table pokedex.abilities_description(
 		
@@ -146,11 +152,8 @@ const createTables =
 		dark 	 	integer,
 		steel 	 	integer,
 		fairy 	 	integer
-	);		
-	create table pokedex.forms(
-		unique_id	text.
-		form		text
 	);
+			
 `
 
 exports.tables = createTables;
