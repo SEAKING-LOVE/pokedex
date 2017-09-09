@@ -128,25 +128,3 @@ fs.unlink(filepath, cb => {
 	}
 	console.log('initDB.txt is now ready in your current directory');
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
