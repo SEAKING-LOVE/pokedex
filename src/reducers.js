@@ -12,7 +12,7 @@ const initialState = {
 // 	reducerA,
 // 	reducerB
 // })
-export default function reducer(state=initialState, action) {
+export default function pokedexReducer(state=initialState, action) {
 	switch(action.type) {
 		case "FETCH_ALL_POKEMON": {
 			console.log(action.payload)
@@ -27,3 +27,8 @@ export default function reducer(state=initialState, action) {
 		}
 	}
 }
+
+const reducers = combineReducers({
+	pokedex: pokedexReducer,
+	// team: teamReducer
+})

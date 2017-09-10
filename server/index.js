@@ -10,6 +10,12 @@ const MovesRouter = require('./routes/moves.router.js');
 const AbilitiesRouter = require('./routes/abilities.router.js');
 const FormsRouter = require('./routes/forms.router.js');
 
+app.use(function(req, res, next) {
+	res.header("Access-Control-Allow-Origin", "*");
+	res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+	next();
+});
+
 app.use('/api/v1/pokedex', PokedexRouter);
 app.use('/api/v1/evolutions', EvolutionsRouter);
 app.use('/api/v1/types/', TypesRouter);
