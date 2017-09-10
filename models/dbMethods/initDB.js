@@ -20,7 +20,7 @@ fs.unlink(filepath, cb => {
 	fs.appendFileSync(filepath, createTables.tables);
 
 	for (let i = 0; i < mainDict.length; i++ ) {
-
+		console.log( mainDict[i].unique_id)
 		let mainString = 'INSERT into pokedex.main VALUES (\'' + mainDict[i].unique_id + '\', \'' + mainDict[i].id + '\', \'' + insert.normalizeString(mainDict[i].name) + '\',\'' + insert.normalizeString(mainDict[i].form) + '\');\n';
 		
 		let profileDict = require('../json/' + mainDict[i].unique_id + '.json');
@@ -34,7 +34,7 @@ fs.unlink(filepath, cb => {
 		let location = insert.generate('pokedex.location', mainDict[i].unique_id, profileDict.location, true);
 		let moves = insert.moves('pokedex.moves', mainDict[i].unique_id, profileDict.moves);
 		let abilities = insert.generate('pokedex.abilities', mainDict[i].unique_id, profileDict.summary.abilities);
-
+		
 		fs.appendFileSync(filepath, mainString);
 		fs.appendFileSync(filepath, profile);
 		fs.appendFileSync(filepath, baseStats);

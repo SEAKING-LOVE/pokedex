@@ -23,14 +23,19 @@ function getPokemonList(baseUrl, callback) {
 		$(pokemonRow).map( (i, element) => {
 
 			let td = $(element).children('td');
-
+			// const base = 0;
+			// if(i >= base && i < base + 0) {
+			// 	eachPokemonInList(td, baseUrl).then( pokemon => {
+			// 		pokedex.push(pokemon);
+			// 		return pokedex;
+			// 	}).then( pokedex => {
+			// 		callback(pokedex);
+			// 	});
+			// }
 			eachPokemonInList(td, baseUrl).then( pokemon => {
-				
 				pokedex.push(pokemon);
 				return pokedex;
-
 			}).then( pokedex => {
-
 				callback(pokedex);
 			});
 		});
@@ -54,10 +59,11 @@ function eachPokemonInList(td, baseUrl) {
 		// if(pokemon.name.toLowerCase() == 'deoxys') {
 		// if(pokemon.name.toLowerCase() == 'wormadam') {
 		// if(pokemon.name.toLowerCase() == 'charizard') {
+		// if(pokemon.unique_id == 'n482') {
 			enterPokemonProfile(baseUrl + pokemon.profileUrl, pokemon.form, pokemon.name + pokemon.form).then( profile => {
 				writeFile.json(`./json/${pokemon.unique_id}.json`, profile);
 			});
-		// }  // if end
+		}  // if end
 	});
 }
 
@@ -205,10 +211,10 @@ function scrapeMovesSection($, section, tabIndex) {
 		movesByTMTable = $(section).find('h3:contains("Moves learnt by TM")').first().next().next();
 
 	let levelUpTabs = $(movesByLevelUpTable).children('ul.svtabs-tab-list');
-	if(levelUpTabs > 0) movesByLevelUpTable = getFormTab($, levelUpTabs, tabIndex); 
+	if(levelUpTabs.length > 0) movesByLevelUpTable = getFormTab($, levelUpTabs, tabIndex); 
 
 	let tmTabs = $(movesByTMTable).children('ul.svtabs-tab-list');
-	if(tmTabs > 0) movesByTMTable = getFormTab($, tmTabs, tabIndex); 
+	if(tmTabs.length > 0) movesByTMTable = getFormTab($, tmTabs, tabIndex); 
 
 	let moves = {
 		'byLevelUp': [],
@@ -285,20 +291,18 @@ function getFormattedMovesNoLevels($, nodeContainer) {
 }
 
 function scrapeLocationTable($, table) {
-
 	let tr = $(table).find('tbody').children('tr');
 	let locations = {};
 
-	$(tr).map( (i, element) => {
+	$(tr).each( (i, element) => {
 
-		let version = $(element).find('th').text();
+		const version = $(element).find('th').text();
 
 		locations[version] = getArrayCharacteristics($, $(element).find('td'));
 	});
 
 	return locations;
 }
-
 
 
 module.exports = {
