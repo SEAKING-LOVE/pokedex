@@ -1,5 +1,4 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const ROOT_PATH = path.resolve(__dirname);
 const OUTPUT_PATH = path.resolve(ROOT_PATH, 'dist');
@@ -26,7 +25,8 @@ module.exports = {
 				options: {
 					presets: [
 					['es2015', { modules: false }],
-					'react'
+					'react',
+					'stage-3'
 					]
 				}
 			}
