@@ -23,14 +23,19 @@ function getPokemonList(baseUrl, callback) {
 		$(pokemonRow).map( (i, element) => {
 
 			let td = $(element).children('td');
-
+			// const base = 0;
+			// if(i >= base && i < base + 0) {
+			// 	eachPokemonInList(td, baseUrl).then( pokemon => {
+			// 		pokedex.push(pokemon);
+			// 		return pokedex;
+			// 	}).then( pokedex => {
+			// 		callback(pokedex);
+			// 	});
+			// }
 			eachPokemonInList(td, baseUrl).then( pokemon => {
-				
 				pokedex.push(pokemon);
 				return pokedex;
-
 			}).then( pokedex => {
-
 				callback(pokedex);
 			});
 		});
@@ -54,7 +59,7 @@ function eachPokemonInList(td, baseUrl) {
 		// if(pokemon.name.toLowerCase() == 'deoxys') {
 		// if(pokemon.name.toLowerCase() == 'wormadam') {
 		// if(pokemon.name.toLowerCase() == 'charizard') {
-		if(pokemon.name.toLowerCase() == 'bulbasaur') {
+		// if(pokemon.unique_id == 'n482') {
 			enterPokemonProfile(baseUrl + pokemon.profileUrl, pokemon.form, pokemon.name + pokemon.form).then( profile => {
 				writeFile.json(`./json/${pokemon.unique_id}.json`, profile);
 			});
