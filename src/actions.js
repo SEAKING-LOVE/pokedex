@@ -17,8 +17,8 @@ export function fetchAllPokemon() {
 	console.log("::::::::::::::::::::::: REACHED ACTIONS :::::::::::::::::::::::");
 	return {
 		type: "FETCH_ALL_POKEMON",
-		// payload: axios.get("http://localhost:3001/api/v1/pokedex/all")
-		payload: 'fetching all test'
+		payload: axios.get("http://localhost:3001/api/v1/pokedex/all")
+		// payload: 'fetching all test'
 	}
 	// return axios.get("http://localhost:3001/api/v1/pokedex/all")
 	// 		.then((res) => {
