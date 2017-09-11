@@ -5,7 +5,7 @@ import Quickview from './quickview.jsx';
 
 const stateToProps = (state) => ({
 	pokemon: state.pokedex.selected,
-	identifier: state.pokedex.selected.main[0].unique_id
+	identifier: state.pokedex.selected.main
 });
 
 const dispatchToProps = (dispatch) => {

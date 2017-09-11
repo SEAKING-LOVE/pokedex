@@ -4,12 +4,12 @@ $quickviewTransition: 0.7s;
 .pokemonCell{
 	display: flex;
 	flex-direction: column;
-	width: 50px;
 	position:relative;
-	margin: 0.5em;
+	
 
 	cursor: pointer;
 	transition: all 0.2s;
+
 		
 	.preview{
 		position: relative;
@@ -21,7 +21,10 @@ $quickviewTransition: 0.7s;
 		z-index: 10;
 		&:hover{
 			background-color:  #fff;
-		}	
+		}
+		&.active{
+			border-color:red;
+		}
 
 		.pki{
 			background-image: url('./sprites.png');
@@ -32,31 +35,18 @@ $quickviewTransition: 0.7s;
 		}
 	}
 	.quickview{
-		// max-height: 0;
-		height: 0;
-		// overflow: hidden;
-		transition: all $quickviewTransition;
+		max-height: 0;
+		overflow: hidden;
+		transition: max-height $quickviewTransition;
 		position: relative;
-		
-		.content{
-			position: absolute;
-			border: solid 1px $blue;
-			width: 90vw;
-			margin-top: 0.5em;
-			opacity: 0;
-		}
+
+		margin-top: 0.5em;
 
 		&.expanded {
-			// margin-top: 0.5em;
-			// max-height: 90vh;
-			// border: solid 1px $blue;
-			// width: 90vw;
+			max-height: 90vh;
+			border: solid 1px $blue;
 
 			transition-delay: $quickviewTransition;
-			.content {
-				opacity: 1;
-				// transition-delay: $quickviewTransition;
-			}
 		}
 		
 	}	
