@@ -23,8 +23,28 @@ const Model = {
 		const queryString = QP.eachTable(tables.pid, whereCondition);
 
 		return QP.query(tables.pid, queryString)
+		.then((res) => {return res})
 		.then((res) => {
-			return res;
+			const types = res.types.map((obj) => {
+				return obj.type;
+			});
+			const location = res.location.reduce((acc, obj) => {
+				if(!acc[obj.version]) acc[obj.version] = [];
+				acc[obj.version].push(obj.location);
+				return acc;
+			}, {});
+			
+			return {
+				main: res.main[0],
+				general: res.general[0],
+				moves: res.moves,
+				base_stats: res.base_stats[0],
+				min_stats: res.min_stats[0],
+				max_stats: res.max_stats[0],
+				training: res.training[0],
+				types,
+				location
+			}
 		}) 
 		.catch((err) => {
 			return err;
