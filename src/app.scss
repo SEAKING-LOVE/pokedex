@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+@import './variables.scss';
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	background-color: #10161d;
+	background-color: $bg;
 	background-image: url('./dot.png');
-	color: #58bccc;
+	color: $blue;
 }
