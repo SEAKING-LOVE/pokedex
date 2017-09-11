@@ -1,34 +1,42 @@
 import React, { Component } from 'react';
 import {connect} from "react-redux";
+import PokemonCell from './pokemonCell/pokemonCell.jsx';
+import Quickview from './quickview/quickview.container.jsx';
 
 import './pokedex.scss';
-import './sprites.scss';
 
 class App extends Component {
 	constructor(props) {
 		super(props);
+		this.state = { selected: null };
 	}
 	componentWillMount () {
 		this.props.fetchAllPokemon();
-		this.props.fetchPokemonById('n1');
+		this.props.fetchPokemonById('n1', 0);
 	}
-	renderPkms () {
+	renderAllPokemon () {
 		return this.props.allPokemon.map((pkm, index) => {
-			return this.renderPkm(pkm);
+			const selected = index === this.state.selected ? true : false;
+			return <div key={pkm.unique_id} ref='cell'>
+				<PokemonCell 
+					pokemon={pkm} 
+					expanded={selected}
+					onClick={()=>{this.selectPokemon(pkm.unique_id, index)}}/>
+			</div>	
+		});
+	}
+	selectPokemon(id, gridIndex) {
+		this.props.fetchPokemonById(id);
+		this.setState({ 
+			selected: this.state.selected === gridIndex ? null : gridIndex
 		})
 	}
-	renderPkm (pkm) {
-		return <div key={pkm.unique_id}>
-			<i className={`pki ${pkm.unique_id}`}></i>
-			<span>{pkm.national_id}</span>
-			<span>{pkm.name + pkm.form}</span>
-		</div>
-	}
 	render() {
-		// console.log("render", this.props.selectedPokemon);
-		return <div className="pokedex">
- 			<span>react is working !!! :0</span>
- 			{this.renderPkms()}
+		return <div className='pokedex'>
+			<Quickview />
+			<div className="grid">
+				{this.renderAllPokemon()}
+			</div>
 		</div>;
 	}
 }
