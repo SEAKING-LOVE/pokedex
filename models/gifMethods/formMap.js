@@ -24,8 +24,10 @@ const map = {
 		mega: 'mega',
 		female: 'f',
 		male: ''
-	}
-		
+	},
+	formEdgeCases: {
+		flabebe: 'n669'
+	}		
 };
 module.exports = map;
 

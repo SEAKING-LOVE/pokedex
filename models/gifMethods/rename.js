@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const pokemonJSON = require('../json/pokemon.json');
 const formMap = require('./formMap.js');
 const nameMap = require('./nameMap.js');
@@ -17,6 +18,14 @@ const utils = {
 			const lastName = utils.formatForm(item[lastKey], firstName);
 			return firstName + lastName;
 		});
+	},
+	generateDict: (arr, newKey, newValue) => {
+		let dict = {}
+		for(let i = 0; i < arr.length; i++) {
+			dict[arr[i][newKey].toLowerCase()] = arr[i][newValue];
+		}
+		Object.assign(dict, formMap.formEdgeCases);
+		return dict;
 	},
 	formatName: (rawName) => {
 		const name = utils.normalizeStr(rawName);
@@ -66,7 +75,9 @@ const rename = {
 		const fileNames = rename.getFileNames(folderPath);
 		const uniqueIds = utils.mapId(pokemonJSON, 'unique_id');
 		const dbNames = utils.mapFullname(pokemonJSON, 'name', 'form');
+		const uniqueDict = utils.generateDict(pokemonJSON, 'name', 'unique_id');
 		rename.matchNames(fileNames, dbNames, uniqueIds);
+		rename.cosmeticForms(fileNames, uniqueDict);
 	},
 	getFileNames: (folderPath) => {
 		let names = [];
@@ -90,6 +101,25 @@ const rename = {
 				})
 			}
 		})
+	},
+	cosmeticForms: (filePaths, uniqueDict) => {
+		filePaths.forEach((filePath, fileIndex) => {
+			const currentPath = path.dirname(filePath);
+			const fileExtension = path.extname(filePath);
+			const fileName = path.basename(filePath, fileExtension);
+			const strToReplace = fileName.split('-')[0];
+
+			if (uniqueDict[strToReplace]) {
+				let newFileName = fileName.replace(strToReplace, uniqueDict[strToReplace]);
+				let newPath = path.join(currentPath, newFileName + fileExtension);
+
+				fs.rename(filePath, newPath, (err) => {
+					if(err) throw err;
+					console.log('success: ', fileName, ' ----> ', newFileName);
+				});
+				
+			}
+		});
 	}
 };
 
