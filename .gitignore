@@ -12,5 +12,5 @@ Thumbs.db
 #dev
 src/**/*.css
 models/*.sh
-models/gifs/regular/
+#models/gifs/regular/
 models/json/forms/
