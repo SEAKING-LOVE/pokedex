@@ -24,6 +24,11 @@ const Model = {
 
 		return QP.query(tables.name, queryString)
 			.then((res) => { return res; })
+			.then((res) => {
+				return {
+					ability: res.abilities_description[0]
+				}
+			})
 			.catch((err) => { return err; });
 	},
 	learn: (name) => {
@@ -32,6 +37,12 @@ const Model = {
 
 		return QP.query(tables.learn, queryString)
 			.then((res) => { return res; })
+			.then((res) => {
+				const eligible = res.abilities.map((obj) => {
+					return obj.unique_id;
+				});
+				return { eligible };
+			})
 			.catch((err) => { return err; });
 	},
 	pid: (pid) => {
@@ -40,6 +51,12 @@ const Model = {
 
 		return QP.query(tables.pid, queryString)
 			.then((res) => { return res; })
+			.then((res) => {
+				const abilities = res.abilities.map((obj) => {
+					return obj.ability;
+				});
+				return { abilities }
+			})
 			.catch((err) => { return err; });
 	}
 };
