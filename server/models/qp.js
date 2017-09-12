@@ -27,7 +27,7 @@ const QP = {
 	whereCondition: (condition) => {
 		return `WHERE ${condition}`;
 	},
-	multiWhere: (predicate='AND', prefix, conditions) => {		// ex prefix: unique_id=
+	multiWhere: (predicate='AND', prefix, conditions) => {	// ex prefix: unique_id=
 		let where = QP.whereCondition(`${prefix}'${conditions[0]}'`)
 		conditions.forEach((condition, index) => {
 			if(index === 0) return;

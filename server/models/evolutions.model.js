@@ -9,7 +9,7 @@ const tables = {
 
 const memberInfo = {
 	get: (members=[]) => {
-		const whereCondition = QP.multiWhere('OR', 'unique_id=', members);
+		const whereCondition = QP.multiWhere('OR', 'unique_id=', members)
 		const queryString = QP.eachTable(tables.memberInfo, whereCondition);
 		
 		return QP.query(tables.memberInfo, queryString)
@@ -68,6 +68,7 @@ const qEvo = {
 		}, []);
 		const whereCondition = QP.multiWhere('OR', 'stage0=', members);
 		const queryString = QP.eachTable(tables.pid, whereCondition);
+		console.log(queryString);
 
 		return QP.query(tables.pid, queryString)
 			.then((res) => {return res; })
