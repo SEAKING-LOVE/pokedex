@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 
 import * as actions from '../pokedex.actions.js';
-import Quickview from './quickview.jsx';
+import Profile from './profile.jsx';
 
 const stateToProps = (state) => ({
 	spriteImage: state.pokedex.selectedSpriteImage,
@@ -25,6 +25,6 @@ const dispatchToProps = (dispatch) => {
 const Container = connect(
 	stateToProps,
 	dispatchToProps
-)(Quickview)
+)(Profile)
 
 export default Container;

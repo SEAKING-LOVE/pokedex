@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import {connect} from "react-redux";
 
-import './quickview.scss';
+import './profile.scss';
 
-class Quickview extends Component {
+class Profile extends Component {
 	constructor(props) {
 		super(props);
 	}
@@ -20,11 +20,11 @@ class Quickview extends Component {
 		</div>;
 	}
 	render() {
-		return <div className='quickview'>
+		return <div className='profile'>
 			{this.renderSprite()}
 			{this.renderContent()}
 		</div>
 	}
 }
 
-export default Quickview;
+export default Profile;

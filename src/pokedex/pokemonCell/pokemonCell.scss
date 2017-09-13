@@ -32,7 +32,7 @@ $quickviewTransition: 0.7s;
 			display: inline-block;
 		}
 	}
-	.quickviewContainer{
+	.profileContainer{
 		max-height: 0;
 		overflow: hidden;
 		transition: max-height $quickviewTransition;
