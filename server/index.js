@@ -9,8 +9,9 @@ const TypesRouter = require('./routes/types.router.js');
 const MovesRouter = require('./routes/moves.router.js');
 const AbilitiesRouter = require('./routes/abilities.router.js');
 const FormsRouter = require('./routes/forms.router.js');
+const GifsRouter = require('./routes/gifs.router.js');
 
-app.use(function(req, res, next) {
+app.use((req, res, next) => {
 	res.header("Access-Control-Allow-Origin", "*");
 	res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 	next();
@@ -23,11 +24,12 @@ app.use('/api/v1/moves', MovesRouter);
 app.use('/api/v1/abilities', AbilitiesRouter);
 app.use('/api/v1/forms/', FormsRouter);
 
+app.use('/assets/sprites', GifsRouter);
+
+app.use('/dist', express.static(path.join(__dirname, '/../dist')));
+app.get('/', (req, res) => res.sendFile(path.join(__dirname + '/../index.html')) );
+
 app.listen(port, () => {
 	console.log('Listening on port ', port);
 });
 
-app.use('/dist', express.static(path.join(__dirname, '/../dist')));
-app.get('/', function(req, res) {
-	res.sendFile(path.join(__dirname + '/../index.html'));
-});
