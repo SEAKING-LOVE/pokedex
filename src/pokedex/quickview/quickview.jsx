@@ -3,32 +3,28 @@ import {connect} from "react-redux";
 
 import './quickview.scss';
 
-class PokemonCell extends Component {
-	constructor() {
-		super();
-	}
-	componentWillMount () {
-
-	}
-	componentWillReceiveProps() {
-
+class Quickview extends Component {
+	constructor(props) {
+		super(props);
 	}
 	renderSprite() {
-		if(!this.props.identifier) return <div>no img selected</div>;
-		// const imgPath = `../../assets/images/${this.props.pokemon.main.unique_id}.gif`;
-		// console.log(this.props.pokemon.main[0].unique_id, `../../assets/gifs/${this.props.pokemon.main[0].unique_id}.gif`)
-		// const img = require(`./${this.props.identifier}.gif`);
-		// return <img src={img}/>
-		return <img src=''/>
+		return <div>
+			<img src={this.props.spriteImage}/>
+		</div>
+	}
+	renderContent() {
+		return <div>
+			<p>{JSON.stringify(this.props.types)}</p>
+			<p>{JSON.stringify(this.props.general)}</p>
+			<p>{JSON.stringify(this.props.minStats)}</p>
+		</div>;
 	}
 	render() {
-		// {this.renderSprite()}
-		// 	{JSON.stringify(this.props.pokemon)}	
 		return <div className='quickview'>
-			quickview
-			
+			{this.renderSprite()}
+			{this.renderContent()}
 		</div>
 	}
 }
 
-export default PokemonCell;
+export default Quickview;

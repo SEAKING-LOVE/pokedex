@@ -4,8 +4,16 @@ import * as actions from '../pokedex.actions.js';
 import Quickview from './quickview.jsx';
 
 const stateToProps = (state) => ({
-	pokemon: state.pokedex.selected,
-	identifier: state.pokedex.selected.main
+	spriteImage: state.pokedex.selectedSpriteImage,
+	main: state.pokedex.selected.main,
+	general: state.pokedex.selected.general,
+	moves: state.pokedex.selected.moves,
+	baseStats: state.pokedex.selected.base_stats,
+	minStats: state.pokedex.selected.min_stats,
+	maxStats: state.pokedex.selected.max_stats,
+	training: state.pokedex.selected.training,
+	types: state.pokedex.selected.types,
+	location: state.pokedex.selected.location,
 });
 
 const dispatchToProps = (dispatch) => {

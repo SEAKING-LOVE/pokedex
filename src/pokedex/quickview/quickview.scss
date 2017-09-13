@@ -1,6 +1,6 @@
-// .quickview {
-// 	height: 50vh;
-// 	width: 90%;
-// 	border: solid 1px #fff;
-// 	border-radius: 1em;
-// }
+.quickview {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}

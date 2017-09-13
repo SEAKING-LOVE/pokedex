@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from "react-redux";
-
+// import Quickview from '../quickview/quickview.jsx';
+import Quickview from '../quickview/quickview.container.jsx';
 import './pokemonCell.scss';
 import './sprites.scss';
 
@@ -31,12 +32,9 @@ class PokemonCell extends Component {
 		};
 
 		return <div 
-			className={`quickview ${this.props.selected ? 'expanded' : ''}`}
+			className={`quickviewContainer ${this.props.selected ? 'expanded' : ''}`}
 			style={style}>
-			<p>{this.props.offsetLeft}</p>
-			<p>{this.props.pokemon.unique_id}</p>
-			<p>{this.props.pokemon.national_id}</p>
-			<p>{this.props.pokemon.unique_id}</p>
+			<Quickview pokemon={this.props.pokemon}/>
 		</div>
 	}
 	leadingZeros(num) {
