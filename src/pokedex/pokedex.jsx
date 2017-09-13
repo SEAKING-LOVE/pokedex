@@ -47,6 +47,7 @@ class App extends Component {
 	}
 	selectPokemon(id, gridIndex) {
 		this.props.fetchPokemonById(id);
+		this.props.fetchSpriteById(id);
 		this.setState({ 
 			selected: this.state.selected === gridIndex ? null : gridIndex
 		})

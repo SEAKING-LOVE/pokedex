@@ -6,11 +6,8 @@ $quickviewTransition: 0.7s;
 	display: flex;
 	flex-direction: column;
 	position:relative;
-	
-
 	cursor: pointer;
 	transition: all 0.2s;
-
 		
 	.preview{
 		position: relative;
@@ -35,18 +32,16 @@ $quickviewTransition: 0.7s;
 			display: inline-block;
 		}
 	}
-	.quickview{
+	.profileContainer{
 		max-height: 0;
 		overflow: hidden;
 		transition: max-height $quickviewTransition;
 		position: relative;
-
 		margin-top: 0.5em;
 
 		&.expanded {
 			max-height: 90vh;
 			border: solid 1px $blue;
-
 			transition-delay: $quickviewTransition;
 		}
 		
