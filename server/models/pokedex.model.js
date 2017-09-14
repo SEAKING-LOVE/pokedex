@@ -36,6 +36,9 @@ const Model = {
 				acc[obj.version].push(obj.location);
 				return acc;
 			}, {});
+			const moves = res.moves.map((obj) => {
+				return QP.sanitizeObject(obj, ['unique_id']);
+			});
 			const general = QP.sanitizeObject(res.general[0], ['unique_id']);
 			const training = QP.sanitizeObject(res.training[0], ['unique_id']);
 			const base_stats = QP.sanitizeObject(res.base_stats[0], ['unique_id']);
@@ -49,7 +52,7 @@ const Model = {
 				base_stats,
 				min_stats,
 				max_stats,
-				moves: res.moves,
+				moves,
 				training,
 				types,
 				location
