@@ -22,6 +22,15 @@ class Stats extends Component {
 			<td>{this.props.maxStats[statKey]}</td>
 		</tr>
 	}
+	renderLastRow() {
+		return <tr>
+			<th></th>
+			<td></td>
+			<td></td>
+			<td>min</td>
+			<td>max</td>
+		</tr>
+	}
 	renderStatGauge(statValue) {
 		const style = {
 			width: `${statValue / this.state.maxValue * 100}%`
@@ -32,6 +41,7 @@ class Stats extends Component {
 		return <table className='stats'>
 			<tbody>
 				{this.renderStats()}
+				{this.renderLastRow()}
 			</tbody>
 		</table>
 	}
