@@ -1,0 +1,13 @@
+.summary {
+	.stats {
+		.gauge {
+			width: 500pc;
+			height: 2em;
+			border: solid 1px blue;
+			div{
+				height: 100%;
+				background-color: red;
+			}
+		}
+	}
+}
