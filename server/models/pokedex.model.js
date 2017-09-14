@@ -3,7 +3,7 @@ const schema = require('./schema.js');
 
 const tables = {
 	all: ['main'],
-	pid: ['main', 'general', 'moves', 'base_stats', 'min_stats', 'max_stats', 'training', 'types', 'location']
+	pid: ['main', 'general', 'abilities', 'moves', 'base_stats', 'min_stats', 'max_stats', 'training', 'types', 'location']
 };
 
 const Model = {
@@ -28,20 +28,29 @@ const Model = {
 			const types = res.types.map((obj) => {
 				return obj.type;
 			});
+			const abilities = res.abilities.map((obj) => {
+				return obj.ability;
+			});
 			const location = res.location.reduce((acc, obj) => {
 				if(!acc[obj.version]) acc[obj.version] = [];
 				acc[obj.version].push(obj.location);
 				return acc;
 			}, {});
+			const general = QP.sanitizeObject(res.general[0], ['unique_id']);
+			const training = QP.sanitizeObject(res.training[0], ['unique_id']);
+			const base_stats = QP.sanitizeObject(res.base_stats[0], ['unique_id']);
+			const min_stats = QP.sanitizeObject(res.min_stats[0], ['unique_id']);
+			const max_stats = QP.sanitizeObject(res.max_stats[0], ['unique_id']);
 			
 			return {
 				main: res.main[0],
-				general: res.general[0],
+				general,
+				abilities,
+				base_stats,
+				min_stats,
+				max_stats,
 				moves: res.moves,
-				base_stats: res.base_stats[0],
-				min_stats: res.min_stats[0],
-				max_stats: res.max_stats[0],
-				training: res.training[0],
+				training,
 				types,
 				location
 			}

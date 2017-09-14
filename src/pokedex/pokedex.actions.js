@@ -1,6 +1,7 @@
 import axios from 'axios';
 import API from '../pokedex.api.js';
 
+
 export function fetchAllPokemon() {
 	return {
 		type: "FETCH_ALL_POKEMON",
@@ -8,16 +9,16 @@ export function fetchAllPokemon() {
 	}
 }
 
-export function fetchPokemonById(id) {
+export function fetchProfile(id) {
 	return {
-		type: "FETCH_POKEMON_BY_ID",
+		type: "FETCH_PROFILE",
 		payload: axios.get(API.fetchPokemonById(id))
+			.then((res) => {
+				return {
+					data: res,
+					sprite: API.fetchSprite(id)
+				}
+			})
 	}
-}
 
-export function fetchSprite(id) {
-	return  {
-		type: "FETCH_SPRITE",
-		payload: API.fetchSprite(id) //  return url to embed in img tag
-	}
 }

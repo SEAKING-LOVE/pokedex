@@ -46,11 +46,12 @@ class App extends Component {
 		return Math.floor( gridWidth / cellWidth );
 	}
 	selectPokemon(id, gridIndex) {
-		this.props.fetchPokemonById(id);
-		this.props.fetchSpriteById(id);
-		this.setState({ 
-			selected: this.state.selected === gridIndex ? null : gridIndex
-		})
+		const selected = this.state.selected === gridIndex ? null : gridIndex;
+
+		this.props.fetchProfile(id)
+			.then(() => {
+				this.setState({  selected })
+			})		
 	}
 	updateGridWidth() {
 		const rowLength = this.cellsPerRow();

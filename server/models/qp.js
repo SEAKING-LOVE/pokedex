@@ -58,6 +58,12 @@ const QP = {
 			[tableName]: result.rows
 		};
 		return pretty;
+	},
+	sanitizeObject: (obj, unwantedKeys=[]) => {
+		return Object.keys(obj).reduce((acc, key) => {
+			if(unwantedKeys.indexOf(key) === -1) acc[key] = obj[key];
+			return acc;
+		}, {});
 	}
 };
 

@@ -11,8 +11,7 @@ const stateToProps = (state) => ({
 const dispatchToProps = (dispatch) => {
 	return {
 		fetchAllPokemon: () => dispatch( actions.fetchAllPokemon() ),
-		fetchPokemonById: (id) => dispatch( actions.fetchPokemonById(id) ),
-		fetchSpriteById: (id) => dispatch( actions.fetchSprite(id) ) 
+		fetchProfile: (id) => dispatch( actions.fetchProfile(id))
 	}
 }
 

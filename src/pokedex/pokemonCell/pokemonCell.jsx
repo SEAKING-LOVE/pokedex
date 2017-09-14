@@ -29,11 +29,11 @@ class PokemonCell extends Component {
 			left: `-${this.props.offsetLeft}px`,
 			width: this.props.expandWidth
 		};
-
+		const content = this.props.selected ? <Profile pokemon={this.props.pokemon}/> : <div></div>;
 		return <div 
 			className={`profileContainer ${this.props.selected ? 'expanded' : ''}`}
 			style={style}>
-			<Profile pokemon={this.props.pokemon}/>
+			{content}
 		</div>
 	}
 	leadingZeros(num) {

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {connect} from "react-redux";
+import Summary from './summary/summary.container.jsx';
 
 import './profile.scss';
 
@@ -9,20 +10,13 @@ class Profile extends Component {
 	}
 	renderSprite() {
 		return <div>
-			<img src={this.props.spriteImage}/>
+			<img src={this.props.sprite}/>
 		</div>
-	}
-	renderContent() {
-		return <div>
-			<p>{JSON.stringify(this.props.types)}</p>
-			<p>{JSON.stringify(this.props.general)}</p>
-			<p>{JSON.stringify(this.props.minStats)}</p>
-		</div>;
 	}
 	render() {
 		return <div className='profile'>
 			{this.renderSprite()}
-			{this.renderContent()}
+			<Summary />
 		</div>
 	}
 }
