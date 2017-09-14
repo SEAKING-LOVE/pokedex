@@ -1,7 +1,7 @@
 const initialState = {
 	all: [],
 	selected: {},
-	selectedSpriteImage: '',
+	selectedSprite: '',
 	error: ''
 };
 
@@ -10,14 +10,15 @@ export default function pokedexReducer(state=initialState, action) {
 		case "FETCH_ALL_POKEMON": {
 			return {...state, all: action.payload.data.main };
 		}
-		case "FETCH_POKEMON_BY_ID": {
-			return { ...state, selected: action.payload.data };
-		}
-		case "FETCH_SPRITE": {
-			return {...state, selectedSpriteImage: action.payload};
-		}
 		case "FETCH_ERROR": {
 			return {...state, error: action.payload };
+		}
+		case "FETCH_PROFILE": {
+			return {
+				...state,
+				selected: action.payload.data.data,
+				selectedSprite: action.payload.sprite
+			}
 		}
 		default: {
 			console.log("Action not found: ", action.type);

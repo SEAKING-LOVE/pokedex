@@ -25,6 +25,7 @@ class PokemonCell extends Component {
 			</div>	
 	}
 	renderProfile() {
+		if(!this.props.selected) return;
 		const style = {
 			left: `-${this.props.offsetLeft}px`,
 			width: this.props.expandWidth

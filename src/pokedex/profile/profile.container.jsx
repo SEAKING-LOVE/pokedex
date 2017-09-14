@@ -4,7 +4,7 @@ import * as actions from '../pokedex.actions.js';
 import Profile from './profile.jsx';
 
 const stateToProps = (state) => ({
-	spriteImage: state.pokedex.selectedSpriteImage,
+	sprite: state.pokedex.selectedSprite,
 	main: state.pokedex.selected.main,
 	general: state.pokedex.selected.general,
 	moves: state.pokedex.selected.moves,
@@ -17,9 +17,7 @@ const stateToProps = (state) => ({
 });
 
 const dispatchToProps = (dispatch) => {
-	return {
-		fetchPokemonById: (id) => dispatch(actions.fetchPokemonById(id)) 
-	}
+	return { }
 }
 
 const Container = connect(
