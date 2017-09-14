@@ -34,8 +34,8 @@
   "scripts": {
     "build": "webpack -p",
     "start": "node server/index.js",
-    "start-dev": "webpack-dev-server --inline",
-    "start-server": "nodemon server/index.js"
+    "dev": "webpack-dev-server --inline",
+    "server": "nodemon server/index.js"
   },
   "devDependencies": {
     "babel-preset-react": "^6.24.1",
