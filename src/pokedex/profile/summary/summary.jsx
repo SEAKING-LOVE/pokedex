@@ -10,24 +10,36 @@ class Summary extends Component {
 		super(props);
 	}
 	renderGeneral() {
+		const headers = ['abilities', 'weight', 'height'];
 		return <table>
 			<tbody>
-				{this.renderGeneralData()}
-				{this.renderGeneralHeaders()}
+				{this.renderGeneralData(headers)}
+				{this.renderGeneralHeaders(headers)}
 			</tbody>
 		</table>
 	}
-	renderGeneralHeaders() {
-		const headers =  Object.keys(this.props.general).map((category, index) => {
-			return <th key={index}>{category}</th>
+	renderGeneralHeaders(headers) {
+		const headerElements = headers.map((header, index) => {
+			return <th key={index}>{header}</th>
 		});
-		return <tr>{headers}</tr>
+		return <tr>{headerElements}</tr>
 	}
-	renderGeneralData() {
-		const data = Object.keys(this.props.general).map((category, index) => {
-			return <td key={index}>{ this.props.general[category] }</td>
-		});
-		return <tr>{data}</tr>
+	renderGeneralData(desiredHeaders) {
+		const dataElements = desiredHeaders.reduce((acc, header) => {
+			if(desiredHeaders.indexOf(header) !== -1 && this.props.general[header]) {
+				acc.push(<td key={header}>{ this.props.general[header] }</td>)
+			}
+			return acc;
+		}, []);
+		return <tr>
+			<td> {this.renderAbilities()} </td>
+			{dataElements}
+		</tr>
+	}
+	renderAbilities() {
+		return  this.props.abilities.map((ability, index) => {
+			return <div key={index}>{ability}</div>
+		})
 	}
 	renderTypes() {
 		const badges = this.props.types.map((type, index) => {
@@ -41,8 +53,13 @@ class Summary extends Component {
 				minStats={this.props.minStats}
 				maxStats={this.props.maxStats} />;
 	}
+	renderForm() {
+		return this.props.main.form !== '' ? ` | ${this.props.main.form}` : '';
+	}
 	render() {
 		return <div className='summary'>
+			<h1>{this.props.main.name}</h1>
+			<div>{this.props.general.species + this.renderForm()}</div>
 			{this.renderTypes()}
 			{this.renderGeneral()}
 			{this.renderStats()}

@@ -3,7 +3,7 @@ const schema = require('./schema.js');
 
 const tables = {
 	all: ['main'],
-	pid: ['main', 'general', 'moves', 'base_stats', 'min_stats', 'max_stats', 'training', 'types', 'location']
+	pid: ['main', 'general', 'abilities', 'moves', 'base_stats', 'min_stats', 'max_stats', 'training', 'types', 'location']
 };
 
 const Model = {
@@ -28,6 +28,9 @@ const Model = {
 			const types = res.types.map((obj) => {
 				return obj.type;
 			});
+			const abilities = res.abilities.map((obj) => {
+				return obj.ability;
+			});
 			const location = res.location.reduce((acc, obj) => {
 				if(!acc[obj.version]) acc[obj.version] = [];
 				acc[obj.version].push(obj.location);
@@ -42,6 +45,7 @@ const Model = {
 			return {
 				main: res.main[0],
 				general,
+				abilities,
 				base_stats,
 				min_stats,
 				max_stats,

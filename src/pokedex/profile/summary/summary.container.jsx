@@ -4,7 +4,9 @@ import * as actions from '../../pokedex.actions.js';
 import Summary from './summary.jsx';
 
 const stateToProps = (state) => ({
+	main: state.pokedex.selected.main,
 	general: state.pokedex.selected.general,
+	abilities: state.pokedex.selected.abilities,
 	baseStats: state.pokedex.selected.base_stats,
 	minStats: state.pokedex.selected.min_stats,
 	maxStats: state.pokedex.selected.max_stats,
