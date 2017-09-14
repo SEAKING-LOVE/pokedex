@@ -23,7 +23,7 @@ const Model = {
 		const queryString = QP.eachTable(tables.name, whereCondition);
 
 		return QP.query(tables.name, queryString)
-			.then((res) => { return res; })
+			.then((res) => { return res.moves_description[0]; })
 			.catch((err) => { return err; });
 	},
 	learn: (name) => {
@@ -32,6 +32,12 @@ const Model = {
 
 		return QP.query(tables.learn, queryString)
 			.then((res) => { return res; })
+			.then((res) => {
+				const moves = res.moves.map((obj) => {
+					return QP.sanitizeObject(obj, ['name', 'type', 'category', 'power', 'accuracy']);
+				})
+				return moves;
+			})
 			.catch((err) => { return err; });
 	},
 	pid: (pid) => {
@@ -40,6 +46,12 @@ const Model = {
 
 		return QP.query(tables.pid, queryString)
 			.then((res) => { return res; })
+			.then((res) => {
+				const moves = res.moves.map((obj) => {
+					return QP.sanitizeObject(obj, ['unique_id']);
+				});
+				return moves;
+			})
 			.catch((err) => { return err; });
 	},
 	type: (type) => {
@@ -47,7 +59,7 @@ const Model = {
 		const queryString = QP.eachTable(tables.type, whereCondition);
 
 		return QP.query(tables.type, queryString)
-			.then((res) => { return res; })
+			.then((res) => { return res.moves_description; })
 			.catch((err) => { return err; });
 	},
 	category: (category) => {
@@ -55,7 +67,7 @@ const Model = {
 		const queryString = QP.eachTable(tables.category, whereCondition);
 
 		return QP.query(tables.category, queryString)
-			.then((res) => { return res; })
+			.then((res) => { return res.moves_description; })
 			.catch((err) => { return err; });
 	}
 };
