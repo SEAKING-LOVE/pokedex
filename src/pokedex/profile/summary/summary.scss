@@ -1,13 +1,64 @@
 .summary {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	.general {
+		border: solid 1px red;
+		max-width: 500px;
+		
+		.row{
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			div{
+				text-align: center;
+				word-wrap: break-word;
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-end;		
+			}
+			.title{
+				text-transform: uppercase;
+				font-weight: 600;
+			}
+		}
+
+	}
 	.stats {
+		width: 100%;
+		tbody{
+			width: inherit;
+			height: inherit;
+		}
+		tr {	
+			display: grid;
+			grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+			padding: 0.1em 0;
+		}
+		td, th{
+			// border: solid blue 1px;
+		}
+		th{
+			font-weight: 600;
+			text-align: left;
+			word-wrap: break-word;
+			text-transform: uppercase;
+
+		}
+		td{
+			text-align: center;
+		}
 		.gauge {
-			width: 500pc;
-			height: 2em;
-			border: solid 1px blue;
+			height: 1.5em;
+
 			div{
 				height: 100%;
-				background-color: red;
+				border-radius: 0.2em;
+				transition: 0.5s all;
 			}
+		}
+		.lastRow{
+			font-size: 0.7em;
 		}
 	}
 }

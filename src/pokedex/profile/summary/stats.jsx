@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 
+import { typesToColors, respell } from '../../../utils.js';
+
 class Stats extends Component {
 	constructor() {
 		super();
@@ -12,8 +14,10 @@ class Stats extends Component {
 		})
 	}
 	renderStatRow(statKey) {
+		const statKeyPretty = respell(statKey);
+
 		return <tr key={statKey}>
-			<th>{statKey}</th>
+			<th>{statKeyPretty}</th>
 			<td>{this.props.baseStats[statKey]}</td>
 			<td className='gauge'>
 				{this.renderStatGauge(this.props.baseStats[statKey])}
@@ -23,7 +27,7 @@ class Stats extends Component {
 		</tr>
 	}
 	renderLastRow() {
-		return <tr>
+		return <tr className='lastRow'>
 			<th></th>
 			<td></td>
 			<td></td>
@@ -33,9 +37,13 @@ class Stats extends Component {
 	}
 	renderStatGauge(statValue) {
 		const style = {
-			width: `${statValue / this.state.maxValue * 100}%`
+			width: `${statValue / this.state.maxValue * 100}%`,
+			backgroundColor: this.gaugeColor()
 		}
 		return <div className={''} style={style}></div>
+	}
+	gaugeColor() {
+		return typesToColors(this.props.types)[0];
 	}
 	render() {
 		return <table className='stats'>

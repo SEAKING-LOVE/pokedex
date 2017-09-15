@@ -7,7 +7,7 @@ import './pokedex.scss';
 class App extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { selected: null, cellSize: 65, cellMargin: 5 };
+		this.state = { selected: null, cellSize: 70, cellMargin: 10 };
 	}
 	componentWillMount () {
 		this.props.fetchAllPokemon();

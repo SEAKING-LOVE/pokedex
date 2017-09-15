@@ -10,57 +10,44 @@ class Summary extends Component {
 		super(props);
 	}
 	renderGeneral() {
-		const headers = ['abilities', 'weight', 'height'];
-		return <table>
-			<tbody>
-				{this.renderGeneralData(headers)}
-				{this.renderGeneralHeaders(headers)}
-			</tbody>
-		</table>
+		const headers = [ 'weight', 'height', 'abilities'];
+		return <div className='general'>
+			{this.renderGeneralData(headers)}
+			{this.renderGeneralHeaders(headers)}
+		</div>
 	}
 	renderGeneralHeaders(headers) {
 		const headerElements = headers.map((header, index) => {
-			return <th key={index}>{header}</th>
+			return <div key={index} className='title'>{header}</div>
 		});
-		return <tr>{headerElements}</tr>
+		return <div className='row'>{headerElements}</div>
 	}
 	renderGeneralData(desiredHeaders) {
 		const dataElements = desiredHeaders.reduce((acc, header) => {
 			if(desiredHeaders.indexOf(header) !== -1 && this.props.general[header]) {
-				acc.push(<td key={header}>{ this.props.general[header] }</td>)
+				acc.push(<div key={header}>{ this.props.general[header] }</div>)
 			}
 			return acc;
 		}, []);
-		return <tr>
-			<td> {this.renderAbilities()} </td>
+		return <div className='row'>			
 			{dataElements}
-		</tr>
+			<div> {this.renderAbilities()} </div>
+		</div>
 	}
 	renderAbilities() {
 		return  this.props.abilities.map((ability, index) => {
 			return <div key={index}>{ability}</div>
 		})
 	}
-	renderTypes() {
-		const badges = this.props.types.map((type, index) => {
-			return <TypeBadge  key={index} type={type}/>;
-		});
-
-		return <div className='types' > {badges} </div>;
-	}
 	renderStats() {
 		return <Stats baseStats={this.props.baseStats}
 				minStats={this.props.minStats}
-				maxStats={this.props.maxStats} />;
+				maxStats={this.props.maxStats}
+				types={this.props.types}/>;
 	}
-	renderForm() {
-		return this.props.main.form !== '' ? ` | ${this.props.main.form}` : '';
-	}
+	
 	render() {
 		return <div className='summary'>
-			<h1>{this.props.main.name}</h1>
-			<div>{this.props.general.species + this.renderForm()}</div>
-			{this.renderTypes()}
 			{this.renderGeneral()}
 			{this.renderStats()}
 		</div>

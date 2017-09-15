@@ -17,10 +17,18 @@ import './sprites.scss';
 
 class PokemonCell extends Component {
 	renderPreview() {
+		const style = {
+			width: `${this.props.size}px`,
+			height: `${this.props.size}px`
+		}
 		return <div 
 			className={`preview ${this.props.selected ? 'active' : ''}`}
+			style={style}
 			onClick={this.props.onClick}>
-				<i className={`pki ${this.props.pokemon.unique_id}`}></i>
+				<div className='pkiContainer'>
+					<i className={`pki ${this.props.pokemon.unique_id}`}></i>
+				</div>
+				
 				<span>{this.leadingZeros(this.props.pokemon.national_id)}</span>
 			</div>	
 	}
@@ -43,7 +51,6 @@ class PokemonCell extends Component {
 	}
 	cellContainerStyle() {
 		return {
-			width: `${this.props.size}px`,
 			width: `${this.props.size}px`,
 			margin: `${this.props.margin}px`
 		};

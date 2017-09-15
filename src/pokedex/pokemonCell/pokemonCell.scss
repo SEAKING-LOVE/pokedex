@@ -1,6 +1,9 @@
 @import '../../variables.scss';
 
 $quickviewTransition: 0.7s;
+$pkiScale: 1.5;
+$spriteWidth: 40px;
+$spriteHeight: 30px;
 
 .pokemonCell{
 	display: flex;
@@ -10,27 +13,38 @@ $quickviewTransition: 0.7s;
 	transition: all 0.2s;
 		
 	.preview{
+		display: flex;
+		flex-direction:column;
+		justify-content: space-around;
+		align-content: center;
+
 		position: relative;
 		width: inherit;
-		height: 50px;
+		height: inherit;
 		border: solid 0.1em $blue;
 		border-radius: 0.5em;
 		box-shadow: 0 0 0.5em $blue;
 		z-index: 10;
+		span{ text-align: center; }
 		&:hover{
 			background-color:  #fff;
 		}
 		&.active{
 			border-color:red;
 		}
-
-		.pki{
-			background-image: url('./sprites.png');
-			width: 40px;
-			height: 30px;
-			vertical-align: middle;
-			display: inline-block;
+		.pkiContainer{
+			display: flex;
+			justify-content: center;
+			transform: scale($pkiScale);
+			.pki{
+				background-image: url('./sprites.png');;
+				width: $spriteWidth;
+				height: $spriteHeight;
+				vertical-align: middle;
+				display: inline-block;
+			}
 		}
+			
 	}
 	.profileContainer{
 		max-height: 0;
