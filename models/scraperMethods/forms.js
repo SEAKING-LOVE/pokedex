@@ -30,6 +30,7 @@ const mergeHelper = {
 		return mergedObj;
 	},
 	removeEmptyStrings: (forms) => {
+		if(!forms.length) return forms;
 		const newforms = [];
 		forms.forEach((element) => {
 			if(element !== '') newforms.push(element);
@@ -37,17 +38,18 @@ const mergeHelper = {
 		return newforms;
 	},
 	cleanForms: (id, forms) => {
-		const sanitizers = formsMap.sanitizers;
+		if(!forms.length) return forms;
 		const spellings = formsMap.spelling;
+		const sanitizers = formsMap.sanitizers;
 
 		const pokemon = pokemonList.find(object => object.unique_id === id);
 		const name = pokemon.name.toLowerCase();
 
 		return forms.map((form, index) => {
 			let newForm = form;
-			newForm = mergeHelper.sanitize(sanitizers, newForm);
 			newForm = mergeHelper.respell(spellings, newForm);
-
+			newForm = mergeHelper.sanitize(sanitizers, newForm);
+			
 			if(form.includes(name)) newForm = newForm.replace(name, "");	// remove name
 			newForm = newForm.replace(/\s/g,'');  	// remove all spaces
 
@@ -85,7 +87,7 @@ const scraper = {
 		console.log(":::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
 		const fileNames = mergeHelper.readFolderContents(inputPath);
 		const mergedObj = mergeHelper.mergeFiles(fileNames);
-
+		console.log(mergedObj)
 		writeFile.json(outputPath, mergedObj);
 	},
 	get: (url) => {
