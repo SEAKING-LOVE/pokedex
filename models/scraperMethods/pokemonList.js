@@ -63,7 +63,7 @@ function eachPokemonInList(td, baseUrl) {
 			enterPokemonProfile(baseUrl + pokemon.profileUrl, pokemon.form, pokemon.name + pokemon.form).then( profile => {
 				writeFile.json(`./json/${pokemon.unique_id}.json`, profile);
 			});
-		}  // if end
+		// }  // if end
 	});
 }
 

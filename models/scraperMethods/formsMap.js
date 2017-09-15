@@ -13,7 +13,8 @@ const map = {
 		trim: false
 	},
 	spelling: {
-		female: "f"
+		female: "f",
+		// fe: "f" 	// temp work around for fe[male] bug
 	}
 };
 
