@@ -1,6 +1,7 @@
 const schema = {
 	main: 'pokedex.main',
 	general: 'pokedex.general',
+	entry: 'pokedex.description',
 	abilities: 'pokedex.abilities',
 	moves: 'pokedex.moves',
 	base_stats: 'pokedex.base_stats',
