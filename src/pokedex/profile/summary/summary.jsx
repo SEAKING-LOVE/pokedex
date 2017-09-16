@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 
+import SubHeader from '../subHeader/subHeader.jsx';
+import Sprite from '../sprite/sprite.container.jsx';
 import TypeBadge from '../typeBadge/typeBadge.jsx';
 import Stats from './stats.jsx';
 import './summary.scss';
@@ -10,59 +12,49 @@ class Summary extends Component {
 		super(props);
 	}
 	renderGeneral() {
-		const headers = ['abilities', 'weight', 'height'];
-		return <table>
-			<tbody>
-				{this.renderGeneralData(headers)}
-				{this.renderGeneralHeaders(headers)}
-			</tbody>
-		</table>
-	}
-	renderGeneralHeaders(headers) {
-		const headerElements = headers.map((header, index) => {
-			return <th key={index}>{header}</th>
-		});
-		return <tr>{headerElements}</tr>
-	}
-	renderGeneralData(desiredHeaders) {
-		const dataElements = desiredHeaders.reduce((acc, header) => {
-			if(desiredHeaders.indexOf(header) !== -1 && this.props.general[header]) {
-				acc.push(<td key={header}>{ this.props.general[header] }</td>)
-			}
-			return acc;
-		}, []);
-		return <tr>
-			<td> {this.renderAbilities()} </td>
-			{dataElements}
-		</tr>
-	}
-	renderAbilities() {
-		return  this.props.abilities.map((ability, index) => {
-			return <div key={index}>{ability}</div>
-		})
-	}
-	renderTypes() {
-		const badges = this.props.types.map((type, index) => {
-			return <TypeBadge  key={index} type={type}/>;
-		});
+		return <div className='general'>
+			<SubHeader text={this.props.general.species}/>
+			{this.renderGeneralRow('weight', this.props.general.weight)}
+			{this.renderGeneralRow('height', this.props.general.height)}
+			{this.renderGeneralRow('abilities', this.props.abilities)}
 
-		return <div className='types' > {badges} </div>;
+		</div>
+	}
+	renderGeneralRow(header, data) {
+		const dataElement = this.renderGeneralRowData(data);
+		return <div className='row'>
+			<div className='header'>{header}</div>
+			<div className='data'>
+				{dataElement}
+			</div>
+		</div>
+	}
+	renderGeneralRowData(data) {
+		if(typeof data === 'string') return <div>{data}</div>
+		return data.map((node, index) => {
+			return <div key={index}>{node}</div>
+		})
 	}
 	renderStats() {
 		return <Stats baseStats={this.props.baseStats}
 				minStats={this.props.minStats}
-				maxStats={this.props.maxStats} />;
+				maxStats={this.props.maxStats}
+				types={this.props.types}/>;
 	}
-	renderForm() {
-		return this.props.main.form !== '' ? ` | ${this.props.main.form}` : '';
+	renderEntry() {
+		return <div className='entry'>
+			<SubHeader text='entry' />
+			<div className='data'>
+				{this.props.entry}
+			</div>
+		</div>
 	}
 	render() {
 		return <div className='summary'>
-			<h1>{this.props.main.name}</h1>
-			<div>{this.props.general.species + this.renderForm()}</div>
-			{this.renderTypes()}
+			<Sprite/>
 			{this.renderGeneral()}
 			{this.renderStats()}
+			{this.renderEntry()}
 		</div>
 	}
 }

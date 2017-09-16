@@ -7,7 +7,7 @@ import './pokedex.scss';
 class App extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { selected: null, cellSize: 65, cellMargin: 5 };
+		this.state = { selected: null, cellSize: 75, cellMargin: 10 };
 	}
 	componentWillMount () {
 		this.props.fetchAllPokemon();
@@ -26,7 +26,7 @@ class App extends Component {
 		const offsetLeft = cellWidth * colIndex;
 
 		const gridWidth = this.refs.grid.clientWidth;
-		const expandWidth = rowLength * cellWidth;
+		const expandWidth = rowLength * cellWidth - this.state.cellMargin * 2; // subtract last margin
 
 		return <PokemonCell 
 			key={pkm.unique_id} 

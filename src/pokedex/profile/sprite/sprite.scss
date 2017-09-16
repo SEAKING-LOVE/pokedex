@@ -1,0 +1,17 @@
+@import '../../../variables.scss';
+
+.sprite {
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+	
+	.frame {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		background-color: $black;
+		height: 100%;
+		width: 100%;
+	}
+}
