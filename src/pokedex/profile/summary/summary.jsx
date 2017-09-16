@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 
+import SubHeader from '../subHeader/subHeader.jsx';
+import Sprite from '../sprite/sprite.container.jsx';
 import TypeBadge from '../typeBadge/typeBadge.jsx';
 import Stats from './stats.jsx';
 import './summary.scss';
@@ -10,33 +12,27 @@ class Summary extends Component {
 		super(props);
 	}
 	renderGeneral() {
-		const headers = [ 'weight', 'height', 'abilities'];
 		return <div className='general'>
-			{this.renderGeneralData(headers)}
-			{this.renderGeneralHeaders(headers)}
+			<SubHeader text={this.props.general.species}/>
+			{this.renderGeneralRow('weight', this.props.general.weight)}
+			{this.renderGeneralRow('height', this.props.general.height)}
+			{this.renderGeneralRow('abilities', this.props.abilities)}
+
 		</div>
 	}
-	renderGeneralHeaders(headers) {
-		const headerElements = headers.map((header, index) => {
-			return <div key={index} className='title'>{header}</div>
-		});
-		return <div className='row'>{headerElements}</div>
-	}
-	renderGeneralData(desiredHeaders) {
-		const dataElements = desiredHeaders.reduce((acc, header) => {
-			if(desiredHeaders.indexOf(header) !== -1 && this.props.general[header]) {
-				acc.push(<div key={header}>{ this.props.general[header] }</div>)
-			}
-			return acc;
-		}, []);
-		return <div className='row'>			
-			{dataElements}
-			<div> {this.renderAbilities()} </div>
+	renderGeneralRow(header, data) {
+		const dataElement = this.renderGeneralRowData(data);
+		return <div className='row'>
+			<div className='header'>{header}</div>
+			<div className='data'>
+				{dataElement}
+			</div>
 		</div>
 	}
-	renderAbilities() {
-		return  this.props.abilities.map((ability, index) => {
-			return <div key={index}>{ability}</div>
+	renderGeneralRowData(data) {
+		if(typeof data === 'string') return <div>{data}</div>
+		return data.map((node, index) => {
+			return <div key={index}>{node}</div>
 		})
 	}
 	renderStats() {
@@ -45,11 +41,20 @@ class Summary extends Component {
 				maxStats={this.props.maxStats}
 				types={this.props.types}/>;
 	}
-	
+	renderEntry() {
+		return <div className='entry'>
+			<SubHeader text='entry' />
+			<div className='data'>
+				{this.props.entry}
+			</div>
+		</div>
+	}
 	render() {
 		return <div className='summary'>
+			<Sprite/>
 			{this.renderGeneral()}
 			{this.renderStats()}
+			{this.renderEntry()}
 		</div>
 	}
 }

@@ -1,7 +1,8 @@
 @import '../../variables.scss';
 
+$spritesheet: './spritesheet.png';
 $quickviewTransition: 0.7s;
-$pkiScale: 1.5;
+$pkiScale: 1.7;
 $spriteWidth: 40px;
 $spriteHeight: 30px;
 
@@ -21,32 +22,56 @@ $spriteHeight: 30px;
 		position: relative;
 		width: inherit;
 		height: inherit;
-		border: solid 0.1em $blue;
-		border-radius: 0.5em;
-		box-shadow: 0 0 0.5em $blue;
+		border: solid 0.1em rgba($blue, 0.8);
+		border-radius: 0.2em;
+		background-color: rgba($blue, 0.8);
+
+		transition: all 0.4s;
 		z-index: 10;
-		span{ text-align: center; }
-		&:hover{
-			background-color:  #fff;
+		&:after{
+			display: block;
+			position: absolute;
+			content: '';
+			height: inherit;
+			width:inherit;
+			background-color: rgba($gray, 0.5);
+			transition: inherit;
 		}
-		&.active{
-			border-color:red;
+		span{
+			text-align: center;
 		}
 		.pkiContainer{
 			display: flex;
 			justify-content: center;
 			transform: scale($pkiScale);
 			.pki{
-				background-image: url('./sprites.png');;
+				background-image: url($spritesheet);
+				filter: grayscale(90%);
 				width: $spriteWidth;
 				height: $spriteHeight;
 				vertical-align: middle;
 				display: inline-block;
 			}
 		}
+		&:hover, &.active {
+			border-color: $blue;
+			&:after{
+				opacity: 0;
+				box-shadow: 0 0 1.5em $blue;
+			}
+			.pkiContainer {
+				.pki{
+					filter: grayscale(0%);
+				}
+			}
+		}
+		&.active{
+			box-shadow: 0 0 1em $blue;
+		}
 			
 	}
 	.profileContainer{
+
 		max-height: 0;
 		overflow: hidden;
 		transition: max-height $quickviewTransition;
@@ -54,6 +79,10 @@ $spriteHeight: 30px;
 		margin-top: 0.5em;
 
 		&.expanded {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
 			max-height: 90vh;
 			border: solid 1px $blue;
 			transition-delay: $quickviewTransition;

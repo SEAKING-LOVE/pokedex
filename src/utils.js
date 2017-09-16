@@ -1,27 +1,63 @@
 const Utils = {
 	typeColors: {
-		normal: '#ffe5b4',
-		fire: '#f6614f',
-		water: '#00ccff',
-		electric: '#fdfd96',
-		grass: '#71bc78',
-		ice: '#a4f4f9',
-		fighting: '#c90016',
-		poison: '#8a496b',
-		ground: '#a67b5b',
-		flying: '#cec8ef',
-		psychic: '#de6fa1',
-		bug: '#d0ce1c',
-		rock: '#bebebe',
-		ghost: '#9678b6',
-		dragon: '#0f4d92',
-		dark: '#1c2841',
-		steel: '#a2add0',
-		fairy: '#ffc0cb',	
+		normal: (alpha=1.0) => { 
+			return `rgba( 255,229,180 , ${alpha})`
+		},
+		fire: (alpha=1.0) => {
+			return `rgba( 246,97,79, ${alpha})`
+		},
+		water: (alpha=1.0) => {
+			return `rgba( 0,204,255, ${alpha})`
+		}, 
+		electric: (alpha=1.0) => {
+			return `rgba( 241,190,92, ${alpha})`
+		}, 
+		grass: (alpha=1.0) => {
+			return `rgba( 113,188,120, ${alpha})`
+		},
+		ice: (alpha=1.0) => {
+			return `rgba( 164,244,249, ${alpha})`
+		},
+		fighting: (alpha=1.0) => {
+			return `rgba( 164,244,249, ${alpha})`
+		},
+		poison: (alpha=1.0) => {
+			return `rgba( 138,73,107, ${alpha})`
+		},
+		ground: (alpha=1.0) => {
+			return `rgba( 166,123,91, ${alpha})`
+		}, 
+		flying: (alpha=1.0) => {
+			return `rgba( 206,200,239, ${alpha})`
+		},
+		psychic: (alpha=1.0) => {
+			return `rgba( 222,111,161, ${alpha})`
+		},
+		bug: (alpha=1.0) => {
+			return `rgba( 208,206,28, ${alpha})`
+		}, 
+		rock: (alpha=1.0) => {
+			return `rgba( 190,190,190, ${alpha})`
+		},
+		ghost: (alpha=1.0) => {
+			return `rgba( 150,120,182, ${alpha})`
+		},
+		dragon: (alpha=1.0) => {
+			return `rgba( 15,77,146, ${alpha})`
+		},
+		dark: (alpha=1.0) => {
+			return `rgba( 28,40,65, ${alpha})`
+		}, 
+		steel: (alpha=1.0) => {
+			return `rgba( 162,173,208, ${alpha})`
+		},
+		fairy: (alpha=1.0) => {
+			return `rgba( 255,192,203, ${alpha})`
+		},	
 	},
-	typesToColors: (types=[]) => {
+	typesToColors: (types=[], alpha=1.0) => {
 		return types.map((type) => {
-			return Utils.typeColors[type.toLowerCase()];
+			return Utils.typeColors[type.toLowerCase()](alpha);
 		});
 	},
 	no_(string) {

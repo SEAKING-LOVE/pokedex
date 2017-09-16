@@ -1,27 +1,14 @@
 .profile {
-	height: 100%;
-	width: 100%;
+	padding: 2em;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	.name, .subname {
-		text-align: center;
-		font-weight: 600;
-		text-transform: uppercase;
-	}
-	.name {
-		font-size: 1.3em;
-	}
-	.subname {
-		font-size: 1.1em;
-	}
+	align-items: center;
 	.content {
-		display: grid;
-		grid-template-columns: 1fr 2fr;
-	}
-
-	.types{
+		width: 90%;
+		height: 90%;
 		display: flex;
 		justify-content: center;
+		align-content: center;
 	}
 }

@@ -1,0 +1,27 @@
+@import '../../../variables.scss';
+
+.header{
+	// background-color: $black;
+	width: 100%;
+	margin-bottom: 1.5em;
+	.title, .subtitle {
+		text-align: center;
+		font-weight: 600;
+		text-transform: uppercase;
+	}
+	.title, .subtitle, .types {
+		padding: 0.2em;
+	}
+	.title {
+		font-size: 1.3em;
+		letter-spacing: 0.2em;
+	}
+	.subtitle {
+		font-size: 1.1em;
+		letter-spacing: 0.1em;
+	}
+	.types{
+		display: flex;
+		justify-content: center;
+	}
+}

@@ -26,9 +26,11 @@ class Sprite extends Component {
 		}
 	}
 	render() {
-		const style = this.typeStyles();
-		return <div className='sprite' style={style}>
-			<img src={this.props.source}/>
+		// const style = this.typeStyles();
+		return <div className='sprite'>
+			<div className='frame'>
+				<img src={this.props.source}/>
+			</div>	
 		</div>;
 	}
 }
