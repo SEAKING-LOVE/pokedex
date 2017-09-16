@@ -63,14 +63,17 @@ const Utils = {
 	no_(string) {
 		return string.replace(/_/gi, ' ');
 	},
-	spellers: {
+	sanitizers: {
 		special_attack: 'sp. atk',
 		special_defence: 'sp. def',
-		spedical_defence: 'sp. def' 	// fix this bs in the back end
+		spedical_defence: 'sp. def', 	// fix this bs in the back end,
+		attack: 'atk',
+		defence: 'def'
 	},
-	respell: (str) => {
-		if(Utils.spellers[str]) return Utils.spellers[str];
-		return str;
+	sanitize: (str) => {
+		const normalizedStr = str.toLowerCase();
+		if(Utils.sanitizers[normalizedStr]) return Utils.sanitizers[normalizedStr];
+		return normalizedStr;
 	}
 
 };

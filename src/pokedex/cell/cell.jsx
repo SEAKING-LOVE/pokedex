@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from "react-redux";
 import Profile from '../profile/profile.container.jsx';
-import './pokemonCell.scss';
+import './cell.scss';
 import './sprites.scss';
 
 // this.props = {
@@ -15,7 +15,7 @@ import './sprites.scss';
 // 	offsetLeft: 0
 // };
 
-class PokemonCell extends Component {
+class Cell extends Component {
 	renderPreview() {
 		const style = {
 			width: `${this.props.size}px`,
@@ -58,11 +58,11 @@ class PokemonCell extends Component {
 	render() {
 		const style=this.cellContainerStyle();
 
-		return <div key={this.props.pokemon.unique_id} className='pokemonCell' style={style}>
+		return <div key={this.props.pokemon.unique_id} className='cell' style={style}>
 			{this.renderPreview()}
 			{this.renderProfile()}
 		</div>
 	}
 }
 
-export default PokemonCell;
+export default Cell;

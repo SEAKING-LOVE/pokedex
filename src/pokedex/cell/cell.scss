@@ -6,7 +6,7 @@ $pkiScale: 1.7;
 $spriteWidth: 40px;
 $spriteHeight: 30px;
 
-.pokemonCell{
+.cell{
 	display: flex;
 	flex-direction: column;
 	position:relative;
@@ -84,7 +84,7 @@ $spriteHeight: 30px;
 			align-items: center;
 			
 			max-height: 90vh;
-			border: solid 1px $blue;
+			border: solid 3px $blue;
 			transition-delay: $quickviewTransition;
 		}
 		

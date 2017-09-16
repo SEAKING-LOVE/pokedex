@@ -42,10 +42,14 @@ class Summary extends Component {
 				types={this.props.types}/>;
 	}
 	renderEntry() {
+		const lastVersionIndex = Object.keys(this.props.entry).length - 1;
+		const lastVersion = Object.keys(this.props.entry)[lastVersionIndex];
+		const entry = this.props.entry[lastVersion];
+
 		return <div className='entry'>
 			<SubHeader text='entry' />
 			<div className='data'>
-				{this.props.entry}
+				{entry}
 			</div>
 		</div>
 	}

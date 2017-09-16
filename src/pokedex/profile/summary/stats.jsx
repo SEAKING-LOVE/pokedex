@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import SubHeader from '../subHeader/subHeader.jsx';
 
-import { typesToColors, respell } from '../../../utils.js';
+import { typesToColors, sanitize } from '../../../utils.js';
 
 class Stats extends Component {
 	constructor() {
@@ -15,7 +15,7 @@ class Stats extends Component {
 		})
 	}
 	renderStatRow(statKey) {
-		const statKeyPretty = respell(statKey);
+		const statKeyPretty = sanitize(statKey);
 
 		return <tr key={statKey}>
 			<th>{statKeyPretty}</th>
