@@ -23,21 +23,21 @@ function getPokemonList(baseUrl, callback) {
 		$(pokemonRow).map( (i, element) => {
 
 			let td = $(element).children('td');
-			// const base = 0;
-			// if(i >= base && i < base + 0) {
-			// 	eachPokemonInList(td, baseUrl).then( pokemon => {
-			// 		pokedex.push(pokemon);
-			// 		return pokedex;
-			// 	}).then( pokedex => {
-			// 		callback(pokedex);
-			// 	});
-			// }
-			eachPokemonInList(td, baseUrl).then( pokemon => {
-				pokedex.push(pokemon);
-				return pokedex;
-			}).then( pokedex => {
-				callback(pokedex);
-			});
+			const base = 900;
+			if(i >= base && i < base + 50) {
+				eachPokemonInList(td, baseUrl).then( pokemon => {
+					pokedex.push(pokemon);
+					return pokedex;
+				}).then( pokedex => {
+					callback(pokedex);
+				});
+			}
+			// eachPokemonInList(td, baseUrl).then( pokemon => {
+			// 	pokedex.push(pokemon);
+			// 	return pokedex;
+			// }).then( pokedex => {
+			// 	callback(pokedex);
+			// });
 		});
 
 	}).catch( err => {
