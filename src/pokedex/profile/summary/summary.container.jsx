@@ -5,7 +5,8 @@ import Summary from './summary.jsx';
 
 const stateToProps = (state) => ({
 	main: state.pokedex.selected.main,
-	entry: 'Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum',
+	// entry: 'Bulbasaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ivysaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venusaur Lorem ipsum dolor sit amet, consectetur adipiscing elit. Charmander Lorem ipsum',
+	entry: state.pokedex.selected.entry,
 	general: state.pokedex.selected.general,
 	abilities: state.pokedex.selected.abilities,
 	baseStats: state.pokedex.selected.base_stats,

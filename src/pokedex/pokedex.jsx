@@ -1,77 +1,75 @@
 import React, { Component } from 'react';
 import {connect} from "react-redux";
-import PokemonCell from './pokemonCell/pokemonCell.jsx';
+import Grid from './grid/grid.container.jsx';
 
 import './pokedex.scss';
 
-class App extends Component {
+class Pokedex extends Component {
 	constructor(props) {
 		super(props);
-		this.state = { selected: null, cellSize: 75, cellMargin: 10 };
+		this.state = { initiate: 0 }
+		this.nextInitiationStage = this.nextInitiationStage.bind(this);
 	}
-	componentWillMount () {
-		this.props.fetchAllPokemon();
+	nextInitiationStage() {
+		this.setState({ initiate: this.state.initiate + 1 });
 	}
-	renderAllPokemon () {
-		return this.props.allPokemon.map((pkm, index) => {
-			return this.renderCell(pkm, index);
-		});	}
-	renderCell(pkm, index) {
-		const selected = index === this.state.selected ? true : false;
-
-		const rowLength = this.cellsPerRow();
-		const colIndex = index % rowLength;
-
-		const cellWidth = this.state.cellSize + this.state.cellMargin * 2;
-		const offsetLeft = cellWidth * colIndex;
-
-		const gridWidth = this.refs.grid.clientWidth;
-		const expandWidth = rowLength * cellWidth - this.state.cellMargin * 2; // subtract last margin
-
-		return <PokemonCell 
-			key={pkm.unique_id} 
-			pokemon={pkm} 
-			size={this.state.cellSize}
-			margin={this.state.cellMargin}
-			offsetLeft={offsetLeft}
-			selected={selected}
-			expandWidth={expandWidth}
-			onClick={()=>{this.selectPokemon(pkm.unique_id, index)}}/>
+	initiatorStyles() {
+		console.log("PREOCESSING STYLES")
+		if(this.state.initiate === 1) return this.initiatorStage1()
+		if(this.state.initiate === 2) return this.initiatorStage2();
+		if(this.state.initiate === 3) return this.initiatorStage3();
+		if(this.state.initiate === 4) return this.initiatorStage4();
+		if(this.state.initiate === 5) return this.initiatorStage5();
+		if(this.state.initiate === 6) return this.initiatorStage6();
+		return {};
 	}
-	
-	cellsPerRow() {
-		if(!this.refs.grid) return 0;
-		const gridWidth = this.refs.grid.clientWidth;
-		const cellWidth = this.state.cellMargin * 2 + this.state.cellSize;
-		return Math.floor( gridWidth / cellWidth );
+	initiatorStage1() {
+		const time = 1000;
+		this.refs.initiator.style.transition = `all ${time}ms`;
+		this.refs.initiator.className = 'gridContainer stage1';
+		setTimeout(() => { this.nextInitiationStage() }, time);
 	}
-	selectPokemon(id, gridIndex) {
-		const selected = this.state.selected === gridIndex ? null : gridIndex;
-
-		this.props.fetchProfile(id)
-			.then(() => {
-				this.setState({  selected })
-			})		
+	initiatorStage2() {
+		const time = 1500;
+		this.refs.initiator.style.transition = `all ${time}ms`;
+		this.refs.initiator.className = 'gridContainer stage2';
+		setTimeout(() => { this.nextInitiationStage() }, time*1.1);
 	}
-	updateGridWidth() {
-		const rowLength = this.cellsPerRow();
-		const cellSize = this.state.cellSize + this.state.cellMargin * 2;
-		const gridWidth = rowLength * cellSize;
-		
-		const newStyle = { width: gridWidth };
-		const defaultStyle = { width: '100%' };
-
-		return gridWidth > 0 ? newStyle : defaultStyle ;
+	initiatorStage3() {
+		const time = 1500;
+		this.refs.initiator.style.transition = `all ${time}ms`;
+		this.refs.initiator.className = 'gridContainer stage3';
+		setTimeout(() => { this.nextInitiationStage() }, time*1.1);
+	}
+	initiatorStage4() {
+		const time = 900;
+		this.refs.initiator.style.transition = `all ${time}ms`;
+		this.refs.initiator.className = 'gridContainer stage4';
+		setTimeout(() => { this.nextInitiationStage() }, time*1.1);
+	}
+	initiatorStage5() {
+		const time = 1500;
+		this.refs.initiator.style.transition = `all ${time}ms`;
+		this.refs.initiator.className = 'gridContainer stage5';
+		setTimeout(() => { this.nextInitiationStage() }, time*1.1);
+	}
+	initiatorStage6() {
+		const time = 1500;
+		this.refs.initiator.style.transition = `all ${time}ms`;
+		this.refs.initiator.className = 'gridContainer stage6';
+		setTimeout(() => { this.nextInitiationStage() }, time*1.1);
 	}
 	render() {
-		const style = this.updateGridWidth();
+		this.initiatorStyles();
 
 		return <div className='pokedex'>
-			<div className="grid" ref='grid'>
-				{this.renderAllPokemon()}
+			<div className='gridContainer stage0'
+						ref='initiator'
+						onClick={this.nextInitiationStage}>
+				<Grid />
 			</div>
 		</div>;
 	}
 }
 
-export default App;
+export default Pokedex;

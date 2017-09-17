@@ -1,12 +1,68 @@
+@import '../variables.scss';
+
+$initiatorSize: 150px; 
+$endWidth: 800px;
+$endHeight: 90vh;
+
+$border: solid $blue 0.3em; 
+
+@mixin stage($pos, $width, $height, $bradius) {
+	position: $pos;
+	width: $width;
+	height: $height;
+	top: 50%;
+	left: 50%;
+	margin-top: -$height / 2;
+	margin-left: -$width / 2;
+	border-radius: $bradius;
+}
 .pokedex {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	.grid{
+	.gridContainer{
 		display: flex;
-		flex-wrap: wrap;
-		position:relative;
-		// overflow-y: scroll;
-		// justify-content: space-around;
+		justify-content: center;
+		&.stage0{
+			@include stage(fixed, $initiatorSize, $initiatorSize, 50%);
+			border: $border;
+
+			&>* {
+				display: none;
+				transition: inherit;
+			}
+		}	
+		&.stage1{
+			@include stage(fixed, $initiatorSize, 0vh, 0%);
+			border: $border;
+
+			&>* {
+				opacity: 0;
+			}
+		}
+		&.stage2 {
+			@include stage(fixed, $endWidth, 0vh, 0%);
+			border: $border;
+		}
+		&.stage3 {
+			border: 0;
+			@include stage(fixed, $endWidth, $endHeight, 0%);
+		}
+		&.stage4 {
+			border: 0;
+			@extend .stage3;
+		}
+		&.stage5 {
+			position: fixed;
+			top: 0;
+			left: 0;
+			height: $endHeight;
+			width: $endWidth;	
+		}
+		&.stage6 {
+			perspective: 60em;
+			transform: rotatex( 5deg) rotatey(20deg);
+			perspective-origin: center;
+			height: $endHeight;
+			width: $endWidth;
+
+		}
 	}
 }

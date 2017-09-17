@@ -8,7 +8,6 @@ class TypeBadge extends Component {
 	typeStyles() {
 		const type = this.props.type.toLowerCase();
 		const color = typeColors[type]();
-		console.log(color);
 		return {
 			backgroundColor: color,
 			boxShadow: `0 0 0 0.1em ${color}`
