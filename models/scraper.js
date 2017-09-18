@@ -15,10 +15,10 @@ function main() {
 	
 	const baseUrl = "http://pokemondb.net";
 
-	pokemonList.get(baseUrl, list => {
+	// pokemonList.get(baseUrl, list => {
 		// writeFile.json('./json/pokemon.json', list);
 		// writeProfiles.profiles();
-	});
+	// });
 	// evolutionChart.get(baseUrl + '/evolution', evolFamilies => {
 	// 	writeFile.json('./json/evolutions.json', evolFamilies);
 	// });	

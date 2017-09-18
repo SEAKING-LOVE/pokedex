@@ -17,6 +17,7 @@
 			padding: 0.5em 0;
 			display: grid;
 			grid-template-columns: 1fr 2fr;
+			grid-column-gap: 1em;
 
 			.header, .data{
 				text-align: left;
@@ -37,12 +38,12 @@
 	}
 	.stats {
 		table, tbody{
-			width: inherit;
+			width: 100%;
 			height: inherit;
 		}
 		tr {	
 			display: grid;
-			grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+			grid-template-columns: 1.5fr 1fr 3fr 1fr 1fr;
 			padding: 0.1em 0;
 		}
 		th{
