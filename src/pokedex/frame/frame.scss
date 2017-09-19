@@ -1,17 +1,63 @@
 @import '../../variables.scss';
 
+// $lightsBlue: #01a9da;
+$lightsBlue: #5f98c6;
+$lightsRed: lighten($red, 10%);
+$lightsYellow: #eeb72b;
+$lightsGreen: #4a8a35;
+$lightSize: 7em;
 .frame {
-	display: grid;
-	// 
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+
 	position: fixed;
 	top: 0;
 	left: 0;
 	height: 100vh;
-	width: 100%;
+	width: 100vw;
 	background-color: $red;
+	.lights {
+		padding: 0 1em;
+		align-self: flex-start;
 
-	.screen {
-		
+		display: flex;
+		align-items: center;
+
+		.light {
+			border-radius: 50%;
+			&.large {
+				height: $lightSize;
+				width: $lightSize;
+				border: solid $white 0.2em;
+				background: radial-gradient(ellipse at top right, $white 2%, $lightsBlue 60%, darken($lightsBlue, 5%) 100%);
+			}
+			&.small {
+				height: $lightSize * 0.15;
+				width: $lightSize * 0.15;
+				border: solid 0.1em darken($red, 15%);
+				&.red { background-color: $lightsRed; }
+				&.green { background-color: $lightsGreen; }
+				&.yellow { background-color: $lightsYellow; }
+			}
+		}
+		.smallLights {
+			display: flex; 
+			justify-content: space-around;
+			align-items: center;
+			padding: 0 1em;
+
+			width: 6em;
+			height: 5em;
+		}			
 	}
-
+	.screen {
+		position:relative;
+		height: 70%;
+		width: 80%;
+		border: solid 5em $black;
+		border-radius: 1em;
+		// background-color: $blue;
+	}
 }
