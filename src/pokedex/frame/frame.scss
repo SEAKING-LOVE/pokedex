@@ -1,13 +1,17 @@
-$red: #f43546;
+@import '../../variables.scss';
 
 .frame {
-	height: 20vh;
-	width: 105%;
+	display: grid;
+	// 
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
 	background-color: $red;
 
-	// border-top-left-radius: 8em;
-	// border-top-right-radius: 8em;
-	// border-bottom-right-radius: 0.1em;
-	// border-bottom-right-radius: 0.1em;
+	.screen {
+		
+	}
 
 }

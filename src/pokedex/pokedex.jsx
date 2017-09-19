@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {connect} from "react-redux";
+
+import Frame from './frame/frame.jsx';
 import Grid from './grid/grid.container.jsx';
 
 import './pokedex.scss';
@@ -10,7 +11,9 @@ class Pokedex extends Component {
 	}
 	render() {
 		return <div className='pokedex'>
-			<Grid />
+			<Frame>
+				<Grid />
+			</Frame>
 		</div>;
 	}
 }
