@@ -1,9 +1,9 @@
 const buildUrl = {
 	api: (query) => {
-		return `http://localhost:3001/api/v1/${query}`;
+		return `${API_HOST}/api/v1/${query}`;
 	},
 	assets: (query) => {
-		return `http://localhost:3001/assets/${query}`;	
+		return `${API_HOST}/assets/${query}`;	
 	}
 }
 

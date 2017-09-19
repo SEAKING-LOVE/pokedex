@@ -18,7 +18,7 @@ module.exports = {
 	plugins: [
 		new ExtractTextPlugin('bundle.css'),
 		new webpack.DefinePlugin({
-			API_HOST: JSON.stringify('http://localhost:3001')
+			API_HOST: JSON.stringify('http://pokedex.jasonmh.me')
 		})
 	],
 	module: {
