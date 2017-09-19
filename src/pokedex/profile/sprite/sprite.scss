@@ -5,16 +5,11 @@
 	justify-content: center;
 	align-items: center;
 	// max-width: 200px;
-	.frame {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-
-		background-color: $black;
-		height: 100%;
-		width: 100%;
-		img {
-			z-index:1;
-		}
+	background-color: $black;
+	height: 100%;
+	width: 100%;
+	img {
+	z-index:1;
 	}
+
 }

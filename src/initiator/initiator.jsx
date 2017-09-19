@@ -27,7 +27,8 @@ class App extends Component {
 	render() {
 		this.initiatorStyles();
 		
-		return <div className='initiator stage0' ref='initiator'>
+		// return <div className='initiator stage0' ref='initiator'>
+		return <div className='initiator stage4' ref='initiator'>
 			<div className='initiatorButton' onClick={this.nextInitiationStage}></div>
 			<div className='top'></div>
 			<div className='bottom'></div>

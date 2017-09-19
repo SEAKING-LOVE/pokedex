@@ -4,7 +4,11 @@ $initiatorSize: 150px;
 $endWidth: 800px;
 $endHeight: 90vh;
 
-$border: solid $blue 0.3em; 
+$outlineWidth: 5px;
+$border: solid $white $outlineWidth;
+$pkball: $white;
+$startbg: radial-gradient(ellipse at center bottom, $redorange 5%, $redbright 60%);
+$endbg: radial-gradient(ellipse at center bottom, $redbright 5%, $redbright 60%);
 
 .initiator{
 	display: flex;
@@ -21,15 +25,17 @@ $border: solid $blue 0.3em;
 
 	overflow: hidden;
 	z-index: 2;
+	transition: all 0.5s; // default
 	.initiatorButton {
 		display: none;
-	}
-	.top, .bottom, .center {
 		transition: inherit;
+		&:before {
+			transition: inherit;
+		}
 	}
 	.center {
 		border-radius: 50%;
-		background-color: $blue;
+		background-color: $pkball;
 		position: fixed;
 		z-index: 2;
 	}
@@ -40,6 +46,9 @@ $border: solid $blue 0.3em;
 		bottom: 0;
 		transform: rotate(180deg);
 	}
+	.top, .bottom, .center {
+		transition: inherit;
+	}
 	.top, .bottom {
 		position: absolute;
 		display: flex;
@@ -47,7 +56,7 @@ $border: solid $blue 0.3em;
 		
 		height: 50%;
 		width: 100%;
-		background-color: $black;
+		background: $startbg;
 		overflow: hidden;
 
 		&:before, &:after {
@@ -65,9 +74,9 @@ $border: solid $blue 0.3em;
 		}
 		&:before {
 			bottom: 0px;
-			height: 0.15em;
+			height: $outlineWidth / 2;
 			width: $initiatorSize;
-			background-color: $blue;
+			background-color: $pkball;
 		}
 	}
 	&.stage0 {
@@ -76,16 +85,34 @@ $border: solid $blue 0.3em;
 			width: $initiatorSize * 0.15;
 		}
 		.initiatorButton {
-			display: block;
+			display: flex;
+			justify-content: center;
 			position: absolute;
 			z-index: 3;
 			// border: solid red 1px;
-			height: $initiatorSize;
-			width: $initiatorSize;
+			height: $initiatorSize + $outlineWidth;
+			width: $initiatorSize + $outlineWidth;
 			border-radius: 50%;
+			transition: inherit;
+			&:before {
+				content: 'Click to enter';
+				top: -4em;
+				position: absolute;
+
+			}
+			&:hover {
+				box-shadow: 0 0 3em 1em $pkball;
+			}
 		}
+
 	}
 	&.stage1 {
+		.initiatorButton {
+			display: flex;
+			&:before {
+				opacity: 0;
+			}
+		}
 		.top, .bottom {
 			&:after {
 				height: 1px;
@@ -109,6 +136,7 @@ $border: solid $blue 0.3em;
 		.top, .bottom {
 			height: 1px;
 			width: 100%;
+			background: $endbg;
 			&:before, &:after {
 				height: 0px;
 				width: 100%;
