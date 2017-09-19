@@ -1,12 +1,14 @@
 @import '../variables.scss';
 
 .pokedex {
-	height: 100%;
+	height: 90vh;
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	perspective: inherit;
-	transform-style: inherit;
-	transform: inherit;
-	transition: inherit;
+
+	perspective: 60em;
+	transform: rotatex(20deg);
+	perspective-origin: center;
+
+
 }

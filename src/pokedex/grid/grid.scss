@@ -5,4 +5,8 @@
 	overflow-y: scroll;
 	height: 100%;
 	width: 100%;
+
+	transform: inherit;
+	transform-style: inherit;
+	perspective: inherit;
 }

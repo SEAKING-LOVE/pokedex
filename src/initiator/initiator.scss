@@ -1,0 +1,121 @@
+@import '../variables.scss';
+
+$initiatorSize: 150px; 
+$endWidth: 800px;
+$endHeight: 90vh;
+
+$border: solid $blue 0.3em; 
+
+.initiator{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+
+	overflow: hidden;
+	z-index: 2;
+	.initiatorButton {
+		display: none;
+	}
+	.top, .bottom, .center {
+		transition: inherit;
+	}
+	.center {
+		border-radius: 50%;
+		background-color: $blue;
+		position: fixed;
+		z-index: 2;
+	}
+	.top {
+		top: 0;
+	}
+	.bottom {
+		bottom: 0;
+		transform: rotate(180deg);
+	}
+	.top, .bottom {
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		
+		height: 50%;
+		width: 100%;
+		background-color: $black;
+		overflow: hidden;
+
+		&:before, &:after {
+			content: '';
+			position: absolute;
+			transition:inherit;
+		}
+		&:after {
+			display: flex;
+			height: $initiatorSize;
+			width: $initiatorSize;
+			border-radius: 50%;
+			border: $border;
+			bottom: -$initiatorSize / 2;
+		}
+		&:before {
+			bottom: 0px;
+			height: 0.15em;
+			width: $initiatorSize;
+			background-color: $blue;
+		}
+	}
+	&.stage0 {
+		.center {
+			height: $initiatorSize * 0.15;
+			width: $initiatorSize * 0.15;
+		}
+		.initiatorButton {
+			display: block;
+			position: absolute;
+			z-index: 3;
+			// border: solid red 1px;
+			height: $initiatorSize;
+			width: $initiatorSize;
+			border-radius: 50%;
+		}
+	}
+	&.stage1 {
+		.top, .bottom {
+			&:after {
+				height: 1px;
+			}
+			&:before {
+				height: 0px;
+				width: 0;
+			}
+		}		
+	}
+	&.stage2 {
+		.top, .bottom {
+			&:before, &:after {
+				border-radius: 0%;
+				height: 1px;
+				width: 100%;
+			}
+		}		
+	}
+	&.stage3 {
+		.top, .bottom {
+			height: 1px;
+			width: 100%;
+			&:before, &:after {
+				height: 0px;
+				width: 100%;
+			}
+		}
+	}
+	&.stage4 {
+		display: none;
+	}
+}

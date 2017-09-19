@@ -13,64 +13,107 @@ $endHeight: 90vh;
 
 $border: solid $blue 0.3em; 
 
-@mixin stage($pos, $width, $height, $bradius) {
-	position: $pos;
-	width: $width;
-	height: $height;
-	top: 50%;
-	left: 50%;
-	margin-top: -$height / 2;
-	margin-left: -$width / 2;
-	border-radius: $bradius;
-}
 .app {
-	.gridContainer{
+	.initiator{
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
+		align-items: center;
 		cursor: pointer;
-		&.stage0{
-			@include stage(fixed, $initiatorSize, $initiatorSize, 50%);
-			border: $border;
+		
+		position: fixed;
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
 
-			&>* {
-				display: none;
-				transition: inherit;
-			}
-		}	
-		&.stage1{
-			@include stage(fixed, $initiatorSize, 0vh, 0%);
-			border: $border;
+		overflow: hidden;
+		z-index: 2;
+		.initiatorButton {
+			display: none;
+		}
+		.top {
+			top: 0;
+		}
+		.bottom {
+			bottom: 0;
+			transform: rotate(180deg);
+		}
+		.top, .bottom, {
+			position: absolute;
+			display: flex;
+			justify-content: center;
+			
+			height: 50%;
+			width: 100%;
+			background-color: $black;
 
-			&>* {
-				opacity: 0;
+			overflow: hidden;
+			transition: inherit;
+
+			&:before, &:after {
+				content: '';
+				position: absolute;
+				transition:inherit;
 			}
+			&:after {
+				display: flex;
+				height: $initiatorSize;
+				width: $initiatorSize;
+				border-radius: 50%;
+				border: $border;
+				bottom: -$initiatorSize / 2;
+			}
+			&:before {
+				bottom: 0px;
+				height: 0.15em;
+				width: $initiatorSize;
+				background-color: $blue;
+			}
+		}
+		&.stage0 {
+			.initiatorButton {
+				display: block;
+				position: absolute;
+				z-index: 3;
+				border: solid red 1px;
+				height: $initiatorSize;
+				width: $initiatorSize;
+				border-radius: 50%;
+			}
+		}
+		&.stage1 {
+			.top, .bottom {
+				&:after {
+					height: 1px;
+				}
+				&:before {
+					height: 0px;
+					width: 0;
+				}
+			}		
 		}
 		&.stage2 {
-			@include stage(fixed, $endWidth, 0vh, 0%);
-			border: $border;
+			.top, .bottom {
+				&:before, &:after {
+					border-radius: 0%;
+					height: 1px;
+					width: 100%;
+				}
+			}		
 		}
 		&.stage3 {
-			border: 0;
-			@include stage(fixed, $endWidth, $endHeight, 0%);
+			.top, .bottom {
+				height: 1px;
+				width: 100%;
+				&:before, &:after {
+					height: 0px;
+					width: 100%;
+				}
+			}
 		}
 		&.stage4 {
-			border: 0;
-			@extend .stage3;
-		}
-		&.stage5 {
-			position: fixed;
-			top: 0;
-			left: 0;
-			height: $endHeight;
-			width: $endWidth;	
-		}
-		&.stage6 {
-			perspective: 60em;
-			transform: rotatex( 5deg) rotatey(20deg);
-			perspective-origin: center;
-			height: $endHeight;
-			width: $endWidth;
-
+			display: none;
 		}
 	}
 }
