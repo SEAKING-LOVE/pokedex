@@ -13,7 +13,6 @@
     "events": "^1.1.1",
     "express": "^4.15.3",
     "file-system": "^2.2.2",
-    "gifsicle": "^3.0.4",
     "html-webpack-plugin": "^2.30.1",
     "image-size": "^0.6.1",
     "jshint": "^2.9.5",
@@ -35,7 +34,8 @@
     "build": "webpack -p --config=webpack.prod.js",
     "start": "node server/index.js",
     "start:client": "webpack-dev-server --inline",
-    "start:server": "nodemon server/index.js"
+    "start:server": "nodemon server/index.js",
+    "start": "npm run start:client | npm run start:server"
   },
   "devDependencies": {
     "babel-preset-react": "^6.24.1",
