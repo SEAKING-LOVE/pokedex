@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 
+import ListItem from './listItem.jsx'
 import './listView.scss';
 
 class ListView extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			listItemHeight: 40
+			listItemTotalHeight: 60
 		}
 		this.prevPokemon = this.prevPokemon.bind(this);
 		this.nextPokemon = this.nextPokemon.bind(this);
@@ -15,8 +16,7 @@ class ListView extends Component {
 		this.props.fetchAllPokemon();
 	}
 	renderListContent() {
-		console.log(this.props.targetIndex)
-		const topOffset = -this.props.targetIndex * this.state.listItemHeight;
+		const topOffset = -this.props.targetIndex * this.state.listItemTotalHeight;
 		const style = {
 			top: topOffset	
 		}
@@ -34,12 +34,12 @@ class ListView extends Component {
 		return <div>loading...</div>
 	}
 	renderListItem(pokemon, index) {
-		const style = {
-			height: this.state.listItemHeight
-		}
-		return <div key={index} className='listItem' style={style}>
-			{index}
-		</div>
+		return <ListItem
+			key={index}
+			totalHeight={this.state.listItemTotalHeight}
+			itemIndex={index}
+			targetIndex={this.props.targetIndex}
+			pokemon={pokemon} />
 	}
 	nextPokemon() {
 		this.props.nextPokemon();
@@ -48,10 +48,18 @@ class ListView extends Component {
 		this.props.prevPokemon();
 	}
 	render() {
+		console.log("LIST VIEW", this.props.targetIndex);
+		// return <div className='listView'>
+		// 	<div className='button' onClick={this.prevPokemon}>prev</div>
+		// 	<div className='listContainer'>
+		// 		{this.renderListContent()}
+		// 	</div>
+		// 	<div className='button' onClick={this.nextPokemon}>next</div>
+		// </div>;
 		return <div className='listView'>
 			<div className='button' onClick={this.prevPokemon}>prev</div>
 			<div className='listContainer'>
-				{this.renderListContent()}
+				{this.renderListItems()}
 			</div>
 			<div className='button' onClick={this.nextPokemon}>next</div>
 		</div>;
