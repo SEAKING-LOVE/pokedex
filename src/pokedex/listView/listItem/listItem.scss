@@ -1,0 +1,28 @@
+@import '../../../variables.scss';
+@import './spritesheet.scss';
+
+$spritesheet: './spritesheet.png';
+$spriteWidth: 40px;
+$spriteHeight: 30px;
+
+
+.listItem {
+	border: solid green;
+	position: absolute;
+	transition: all 0.5s;
+	width: 95%;
+
+	display: flex;
+	align-items: center;
+	
+	.pki {
+		background-image: url($spritesheet);
+		// filter: grayscale(90%);
+		width: $spriteWidth;
+		height: $spriteHeight;
+		vertical-align: middle;
+		display: inline-block;
+	}
+		
+	
+}

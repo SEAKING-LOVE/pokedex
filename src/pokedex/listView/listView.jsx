@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-import ListItem from './listItem.jsx'
+import ListItem from './listItem/listItem.jsx';
 import './listView.scss';
 
 class ListView extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			listItemTotalHeight: 60
+			listItemTotalHeight: 90
 		}
 		this.prevPokemon = this.prevPokemon.bind(this);
 		this.nextPokemon = this.nextPokemon.bind(this);
@@ -49,13 +49,6 @@ class ListView extends Component {
 	}
 	render() {
 		console.log("LIST VIEW", this.props.targetIndex);
-		// return <div className='listView'>
-		// 	<div className='button' onClick={this.prevPokemon}>prev</div>
-		// 	<div className='listContainer'>
-		// 		{this.renderListContent()}
-		// 	</div>
-		// 	<div className='button' onClick={this.nextPokemon}>next</div>
-		// </div>;
 		return <div className='listView'>
 			<div className='button' onClick={this.prevPokemon}>prev</div>
 			<div className='listContainer'>
