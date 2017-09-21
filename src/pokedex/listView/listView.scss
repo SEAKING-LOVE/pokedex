@@ -1,12 +1,34 @@
 .listView {
 	display: flex;
+	align-items: center;
 	&>div {
 		border: solid 1px red;
 	}
 	.button {
 		cursor: pointer;
+		height: 3em;
+		width: 3em;
+		transition: all 0.4s;
+		&:hover {
+			background-color: pink;
+		}
 	}
-	.list {
+	.listContainer {
+		border: solid blue 1px;
+		height: 10em;
+		width: 10em;
+		overflow: hidden;
+		position:relative;
 
+		.listContent {
+			border: solid gold 1px;
+			position:absolute;
+			transition: all 0.5s;
+
+			.listItem {
+				// border: solid green 1px // messes up offset;
+			}
+			
+		}
 	}
 }

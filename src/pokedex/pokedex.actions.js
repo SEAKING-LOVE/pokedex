@@ -23,14 +23,12 @@ export function fetchProfile(id) {
 }
 
 export function nextListIndex() {
-	console.log("NEXT ACTIONS")
 	return {
 		type: "NEXT_LIST_INDEX"
 	}
 }
 
 export function prevListIndex() {
-	console.log("PREV ACTIONS")
 	return {
 		type: "PREV_LIST_INDEX"
 	}

@@ -22,17 +22,17 @@ export default function pokedexReducer(state=initialState, action) {
 			}
 		}
 		case "NEXT_LIST_INDEX": {
-			const listLength = 5;
+			const listLength = state.all.length || 1;
 			return {
 				...state,
 				currentListIndex: ( state.currentListIndex + 1 ) % listLength
 			}
 		}
 		case "PREV_LIST_INDEX": {
-			const listLength = 5;
+			const listLength = state.all.length || 1;
 			let newIndex = state.currentListIndex - 1;
 			if(newIndex < 0) newIndex = listLength - 1;
-			
+
 			return {
 				...state,
 				currentListIndex: newIndex

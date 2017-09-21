@@ -6,7 +6,7 @@ import List from './listView.jsx';
 const stateToProps = (state) => ({
 	allPokemon: state.pokedex.all,
 	targetIndex: state.pokedex.currentListIndex,
-	all: state.all
+	all: state.pokedex.all
 });
 
 const dispatchToProps = (dispatch) => {
