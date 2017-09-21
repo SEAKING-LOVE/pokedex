@@ -2,7 +2,8 @@ const initialState = {
 	all: [],
 	selected: {},
 	selectedSprite: '',
-	error: ''
+	error: '',
+	currentListIndex: 0
 };
 
 export default function pokedexReducer(state=initialState, action) {
@@ -20,9 +21,26 @@ export default function pokedexReducer(state=initialState, action) {
 				selectedSprite: action.payload.sprite
 			}
 		}
+		case "NEXT_LIST_INDEX": {
+			const listLength = 5;
+			return {
+				...state,
+				currentListIndex: ( state.currentListIndex + 1 ) % listLength
+			}
+		}
+		case "PREV_LIST_INDEX": {
+			const listLength = 5;
+			let newIndex = state.currentListIndex - 1;
+			if(newIndex < 0) newIndex = listLength - 1;
+			
+			return {
+				...state,
+				currentListIndex: newIndex
+			}
+		}
 		default: {
 			console.log("Action not found: ", action.type);
-			return { ...state};
+			return {...state};
 		}
 	}
 }

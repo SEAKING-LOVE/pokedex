@@ -1,0 +1,12 @@
+.listView {
+	display: flex;
+	&>div {
+		border: solid 1px red;
+	}
+	.button {
+		cursor: pointer;
+	}
+	.list {
+
+	}
+}
