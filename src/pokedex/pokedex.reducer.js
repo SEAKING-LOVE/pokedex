@@ -1,6 +1,14 @@
 const initialState = {
 	all: [],
-	selected: {},
+	selected: {
+		main: {
+			unique_id: '',
+			national_id: 0,
+			name: '',
+			form: ''
+		},
+		type: []
+	},
 	selectedSprite: '',
 	error: '',
 	currentListIndex: 4

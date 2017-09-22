@@ -60,7 +60,6 @@ class ListView extends Component {
 			dangerouslySetInnerHTML={{__html: `${htmlEntity}`}} />
 	}
 	render() {
-		console.log("LIST VIEW", this.props.targetIndex);
 		return <div className='listView'>
 			{this.renderButton('&ltdot;', this.prevPokemon)}
 			<div className='listContainer' style={this.listContainerStyle()}>
