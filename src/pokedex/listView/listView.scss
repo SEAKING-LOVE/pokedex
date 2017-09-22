@@ -1,0 +1,52 @@
+@import '../../variables.scss';
+
+.listView {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	.button {
+		display:flex;
+		justify-content: center;
+		align-items: center;
+
+		cursor: pointer;
+		height: 3em;
+		width: 3em;
+		border-radius: 50%;
+
+		background-color: $red;
+		color: $white;
+		box-shadow: 0.2em 0.3em 1em 0.1em $shadowDark;
+
+		transition: all 0.4s;
+		&:hover {
+			background-color: $white;
+			color: $red;
+		}
+	}
+	.listContainer {
+		// border: solid blue 1px;
+		width: 40em;
+		// overflow: hidden;
+		overflow-y: hidden;
+		position:relative;
+
+		&:before, &:after {
+			content: '';
+			display: flex;
+			z-index: 1;
+			position: absolute;
+			left: 0;
+			width: 100%;
+			height: 0%;
+			box-shadow: 0 0em 5em 4em #fff;
+		}
+		&:before {
+			top: 0;	
+		}
+		&:after {
+			bottom: 0;
+		}
+	}
+}

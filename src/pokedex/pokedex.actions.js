@@ -21,3 +21,21 @@ export function fetchProfile(id) {
 			})
 	}
 }
+
+export function nextListIndex() {
+	return {
+		type: "NEXT_LIST_INDEX"
+	}
+}
+
+export function prevListIndex() {
+	return {
+		type: "PREV_LIST_INDEX"
+	}
+}
+
+
+
+
+
+

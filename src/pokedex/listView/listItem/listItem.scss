@@ -1,0 +1,46 @@
+@import '../../../variables.scss';
+@import './spritesheet.scss';
+
+$spritesheet: './spritesheet.png';
+$spriteWidth: 40px;
+$spriteHeight: 30px;
+
+
+.listItem {
+	display: flex;
+	align-items: center;
+
+	position: absolute;
+	transition: all 0.5s;
+	width: 80%;
+
+	transform-origin: left center;
+	box-shadow: 3px 3px 0.5em 0em $shadow;
+	&>*{
+		margin-left: 1em;
+	}
+	
+	.pki {
+		background-image: url($spritesheet);
+		// filter: grayscale(90%);
+		width: $spriteWidth;
+		height: $spriteHeight;
+		vertical-align: middle;
+		display: inline-block;
+	}
+	.text {
+		display: grid;
+		grid-auto-flow: column;
+		grid-column-gap: 1em;
+		.title {
+			display: flex;
+			flex-direction: column;
+			.name {
+				text-transform: uppercase;
+			}
+			.form {
+				font-size: 0.6em;
+			}
+		}
+	}	
+}
