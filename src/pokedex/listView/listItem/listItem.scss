@@ -7,13 +7,18 @@ $spriteHeight: 30px;
 
 
 .listItem {
-	border: solid green;
-	position: absolute;
-	transition: all 0.5s;
-	width: 95%;
-
 	display: flex;
 	align-items: center;
+
+	position: absolute;
+	transition: all 0.5s;
+	width: 80%;
+
+	transform-origin: left center;
+	box-shadow: 3px 3px 0.5em 0em rgba(146, 190, 192, 0.41);
+	&>*{
+		margin-left: 1em;
+	}
 	
 	.pki {
 		background-image: url($spritesheet);
@@ -23,6 +28,19 @@ $spriteHeight: 30px;
 		vertical-align: middle;
 		display: inline-block;
 	}
-		
-	
+	.text {
+		display: grid;
+		grid-auto-flow: column;
+		grid-column-gap: 1em;
+		.title {
+			display: flex;
+			flex-direction: column;
+			.name {
+				text-transform: uppercase;
+			}
+			.form {
+				font-size: 0.6em;
+			}
+		}
+	}	
 }

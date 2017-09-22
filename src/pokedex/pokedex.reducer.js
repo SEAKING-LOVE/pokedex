@@ -3,7 +3,7 @@ const initialState = {
 	selected: {},
 	selectedSprite: '',
 	error: '',
-	currentListIndex: 0
+	currentListIndex: 4
 };
 
 export default function pokedexReducer(state=initialState, action) {

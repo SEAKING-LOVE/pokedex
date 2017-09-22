@@ -5,10 +5,7 @@ import './listItem.scss';
 class ListItem extends Component {
 	constructor(props) {
 		super(props);
-		this.state = {
-			borderWidth: 1,
-			margin: 10 
-		}
+		this.state = { borderWidth: 1, margin: 10 };
 	}
 	componentWillMount() {
 		this.setState({
@@ -20,12 +17,18 @@ class ListItem extends Component {
 		return borderRadius;
 	}
 	setTopOffset() {
-		const targetOffset = this.props.totalHeight * this.props.targetIndex
-		const topOffset = this.props.totalHeight * this.props.itemIndex - targetOffset;
+		const containerOffset = (this.props.containerHeight / 2) - (this.props.totalHeight / 2);
+		const targetOffset = this.props.totalHeight * this.props.targetIndex;
+		const itemIndexOffset = this.props.totalHeight * this.props.itemIndex;
+		const topOffset =  itemIndexOffset - targetOffset + containerOffset;
 		return topOffset;
 	}
+	isTargetNeighbour() {
+		return Math.abs(this.props.itemIndex - this.props.targetIndex) === 1;
+	}
 	setTransform() {
-		if(this.props.itemIndex === this.props.targetIndex) return 'scale(1.1)';
+		if(this.props.itemIndex === this.props.targetIndex) return 'scale(1.2)';
+		if(this.isTargetNeighbour()) return 'scale(1.1)';
 		return 'scale(1)';
 	}
 	setStyle() {
@@ -39,12 +42,25 @@ class ListItem extends Component {
 			transform: this.setTransform()
 		}
 	}
+	renderText() {
+		return <div className='text'>
+			<div className='nationalNo'>{this.leadingZeros(this.props.pokemon.national_id)}</div>
+			<div className='title'>
+				<div className='name'>{this.props.pokemon.name}</div>
+				<div className='form'>{this.props.pokemon.form}</div>
+			</div>
+				
+		</div>
+	}
+	leadingZeros(num) {
+		const size = 3;
+		const newNum = '000' + num;
+		return newNum.substr(newNum.length - size);
+	}
 	render() {
 		return <div className='listItem' style={this.setStyle()}>
 			<i className={`pki ${this.props.pokemon.unique_id}`}></i>
-			<div className='nationalNo'>{this.props.pokemon.national_id}</div>
-			<div className='name'>{this.props.pokemon.name}</div>
-			<div className='form'>{this.props.pokemon.form}</div>
+			{this.renderText()}
 		</div>;
 	}
 }

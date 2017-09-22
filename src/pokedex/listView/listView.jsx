@@ -7,7 +7,8 @@ class ListView extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			listItemTotalHeight: 90
+			listItemTotalHeight: 90,
+			listContainerHeight: 400
 		}
 		this.prevPokemon = this.prevPokemon.bind(this);
 		this.nextPokemon = this.nextPokemon.bind(this);
@@ -36,6 +37,7 @@ class ListView extends Component {
 	renderListItem(pokemon, index) {
 		return <ListItem
 			key={index}
+			containerHeight={this.state.listContainerHeight}
 			totalHeight={this.state.listItemTotalHeight}
 			itemIndex={index}
 			targetIndex={this.props.targetIndex}
@@ -47,14 +49,24 @@ class ListView extends Component {
 	prevPokemon() {
 		this.props.prevPokemon();
 	}
+	listContainerStyle() {
+		return {
+			height: this.state.listContainerHeight
+		}
+	}
+	renderButton(htmlEntity, clickHandler) {
+		return <div className='button' 
+			onClick={clickHandler} 
+			dangerouslySetInnerHTML={{__html: `${htmlEntity}`}} />
+	}
 	render() {
 		console.log("LIST VIEW", this.props.targetIndex);
 		return <div className='listView'>
-			<div className='button' onClick={this.prevPokemon}>prev</div>
-			<div className='listContainer'>
+			{this.renderButton('&ltdot;', this.prevPokemon)}
+			<div className='listContainer' style={this.listContainerStyle()}>
 				{this.renderListItems()}
 			</div>
-			<div className='button' onClick={this.nextPokemon}>next</div>
+			{this.renderButton('&gtrdot;', this.nextPokemon)}
 		</div>;
 	}
 }
