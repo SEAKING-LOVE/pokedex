@@ -15,6 +15,10 @@ module.exports = {
 		path: OUTPUT_PATH,
 		publicPath: 'dist/'
 	},
+	devServer: {
+		historyApiFallback: true,
+		contentBase: './'
+	},
 	plugins: [
 		new ExtractTextPlugin('bundle.css'),
 		new webpack.DefinePlugin({
