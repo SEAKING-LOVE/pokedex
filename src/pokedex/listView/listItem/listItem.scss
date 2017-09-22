@@ -15,7 +15,7 @@ $spriteHeight: 30px;
 	width: 80%;
 
 	transform-origin: left center;
-	box-shadow: 3px 3px 0.5em 0em rgba(146, 190, 192, 0.41);
+	box-shadow: 3px 3px 0.5em 0em $shadow;
 	&>*{
 		margin-left: 1em;
 	}
