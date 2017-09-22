@@ -16,30 +16,34 @@ class SpriteCard extends Component {
 	}
 	renderSprite() {
 		return <img
+			className='sprite'
 			src={this.props.imgSource}
 			alt={`${this.props.name} profile image`}/>
 	}
 	renderFooter() {
 		return <div className='footer'>
 			{this.renderNationalNo()}
+			{this.renderTypes()}
 		</div>
 	}
 	renderNationalNo() {
 		return <div className='nationalNo'>
-				{leadingZeros(this.props.nationalNo)}
+				#{leadingZeros(this.props.nationalNo)}
 			</div>;
 	}
 	renderTypes() {
-		return this.props.types.map((type, index) => {
+		const types = this.props.types.map((type, index) => {
 			return <TypeBadge key={index} type={type}/>
-		})
+		});
+		return <div className='types'>
+			{types}
+		</div>
 	}
 	render() {
 		return <div className="spriteCard section">
 			{this.renderHeader()}
 			{this.renderSprite()}
 			{this.renderFooter()}
-			{this.renderTypes()}
 		</div>
 	}
 }
