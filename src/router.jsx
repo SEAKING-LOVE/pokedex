@@ -4,10 +4,10 @@ import { Provider } from 'react-redux';
 
 import Pokedex from './pokedex/pokedex.container.jsx';
 import Initiator from './initiator/initiator.jsx';
-import TestProfile from './testprofile.jsx';
+import Profile from './pokedex/profile/profile.container.jsx';
 
 import Routes from './pokedex.routes.js';
-import './app.scss';
+import './index.scss';
 
 class Home extends Component {
 	render() {
@@ -31,7 +31,7 @@ const Root = ({ store }) => (
 		<Router history={browserHistory}>
 			<Route path='/' component={App}>
 				<IndexRoute component={Home}></IndexRoute>
-				<Route path={Routes.pokedex.profile().get} component={TestProfile} />	
+				<Route path={Routes.pokedex.profile().get} component={Profile} />	
 			</Route>
 		</Router>
 	</Provider>	

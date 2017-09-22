@@ -66,7 +66,7 @@ const Utils = {
 	sanitizers: {
 		special_attack: 'sp. atk',
 		special_defence: 'sp. def',
-		spedical_defence: 'sp. def', 	// fix this bs in the back end,
+		spedical_defence: 'sp. def',
 		attack: 'atk',
 		defence: 'def'
 	},
