@@ -4,20 +4,13 @@ import * as actions from '../pokedex.actions.js';
 import Profile from './profile.jsx';
 
 const stateToProps = (state) => ({
-	sprite: state.pokedex.selectedSprite,
-	main: state.pokedex.selected.main,
-	general: state.pokedex.selected.general,
-	moves: state.pokedex.selected.moves,
-	baseStats: state.pokedex.selected.base_stats,
-	minStats: state.pokedex.selected.min_stats,
-	maxStats: state.pokedex.selected.max_stats,
-	training: state.pokedex.selected.training,
-	types: state.pokedex.selected.types,
-	location: state.pokedex.selected.location,
+	profile: state.pokedex.selected
 });
 
 const dispatchToProps = (dispatch) => {
-	return { }
+	return {
+		fetchProfile: (id) => dispatch( actions.fetchProfile(id))
+	}
 }
 
 const Container = connect(

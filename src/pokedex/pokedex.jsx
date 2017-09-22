@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import Preview from './preview/preview.container.jsx';
 import ListView from './listView/listView.container.jsx';
 
