@@ -7,7 +7,21 @@ const initialState = {
 			name: '',
 			form: ''
 		},
-		type: []
+		general: {
+			height: '',
+			weight: '',
+			species: ''
+		},
+		type: [],
+		abilities: [],
+		training: {
+			ev_yield: '',
+			catch_rate: '',
+			base_happiness: '',
+			base_exp: '',
+			growth_rate: '',
+			egg_groups: ''
+		}
 	},
 	selectedSprite: '',
 	error: '',

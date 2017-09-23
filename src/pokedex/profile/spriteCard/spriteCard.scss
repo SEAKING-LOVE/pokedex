@@ -2,14 +2,10 @@
 .spriteCard {
 	display: grid;
 	grid-template-rows: 1fr 2.5fr 1fr;
-	width: 100%;
-	max-width: 1000px;
 	min-height: 40vh;
-	border-radius: 1em;
 	background: radial-gradient(ellipse at center bottom, $blue 10%, $blueDark 50%);
 	background-size: 200% 100%;
 	background-position: center;
-	box-shadow: 3px 3px 0.5em 0em $shadow;
 	
 	.header, .footer, .nationalNo, .types {
 		display: flex;
