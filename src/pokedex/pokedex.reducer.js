@@ -1,6 +1,28 @@
 const initialState = {
 	all: [],
-	selected: {},
+	selected: {
+		main: {
+			unique_id: '',
+			national_id: 0,
+			name: '',
+			form: ''
+		},
+		general: {
+			height: '',
+			weight: '',
+			species: ''
+		},
+		type: [],
+		abilities: [],
+		training: {
+			ev_yield: '',
+			catch_rate: '',
+			base_happiness: '',
+			base_exp: '',
+			growth_rate: '',
+			egg_groups: ''
+		}
+	},
 	selectedSprite: '',
 	error: '',
 	currentListIndex: 4

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import { leadingZeros } from '../../../utils.js';
 import './listItem.scss';
 
 class ListItem extends Component {
@@ -44,18 +45,13 @@ class ListItem extends Component {
 	}
 	renderText() {
 		return <div className='text'>
-			<div className='nationalNo'>{this.leadingZeros(this.props.pokemon.national_id)}</div>
+			<div className='nationalNo'>{leadingZeros(this.props.pokemon.national_id)}</div>
 			<div className='title'>
 				<div className='name'>{this.props.pokemon.name}</div>
 				<div className='form'>{this.props.pokemon.form}</div>
 			</div>
 				
 		</div>
-	}
-	leadingZeros(num) {
-		const size = 3;
-		const newNum = '000' + num;
-		return newNum.substr(newNum.length - size);
 	}
 	render() {
 		return <div className='listItem' style={this.setStyle()}>

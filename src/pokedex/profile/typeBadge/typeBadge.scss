@@ -1,0 +1,28 @@
+@import '../../../variables.scss';
+
+.typeBadge {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	border-radius: 50%;
+	height: 2.5em;
+	width: 2.5em;
+	box-shadow: 0.2em 0.3em 1em 0.1em $shadowDark;
+	cursor: pointer;
+	img {
+		height:50%; width: auto;
+	}
+	.tooltip {
+		position:absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		top: -3em;
+		width: 5em;
+		height: 2em;
+		box-shadow: 0.2em 0.3em 1em 0.1em $shadowDark;
+		display: none;
+		background-color: $white;
+	}
+}

@@ -1,0 +1,49 @@
+@import '../../../variables.scss';
+.spriteCard {
+	display: grid;
+	grid-template-rows: 1fr 2.5fr 1fr;
+	min-height: 40vh;
+	background: radial-gradient(ellipse at center bottom, $blue 10%, $blueDark 50%);
+	background-size: 200% 100%;
+	background-position: center;
+	
+	.header, .footer, .nationalNo, .types {
+		display: flex;
+	}
+	.header, .nationalNo {
+		justify-content: center;
+		align-items: center;
+	}
+	.header {
+		flex-direction: column;
+		text-transform: uppercase;
+		color: rgba($white, 0.8);
+		letter-spacing: 0.1em;
+		.name {
+			font-size: 1.2em;
+		}
+	}
+	.sprite {
+		justify-self: center;
+		align-self: center;	
+	}
+	.footer {
+		align-items: center;
+		&>* {
+			margin: 0em 1em;
+		}
+	}
+	.nationalNo {
+		height: 2.5em;
+		border-radius: 2em;
+		width: 4em;
+		background-color: $white;
+		box-shadow: 3px 3px 0.5em 0em $shadowDark;	
+	}
+	.types {
+		&>* {
+			margin: 0 0.4em;
+		}
+	}
+
+}
