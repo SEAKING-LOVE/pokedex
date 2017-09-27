@@ -29,6 +29,9 @@ app.use('/assets/sprites', GifsRouter);
 app.use('/dist', express.static(path.join(__dirname, '/../dist')));
 app.get('/', (req, res) => res.sendFile(path.join(__dirname + '/../index.html')) );
 
+// Assuming non-api route, redirect everything to react-router
+app.get('*', (req, res) => res.sendFile(path.join(__dirname + '/../index.html')) );
+
 app.listen(port, () => {
 	console.log('Listening on port ', port);
 });
