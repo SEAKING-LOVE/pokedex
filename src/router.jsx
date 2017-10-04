@@ -11,7 +11,7 @@ import './index.scss';
 
 class Home extends Component {
 	render() {
-		return <div className="app">
+		return <div className="home">
 			<Initiator />
 			<Pokedex />
 		</div>;

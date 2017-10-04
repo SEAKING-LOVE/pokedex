@@ -22,13 +22,13 @@ class App extends Component {
 	initiatorStage(time) {
 		this.refs.initiator.style.transition = `all ${time}ms`;
 		this.refs.initiator.className = `initiator stage${this.state.initiate}`;
-		setTimeout(() => { this.nextInitiationStage() }, time * 1.05);
+		setTimeout(() => { this.nextInitiationStage() }, time * 1.01);
 	}
 	render() {
 		this.initiatorStyles();
 		
 		// return <div className='initiator stage0' ref='initiator'>
-		return <div className='initiator stage4' ref='initiator'>
+		return <div className='initiator stage0' ref='initiator'>
 			<div className='initiatorButton' onClick={this.nextInitiationStage}></div>
 			<div className='top'></div>
 			<div className='bottom'></div>
