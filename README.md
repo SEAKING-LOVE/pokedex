@@ -1,3 +1,5 @@
+## Check it out at http://pokedex.jasonmh.me/
+
 # Client
 Start development server:
 
